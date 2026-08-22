@@ -63,7 +63,9 @@ const BIBLE_FILES = {
 };
 
 let currentBibleFile = BIBLE_FILES.TB;
-const SONGS_FILE = path.join(DATA_DIR, 'songs.json');
+// Lagu disimpan sebagai file per lagu (DATA/songs/<judul>.json). songs.json lama TIDAK dipakai lagi
+// (tetapi tidak dihapus otomatis saat runtime — user hapus manual kalau mau).
+const SONGS_DIR = path.join(DATA_DIR, 'songs');
 const SCHEDULE_FILE = path.join(DATA_DIR, 'schedule.json');
 const SAVED_SCHED_FILE = path.join(DATA_DIR, 'saved_schedules.json');
 const LAST_SETTINGS_FILE = path.join(DATA_DIR, 'last_settings.json');
@@ -169,7 +171,8 @@ function moveDirIfNeeded(fromPath, toPath) {
 }
 
 function migrateLegacyDataLayout() {
-  moveFileIfNeeded(path.join(ROOT_DIR, 'songs.json'), SONGS_FILE);
+  // songs.json lama TIDAK dipindah/dipakai lagi (sumber lagu sekarang file per lagu di DATA/songs/).
+  // Kalau songs.json masih ada, di-ignore — tidak dihapus otomatis (biar aman, user hapus manual).
   moveFileIfNeeded(path.join(ROOT_DIR, 'schedule.json'), SCHEDULE_FILE);
   moveFileIfNeeded(path.join(ROOT_DIR, 'saved_schedules.json'), SAVED_SCHED_FILE);
   moveFileIfNeeded(path.join(ROOT_DIR, 'slides.json'), path.join(DATA_DIR, 'slides.json'));
@@ -197,6 +200,54 @@ function saveJsonFile(filepath, data) {
   } catch (e) {
     log(`[ERROR][JSON] Gagal simpan ke ${filepath}: ${e.message}`);
   }
+}
+
+// ---- Lagu: file per lagu (DATA/songs/<judul>.json) ----
+// Asumsi (default David): folder DATA/songs/ DI-TRACK git agar bisa sync antar PC.
+// Kalau lagu mau dianggap data lokal saja, tambahkan DATA/songs/ ke .gitignore.
+
+function sanitizeFilename(name) {
+  return String(name || '').replace(/[\\/:*?"<>|]/g, '').trim() || 'untitled';
+}
+
+function getSongFile(title) {
+  return path.join(SONGS_DIR, sanitizeFilename(title) + '.json');
+}
+
+function loadSongFile(file) {
+  try {
+    const s = loadJsonFile(file, null);
+    if (s && s.title) return s;
+  } catch (e) {}
+  return null;
+}
+
+// listSongs(): baca semua file .json di DATA/songs/ -> array [{title, lyrics}], sort by title.
+function listSongs() {
+  if (!fs.existsSync(SONGS_DIR)) return [];
+  const songs = [];
+  for (const f of fs.readdirSync(SONGS_DIR)) {
+    if (path.extname(f).toLowerCase() !== '.json') continue;
+    const s = loadSongFile(path.join(SONGS_DIR, f));
+    if (s) songs.push({ title: s.title, lyrics: Array.isArray(s.lyrics) ? s.lyrics : [] });
+  }
+  songs.sort((a, b) => a.title.localeCompare(b.title, 'id'));
+  return songs;
+}
+
+// findSongFile(title): cari file lagu sesuai judul. Coba path default (sanitize(title).json),
+// lalu fallback scan folder yang cocok dengan field `title` di dalam file (antisipasi nama file lama).
+function findSongFile(title) {
+  const direct = getSongFile(title);
+  if (fs.existsSync(direct)) return direct;
+  if (fs.existsSync(SONGS_DIR)) {
+    for (const f of fs.readdirSync(SONGS_DIR)) {
+      if (path.extname(f).toLowerCase() !== '.json') continue;
+      const s = loadSongFile(path.join(SONGS_DIR, f));
+      if (s && String(s.title) === String(title)) return path.join(SONGS_DIR, f);
+    }
+  }
+  return direct;
 }
 
 const LAST_SETTINGS_KEYS = ['style_anim','style_font_idx','style_size','style_align','style_caps','style_text_bg','style_lh','style_margin','style_meta_size','style_meta_font','style_text_color','style_highlight_color','bg_type','bg_url'];
@@ -323,7 +374,7 @@ function initData() {
   if (!fs.existsSync(BG_DIR)) fs.mkdirSync(BG_DIR, { recursive: true });
   if (!fs.existsSync(FONT_DIR)) fs.mkdirSync(FONT_DIR, { recursive: true });
   if (!fs.existsSync(DATA_BIBLE_DIR)) fs.mkdirSync(DATA_BIBLE_DIR, { recursive: true });
-  ensureFile(SONGS_FILE, []);
+  if (!fs.existsSync(SONGS_DIR)) fs.mkdirSync(SONGS_DIR, { recursive: true });
   ensureFile(SCHEDULE_FILE, []);
   ensureFile(SAVED_SCHED_FILE, {});
   // Slide feature disabled: remove any persisted SLIDE items from schedule.
@@ -565,7 +616,7 @@ app.get('/api/set', (req, res) => {
   res.json({ status: 'ok' });
 });
 
-app.get('/api/songs', (req, res) => res.json(loadJsonFile(SONGS_FILE, [])));
+app.get('/api/songs', (req, res) => res.json(listSongs()));
 app.get('/api/schedule', (req, res) => res.json(loadJsonFile(SCHEDULE_FILE, [])));
 app.get('/api/saved_schedules', (req, res) => res.json(loadJsonFile(SAVED_SCHED_FILE, {})));
 app.get('/api/bible/books', (req, res) => {
@@ -592,7 +643,7 @@ app.get('/api/search', (req, res) => {
   const results = [];
 
   if (qRaw.length >= 3) {
-    const songs = loadJsonFile(SONGS_FILE, []);
+    const songs = listSongs();
     for (const s of songs) {
       const title = String(s?.title || '');
       if (title.toLowerCase().includes(qLower)) {
@@ -642,10 +693,16 @@ app.get('/api/search', (req, res) => {
 });
 
 app.post('/api/songs', (req, res) => {
-  const songs = loadJsonFile(SONGS_FILE, []);
-  songs.push(req.body || {});
-  saveJsonFile(SONGS_FILE, songs);
-  res.json({ status: 'saved' });
+  const data = req.body || {};
+  const title = String(data.title || '').trim();
+  if (!title) return res.status(400).json({ status: 'error', error: 'title tidak boleh kosong' });
+  const song = { title, lyrics: Array.isArray(data.lyrics) ? data.lyrics : [] };
+  try {
+    fs.writeFileSync(getSongFile(title), JSON.stringify(song, null, 2), 'utf8');
+    res.json({ status: 'saved' });
+  } catch (e) {
+    res.status(500).json({ status: 'error', error: e.message });
+  }
 });
 
 app.post('/api/schedule', (req, res) => {
@@ -685,19 +742,39 @@ app.post('/api/saved_schedules', (req, res) => {
 
 app.put('/api/songs', (req, res) => {
   const data = req.body || {};
-  const songs = loadJsonFile(SONGS_FILE, []);
-  const idx = songs.findIndex((s) => s.title === data.original_title);
-  if (idx >= 0) songs[idx] = data.song;
-  saveJsonFile(SONGS_FILE, songs);
-  res.json({ status: 'updated' });
+  const originalTitle = String(data.original_title || '').trim();
+  const song = data.song || {};
+  const newTitle = String(song.title || '').trim();
+  if (!newTitle) return res.status(400).json({ status: 'error', error: 'title tidak boleh kosong' });
+  try {
+    if (originalTitle && newTitle && originalTitle !== newTitle) {
+      // Rename: hapus file lama + tulis baru
+      const oldFile = findSongFile(originalTitle);
+      if (fs.existsSync(oldFile)) fs.unlinkSync(oldFile);
+    } else {
+      // Update judul sama -> timpa file (cari berdasarkan judul lama kalau ada)
+      if (originalTitle && fs.existsSync(getSongFile(originalTitle)) === false) {
+        const matched = findSongFile(originalTitle);
+        if (fs.existsSync(matched)) fs.unlinkSync(matched);
+      }
+    }
+    fs.writeFileSync(getSongFile(newTitle), JSON.stringify(song, null, 2), 'utf8');
+    res.json({ status: 'updated' });
+  } catch (e) {
+    res.status(500).json({ status: 'error', error: e.message });
+  }
 });
 
 app.delete('/api/songs', (req, res) => {
-  const title = String(req.query.title || '');
-  const songs = loadJsonFile(SONGS_FILE, []);
-  const filtered = songs.filter((s) => s.title !== title);
-  saveJsonFile(SONGS_FILE, filtered);
-  res.json({ status: 'deleted' });
+  const title = String(req.query.title || '').trim();
+  if (!title) return res.status(400).json({ status: 'error', error: 'title tidak boleh kosong' });
+  try {
+    const file = findSongFile(title);
+    if (fs.existsSync(file)) fs.unlinkSync(file);
+    res.json({ status: 'deleted' });
+  } catch (e) {
+    res.status(500).json({ status: 'error', error: e.message });
+  }
 });
 
 // TEMPLATE SETTINGS API

@@ -12,10 +12,17 @@ SOURCE/FLOW.nsi
 *.log
 batch_log.txt
 
-# Data runtime
+# Data runtime (tidak ikut versioning — data lokal per-PC)
 DATA/backgrounds/
 DATA/flow.log
 DATA/FLOW 0.5.41.code-workspace
+DATA/schedule.json
+DATA/saved_schedules.json
+DATA/slides.json
+DATA/last_settings.json
+DATA/favorites_songs.json
+DATA/songs.json
+# CATATAN: folder DATA/songs/ DI-TRACK git (SONGBANK). Jangan ignore folder ini!
 
 # Backup
 songs copy.json
