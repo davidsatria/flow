@@ -1,0 +1,35 @@
+{
+  "title": "Kami berkumpul MemujiMuMenyembahMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami berkumpul MemujiMu\nMenyembahMu Yang Kudus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami berkumpul MemujiMu\nMenyembahMu Yang Kudus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Pujilah Bapa\nPujilah Anak",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Pujilah Roh Kudus\nKetiga yang Esa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya haleluya\nHaleluya haleluya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya",
+      "newGroup": false
+    }
+  ]
+}

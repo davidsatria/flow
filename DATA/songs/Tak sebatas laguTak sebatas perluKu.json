@@ -1,0 +1,30 @@
+{
+  "title": "Tak sebatas laguTak sebatas perluKu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak sebatas lagu\nTak sebatas perlu\nKu datang, Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak hanya berkat-Mu\nMenyentuh hati-Mu\nRinduku, Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Selidiki hatiku\nApa ku sungguh mengasihi-Mu?",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan, ini yang ku punya\nKehidupan\nyang telah Kau beri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih-Mu buatku mengerti\nHidupku ini,\nlagu cinta untuk-Mu",
+      "newGroup": true
+    }
+  ]
+}

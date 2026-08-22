@@ -1,0 +1,25 @@
+{
+  "title": "O lihatlahtanda zamandunia mau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "O lihatlah\ntanda zaman\ndunia mau\nbinasalah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Yesus\nhampir datang\nbersedialah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jangan kau\nk'raskan hatimu\nturutlah printah\nTuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Haruslah lahir\nsemula\ndalam air\ndan Roh",
+      "newGroup": false
+    }
+  ]
+}

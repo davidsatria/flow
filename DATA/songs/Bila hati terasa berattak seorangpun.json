@@ -1,0 +1,75 @@
+{
+  "title": "Bila hati terasa berattak seorangpun",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bila hati terasa berat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tak seorangpun\nmengerti bebanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutanya Yesus\napa yang harus kubuat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia berfirman\nmari datanglah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia slalu\npedulikan aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku datang Yesus\nDia pikul segala bebanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sujud dialtarNya\nkubawa hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kutrima anugrahNya\nDia ampuniku & bebaskanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia ubah hidupku\nbahrui hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sesuatu terjadi\nSaat datang dialtarNya",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Sesuatu terjadi",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Pemulihan terjadi",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Mukjizat terjadi",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Saat datang di altarnya",
+      "newGroup": false
+    }
+  ]
+}

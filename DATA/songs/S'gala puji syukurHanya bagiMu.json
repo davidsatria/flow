@@ -1,0 +1,30 @@
+{
+  "title": "S'gala puji syukurHanya bagiMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "S'gala puji syukur\nHanya bagiMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sebab Kau\nyang layak di puja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami mau bersorak\ntinggikan namaMu, Haleluya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Soraklah Haleluya\nSoraklah Haleluya, Haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Soraklah Haleluya\nSoraklah Haleluya, Haleluya",
+      "newGroup": false
+    }
+  ]
+}

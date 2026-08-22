@@ -1,0 +1,40 @@
+{
+  "title": "BERIKAN PADA KAMIHATI YANG MEN",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "BERIKAN PADA KAMI\nHATI YANG MENGASIHI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "JIWA-JIWA YANG BELUM\nMENGENAL KASIH BAPA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "MEREKA YANG DALAM G'LAP,\nMEREKA YANG TERSESAT",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "HATI KAMI IBA SEPERTI\nHATI-MU YESUS",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "TUHAN  INI TUGAS KAMI\nBERI KEB'RANIAN BAGI KAMI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "TARUHLAH\nROH YANG RELA MELAYANI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DAN MENYENANGKAN HATI TUHAN\nITU YANG KU INGINI",
+      "newGroup": false
+    }
+  ]
+}

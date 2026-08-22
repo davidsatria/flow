@@ -1,0 +1,45 @@
+{
+  "title": "Ku hidup karena percayaKau yang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku hidup karena percaya\nKau yang berjanji setia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pengharapanku s'lalu\nada di dalam-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tidak akan menyerah\nMeski dalam kesesakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'luruh hidupku dalam\ngenggaman-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku punya\nTuhan Yang Besar",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yang t'lah berjanji\ndan sanggup menggenapi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Imanku bersepakat\npercaya kuasa-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku t'rima sekarang\nKemenangan dari-Mu",
+      "newGroup": false
+    }
+  ]
+}

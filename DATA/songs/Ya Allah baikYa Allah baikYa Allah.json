@@ -1,0 +1,25 @@
+{
+  "title": "Ya Allah baikYa Allah baikYa Allah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ya Allah baik\nYa Allah baik",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ya Allah baik\nAllah Baik bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ya, Yesus baik\nYa, Yesus baik",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ya, Yesus baik\nDia baik buat saya",
+      "newGroup": false
+    }
+  ]
+}

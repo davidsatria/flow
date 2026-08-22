@@ -1,0 +1,40 @@
+{
+  "title": "Yesus Kau telahmemulai sgalayang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Kau telah\nmemulai, sgala\nyang baik dalamku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkau menjadikanku\nserupa gambaranMu\ndan berharga\ndimataMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Kau telah\nmemulai, karya\nyang mulia dalamku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau berikan hidupMu\ns'bagai ganti dosaku\nkar'na kasihMu\npadaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'karang kumemujiMu\nAllah yang setia\nyang tak pernah\nmeninggalkan\nperbuatan tanganMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'karang kumenyembahMu\nAllah yang Mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sempurnakan\ns'gnap hidupku\nagar indah\nbagiMu",
+      "newGroup": false
+    }
+  ]
+}

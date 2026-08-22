@@ -1,0 +1,45 @@
+{
+  "title": "Saat tiada jalanhadapi persoalanYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat tiada jalan\nhadapi persoalan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus ada di sana\ndan memberiku jawaban",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pahitnya kenyataan\ndan tak mampu bertahan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus ada di  sana\ndan memberiku jawaban",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hanya nama Yesus\nhanya nama Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "hanya nama Yesus\nberikanku pengharapan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya nama Yesus\nhanya nama Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "hanya nama Yesus\nberikanku kepastian",
+      "newGroup": false
+    }
+  ]
+}

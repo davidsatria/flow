@@ -1,0 +1,15 @@
+{
+  "title": "Nyanyi HaleluyaHaleluya HaleluyaNyanyi",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Nyanyi Haleluya\nHaleluya, Haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nyanyi Haleluya\nHaleluya, Haleluya",
+      "newGroup": true
+    }
+  ]
+}

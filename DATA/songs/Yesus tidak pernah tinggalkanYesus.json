@@ -1,0 +1,35 @@
+{
+  "title": "Yesus tidak pernah tinggalkanYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus tidak pernah tinggalkan\nYesus tidak pernah tinggalkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus tidak pernah tinggalkan\nTuhan Yesus sertaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "medley\nJuruselamatku\nsobatku yang setia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah Ia tinggalkan\npengiring-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Baik dalam susah\nbaik dalam pencobaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus sobatku\nGembalaku yang setia",
+      "newGroup": false
+    }
+  ]
+}

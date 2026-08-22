@@ -1,0 +1,45 @@
+{
+  "title": "Tak terbataskuasaMu TuhanSemua",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak terbatas\nkuasaMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Semua dapat\nKau lakukan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apa yang kelihatan\nmustahil bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Itu sangat\nmungkin bagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Disaatku tak berdaya\nKuasaMu yang sempurna",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ketika ku percaya\nMujizat itu nyata",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bukan karna kekuatan\nNamun RohMu ya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ketika ku berdoa\nMujizat itu nyata",
+      "newGroup": false
+    }
+  ]
+}

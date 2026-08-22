@@ -1,0 +1,35 @@
+{
+  "title": "Tak terukur Kasih-Mu YesusKau telah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak terukur Kasih-Mu Yesus\nKau telah mati gantikan diriku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau curahkan darahmu\n'tuk tebus dosaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Layaklah Kau Tuhan\ndipuji dan di sembah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengan segenap hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Layaklah Kau Tuhan\ndipuji dan di sembah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan segenap\njiwa ragaku",
+      "newGroup": false
+    }
+  ]
+}

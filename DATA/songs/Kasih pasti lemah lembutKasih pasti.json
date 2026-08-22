@@ -1,0 +1,35 @@
+{
+  "title": "Kasih pasti lemah lembutKasih pasti",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih pasti lemah lembut\nKasih pasti memaafkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih pasti murah hati\nKasih-Mu, kasih-Mu, Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ajarilah kami ini\nsaling mengasihi",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ajarilah kami ini\nsaling mengampuni",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ajarilah kami ini\nkasih-Mu, Ya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasih-Mu, Kudus,\ntiada batasnya",
+      "newGroup": false
+    }
+  ]
+}

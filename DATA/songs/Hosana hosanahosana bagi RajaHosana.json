@@ -1,0 +1,25 @@
+{
+  "title": "Hosana hosanahosana bagi RajaHosana",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Hosana hosana\nhosana bagi Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hosana hosana\nmaha tinggi Rajaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sgala hormat dan pujian\nKemuliaan dan kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hikmat syukur kekuatan\nBagi Allah slamanya",
+      "newGroup": false
+    }
+  ]
+}

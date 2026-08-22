@@ -1,0 +1,25 @@
+{
+  "title": "Kegunung tinggikunaik naik naikmencari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kegunung tinggi\nkunaik naik naik\nmencari damai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kelembah curam\nkuturun turun turun\nmencari damai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Namun akhirnya\ndamai. tiada\nkudapati juga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kecuali hanya didalam\nYesus Tuhan",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Allah kita besarDia sungguh amat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Allah kita besar\nDia sungguh amat besar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia miliki\nkuasa besar Dia besar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'gala sesuatu tercipta\ntiada mustahil bagi Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kumiliki Allah yang besar\nDialah yang terbesar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kita hidup dalam\nkasih-Nya yang besar",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kita hidup dalam\nkuasa-Nya yang besar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Marilah kita puji Dia\nMarilah kita sembah Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh haleluya\nbesarkan namaNya",
+      "newGroup": false
+    }
+  ]
+}

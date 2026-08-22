@@ -1,0 +1,25 @@
+{
+  "title": "Bahwa Tuhan juga gunung batukuBahwa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bahwa Tuhan juga gunung batuku\nBahwa Tuhan juga kota bentengku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bahwa Tuhan juga penolongku\nYaitu Allahku dan gunung batuku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku percaya akan Dia perlindunganku\nAku percaya akan Dia tanduk selamatku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Aku percaya akan Dia sang perisaiku\nTempat perlindungan yang tinggi",
+      "newGroup": false
+    }
+  ]
+}

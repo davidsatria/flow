@@ -1,0 +1,30 @@
+{
+  "title": "Betapa dalamnyakasih setiaMubetapa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa dalamnya kasih setiaMu\nbetapa besarnya kebaikanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hidupku dipenuhi kemuliaanMu\nindahnya oh Yesus Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sempurnalah kehidupanku\nsejak Kau hadir dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau perhatikanku\nsetiap waktu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "oh sungguh indahnya\nYesus Tuhanku",
+      "newGroup": false
+    }
+  ]
+}

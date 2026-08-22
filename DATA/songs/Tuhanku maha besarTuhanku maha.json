@@ -1,0 +1,45 @@
+{
+  "title": "Tuhanku maha besarTuhanku maha",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhanku maha besar\nTuhanku maha kuasa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Raja segala\nraja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia takkan tergoyahkan\nDia takkan terkalahkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia Hidup\ndan berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Serukan namaNya\nYesus Tuhan Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "s'gala kuasa tunduk\ndalam namaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia luar biasa\nperkasa mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus nama\ndi atas s'gala nama",
+      "newGroup": false
+    }
+  ]
+}

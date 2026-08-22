@@ -1,0 +1,20 @@
+{
+  "title": "Hai Dunia Gembiralah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hai dunia, gembiralah\ndan sambut Rajamu!",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di hatimu terimalah!\nBersama bersyukur,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "bersama bersyukur,\nbersama-sama bersyukur.",
+      "newGroup": false
+    }
+  ]
+}

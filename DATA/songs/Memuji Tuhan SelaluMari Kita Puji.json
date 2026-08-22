@@ -1,0 +1,30 @@
+{
+  "title": "Memuji Tuhan SelaluMari Kita Puji",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Memuji Tuhan Selalu\nMari Kita Puji Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Memuji Tuhan Selalu\nMari Kita Puji Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Puji Puji, Mari Kita Puji Dia\nPuji Puji, Mari Kita Puji Dia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Pujilah Hu s'lalu\nPujilah Hu s'lalu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Pujilah Hu s'lalu di hatiku\nPujilah Hu s'lalu di hatiku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Kesenangan di hatikuYang tidak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kesenangan di hatiku\nYang tidak akan layu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kesenangan dari Tuhan\nDi s'panjang perjalanan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kesukaan yang heran\nYang Tuhan s'lalu brikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'karang ku nyanyi buat\nYesus Rajaku, Haleluya",
+      "newGroup": false
+    }
+  ]
+}

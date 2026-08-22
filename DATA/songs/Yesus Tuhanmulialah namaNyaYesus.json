@@ -1,0 +1,70 @@
+{
+  "title": "Yesus Tuhanmulialah namaNyaYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Tuhan\nmulialah namaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus Allahku\nbesar kasih-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dahulu sekarang\ndan sampai selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kasihNya\ntak pernah berubah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhan\nmulialah nama-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Allahku\nbesar kuasa-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dahulu sekarang\ndan sampai selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuasa-Nya\ntak pernah berubah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia sanggup\nYesus sanggup",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Melakukan perkara\nyang besar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia sanggup\nYesus sanggup",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Memulihkan yang terluka\nMenyembuhkan yang menderita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia sanggup\nmemulihkan hidupku",
+      "newGroup": false
+    }
+  ]
+}

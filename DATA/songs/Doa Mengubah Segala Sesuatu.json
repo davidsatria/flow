@@ -1,0 +1,45 @@
+{
+  "title": "Doa Mengubah Segala Sesuatu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat keadaan sek’lilingku\nAda di luar kemampuanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku berdiam diri mencari-Mu\nDoa mengubah segala sesuatu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saat kenyataan di depanku\nMengecewakan perasaanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku menutup mata memandang-Mu\nS’bab doa mengubah segala sesuatu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Doa orang benar bila didoakan\ndengan yakin, besar kuasanya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dan tiap doa yang lahir dari iman\nberkuasa menyelamatkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S’perti mata air di tangan-Mu\nMengalir ke manapun kau mau",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada yang mustahil di mata-Mu\nDoa mengubah segala sesuatu",
+      "newGroup": false
+    }
+  ]
+}

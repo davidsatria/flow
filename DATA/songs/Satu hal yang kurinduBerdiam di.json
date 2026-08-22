@@ -1,0 +1,35 @@
+{
+  "title": "Satu hal yang kurinduBerdiam di",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Satu hal yang kurindu\nBerdiam di dalam rumah-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Satu hal yang kupinta\nMenikmati bait-Mu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Lebih baik satu hari\ndi pelataran-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dari pada s'ribu hari\ndi tempat lain",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Memuji-Mu menyembah-Mu\nKau Allah yang hidup",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan menikmati semua\nkemurahan-Mu",
+      "newGroup": false
+    }
+  ]
+}

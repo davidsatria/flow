@@ -1,0 +1,60 @@
+{
+  "title": "Tujuh Belas AgustusTahun Empat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tujuh Belas Agustus\nTahun Empat Lima",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Itulah Hari\nKemerdekaan Kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari Merdeka\nNusa Dan Bangsa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari Lahirnya\nBangsa Indonesia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Merdeka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekali Merdeka\nTetap Merdeka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Selama Hayat\nMasih Dikandung Badan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kita Tetap Setia\nTetap Sedia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mempertahankan\nIndonesia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kita Tetap Setia\nTetap Sedia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Membela Negara Kita",
+      "newGroup": false
+    }
+  ]
+}

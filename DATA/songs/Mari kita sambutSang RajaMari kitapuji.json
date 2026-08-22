@@ -1,0 +1,40 @@
+{
+  "title": "Mari kita sambutSang RajaMari kitapuji",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mari kita sambut\nSang Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari kita\npuji NamaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia yang\nMaha Mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia yang\nMaha Kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Yesus Yesus\nnamaNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Puji Hosana\npuji hosana",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Puji hosana\nMulia NamaNya",
+      "newGroup": true
+    }
+  ]
+}

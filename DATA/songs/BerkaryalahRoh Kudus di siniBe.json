@@ -1,0 +1,45 @@
+{
+  "title": "BerkaryalahRoh Kudus di siniBe",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Berkaryalah\nRoh Kudus di sini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berkaryalah\ndengan kuasaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jamahlah kami\njamahlah s'tiap hati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ubahkan kami\njadi baru",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ubahlah kami Bapa\nbentuklah kami Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jadikan kami sesuai\ndengan Firman-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ubahlah kami Bapa\nbentuklah kami Bapa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jadikan kami sama\ns'perti Yesus",
+      "newGroup": false
+    }
+  ]
+}

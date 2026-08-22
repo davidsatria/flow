@@ -1,0 +1,45 @@
+{
+  "title": "Dia lahir untuk kamiDia mati untuk",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dia lahir untuk kami\nDia mati untuk kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia bangkit untuk\nkami semua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia itu Tuhan kami\nDia itu Allah kami",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia Raja diatas\nsegala Raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia itu firman Allah\nYang turun ke bumi",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yang jadi sama\ndengan manusia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia Yesus sobat kami\nDia Yesus Tuhan kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sang Penebus\nJuruselamat dunia",
+      "newGroup": false
+    }
+  ]
+}

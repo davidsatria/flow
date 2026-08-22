@@ -1,0 +1,15 @@
+{
+  "title": "Bapa Engkau baiksungguh baiksangat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa Engkau baik\nsungguh baik\nsangat baik",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KasihMu\ntak berkesudahan\nkasihMu\nkekal selamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Dengan imanku ku hadapi semuaDengan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dengan imanku ku hadapi semua\nDengan imanku s`mua berlalu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Gunung-gunung kesusahan,\nGunung-gunung pencobaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan imanku\ns`mua berlalu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan berdoa kuhadapi semua,\nDengan berdoa s`mua berlalu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Letak kekuatan kita di dalam tekun berdoa\nDengan berdoa s`mua berlalu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan bersyukur kuhadapi semua\nDengan besyukur s`mua berlalu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Iman, doa dan bersyukur\nSama besar kuasanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan bersyukur\ns`mua berlalu",
+      "newGroup": false
+    }
+  ]
+}

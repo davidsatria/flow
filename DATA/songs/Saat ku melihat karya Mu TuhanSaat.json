@@ -1,0 +1,25 @@
+{
+  "title": "Saat ku melihat karya Mu TuhanSaat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat ku melihat karya Mu Tuhan\nSaat ku rasakan kebaikan Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku bersyukur Engkau baik\nTeramat baik bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau tak pernah membiarkanku\nKau tak pernah meninggalkanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau turut bekerja datangkan kebaikan\nDalam segala sesuatu",
+      "newGroup": true
+    }
+  ]
+}

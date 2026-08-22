@@ -1,0 +1,15 @@
+{
+  "title": "S'karang kumilikYesusYesus mil",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "S'karang kumilik\nYesus\nYesus milikku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bukan untuk\nsementara\ntapi buat\ns'lamanya",
+      "newGroup": false
+    }
+  ]
+}

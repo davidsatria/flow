@@ -1,0 +1,35 @@
+{
+  "title": "KubersyukurpadaMu Tuhanatas ka",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kubersyukur\npadaMu Tuhan\natas kasihMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kubermazmur\nbagi namaMu\nyang kudus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Engkau\nkebenaranku\npadaMu kupercaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Betapa muliaNya\nTuhanku kurindu\nmenyatakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tinggikan diriMu\nmengatasi langit\nkebesaranMu Tuhan\nmengatasi bumi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tinggikan diriMu\nmengatasi langit\nkemuliaanMu Tuhan\nmengatasi bumi",
+      "newGroup": false
+    }
+  ]
+}

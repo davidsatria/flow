@@ -1,0 +1,20 @@
+{
+  "title": "Sayang sayang disayangaku disayang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sayang sayang disayang\naku disayang Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku di angkat jadi a naknya\naku disayang Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Glory glory glory halleluya\nGlory glory glory puji Tuhan",
+      "newGroup": true
+    }
+  ]
+}

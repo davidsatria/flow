@@ -1,0 +1,25 @@
+{
+  "title": "Berjalan bersama Dia ‘ku tak t",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Berjalan bersama Dia, ‘ku tak takut,\nberjalan bersama Dia, ‘ku sentosa.",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tak takut bahaya selamanya,\nyakin ‘ku tak sendiri, Yesus bersertaku.",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Nyanyi bagi Yesus, soraklah Haleluya,\nNyanyi bagi Yesus, soraklah Haleluya.",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nyanyi bagi Yesus, soraklah Haleluya,\nyakin ‘ku tak sendiri, Yesus bersertaku.",
+      "newGroup": true
+    }
+  ]
+}

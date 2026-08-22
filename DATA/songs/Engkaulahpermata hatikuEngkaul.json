@@ -1,0 +1,30 @@
+{
+  "title": "Engkaulahpermata hatikuEngkaul",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Engkaulah\npermata hatiku\nEngkaulah\nkekasih jiwaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah Tuhan\ndan Rajaku\nYesus Kristus\nAllahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Setiap saat\nsetiap waktu\nkupuji namaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Didalam setiap\nlangkahku kupujiMu\ns'lalu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau apa yang\nterjadi\nkutakkan ingkari\nkutetap setia\npada frimanMu",
+      "newGroup": false
+    }
+  ]
+}

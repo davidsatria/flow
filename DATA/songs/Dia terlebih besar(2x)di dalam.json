@@ -1,0 +1,15 @@
+{
+  "title": "Dia terlebih besar(2x)di dalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dia terlebih besar\n(2x)\ndi dalam ku\ndi dalam mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia terlebih besar\n(2x)\ndi dalam ku\nselama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

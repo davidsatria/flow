@@ -1,0 +1,40 @@
+{
+  "title": "Dip'nuhi kemuliaanDip'nuhi pujianKami",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dip'nuhi kemuliaan\nDip'nuhi pujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami bawa padaMu Tuhan\nKorban pujian",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau saja yang suci\nKau saja yang layak",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau layak t'rima glory\nYesus Kau Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau saja yang suci\nKau saja yang layak",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau layak t'rima glory\nHanya Kau Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ending\nKau layak t'rima glory\nHanya Kau Tuhan",
+      "newGroup": false
+    }
+  ]
+}

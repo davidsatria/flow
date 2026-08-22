@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "anim": "none",
+    "font": "custom:LEMONMILK-Light.otf",
+    "align": "center",
+    "size": "4.5",
+    "margin": "50",
+    "lh": "1.3",
+    "meta_font": "1",
+    "meta_size": "4.1",
+    "caps": false,
+    "text_bg": true
+  }
+}

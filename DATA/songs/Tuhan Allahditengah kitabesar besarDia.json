@@ -1,0 +1,30 @@
+{
+  "title": "Tuhan Allahditengah kitabesar besarDia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Allah\nditengah kita\nbesar besar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia s'nangkan\ndan girangkan\ndengan\nsukacita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia mengasihiku\ndan bersuka\nkarena kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Allah\nditengah kita\nbesar besar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Besar (3x)",
+      "newGroup": false
+    }
+  ]
+}

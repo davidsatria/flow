@@ -1,0 +1,45 @@
+{
+  "title": "Peganglah tanganku Roh Kudussetiap",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Peganglah tanganku Roh Kudus\nsetiap hari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tak dapat jalan sendiri\ntanpa RohMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bawalah diriku kepada\nsgala kebenaran",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "agar ku tidak tersesat\nmengikuti jalanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kudus, kudus Tuhan\nKudus nama-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kub’ri syukur\ndalam simfoni indah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ajaib, ajaib Tuhan\nAjaib nama-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nama yang b’ri menang\nYesus nama-Nya",
+      "newGroup": false
+    }
+  ]
+}

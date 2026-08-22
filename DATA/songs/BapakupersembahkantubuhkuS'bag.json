@@ -1,0 +1,35 @@
+{
+  "title": "BapakupersembahkantubuhkuS'bag",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa\nkupersembahkan\ntubuhku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'bagai\npersembahan\nyang hidup",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kudus dan\nyang berkenan\npadaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bagai ibadah\nyang sejati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kusembah Kau\nTuhan\n(2x)",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuserahkan hidupku\nkepada-Mu\nuntuk kemuliaan\nnama-Mu",
+      "newGroup": false
+    }
+  ]
+}

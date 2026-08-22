@@ -1,0 +1,25 @@
+{
+  "title": "Hanya EngkauJurus’lamatkuTuhan",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Kusembah Kau Allah-ku\nBapa Dan Sahabat-ku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau Yang Pedulikan\nS’luruh Hidup-ku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walau Lewati Lembah\nAku Tak Ditinggalkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus Kekuatan\nDi Hidup-ku",
+      "newGroup": false
+    }
+  ]
+}

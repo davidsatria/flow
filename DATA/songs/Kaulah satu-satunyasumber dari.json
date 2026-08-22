@@ -1,0 +1,25 @@
+{
+  "title": "Kaulah satu-satunyasumber dari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kaulah satu-satunya\nsumber dari s'galanya\nKau kebenaran\nyang s'lalu kupegang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau keyakinanku\nuntuk bersinar\nterang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhanku\nyang berkuasa\natasku, hidupku\ntakkan sama",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutahu sungguh\nanugerahMu bagiku\nhidupku takkan sama",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Tak perlu mujizatTerlebih dahuluTuk",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak perlu mujizat\nTerlebih dahulu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuk membuat diriku\nPercaya padaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak perlu berkatMu\nTerlebih dahulu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuk membuat diriku\nSetia padaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku akan selalu mengasihi mu\nSampai akhir masa hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di dalam setiap keadaanku\nKau tetap segalanya...",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Banyak yang Kau perbuatDidalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Banyak yang Kau perbuat\nDidalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Rancangan indahMu\nTerjadi di hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bapa yang mengerti\nSegala yang kuperlu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KasihMu sempurna\nNyata dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kubersyukur Bapa,\nKubersyukur Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Buat kasih setiaMu\nDidalam hidupku\nKubersyukur",
+      "newGroup": false
+    }
+  ]
+}

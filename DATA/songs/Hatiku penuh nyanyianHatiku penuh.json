@@ -1,0 +1,25 @@
+{
+  "title": "Hatiku penuh nyanyianHatiku penuh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hatiku penuh nyanyian\nHatiku penuh nyanyian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hatiku bernyanyi untuk\nRaja sg'ala Raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sembahlah dan pujilah Dia\nSembahlah dan pujilah Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sembahlah dan pujilah Dia\nRaja s'gala raja",
+      "newGroup": true
+    }
+  ]
+}

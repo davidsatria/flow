@@ -1,0 +1,30 @@
+{
+  "title": "Kupandang wajahmu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bukan dengan kekuatanku\nKu dapat jalani hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tanpa Tuhan yang disampingku\nku tak mampu sendiri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah kuatku\nyang menopangku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku pandang wajahMu dan berseru\nPertolonganku datang dariMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Peganglah tanganku jangan lepaskan\nKaulah harapan dalam hidupku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Kala ku cari damaihanya kudapat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kala ku cari damai\nhanya kudapat dalam Yesus\nkala ku cari ketenangan\nhanya kutemui di dalam Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tak satupun dapat menghiburku\ntak seorangpun dapat menolongku\nhanya Yesus jawaban hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "bersama Dia hatiku damai\nwalau dalam lembah kekelaman",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "bersama Dia hatiku tenang\nwalau hidup penuh tantangan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tak satupun dapat menghiburku\ntak seorangpun dapat menolongku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Alangkah indahnyahidup di dalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Alangkah indahnya\nhidup di dalam Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "yang mencurahkan\nberkat yang melimpah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Alangkah indahnya\njalan bersama Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "yang memb'rikan\nkuasa untuk menang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku dahsyat\nkutak ragu kepadaMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau Tuhan yang\nsetia dipihakku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku dahsyat\ntak terbendung kuasaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau yang terhebat\nterbesar bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Yesusku Dahsyat..",
+      "newGroup": true
+    }
+  ]
+}

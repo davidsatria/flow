@@ -1,0 +1,40 @@
+{
+  "title": "Darah Yesus menghapuskans'gala",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Darah Yesus menghapuskan\ns'gala dosaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bilur Yesus menyembuhkan\ns'gala sakitku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih Yesus oh sungguh indah\nkasih dan kuasaNya tidak berubah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang lemah Dia kuatkan\nyang sakit Dia sembuhkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang susah Dia hiburkan\nHaleluya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih Yesus sungguh indah\nkuasa Yesus tak berubah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dulu s'karang\ndan sampai s'lamanya",
+      "newGroup": false
+    }
+  ]
+}

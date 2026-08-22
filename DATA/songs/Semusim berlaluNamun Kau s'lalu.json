@@ -1,0 +1,40 @@
+{
+  "title": "Semusim berlaluNamun Kau s'lalu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Semusim berlalu,\nNamun Kau s'lalu p'liharaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih dan setia-Mu\nTak pernah layu di hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Lebih luas dari samud'ra\nKebaikan-Mu Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "takkan habis di hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Lebih tinggi dari cakrawala\nTak terbatas kasih-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh kubersyukur",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Tak terbatas kasih-Mu\nSungguh kubersyukur",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Tak ada yang samaTak ada yang samaTak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak ada yang sama\nTak ada yang sama",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak ada yang sama\ns'perti Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak ada yang sama\nTak ada yang sama",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak ada yang sama\ns'perti Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesuslah Jurus'lamat\npenolongku yang sungguh",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesuslah Jurus'lamat\nTak ada yang sama sperti Yesus",
+      "newGroup": true
+    }
+  ]
+}

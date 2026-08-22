@@ -1,0 +1,35 @@
+{
+  "title": "Yang terutamadi dalam hidup in",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yang terutama\ndi dalam hidup ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "meninggikan\nnama Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang terutama\ndi dalam hidup ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "memuliakan\nnamaNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya\nHaleluya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "saya mau\ncinta Yesus",
+      "newGroup": false
+    }
+  ]
+}

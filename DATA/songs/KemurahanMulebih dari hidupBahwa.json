@@ -1,0 +1,25 @@
+{
+  "title": "KemurahanMulebih dari hidupBahwa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "KemurahanMu\nlebih dari hidup",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KemurahanMu\nlebih dari hidup",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bahwa lidahku\nmemuji Engkau",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "KemurahanMu\nlebih dari hidup",
+      "newGroup": false
+    }
+  ]
+}

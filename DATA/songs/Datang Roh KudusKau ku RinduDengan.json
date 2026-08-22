@@ -1,0 +1,45 @@
+{
+  "title": "Datang Roh KudusKau ku RinduDengan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Datang Roh Kudus\nKau ku Rindu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengan minyak\nyang baru urapiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalir penuhiku,\nmengalir pulihkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KuasaMu\nBebaskan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Satu yang ku rindu\nbersekutu denganMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bawaku lebih lagi\ntinggal di dalamMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nikmati hadiratMu\nJamahlah s'luruh hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KuasaMu\nmengubah hidupku",
+      "newGroup": false
+    }
+  ]
+}

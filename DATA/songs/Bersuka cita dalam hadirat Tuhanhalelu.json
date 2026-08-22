@@ -1,0 +1,25 @@
+{
+  "title": "Bersuka cita dalam hadirat Tuhanhalelu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bersuka cita dalam hadirat Tuhan\nhalelu haleluyah amin",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bersuka cita dalam hadirat Tuhan\nhalelu haleluyah amin",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mnari lompatlah, Mnari lompatlah\nbersuka dalam Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mnari lompatlah, Mnari lompatlah\nbersuka dalam Tuhan",
+      "newGroup": true
+    }
+  ]
+}

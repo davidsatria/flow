@@ -1,0 +1,45 @@
+{
+  "title": "Hari inihariNya Tuhanmari kita",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari ini\nhariNya Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "mari kita\nbersukaria",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersuka\ndi dalam Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bersuka\ndi dalam Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Rayakan\nkehadiran Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "s'bab Dia yang\nlayak dipuji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersuka\ndi dalam Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersuka\ndi dalam Tuhan",
+      "newGroup": false
+    }
+  ]
+}

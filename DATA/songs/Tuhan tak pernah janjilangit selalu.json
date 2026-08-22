@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan tak pernah janjilangit selalu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan tak pernah janji\nlangit selalu biru",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tetapi Dia berjanji\nselalu menyertai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan tak pernah janji\njalan selalu rata",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tetapi Dia berjanji\nberikan kekuatan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jangan pernah menyerah\njangan berputus asa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mukjizat Tuhan ada\nsaat hati menyembah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jangan pernah menyerah\njangan berputus asa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mukjizat Tuhan ada\nbagi yang setia dan percaya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Bersyukurlah kepada Tuhan",
+  "lyrics": [
+    {
+      "type": "b",
+      "text": "Na na na na na\nNa na na na na",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya kumemujimu Tuhan\nKarena kasihmu Tak berkesudahan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Biar yang bernafas\nMemuji sang raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Diatas gunung\nDan di dalam samudra",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tanganku kuangkat\nPadamu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mensyukuri\nRahmat yang kau b'ri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kakiku melompat Bagimu\nS'bab rahmatmu Baru s'tiap pagi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersyukurlah kepada Tuhan\nSebab ia baik",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bahwasannya\nUntuk selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasih setianya",
+      "newGroup": false
+    }
+  ]
+}

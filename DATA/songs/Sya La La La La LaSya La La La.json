@@ -1,0 +1,65 @@
+{
+  "title": "Sya La La La La LaSya La La La",
+  "lyrics": [
+    {
+      "type": "b",
+      "text": "Sya La La La La La",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sya La La La La La La La",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus Kekasih Jiwaku\nSungguh Kupercaya Pada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Karena Kasih-Mu Padaku\nKau Tebus Dosaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dari Terbitnya Matahari\nDan Sampai Terbenamnya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuangkat Lagu Pujian\nTinggikan Nama-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dengan Gendang\nKupuji Kupuji",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengan Kecapi\nOh… Oh...",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku Bernyanyi Haleluya\nYesus Kekasihku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sayang Sayang Disayang\nAku Disayang Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku Di Angkat Jadi Anaknya\nAku Disayang Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Glory Glory Glory Halleluya\nGlory Glory Glory Puji Tuhan",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Kirimlah perjanjianMuKuasa perkataan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kirimlah perjanjianMu\nKuasa perkataan mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Supaya dunia mengerti salibMu\nKirimlah perjanjianMu",
+      "newGroup": false
+    }
+  ]
+}

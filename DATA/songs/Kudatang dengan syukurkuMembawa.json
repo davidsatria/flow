@@ -1,0 +1,55 @@
+{
+  "title": "Kudatang dengan syukurkuMembawa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kudatang dengan syukurku\nMembawa kerinduanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus, inginku\nmenyenangkanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KaryaMu indah bagiku\nKasih yang menyelamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus,\ninilah persembahanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kumembawa hatiku\nHanya Engkau di hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesusku, Kau terindah\nS'lamanya kumenyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kumembawa hidupku\nInilah persembahanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "'Tuk Yesusku yang terindah\nS'lamanya kumenyembahMu, Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Bawaku erat di hadiratMu\nHatiku persembahan bagiMu, ooh",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jiwaku tenang di hadiratMu\nHatiku aman dalam kasihMu",
+      "newGroup": true
+    }
+  ]
+}

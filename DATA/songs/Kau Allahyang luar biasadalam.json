@@ -1,0 +1,35 @@
+{
+  "title": "Kau Allahyang luar biasadalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau Allah\nyang luar biasa\ndalam kebaikanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sukacitaku\npenuh melimpah\nKau b'ri anggur\nyang baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Allah\nyang tiada duanya\ndalam kemurahanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pulihkan semua\nkeadaanku\ndengan minyak\nyang baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berkat baru\ndicurahkan\ndi dalam hadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Rahmat baru\ndicurahkan\nlimpah atas hidupku",
+      "newGroup": false
+    }
+  ]
+}

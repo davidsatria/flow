@@ -1,0 +1,50 @@
+{
+  "title": "Ku tetap cintaKu tetap cintaWalau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku tetap cinta\nKu tetap cinta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Walau badai Datang menerpa\nKu tetap cinta",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tetap setia\nKu tetap setia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau taufan Datang menerpa\nKu tetap setia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Terlalu banyak\nYang Tuhan telah beri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Takkan mungkin kubalas\nDari apa yang kumiliki",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kupersembahkan\nSeluruh hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan ku tetap cinta\nBiar ku tetap setia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Untuk selama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Hiduplah Almasihhiduplah Almas",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hiduplah Almasih\nhiduplah Almasih",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuasanya slamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dulu skarang dan\nsampai kekal",
+      "newGroup": false
+    }
+  ]
+}

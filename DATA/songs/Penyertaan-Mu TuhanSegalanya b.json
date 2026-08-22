@@ -1,0 +1,35 @@
+{
+  "title": "Penyertaan-Mu TuhanSegalanya b",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Penyertaan-Mu Tuhan\nSegalanya bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hadir-Mu di hidupku\nTerutama bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Anugerah-Mu\nAnugerah-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Semua kar'na anugerah-Mu\nBukan kar'na kekuatanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Anugerah-Mu\nAnugerah-Mu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasih dan sayang-Mu\nSumber kekuatan bagiku",
+      "newGroup": false
+    }
+  ]
+}

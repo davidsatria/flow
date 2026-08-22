@@ -1,0 +1,30 @@
+{
+  "title": "Bila kubuka matakuKulihat waja",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bila kubuka mataku\nKulihat wajahMu\nKuterkagum",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bila kulihat hidupku\nDan karya tanganMu\nKutersanjung",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Karna semua yang baik dalam hidupku\nitulah karyaMu\nKau bri kesempatan yang baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan kuingin mengenalMu Tuhan\nLebih dalam dari semua yang kukenal",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada kasih yang melebihiMu\nKuada 'tuk jadi penyembahMu",
+      "newGroup": false
+    }
+  ]
+}

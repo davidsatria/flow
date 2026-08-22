@@ -1,0 +1,35 @@
+{
+  "title": "Saat ini saat indahkumemuji da",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat ini saat indah\nkumemuji dan menyembah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "HadiratMu kurasakan\nsaatku sembah Kau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saat ini saat Tuhan\nKau curahkan urapanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "HadiratMu kurasakan\nsaatku sembah Kau",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "HadiratMu kurasakan\nsaat ini saat ini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "urapanMu kurasakan\nsaat aku menyembah Kau Tuhan",
+      "newGroup": false
+    }
+  ]
+}

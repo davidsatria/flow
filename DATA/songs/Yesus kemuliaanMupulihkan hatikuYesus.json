@@ -1,0 +1,30 @@
+{
+  "title": "Yesus kemuliaanMupulihkan hatikuYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus kemuliaanMu\npulihkan hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus kemuliaanMu\nberkati hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'gala pujian syukur bagiMu\nKau hadir dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kini ku datang\nsujud dihadapanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "MemujiMu menyembahMu\nYesus kumenyembahMu",
+      "newGroup": false
+    }
+  ]
+}

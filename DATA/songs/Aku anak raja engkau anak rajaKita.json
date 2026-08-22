@@ -1,0 +1,35 @@
+{
+  "title": "Aku anak raja engkau anak rajaKita",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku anak raja engkau anak raja\nKita semua anak raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku anak raja engkau anak raja\nKita semua anak raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya puji Tuhan\nhaleluya puji Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Haleluya puji Tuhan\nhaleluya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya puji Tuhan\nhaleluya puji Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya puji Tuhan\nhaleluya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Pembuat mujizat sejati",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Di dalam kelemahanku\nsempurna kuasa-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hebatnya tantanganku\nlebih hebat Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku berserah kepada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yang membelah laut\nyang teduhkan badai",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yang mustahil pun terjadi\nkar'na kuasa-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yang pegang hidupku\nyang buka jalan bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau pembuat mukjizat sejati",
+      "newGroup": false
+    }
+  ]
+}

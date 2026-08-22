@@ -1,0 +1,50 @@
+{
+  "title": "Biar Bumi Akan BerlaluBiar Bulan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Biar Bumi Akan Berlalu\nBiar Bulan Tak Bercahaya Lagi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Biar Langit Akan Bergoncang\nMatahari Tak Bersinar Lagi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tetapi Tuhan Yesusku\nTak Pernah Ingkar Janji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua Yang Difirmankannya\nPasti Akan Digenapi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sya La La La La La La La\nSaya Cinta Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sya La La La La La La La La\nSaya Cinta Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sya La La La La La La La\nAku Cinta Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sya La La La La La La La La\nAku Cinta Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku Cinta Yesus",
+      "newGroup": false
+    }
+  ]
+}

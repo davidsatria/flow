@@ -1,0 +1,25 @@
+{
+  "title": "URAPAN ALLAH TERJADIDI TEMPAT INIALLAH",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "URAPAN ALLAH TERJADI\nDI TEMPAT INI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ALLAH HANCURKAN\nSETIAP BELENGKIJ DOSA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "SORAK KEMENANGAN\nTERDENGAR DI TEMPAT INI",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "DI SINI ADA\nURAPAN BARU",
+      "newGroup": false
+    }
+  ]
+}

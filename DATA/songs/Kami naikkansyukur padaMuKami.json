@@ -1,0 +1,25 @@
+{
+  "title": "Kami naikkansyukur padaMuKami",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami naikkan\nsyukur padaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami naikkan\nsyukur padaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Syukur 'kan\nkasihMu yang Mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami naikkan\nsyukur padaMu",
+      "newGroup": false
+    }
+  ]
+}

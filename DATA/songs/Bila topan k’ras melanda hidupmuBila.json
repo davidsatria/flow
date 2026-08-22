@@ -1,0 +1,25 @@
+{
+  "title": "Bila topan k’ras melanda hidupmuBila",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bila topan k’ras melanda hidupmu\nBila putus asa dan letih lesu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berkat Tuhan satu-satu hitunglah\nKau niscaya kagum oleh kasih-Nya.",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Berkat Tuhan mari hitunglah\nKau kan kagum oleh kasih-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Berkat Tuhan mari hitunglah\nKau niscaya kagum oleh kasih-Nya.",
+      "newGroup": false
+    }
+  ]
+}

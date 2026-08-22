@@ -1,0 +1,45 @@
+{
+  "title": "Berbahagialah orangyang takut",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Berbahagialah orang\nyang takut pada-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berbahagialah orang\nyang setia pada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia `kan menikmati\nhujan berkat-berkat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari ini esok dan selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Curahkan berkat-Mu\ncurahkan mujizat-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Curahkan kedahsyatan-Mu\ndi dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Curahkan kasih-Mu\ncurahkan kuasa-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Curahkan kemuliaan-Mu\noh Yesusku",
+      "newGroup": false
+    }
+  ]
+}

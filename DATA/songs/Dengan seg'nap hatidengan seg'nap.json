@@ -1,0 +1,45 @@
+{
+  "title": "Dengan seg'nap hatidengan seg'nap",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dengan seg'nap hati\ndengan seg'nap jiwa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "dengan kekuatanku\nkusembah Kau Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam kekudusanMu\nkuangkat tanganku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kurindu selalu\ndalam hadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Engkau yang kudus\nAnak Domba Allah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "DarahMu tercurah\ndiatas kalvari",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Engkau yang layak\nterima pujian",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hormat dan kuasa\ns'karang dan s'lamanya",
+      "newGroup": false
+    }
+  ]
+}

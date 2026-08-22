@@ -1,0 +1,30 @@
+{
+  "title": "Saat kuberjalanKasih-Mu menerangi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat kuberjalan\nKasih-Mu menerangi langkahku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak kutakut, tak kubimbang\nKarna kutahu Kau bersamaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau lebih tahu\nyang terbaik bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau lebih sanggup\npulihkan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kuberserah, kupercaya\nHanya Yesus penolong yang setia",
+      "newGroup": false
+    }
+  ]
+}

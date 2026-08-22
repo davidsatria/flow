@@ -1,0 +1,40 @@
+{
+  "title": "Monggo prokoncoMemuji Gusti Ye",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Monggo prokonco\nMemuji Gusti Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kalyan renaning\nManah lan kebak bingah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Awit Gusti sampun nyawesaken\nganjaran Ingkang mulya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Wonten swarga ayem tentrem\nGesang langgeng selaminya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Puji Gusti\nGlory Halleluya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kula nderek Gusti\nKula nderek Gusti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dateng pundi lampahipun\nKula nderek Gusti",
+      "newGroup": false
+    }
+  ]
+}

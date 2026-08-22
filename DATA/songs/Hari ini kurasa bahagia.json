@@ -1,0 +1,55 @@
+{
+  "title": "Hari ini kurasa bahagia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari ini\nkurasa bahagia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "berkumpul bersama\nsaudara seiman",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Yesus\nt'lah satukan kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tanpa memandang\ndi antara kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bergandengan tangan\nDalam kasih dalam satu hati",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Berjalan dalam\nterang kasih Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau sahabatku\nkau saudaraku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "tiada yang dapat\nmemisahkan kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau sahabatku\nkau saudaraku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "tiada yang dapat\nmemisahkan kita",
+      "newGroup": false
+    }
+  ]
+}

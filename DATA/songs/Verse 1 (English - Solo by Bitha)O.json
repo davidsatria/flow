@@ -1,0 +1,95 @@
+{
+  "title": "Verse 1 (English - Solo by Bitha)O",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Verse 1 (English - Solo by Bitha)\nO holy night\nthe stars are brightly shining",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "It is the night\nof our dear Savior's birth",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Long lay the world\nin sin and error pining",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "'Til He appeared\nand the soul felt its worth",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "A thrill of hope\nthe weary world rejoices",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "For yonder breaks\na new and glorious morn",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Fall on your knees\nO hear the angels voices",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "O night divine\nO night when Christ was born",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "O night divine\nO night, O night divine",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Verse 2 (Indo - Solo by Bu Gem)\nMalam Kudus\ndi langit bertaburan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bintang kemilau\nterang gemerlap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Terpancar kini\nsinar pengharapan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang dinantikan\nsekarang genap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan bangsa yang\nlelah beroleh harap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Melihat fajar kini merekah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mari sujud dengar\nkidung malaikat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Malam mulia\nmalam Kristus lahir",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Malam mulia\nmalam malam mulia",
+      "newGroup": false
+    }
+  ]
+}

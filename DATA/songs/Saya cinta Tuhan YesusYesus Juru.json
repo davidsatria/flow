@@ -1,0 +1,30 @@
+{
+  "title": "Saya cinta Tuhan YesusYesus Juru",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saya cinta Tuhan Yesus\nYesus Juru Selamatku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengan segenap hati jiwa\nSaya cinta Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saya cinta Tuhanku\nSaya cinta Tuhanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saya cinta Tuhanku\nSaya cinta Tuhanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saya cinta Juru Selamat\nYesus cintaku juga",
+      "newGroup": false
+    }
+  ]
+}

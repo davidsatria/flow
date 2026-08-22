@@ -1,0 +1,35 @@
+{
+  "title": "Doa Yabes 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kiranya Engkau Memberkati\nAku Berlimpah-Limpah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan Memperluas     Daerahku\nDan Kiranya Tangan-Mu Menyertai Aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan Melindungi Aku \nDari Pada Malapetaka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sehingga Kesakitan\nTidak Menimpa Aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kiranya Engkau Memberkati\nAku Berlimpah-Limpah \nDan Memperluas     Daerahku\nDan Kiranya Tangan-Mu Menyertai Aku\nDan Melindungi Aku \nDari Pada Malapetaka \nSehingga Kesakitan\nTidak Menimpa Aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kiranya Engkau Memberkati\nAku Berlimpah-Limpah \nDan Memperluas     Daerahku\nDan Kiranya Tangan-Mu Menyertai Aku\nDan Melindungi Aku \nDari Pada Malapetaka \nSehingga Kesakitan\nTidak Menimpa Aku",
+      "newGroup": false
+    }
+  ]
+}

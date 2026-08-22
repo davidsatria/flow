@@ -1,0 +1,30 @@
+{
+  "title": "Tebarkan jalamenangkan jiwabagi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tebarkan jala\nmenangkan jiwa\nbagi Yesus Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pintu anugerah\nmasih terbuka\ns'karanglah\nwaktunya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kita dipanggil\ndipilih melayani Dia\nYesus Tuhan\nRaja s'gala raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pintu anugerahNya\nmasih terbuka\nkutebarkan jala\ntangkap jiwa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kudapat mahkota\ndari Tuhan Yesus\ntebarkan jala\ndi kota tercinta",
+      "newGroup": false
+    }
+  ]
+}

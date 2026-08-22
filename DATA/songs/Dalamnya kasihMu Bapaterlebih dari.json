@@ -1,0 +1,50 @@
+{
+  "title": "Dalamnya kasihMu Bapaterlebih dari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dalamnya kasihMu Bapa\nterlebih dari s'galanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pengorbanan yang\ntermulia s'lamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan darah\nyang tercurah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ampuniku\natas dosa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kubersujud kepadaMu\noh Yesusku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkau kusembah\nKau yang terindah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "pulihkanku dengan\ndarahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkau kusembah\nBapa Mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "seumur hidupku\nkumau menyembahMu",
+      "newGroup": false
+    }
+  ]
+}

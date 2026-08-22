@@ -1,0 +1,50 @@
+{
+  "title": "Sungai SukacitamuMengalir Dala",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sungai Sukacitamu\nMengalir Dalamku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Anggur Sukacitamu\nMelimpah Dalamku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kumenari Dan Bersuka\nPujihu Disetiap Waktu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sebab Sungai Sukacitamu\nAda Dalamku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mengalir Bersamamu\nBersuka DidalamMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Mengikutimu Tuhan\nDalam KegerakanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Melayanimu Tuhan\nDidalam SukacitaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sbab Hanya Tuhan\nYang Membuat",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sukacitaku Penuh",
+      "newGroup": false
+    }
+  ]
+}

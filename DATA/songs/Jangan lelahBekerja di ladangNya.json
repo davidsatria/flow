@@ -1,0 +1,45 @@
+{
+  "title": "Jangan lelahBekerja di ladangNya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jangan lelah\nBekerja di ladangNya Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Roh Kudus\nyang bri kekuatan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang mengajar\ndan menopang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada lelah\nBekerja bersamaMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang selalu mencukupkan\nAkan segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ratakan tanah\nbergelombang",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Timbunlah tanah\nyang berlubang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Menjadi siap dibangun\nDi atas dasar iman",
+      "newGroup": false
+    }
+  ]
+}

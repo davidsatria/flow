@@ -1,0 +1,20 @@
+{
+  "title": "More more morei want moremore moremore",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "More more more\ni want more\nmore more\nmore we praise You",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Fill me with\nthe Holy Ghost\n(3x)\nof Jesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "I'm gonna\ndance tonight\n(3x)\nbecause of Jesus",
+      "newGroup": false
+    }
+  ]
+}

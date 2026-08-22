@@ -1,0 +1,35 @@
+{
+  "title": "You know thati love youYou know",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "You know that\ni love you\nYou know that\ni want to",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Know You so\nmuch more\nmore than\ni have before",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "These words are\nfrom my heart\nthese words are\nnote made up",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "I will live for You\nI'am devoted to You",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "King of Majesty\ni have one desire\n(just to be with You\nmy Lord [2x])",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jesus You are\nthe Saviour of my soul\nand forever and ever\nI'll give my praises\nto You",
+      "newGroup": false
+    }
+  ]
+}

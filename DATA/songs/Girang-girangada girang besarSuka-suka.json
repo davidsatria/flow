@@ -1,0 +1,30 @@
+{
+  "title": "Girang-girangada girang besarSuka-suka",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Girang-girang\nada girang besar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Suka-suka ada\nsuka besar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Girang-girang\nada girang besar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Suka-suka\nada suka besar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus bangkit, Yesus Raja\nYesus bangkit, Yesus Raja",
+      "newGroup": false
+    }
+  ]
+}

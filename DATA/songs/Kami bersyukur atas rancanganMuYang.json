@@ -1,0 +1,30 @@
+{
+  "title": "Kami bersyukur atas rancanganMuYang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami bersyukur atas rancanganMu\nYang terbaik dan terindah bagi kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau memberkati kehidupan kami\nMelimpah dengan kasih dan anugrah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kami dan seisi rumah kami bersehati\nTuk terus memuji menyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhan\nHingga akhir bahkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "sampai keturunan kami\nHidup kami milikMu ya Tuhan",
+      "newGroup": false
+    }
+  ]
+}

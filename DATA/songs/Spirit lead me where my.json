@@ -1,0 +1,55 @@
+{
+  "title": "Spirit lead me where my",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "You call me out upon the waters\nThe great unknown where feet may fail",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "And there I find You in the mystery\nIn oceans deep my faith will stand",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "And I will call upon Your Name\nAnd keep my eyes above the waves",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "When oceans rise\nMy soul will rest in Your embrace\nFor I am Yours and You are mine",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Your grace abounds in deepest waters\nYour sovereign hand will be my guide",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Where feet may fail and fear surrounds me\nYou've never failed and You won't start now",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Spirit lead me where my\ntrust is without borders",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Let me walk upon the waters\nWherever You would call me",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Take me deeper than\nmy feet could ever wander",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "And my faith will be made stronger\nIn the presence of my Saviour",
+      "newGroup": false
+    }
+  ]
+}

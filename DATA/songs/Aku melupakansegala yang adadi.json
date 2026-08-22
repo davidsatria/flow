@@ -1,0 +1,40 @@
+{
+  "title": "Aku melupakansegala yang adadi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku melupakan segala\nyang ada dibelakangku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan mengarahkan hidupku\npadaNya dihadapanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan berlari-lari\nlari lari lari lari",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "lari lari lari\npada tujuan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Memperoleh hadiah\nmemperoleh hadiah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "yaitu panggilan\nsurgawi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dari Allah\ndalam Kristus Yesus",
+      "newGroup": false
+    }
+  ]
+}

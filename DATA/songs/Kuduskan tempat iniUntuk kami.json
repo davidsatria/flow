@@ -1,0 +1,25 @@
+{
+  "title": "Kuduskan tempat iniUntuk kami",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kuduskan tempat ini\nUntuk kami berdoa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuduskan hati ini\nUntuk kami menyembah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Biar segala perkara\nKuserahkan padaMu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan Roh Kudus bekerja\nMembimbing kami semua",
+      "newGroup": false
+    }
+  ]
+}

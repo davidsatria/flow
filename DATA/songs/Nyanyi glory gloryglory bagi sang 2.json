@@ -1,0 +1,55 @@
+{
+  "title": "Nyanyi glory gloryglory bagi sang 2",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Nyanyi glory, glory\nglory bagi sang Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oh nyanyi glory, glory\nglory bagi sang Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nyanyi glory, glory\nglory bagi sang Raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mari rayakan dan nyanyi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mari serukan hei!, serukan hei!\nBahwa Yesuslah Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oh mari serukan hei!\nserukan hei! Bahwa Yesuslah Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari serukan hei!\nserukan hei! Bahwa Yesuslah Raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mari rayakan dan nyanyi",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Kita akan merasa bahagia\nbila kita menyembah Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kita akan merasa sukacita\nbila kita semua…",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Kaulah Tuhanku Kaulah RajakuKau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kaulah Tuhanku, Kaulah Rajaku\nKau yang termulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di bumi dan di surga",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kusembah Kau Tuhan\nKusembah Kau Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kupuji, kumuliakan NamaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kusembah Kau Tuhan\nKusembah Kau Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kupuji, kumuliakan NamaMu",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOW OBS View</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400;700&family=Lato:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@300;700&family=Montserrat:wght@400;800&family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: 'LEMON MILK Bold';
+            src: url('/fonts/LEMONMILK-Bold.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'LEMON MILK';
+            src: url('/fonts/LEMONMILK-Bold.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Bebas Neue';
+            src: url('/fonts/BebasNeue%20Bold.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        :root {
+            --font-family: 'Montserrat', sans-serif;
+            --font-size: 4vw; /* Sedikit lebih kecil untuk streaming */
+            --line-height: 1.3;
+            --text-align: center;
+            --text-transform: none;
+            --margin-side: 50px;
+            --meta-font-family: 'Lato', sans-serif;
+            --meta-font-size: 1.5vw;
+            
+            --anim-speed-text: 0.4s;
+            --anim-speed-layout: 0.5s;
+            --anim-speed-slide-queue: 1.35s;
+        }
+
+        body, html {
+            margin: 0; padding: 0; width: 100%; height: 100%;
+            background: transparent; /* TRANSPARAN UTK OBS */
+            overflow: hidden; font-family: var(--font-family);
+        }
+
+        #layer-text {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            display: flex; flex-direction: column; justify-content: center; align-items: center; 
+            text-align: var(--text-align); padding-left: var(--margin-side); padding-right: var(--margin-side); box-sizing: border-box;
+            transition: all var(--anim-speed-layout) ease; opacity: 0; 
+        }
+        #layer-text.show { opacity: 1; }
+        #layer-text.anim-slide-lr {
+            opacity: 1;
+            transition: none;
+        }
+        #layer-text.anim-slide-lr.slide-enter {
+            transform: translateX(-120vw);
+        }
+        #layer-text.anim-slide-lr.slide-center {
+            transform: translateX(0);
+            transition: transform var(--anim-speed-slide-queue) cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        #layer-text.anim-slide-lr.slide-exit {
+            transform: translateX(120vw);
+            transition: transform var(--anim-speed-slide-queue) cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        /* Default Style: Transparent with Shadow */
+        #layer-text {
+            background: none; 
+            text-shadow: 3px 3px 6px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+
+        .content-text { color: #fff; font-family: var(--font-family); font-size: var(--font-size); font-weight: 800; line-height: var(--line-height); text-transform: var(--text-transform); white-space: pre-wrap; transition: all var(--anim-speed-layout) ease; width: 100%; }
+        .content-text .line-seg { display: inline; padding: 0; margin: 0; }
+        .content-text.text-bg-on .line-seg { background: rgba(0, 0, 0, 1.0); padding: 0.15em 0.35em; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+        .line-seg span { box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+        .meta-text { color: #ffd700; font-family: var(--meta-font-family); font-size: var(--meta-font-size); margin-top: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; transition: all var(--anim-speed-layout) ease; width: 100%; }
+    </style>
+</head>
+<body class="style-0">
+    <div id="layer-text"><div id="content-display" class="content-text"></div><div id="meta-display" class="meta-text"></div></div>
+
+    <script>
+        const BASE_FONTS = {
+            '0': "'Montserrat', sans-serif",
+            '1': "'Lato', sans-serif",
+            '2': "'Roboto', sans-serif",
+            '3': "'Open Sans', sans-serif",
+            '4': "'Playfair Display', serif",
+            '5': "'Merriweather', serif",
+            '6': "'Oswald', sans-serif",
+            '7': "'Anton', sans-serif",
+            '8': "'Cinzel', serif",
+            '9': "'Lora', serif",
+            '10': "'LEMON MILK Bold', 'LEMON MILK', 'Montserrat', sans-serif",
+            '11': "'Bebas Neue', 'Montserrat', sans-serif"
+        };
+        const customFontStacks = new Map();
+        let lastState = { content: null, meta: null, type: null, hide_text: false, blackout: false,
+            style: { size: null, font: null, align: null, caps: null, text_bg: null, lh: null, anim: null }
+        };
+        let animJsSpeedMs = 400;
+        let currentAnimMode = 'normal';
+        let textTransitionTimer = null;
+
+        function cssEscapeSingle(str) {
+            return String(str || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+        }
+
+        function fontFormatFromFile(file) {
+            const lower = String(file || '').toLowerCase();
+            if (lower.endsWith('.otf')) return 'opentype';
+            if (lower.endsWith('.ttf')) return 'truetype';
+            if (lower.endsWith('.woff2')) return 'woff2';
+            if (lower.endsWith('.woff')) return 'woff';
+            return 'opentype';
+        }
+
+        async function loadAvailableFontsForRenderer() {
+            try {
+                const res = await fetch('/api/fonts');
+                const fonts = await res.json();
+                if (!Array.isArray(fonts) || fonts.length === 0) return;
+
+                const styleTag = document.createElement('style');
+                styleTag.id = 'dynamic-custom-fonts';
+                let css = '';
+                fonts.forEach((f) => {
+                    const family = String(f.family || '').trim();
+                    if (!family) return;
+                    const id = `custom:${f.file}`;
+                    const escapedFamily = cssEscapeSingle(family);
+                    const safeUrl = String(f.url || '').replace(/\)/g, '%29');
+                    css += `@font-face{font-family:'${escapedFamily}';src:url('${safeUrl}') format('${fontFormatFromFile(f.file)}');font-display:swap;}`;
+                    customFontStacks.set(id, `'${escapedFamily}', sans-serif`);
+                });
+                if (css) {
+                    styleTag.textContent = css;
+                    document.head.appendChild(styleTag);
+                }
+            } catch (e) {
+                // Keep running with base fonts only.
+            }
+        }
+
+        function resolveFontStack(rawValue, fallback = '0') {
+            const key = String(rawValue ?? fallback);
+            if (customFontStacks.has(key)) return customFontStacks.get(key);
+            if (BASE_FONTS[key]) return BASE_FONTS[key];
+            const parsed = String(parseInt(key, 10));
+            if (BASE_FONTS[parsed]) return BASE_FONTS[parsed];
+            return BASE_FONTS[String(fallback)] || BASE_FONTS['0'];
+        }
+
+        window.onload = async () => {
+            await loadAvailableFontsForRenderer();
+            setInterval(fetchData, 300);
+        };
+
+        async function fetchData() { try { const res = await fetch('/api/current'); const data = await res.json(); processData(data); } catch (e) {} }
+
+        function processData(data) {
+            if (data.style_size !== lastState.style.size || data.style_font_idx !== lastState.style.font || data.style_align !== lastState.style.align || data.style_caps !== lastState.style.caps || data.style_text_bg !== lastState.style.text_bg || data.style_lh !== lastState.style.lh || data.style_anim !== lastState.style.anim) {
+                updateStyles(data);
+                lastState.style = { size: data.style_size, font: data.style_font_idx, align: data.style_align, caps: data.style_caps, text_bg: data.style_text_bg, lh: data.style_lh, anim: data.style_anim };
+            }
+            if (data.blackout !== lastState.blackout) { lastState.blackout = data.blackout; }
+            
+            if (data.content !== lastState.content || data.meta !== lastState.meta || data.type !== lastState.type || data.hide_text !== lastState.hide_text || data.blackout !== lastState.blackout) {
+                updateText(data.content, data.meta, data.type, data.hide_text, data.blackout);
+                lastState.content = data.content; lastState.meta = data.meta; lastState.type = data.type; lastState.hide_text = data.hide_text;
+            }
+        }
+
+        function updateStyles(data) {
+            const r = document.documentElement;
+            if (data.style_anim === 'none') { r.style.setProperty('--anim-speed-text', '0s'); r.style.setProperty('--anim-speed-layout', '0s'); r.style.setProperty('--anim-speed-slide-queue', '0s'); animJsSpeedMs = 10; } 
+            else if (data.style_anim === 'fast') { r.style.setProperty('--anim-speed-text', '0.2s'); r.style.setProperty('--anim-speed-layout', '0.3s'); r.style.setProperty('--anim-speed-slide-queue', '1.0s'); animJsSpeedMs = 150; } 
+            else if (data.style_anim === 'slow') { r.style.setProperty('--anim-speed-text', '1s'); r.style.setProperty('--anim-speed-layout', '1s'); r.style.setProperty('--anim-speed-slide-queue', '1.9s'); animJsSpeedMs = 800; } 
+            else { r.style.setProperty('--anim-speed-text', '0.4s'); r.style.setProperty('--anim-speed-layout', '0.5s'); r.style.setProperty('--anim-speed-slide-queue', '1.35s'); animJsSpeedMs = 350; }
+            currentAnimMode = data.style_anim || 'normal';
+
+            r.style.setProperty('--font-family', resolveFontStack(data.style_font_idx, '0')); r.style.setProperty('--font-size', (data.style_size || 5.0) + 'vw'); r.style.setProperty('--line-height', data.style_lh || 1.3); r.style.setProperty('--text-transform', (data.style_caps === 'true') ? 'uppercase' : 'none'); r.style.setProperty('--text-align', data.style_align || 'center'); r.style.setProperty('--meta-font-family', resolveFontStack(data.style_meta_font, '1')); r.style.setProperty('--meta-font-size', (data.style_meta_size || 2.0) + 'vw');
+
+            const contentEl = document.getElementById('content-display');
+            contentEl.classList.toggle('text-bg-on', data.style_text_bg === 'true');
+            
+            const container = document.getElementById('layer-text');
+            if (data.style_align === 'left') container.style.alignItems = 'flex-start'; else if (data.style_align === 'right') container.style.alignItems = 'flex-end'; else container.style.alignItems = 'center';
+        }
+
+        function applyTextPayload(content, meta, type, elContent, elMeta) {
+            renderContentLines(elContent, content);
+            elContent.dataset.raw = content;
+            if (type && type.toLowerCase() === 'song') {
+                elMeta.style.display = 'none';
+                elMeta.innerText = '';
+            } else {
+                elMeta.innerText = meta;
+                elMeta.style.display = 'block';
+            }
+            elMeta.dataset.raw = meta;
+        }
+
+        function renderContentLines(el, text) {
+            const lines = (text || '').split('\n');
+            el.innerHTML = '';
+            lines.forEach((line, idx) => {
+                const span = document.createElement('span');
+                span.className = 'line-seg';
+                span.innerHTML = line;
+                el.appendChild(span);
+                if (idx < lines.length - 1) el.appendChild(document.createElement('br'));
+            });
+        }
+
+        function updateText(content, meta, type, hide_text, blackout) {
+            const container = document.getElementById('layer-text');
+            const elContent = document.getElementById('content-display');
+            const elMeta = document.getElementById('meta-display');
+            const safeContent = content || '';
+            const safeMeta = meta || '';
+
+            if (textTransitionTimer) {
+                clearTimeout(textTransitionTimer);
+                textTransitionTimer = null;
+            }
+
+            if (!safeContent || hide_text || blackout) {
+                container.classList.remove('anim-slide-lr', 'slide-enter', 'slide-center', 'slide-exit');
+                container.classList.remove('show');
+                return;
+            }
+            if (safeContent !== elContent.dataset.raw || safeMeta !== elMeta.dataset.raw) {
+                if (currentAnimMode === 'slide_lr') {
+                    const hadPrevious = Boolean(elContent.dataset.raw || elMeta.dataset.raw);
+                    container.classList.add('anim-slide-lr', 'show');
+                    if (hadPrevious) {
+                        container.classList.remove('slide-enter', 'slide-center');
+                        container.classList.add('slide-exit');
+                        textTransitionTimer = setTimeout(() => {
+                            applyTextPayload(safeContent, safeMeta, type, elContent, elMeta);
+                            container.classList.remove('slide-exit', 'slide-center');
+                            container.classList.add('slide-enter');
+                            requestAnimationFrame(() => requestAnimationFrame(() => {
+                                container.classList.remove('slide-enter');
+                                container.classList.add('slide-center');
+                            }));
+                        }, animJsSpeedMs);
+                    } else {
+                        applyTextPayload(safeContent, safeMeta, type, elContent, elMeta);
+                        container.classList.remove('slide-exit', 'slide-center');
+                        container.classList.add('slide-enter');
+                        requestAnimationFrame(() => requestAnimationFrame(() => {
+                            container.classList.remove('slide-enter');
+                            container.classList.add('slide-center');
+                        }));
+                    }
+                } else {
+                    container.classList.remove('anim-slide-lr', 'slide-enter', 'slide-center', 'slide-exit');
+                    container.classList.remove('show');
+                    textTransitionTimer = setTimeout(() => {
+                        applyTextPayload(safeContent, safeMeta, type, elContent, elMeta);
+                        container.classList.add('show');
+                    }, animJsSpeedMs);
+                }
+            } else { container.classList.add('show'); }
+        }
+    </script>
+</body>
+</html>

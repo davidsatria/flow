@@ -1,0 +1,25 @@
+{
+  "title": "DAMAI YANG DIA B'RIKANSANGAT B",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "DAMAI YANG DIA B'RIKAN\nSANGAT BESAR",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DAMAI YANG JADIKAN\nHATI GEMAR",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "TUHAN BESERTAKU\nS'PANJANG JALANKU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KU S'RAHKAN PADA NYA\nYESUS TUHAN",
+      "newGroup": false
+    }
+  ]
+}

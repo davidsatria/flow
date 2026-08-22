@@ -1,0 +1,35 @@
+{
+  "title": "Oleh kar'na kemurahan TuhanKu ada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oleh kar'na kemurahan Tuhan\nKu ada sampai hari ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oleh kar'na kebaikan Tuhan\nJanji-Mu terjadi bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku sembah Kau Tuhan\nku mengangkat tanganku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'lamanya\nKau Ajaib bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku sembah Kau Tuhan\nku mengangkat wajahku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'lamanya\nKau Hebat bagiku",
+      "newGroup": false
+    }
+  ]
+}

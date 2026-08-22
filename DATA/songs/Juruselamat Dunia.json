@@ -1,0 +1,45 @@
+{
+  "title": "Juruselamat Dunia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dalam terang yang Ilahi\nRaja Damai telah lahir",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Genap rencana-Nya\ndi dalam dunia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Putra tunggal Maha Kudus\nSatu-satunya Penebus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Datang ke dunia\nsebagai jawaban",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jurus'lamat dunia Kristus Tuhan\nDia Firman yang jadi Manusia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bawa pengharapan bagi kita\nT'rima kehidupan yang kekal",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Almasih yang Maha Mulia\nPenuh kuasa sempurna",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sungguh layak\nt'rima segala pujian",
+      "newGroup": false
+    }
+  ]
+}

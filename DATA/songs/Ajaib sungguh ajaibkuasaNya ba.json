@@ -1,0 +1,50 @@
+{
+  "title": "Ajaib sungguh ajaibkuasaNya ba",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ajaib sungguh ajaib\nkuasaNya bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ajaib sungguh ajaib\nanugerahNya dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ajaib sungguh ajaib\nkasih Yesus bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "betapa heran kumenyaksikan\nperbuatanNya yang ajaib",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Setiap hari kumenikmati\nberkat yang berlimpah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sepanjang hidupku\nmerasakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "kebaikanNya\nkasih setiaNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ajaiblah Tuhan Yesusku\najaib selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya kupuji\nnamaNya",
+      "newGroup": false
+    }
+  ]
+}

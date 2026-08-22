@@ -1,0 +1,35 @@
+{
+  "title": "Sujud dan Berterimakasih",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih Tuhan sungguh mulia\nTulus dan sempurna mengasihiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pengorbanan di Kalvari\nSungguh berharga, Kautebus dosaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih Tuhan tak bersyarat\nTak seperti cinta yang ada di dunia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'lalu memb′ri lebih dari\nYang layak kuterima di hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Terpujilah Tuhan Yesus\nDitinggikan di atas pujian, oh",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dari dalam lubuk hatiku\nKusujud dan bert′rima kasih",
+      "newGroup": false
+    }
+  ]
+}

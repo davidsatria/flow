@@ -1,0 +1,50 @@
+{
+  "title": "Bapa Sentuh Hatiku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa kumencintai\nSegala yang tlah terjadi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah sendiri jalani hidup ini\nSelalu menyertai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Betapa kumenyadari\nDi dalam hidupku ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau slalu memberi\nrancangan terbaik",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oleh karena kasih",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bapa sentuh hatiku Ubah hidupku\nmenjadi yang baru",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bagai emas yang murni\nKau membentuk bejana hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bapa ajarku mengerti\nSebuah kasih yang selalu memberi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bagai air mengalir\nYang tiada pernah berhenti",
+      "newGroup": false
+    }
+  ]
+}

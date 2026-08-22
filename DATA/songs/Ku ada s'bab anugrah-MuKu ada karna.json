@@ -1,0 +1,50 @@
+{
+  "title": "Ku ada s'bab anugrah-MuKu ada karna",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku ada s'bab anugrah-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku ada karna kasih-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Yesus\nkuberterima kasih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Buat kasih rahmat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Trima kasih Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus\ntrima kasih",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya anugrah-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "buat hidupku s'karang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku kan memuji-Mu s'lamanya",
+      "newGroup": false
+    }
+  ]
+}

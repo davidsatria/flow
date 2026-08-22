@@ -1,0 +1,30 @@
+{
+  "title": "Saat kudatangdi hadiratMuku su",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat kudatang\ndi hadiratMu\nku sujud\nmenyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kaulah Tuhanku\ndan sahabtku\ndalam s'gala\njalanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau memagari aku\ndengan anugerahMu\nrahmatMu seperti\nperisai di sekelilingku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Engkaulah\npenjaga jiwaku\nsahabat setia\ndi dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KebaikanMu\nkesetiaanMu\nmembuat hatiku\npercaya padaMu",
+      "newGroup": false
+    }
+  ]
+}

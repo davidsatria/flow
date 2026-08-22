@@ -1,0 +1,40 @@
+{
+  "title": "Allah ditinggikandengan sorak-",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Allah ditinggikan\ndengan sorak-sorai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Allah ditinggikan\ndengan sangkakala",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah ditinggikan\ndengan sorak-sorai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "bersoraklah bagi Tuhan\nbersoraklah bagi Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bila sangkakala berbunyi\ntepuk tangan puji Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Allah diagungkan\nAllah diagungkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Allah diagungkan\ntinggi",
+      "newGroup": false
+    }
+  ]
+}

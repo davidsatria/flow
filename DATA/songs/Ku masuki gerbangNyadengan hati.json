@@ -1,0 +1,20 @@
+{
+  "title": "Ku masuki gerbangNyadengan hati",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku masuki gerbangNya\ndengan hati bersyukur\nhalamanNya dengan\npujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kataku hari ini\nhariNya Tuhan\nkubersuka sbab\nDia girangkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia girangkanku\no...Dia girangkanku\nkubersuka sbab\nDia girangkanku o..\n(2x)",
+      "newGroup": false
+    }
+  ]
+}

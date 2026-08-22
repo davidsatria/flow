@@ -1,0 +1,45 @@
+{
+  "title": "Kasih yang terindahHati yang m",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih yang terindah\nHati yang mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya kutemukan\ndi dalam-Mu Yesusku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pujian dari hatiku\nS'lalu di setiap waktuku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada pernah berubah\nKasih-mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Karya terbesar\ndalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Pengorbanan-Mu\nyang s'lamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkaulah harta\nyang tak ternilai",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yang kumiliki dan kuhargai\nYesus Engkau kukagumi",
+      "newGroup": false
+    }
+  ]
+}

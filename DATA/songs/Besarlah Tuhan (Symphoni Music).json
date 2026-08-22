@@ -1,0 +1,50 @@
+{
+  "title": "Besarlah Tuhan (Symphoni Music)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Besarlah Tuhan\ndan layak dipuji",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Besarlah namaNya\nkekallah kuasaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aman berlindung\ndalam naunganNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia Allah bagi kita\nDipihak kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Terpujilah Tuhan\nTerbukti kuasaNya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia t’lah menunjukkan\nkasihNya Pada kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S’bab Tuhan t’lah bangkit\nMenyayangi kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Terpujilah Tuhan\nTerpuji namaNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus Allah Perkasa",
+      "newGroup": false
+    }
+  ]
+}

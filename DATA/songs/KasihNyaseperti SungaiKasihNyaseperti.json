@@ -1,0 +1,35 @@
+{
+  "title": "KasihNyaseperti SungaiKasihNyaseperti",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "KasihNya\nseperti Sungai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KasihNya\nseperti Sungai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KasihNya\nseperti sungai di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalir\ndi waktu susah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "mengalir di waktu\nsenang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KasihNya\nseperti sungai dihatiku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan Allahmuada di antaramuSebagai",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Allahmu\nada di antaramu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sebagai pahlawan yang\nmemberi kemenangan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam kasih-Nya\nkita dibaharui",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah bergirang\ndengan penuh sukacita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Allah\nbersorak sorai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Karena kita\nDia bersorak",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Menjadi perayaan\ndan sukacita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sebab Tuhan Allah\ndi tengah kita",
+      "newGroup": false
+    }
+  ]
+}

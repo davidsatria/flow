@@ -1,0 +1,55 @@
+{
+  "title": "Aku ingin selaluberada di hadiratMuaku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku ingin selalu\nberada di hadiratMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "aku ingin selalu\nberlindung dalam\nnaungan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di bawah\nkepak sayapMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau bawaku\nterbang tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Melintasi langit biru,\nbagaikan rajawali",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bagai rajawali\nmelintasi gunung tinggi",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bagai rajawali\nmelintasi badai hidup",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Di bawah\nkepak sayapMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau bawaku\nterbang tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Melintasi langit biru\nbagaikan rajawali",
+      "newGroup": false
+    }
+  ]
+}

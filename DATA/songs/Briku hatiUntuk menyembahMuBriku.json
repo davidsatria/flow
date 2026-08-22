@@ -1,0 +1,35 @@
+{
+  "title": "Briku hatiUntuk menyembahMuBriku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Briku hati\nUntuk menyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Briku hati\nUntuk mengasihiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Briku hati memujiMu\nDan mengasihi Engkau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Seperti wanita yang\ndatang mengurapiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Briku hati memujiMu\nDan mengasihi Engkau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Seperti wanita yang\ndatang mengurapiMu",
+      "newGroup": false
+    }
+  ]
+}

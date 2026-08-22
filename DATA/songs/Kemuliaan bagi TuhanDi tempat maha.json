@@ -1,0 +1,35 @@
+{
+  "title": "Kemuliaan bagi TuhanDi tempat maha",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kemuliaan bagi Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di tempat maha tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Raja diagungkan dan dipuji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Datanglah kerajaanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jadilah kehendakMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S’luruh bumi penuh kemuliaanMu",
+      "newGroup": false
+    }
+  ]
+}

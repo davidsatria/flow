@@ -1,0 +1,75 @@
+{
+  "title": "Sakjeke aku nderek Gustiuripku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sakjeke aku nderek Gusti\nuripku tansah diberkahi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Atiku ayem tentrem\nAtiku ayem tentrem",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kabeh iku Gusti Yesus\nsing maringi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Matur nuwun\nmatur nuwun.",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Matur nuwun Gusti Yesus\nkulo matur nuwun",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Matur nuwun\nmatur nuwun.",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Matur nuwun Gusti Yesus\nkulo matur nuwun",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Siji loro Telu..\nAyo konco podho melu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Papat Limo enem\nNderek Gusti yo sing temen",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pitu Wolu Songo\nNderek Gusti ojo sembrono",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sepuluh wes jangkep\nnderek Gusti yo sing mantep",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Opo iyo??\nTenan. . Tenan. .",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ee.. Eee opo tenan??\nIyoo. . Iyoooo. .",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Pancen tenan nderek\nGusti mesti slamet",
+      "newGroup": false
+    }
+  ]
+}

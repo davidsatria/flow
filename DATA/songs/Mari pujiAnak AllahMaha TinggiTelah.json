@@ -1,0 +1,40 @@
+{
+  "title": "Mari pujiAnak AllahMaha TinggiTelah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mari puji\nAnak Allah\nMaha Tinggi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Telah dinubuatkan\noleh",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KepadaNya\ndiberikan s'gala kuasa\nJururs'lamat dunia\nYesus Kristus Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab dari Mu lah\ndatang kes'lamatan kami",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kaulah Allah\nKaulah Tuhan\natas langit bumi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhan\nKaulah Tuhan\natas s'gala\nsuku bangsa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhan\nKaulah Tuhan\nmemrintah\ntuk selamanya",
+      "newGroup": false
+    }
+  ]
+}

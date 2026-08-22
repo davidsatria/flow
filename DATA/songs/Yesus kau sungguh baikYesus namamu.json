@@ -1,0 +1,50 @@
+{
+  "title": "Yesus kau sungguh baikYesus namamu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus, kau sungguh baik\nYesus, namamu indah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus, kucinta kau selalu\nKutinggikan kuagungkan s'lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku mau memujiMu\nku s'lalu pujiMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku mau menyembahMu\nKu s'lalu sembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau yang layak\nt'rima semua pujian",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kemuliaan hanya\nbagi Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "S'mua kemuliaan\ndan keagungan",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Tertuju padaMu\nTuhan dan Rajaku",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Seg'nap jiwa dan nafasku\nMenyembah Yesus yang hidup",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Engkau Tuhan penyembuhkuKau sembuhkan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Engkau Tuhan penyembuhku\nKau sembuhkan sakitku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau berfirman dan sembuhkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkau Tuhan penyembuhku",
+      "newGroup": false
+    }
+  ]
+}

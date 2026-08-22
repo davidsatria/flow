@@ -1,0 +1,45 @@
+{
+  "title": "Bapa Engkau sungguh baikkasihMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa Engkau\nsungguh baik",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kasihMu melimpah\ndihidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bapa kubert'rima kasih\nberkatMu hari ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "yang Kau sediakan\nbagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kunaikkan syukurku\nbuat hari yang Kau b'ri",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "tak habis-habisnya\nkasih dan rahmatMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'lalu baru dan tak pernah\nterlambat pertolonganMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "besar setiaMu\ndi s'panjang hidupku",
+      "newGroup": false
+    }
+  ]
+}

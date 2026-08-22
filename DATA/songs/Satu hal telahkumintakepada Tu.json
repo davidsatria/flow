@@ -1,0 +1,35 @@
+{
+  "title": "Satu hal telahkumintakepada Tu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Satu hal telah\nkuminta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kepada Tuhan\nitulah yang kuingini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Diam di rumah Tuhan\nseumur hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menyaksikan\nkemurahan Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan menikmati BaitNya\ndan menikmati KuasaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan menikmati KasihNya\ndan menikmati FirmanNya",
+      "newGroup": false
+    }
+  ]
+}

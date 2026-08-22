@@ -1,0 +1,25 @@
+{
+  "title": "Saat kusendiritiada seorangpunyang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat kusendiri\ntiada seorangpun\nyang memperhatikanku\nseperti Kau Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saat kuberjalan\ndalam lembah kelam\nkupercaya Kau\ns'lalu sertaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tangan kuat\nyang memegangku\ns'lalu menuntunku\nku tak mau\njalan sendiri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus\nkuperlu kasihMu\nkuperlu kuasaMu\nsampai akhir hidupku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Inilah rinduku kepadaMuSegnap hatiku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Inilah rinduku kepadaMu\nSegnap hatiku menyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Seluruh hidupku memujiMu\nKu menyembahMu ya Allahku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kubrikan hatiku dan jiwaku\nSemuanya bagiMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Didalam hidupku disetiap waktu\nNyatakan jalanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "This is my desire to honor You\nLord with all my heart I worship You",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "All I have within me I give You praise\nAll that I adore is in You",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Lord I give You my heart\nI give You my soul",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "I live for You alone\nEvery breathe that I take",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Every moment I'm awake\nLord I have Your way in me",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Kasih Tuhan sungguh muliaTulus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih Tuhan sungguh mulia\nTulus dan sempurna mengasihiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pengorbanan di Kalvari\nSungguh berharga Kau tebus dosaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Terpujilah Tuhan Yesus\nDitinggikan diatas pujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dari dalam lubuk hatiku\nKusujud dan bert'rima kasih",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih Tuhan tak bersyarat\nTak seperti cinta yang ada di dunia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'lalu memb'ri lebih dari\nyang layak kuterima hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Salib-Mu kemenanganku\nBilur-Mu kesembuhanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Salib-Mu kemenanganku\nBilur-Mu kesembuhanku",
+      "newGroup": true
+    }
+  ]
+}

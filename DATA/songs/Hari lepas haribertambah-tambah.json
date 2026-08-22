@@ -1,0 +1,25 @@
+{
+  "title": "Hari lepas haribertambah-tambah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari lepas hari\nbertambah-tambah indahnya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hari lepas hari\naku cinta padaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus cinta saya\nkunanti kedatanganNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari lepas hari\nbertambah-tambah indahnya",
+      "newGroup": false
+    }
+  ]
+}

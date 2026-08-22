@@ -1,0 +1,25 @@
+{
+  "title": "Kuatkanlah hatimulewati setiap",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kuatkanlah hatimu\nlewati setiap\npersoalan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Yesus\nslalu menopangmu\njangan berhenti\nharap padaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan pasti sanggup\ntanganNya takkan\nterlambat 'tuk\nmengangkatmu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan masih sanggup\npercayalah\nDia tak\ntinggalkanmu",
+      "newGroup": false
+    }
+  ]
+}

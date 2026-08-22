@@ -1,0 +1,40 @@
+{
+  "title": "SIJI LORO TELUAYO KONCO PODO MELUPAPAT",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "SIJI LORO TELU\nAYO KONCO PODO MELU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "PAPAT LIMO ENEM",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "NDEREK GUSTI YO SING TEMEN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "PITU WOLU SONGO",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "NDEREK GUSTI OJO SEMBRONO",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "SEPULUH WES JANGKEP",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "NDEREK GUSTI YO SING MANTEB",
+      "newGroup": false
+    }
+  ]
+}

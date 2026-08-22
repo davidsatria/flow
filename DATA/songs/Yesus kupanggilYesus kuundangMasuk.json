@@ -1,0 +1,25 @@
+{
+  "title": "Yesus kupanggilYesus kuundangMasuk",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus kupanggil\nYesus kuundang\nMasuk dalam hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus kupanggil\nYesus kuundang\nMasuk dalam hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Memimpin\nmenuntun\nsetiap langkah hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sucikan\nkuduskan\nsetiap dosaku",
+      "newGroup": false
+    }
+  ]
+}

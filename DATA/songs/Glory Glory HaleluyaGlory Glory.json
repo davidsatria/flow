@@ -1,0 +1,15 @@
+{
+  "title": "Glory Glory HaleluyaGlory Glory",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Glory Glory Haleluya\nGlory Glory Haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Glory Glory Haleluya\nHaleluya Puji Hu",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan memberikanNyanyian baru dalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan memberikan\nNyanyian baru dalam mulut ku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Untuk memuji muji Allah kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Banyak orang akan melihatnya\ndan menjadi takut",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lalu percaya kepada Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus cinta saya\nYesus cinta kamu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yesus cinta semuanya\nFirmanya di genapi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus cinta saya\nYesus cinta kamu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus cinta semuanya\nFirmanya di genapi",
+      "newGroup": false
+    }
+  ]
+}

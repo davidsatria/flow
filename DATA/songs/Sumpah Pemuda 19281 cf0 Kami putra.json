@@ -1,0 +1,25 @@
+{
+  "title": "Sumpah Pemuda 19281 cf0 Kami putra",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sumpah Pemuda 1928",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "1. cf0 Kami putra dan putri Indonesia,\nbertumpah darah yang satu, tanah air Indonesia.",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "2.cf0  Kami putra dan putri Indonesia,\nberbangsa yang satu, bangsa Indonesia.",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "3. cf0 Kami putra dan putri Indonesia,\nbahasa persatuan, bahasa Indonesia.",
+      "newGroup": false
+    }
+  ]
+}

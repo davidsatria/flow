@@ -1,0 +1,35 @@
+{
+  "title": "Kasih setiaMuyang kurasakanlebih",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih setiaMu yang kurasakan\nlebih tinggi dari langit biru",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KebaikanMu yang t'lah Kaunyatakan\nlebih dalam dari lautan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "BerkatMu yang telah kuterima\nsempat membuatku terpesona",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apa yang tak pernah kupikirkan\nitu yang Kau sediakan bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Siapakah aku ini Tuhan\njadi biji mataMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dengan apakah kubalas Tuhan\nselain puji dan sembah Kau",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Saya mauiring Yesus(2X)sampai",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saya mau\niring Yesus\n(2X)\nsampai slama-lamanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Meskipun saya\nsusah, menderita\ndalam dunia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saya mau\niring Yesus\nsampai\nslama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

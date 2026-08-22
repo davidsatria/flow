@@ -1,0 +1,60 @@
+{
+  "title": "Angkatlah suaramupuji dan serukannama",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Angkatlah suaramu\npuji dan serukan nama Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tanggalkan bebanmu\ntak perlu kau kuatir",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "s'bab Dia sanggup",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Gerakkan kakimu menarilah\ndan bertepuk tangan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersukacitalah\ntak perlu kau kuatir",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "s'bab Dia sanggup",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'karang nyanyikan\nkebesaranNya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia kuat dan\npenuh kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersorak-sorai\nkar'na kasihNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "t'lah datang\nmelawat kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "nyanyi bagi Dia",
+      "newGroup": false
+    }
+  ]
+}

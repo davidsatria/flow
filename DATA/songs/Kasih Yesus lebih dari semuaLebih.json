@@ -1,0 +1,25 @@
+{
+  "title": "Kasih Yesus lebih dari semuaLebih",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih Yesus lebih dari semua\nLebih dalam dari lautan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan lebih lebar dari samudra\nKasih Yesus lebih dari semua",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada kasih yang lebih suci\nTiada kasih lebih sempurna",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada kasih yang lebih abadi\nDari kasih Yesus Tuhanku",
+      "newGroup": true
+    }
+  ]
+}

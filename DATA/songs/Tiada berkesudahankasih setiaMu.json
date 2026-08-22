@@ -1,0 +1,55 @@
+{
+  "title": "Tiada berkesudahankasih setiaMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tiada berkesudahan\nkasih setiaMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'lalu baru rahmatMu\nbagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari berganti hari\ntetap ku lihat kasihMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah berakhir\ndi hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Yesus baik\nsungguh amat baik",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Untuk selama-lamanya\nTuhan Yesus baik",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Untuk selama-lamanya",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Dari selama-lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Sampai selama-lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Tuhan Yesus baik",
+      "newGroup": false
+    }
+  ]
+}

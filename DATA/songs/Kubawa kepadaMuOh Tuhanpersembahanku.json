@@ -1,0 +1,35 @@
+{
+  "title": "Kubawa kepadaMuOh Tuhanpersembahanku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kubawa kepadaMu Oh.. Tuhan\npersembahanku ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuingin Engkau menerima\nkorban syukurku melalui pujian",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Takkan pernah kubawa\nselain yang terbaik",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yang harum dan sejati\ndihadapan tahta-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku terimalah\nkorban syukurku ini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "yang mengalir di hatiku\ns'bagai persembahanku",
+      "newGroup": false
+    }
+  ]
+}

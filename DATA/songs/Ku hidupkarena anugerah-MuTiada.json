@@ -1,0 +1,55 @@
+{
+  "title": "Ku hidupkarena anugerah-MuTiada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku hidup\nkarena anugerah-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada satu pun\ndapat kubanggakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua karena cinta-Mu\nIni hidupku, pimpin jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih-Mu\nmengubah hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau memilihku,\nselamatkan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua karena cinta-Mu\nIni hidupku, pimpin jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus,\npegang erat tanganku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tak dapat hidup\ndi luar kasih-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bapa,\njangan tinggalkan aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkau alasan\nselama 'ku hidup",
+      "newGroup": false
+    }
+  ]
+}

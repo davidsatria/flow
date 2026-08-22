@@ -1,0 +1,25 @@
+{
+  "title": "Yesus Terlebih BesarYesus Terlebih",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Terlebih Besar\nYesus Terlebih Besar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di Dalam Ku, Di Dalam Ku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Terlebih Besar\nYesus Terlebih Besar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di Dalam Ku, Selama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

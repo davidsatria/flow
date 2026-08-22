@@ -1,0 +1,65 @@
+{
+  "title": "Ketika kuhadapikehidupan iniJalan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ketika kuhadapi\nkehidupan ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jalan mana yang\nharus kupilih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tahu ku tak mampu\nKu tahu ku tak sanggup",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya kau Tuhan\ntempat jawabanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku pun tahu ku\ntak pernah sendiri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sebab engkau Allah\nyang menggendongku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "TanganMu membelaiku\nCintaMu memuaskanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau mengangkatku\nke tempat yang tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "JanjiMu seperti\nfajar pagi hari",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yang tiada pernah\nterlambat bersinar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "CintaMu seperti\nsungai yang mengalir",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan kutahu\nbetapa dalam kasihMu",
+      "newGroup": false
+    }
+  ]
+}

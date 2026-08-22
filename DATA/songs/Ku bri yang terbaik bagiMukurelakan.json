@@ -1,0 +1,15 @@
+{
+  "title": "Ku bri yang terbaik bagiMukurelakan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku bri yang terbaik bagiMu\nkurelakan segalanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang terbaik bagiMu\ns'gnap hatiku\ndan s'gnap jiwaku",
+      "newGroup": false
+    }
+  ]
+}

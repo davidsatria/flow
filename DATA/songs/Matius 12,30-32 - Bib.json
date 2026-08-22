@@ -1,0 +1,20 @@
+{
+  "title": "Matius 12,30-32 - Bib",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Matius 12:30\n30 Siapa tidak bersama Aku, ia melawan Aku dan siapa tidak mengumpulkan bersama Aku, ia mencerai-beraikan.",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Matius 12:31\n31 Sebab itu Aku berkata kepadamu: Segala dosa dan hujat manusia akan diampuni, tetapi hujat terhadap Roh Kudus tidak akan diampuni.",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Matius 12:32\n32 Apabila seorang mengucapkan sesuatu menentang Anak Manusia, ia akan diampuni, tetapi jika ia menentang Roh Kudus, ia tidak akan diampuni, di dunia ini tidak, dan di dunia yang akan datangpun tidak.",
+      "newGroup": false
+    }
+  ]
+}

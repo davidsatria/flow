@@ -1,0 +1,30 @@
+{
+  "title": "Tuhan kurindumasuk dalamhadira",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan kurindu\nmasuk dalam\nhadiratMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jiwaku menanti\nbawaku mendekat\nkepadaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam kemuliaan\nyang kudus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kunanti Engkau\nAllah Kuasa\nDalam kemuliaan\nyang Kudus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kusembah Engkau\nAllah Kuasa\ndalam kemuliaan\nyang Kudus",
+      "newGroup": false
+    }
+  ]
+}

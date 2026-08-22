@@ -1,0 +1,65 @@
+{
+  "title": "Ada gerakan Roh AllahDi siniAda",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ada gerakan Roh Allah\nDi sini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ada gerakan Roh Allah\nDi sini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di timur di barat\nutara dan selatan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ada gerakan roh allah\nada gerakan roh allah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ada gerakan Roh Allah\ndisini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hosana Hosana\nTerpujilah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "yang datang dalam\nnama Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ada gerakan Roh Allah\nDi sini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ada gerakan Roh Allah\nDi sini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "di hidup di jiwa\ndalam roh dihatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "ada gerakan Roh Allah\nada gerakan roh allah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "ada gerakan Roh Allah\ndisini",
+      "newGroup": false
+    }
+  ]
+}

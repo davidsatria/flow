@@ -1,0 +1,25 @@
+{
+  "title": "Yang lemah dikuatkanYang miskin",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yang lemah dikuatkan\nYang miskin diperkaya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang buta pun melihat\nSemua Dia buat bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hosana, hosana\nYesus mati bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hosana, hosana\nDia bangkit bagiku",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Nyanyi pujian bagiMu TuhanPujian",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Nyanyi pujian bagiMu Tuhan\nPujian bagiMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "NamaMu besar dan layak dipuji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nyanyi pujian bagiMu Tuhan\nPujian bagiMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "NamaMu besar dan layak dipuji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kumuliakan namaMu Tuhan\nMulia namaMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "NamaMu besar dan layak dipuji\nKumuliakan namaMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mulia namaMu Tuhan\nNamaMu besar dan layak dipuji",
+      "newGroup": false
+    }
+  ]
+}

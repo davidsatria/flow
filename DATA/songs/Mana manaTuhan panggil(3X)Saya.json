@@ -1,0 +1,20 @@
+{
+  "title": "Mana manaTuhan panggil(3X)Saya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mana mana\nTuhan panggil\n(3X)",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saya kerja\ndiladangNya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saya kerja (3x)\ndiladangNya Tuhan\nSaya kerja (3x)\ndiladangNya Tuhan",
+      "newGroup": false
+    }
+  ]
+}

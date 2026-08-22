@@ -1,0 +1,65 @@
+{
+  "title": "Natal dihatiku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "seperti palungan\nlayakkanlah hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "menyambutMU Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "seperti emas\nkemenyan dan mur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "biar hidupku\nberkenan padaMU",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "sebab Natal tak akan berarti\ntanpa kasihMU",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "lahir di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "hanya bersamaMU\nYesus kurasakan selalu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "indahnya Natal di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "bersama paduan suara\nsurga ku bernyanyi",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "kemuliaan di tempat\nmaha tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "dan damai sejahtera\ndi antara manusia",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "yang hidupnya\nberkenan kepadaMU",
+      "newGroup": false
+    }
+  ]
+}

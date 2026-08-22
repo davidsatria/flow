@@ -1,0 +1,55 @@
+{
+  "title": "Bersama Yesuslakukan perkara b",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bersama Yesus\nlakukan perkara besar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "bersama Yesus\ntidak ada yang sukar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersama Yesus\nada jalan keluar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Untuk masalahmu\nuntuk masalahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "untuk masalah\nkita semua",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus Anak Domba Allah\nJuruselamat umat manusia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yesus tabib yang ajaib\ndia menyembuhkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "dia menguduskan\ndia membenarkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia Raja s'gala raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia Tuhan s'gala Tuhan",
+      "newGroup": false
+    }
+  ]
+}

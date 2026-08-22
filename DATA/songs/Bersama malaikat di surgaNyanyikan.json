@@ -1,0 +1,40 @@
+{
+  "title": "Bersama malaikat di surgaNyanyikan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bersama malaikat di surga\nNyanyikan kidung pujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bermazmur bagi-Mu\nmulyakan nama-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus, aku memuji-Mu\nTanganku kuangkat pada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Masuk dalam hadirat-Mu\nRasakan kasih-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "'ku jadi milik-Mu\nYesus, aku menyembah-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hosana hosana\naku memuji-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya haleluya\naku menyembah-Mu",
+      "newGroup": true
+    }
+  ]
+}

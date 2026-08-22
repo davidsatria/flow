@@ -1,0 +1,50 @@
+{
+  "title": "O holy nightthe stars arebrightly",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "O holy night\nthe stars are\nbrightly shining",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "It is the night\nof dear Savior\nbirth",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Long lay the world\nin sin and error\npinning",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Till Heappeared\nand the soul\nfelt its worth",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "A thrill of hope\nthe weary world\nrejoices",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "For yonder breaks\na new glorious\nmorn",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Fall on your knees\noh hear the angels\nvoices",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "O night devine\no night when\nChrist was born",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "O night devine\no night\no night divine",
+      "newGroup": false
+    }
+  ]
+}

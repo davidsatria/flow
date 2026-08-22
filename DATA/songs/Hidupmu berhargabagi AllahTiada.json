@@ -1,0 +1,65 @@
+{
+  "title": "Hidupmu berhargabagi AllahTiada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hidupmu berharga\nbagi Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada yang tak berkenan\ndi hadapanNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia ciptakan\nkau sturut gambarNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sungguh terlalu indah\nkau bagi Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia berikan kasihNya\nbagi kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia tlah relakan\nsegala-galanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia disalib\ntuk tebus dosa kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Karna hidupmu\nsangatlah berharga",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Buluh yang terkulai\nTakkan dipatahkanNya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia kan jadikan indah\nSungguh lebih berharga",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "sumbu yang t'lah pudar\nTakkan dipadamkanNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia kan jadikan terang\nUntuk kemuliaanNya",
+      "newGroup": false
+    }
+  ]
+}

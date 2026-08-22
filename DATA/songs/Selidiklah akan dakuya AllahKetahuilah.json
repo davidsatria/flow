@@ -1,0 +1,25 @@
+{
+  "title": "Selidiklah akan dakuya AllahKetahuilah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Selidiklah akan daku\nya Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ketahuilah akan\nhatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ujilah akan daku\ndan ketahuilah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Akan segala\nkepikiranku",
+      "newGroup": false
+    }
+  ]
+}

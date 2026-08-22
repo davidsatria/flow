@@ -1,0 +1,25 @@
+{
+  "title": "Hanya Yesus hanya YesusHanya Yesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya Yesus, hanya Yesus\nHanya Yesus, pujaanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya Yesus, hanya Yesus\nHanya Yesus, ya Allahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Yesus, hanya Yesus\nHanya Yesus, ya Rajaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Yesus, oh hanya Yesus\nKekasihku",
+      "newGroup": false
+    }
+  ]
+}

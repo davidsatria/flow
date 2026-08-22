@@ -1,0 +1,35 @@
+{
+  "title": "Kumenang-kumenangbersama Yesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kumenang-kumenang\nbersama Yesus Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kumenang-kumenang\ndi dalam peperangan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kumenang-kumenang\natas segala setan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "haleluya haleluya\nkumenang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya Dia bangkit\nhaleluya Dia hidup",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "haleluya Dia naik\nRohul Kudus turun",
+      "newGroup": false
+    }
+  ]
+}

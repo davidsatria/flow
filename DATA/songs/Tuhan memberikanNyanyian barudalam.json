@@ -1,0 +1,20 @@
+{
+  "title": "Tuhan memberikanNyanyian barudalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan memberikan\nNyanyian baru\ndalam mulutku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Untuk memuji-muji\nAllah kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Banyak orang akan\nmelihatNya dan\nmenjadi takut\nlalu percaya kepada\nTuhan",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Seorang Anak t'lah lahir untuk",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Seorang Anak\nt'lah lahir untuk kita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Seorang Putera\ndib'rikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lambang pem'rintahan\ndi atas bahuNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan namaNya pun\ndisebut orang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Penasehat Ajaib\nAllah yang Perkasa",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bapa yang kekal\nRaja Damai",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sambutlah Dia Yesus Tuhan\nJurus'lamat dunia",
+      "newGroup": false
+    }
+  ]
+}

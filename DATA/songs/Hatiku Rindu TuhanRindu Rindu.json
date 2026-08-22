@@ -1,0 +1,50 @@
+{
+  "title": "Hatiku Rindu TuhanRindu Rindu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hatiku Rindu Tuhan\nRindu Rindu Melayani",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku Berikan\nHanya PadaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jiwaku Rindu Tuhan\nS'lalu Dalam HadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Agar Hidupku Tuhan\nLayak DihadapanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku Puji Ku Puji\nKu Pujilah Nama Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku sembah, ku sembah\nkusembah dan ku muliakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bunyikan Bunyikan\nBunyikanlah Gambusmu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Menari Menari Menari\nMenarilah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "T'rimalah Pujianku\nJadikanlah Kami Berkat",
+      "newGroup": false
+    }
+  ]
+}

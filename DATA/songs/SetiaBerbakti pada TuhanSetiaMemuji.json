@@ -1,0 +1,20 @@
+{
+  "title": "SetiaBerbakti pada TuhanSetiaMemuji",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Setia...\nBerbakti pada Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Setia...\nMemuji nama Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Setia... Setia...\nSampai Tuhan Yesus datang...",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Hari ini hari inihariNya Tuha hariNya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari ini hari ini\nhariNya Tuha hariNya Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari kita mari kita\nbersukaria bersukaria",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari ini hariNya Tuhan\nmari kita bersukaria",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "hari ini hari ini\nhariNya Tuhan",
+      "newGroup": false
+    }
+  ]
+}

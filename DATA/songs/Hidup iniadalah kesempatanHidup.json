@@ -1,0 +1,60 @@
+{
+  "title": "Hidup iniadalah kesempatanHidup",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hidup ini\nadalah kesempatan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hidup ini untuk\nmelayani Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jangan sia-siakan\nwaktu yang Tuhan bri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hidup ini\nhanya sementara",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekuntum bunga\ndi pagi hari",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mekar indah harum\ndi padang yang hijau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Demikian Tuhan\nMendandani aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Gugur bunga\nBila panas terik",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh Tuhan pakailah hidupku\nSelagi aku masih kuat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bila saatnya nanti\nKu tak berdaya lagi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hidup ini sudah\njadi berkat",
+      "newGroup": false
+    }
+  ]
+}

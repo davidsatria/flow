@@ -1,0 +1,25 @@
+{
+  "title": "Jiwaku merindukanMuYa Allah yang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jiwaku merindukanMu\nYa Allah yang hidup",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jiwaku haus kepadaMu\nYa Allah yang hidup",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku bersyukur kepadaMu\nSumber pengharapanku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Penolongku ya Allahku\nTiada yang sepertiMu",
+      "newGroup": false
+    }
+  ]
+}

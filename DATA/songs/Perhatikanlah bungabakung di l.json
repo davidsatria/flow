@@ -1,0 +1,65 @@
+{
+  "title": "Perhatikanlah bungabakung di l",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Perhatikanlah bunga\nbakung di ladang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan hiasi tanpa bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apalagi kita orang percaya\nTuhan p'lihara Tuhan cukupkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Perhatikan burung-burung\ndi udara",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan b'ri makan\ntanpa bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apalagi kita kesayangan-nya\nTuhan p'lihara Tuhan sediakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saat kau perlu\nTuhan tahu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Saat kau minta\nTuhan dengar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saat percaya\nTuhan bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saat menangis\nTuhan tahu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saat berdoa\nTuhan dengar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saat bersyukur\nTuhan berkati",
+      "newGroup": false
+    }
+  ]
+}

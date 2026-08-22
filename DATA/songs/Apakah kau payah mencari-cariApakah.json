@@ -1,0 +1,35 @@
+{
+  "title": "Apakah kau payah mencari-cariApakah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Apakah kau payah mencari-cari\nApakah kau payah berkeliling",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bawalah sekarang\ns'gala susahmu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pada kaki Yesus serahkanlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'rahkanlah... S'rahkanlah...a..a..\nS'rahkan pada Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Segala beban yang menghimpit hidupmu\nS'rakanlah... S'rakanlah..a..a..",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'rahkan pada Yesus\nDia kan ganti s'gala duka menjadi suka",
+      "newGroup": false
+    }
+  ]
+}

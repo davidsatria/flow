@@ -1,0 +1,45 @@
+{
+  "title": "Penuhi skarang TuhanPenuhilah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Penuhi skarang Tuhan\nPenuhilah hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hatiku bagai tanah gersang\nMerindukan jamahan Roh Suci",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hidupku bagai bejana\nKubawa ke sungaiMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ingin kureguk kesejukan\nAir hidupMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Penuhi aku sekarang\nPenuhilah hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya Engkau yang kurindu\nJamahlah hidupku Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Penuhi aku sekarang\nPenuhilah hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Engkau yang kurindu\nJamahlah hidupku Tuhan",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Penolong yang selalu setiaMemenuhi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Penolong yang selalu setia\nMemenuhi keperluanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah\nDia mengecewakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesusku\ntak pernah gagal",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Segala perkara\ndapat kutanggung",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Di dalam Dia\nyang memberi kekuatan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Yesus penolong\ndan sahabat",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tetap percaya\nTuhan setia",
+      "newGroup": false
+    }
+  ]
+}

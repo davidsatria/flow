@@ -1,0 +1,15 @@
+{
+  "title": "Mengasihi mengasihilebih sungg",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mengasihi mengasihi\nlebih sungguh\nMengasihi mengasihi\nlebih sungguh",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan lebih dulu mengasihi kepadaku\nMengasihi mengasihi\nlebih sungguh",
+      "newGroup": false
+    }
+  ]
+}

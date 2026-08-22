@@ -1,0 +1,30 @@
+{
+  "title": "Pengumuman Minggu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ibadah Umum Rabu | 18:00 WIB\nRabu, 7 Jan 2026\nWL : Ibu Yono\nSingers : • Sdri. Michel • Ibu Ivone P.\nMusik : Tim Musik\nKolektan : Ibu Wiwik\nFirman : Gembala Sidang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Rapat LPJ Natal 2025\nPembubaran Panitia Natal 2025\nRencana & Program 2026\t\nRabu, 7 Jan 2026\nWaktu : Setelah Ibadah Rabu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ibadah Pemuda Remaja | 17:00 WIB\nSabtu, 10 Jan 2026\nPujian : Kak Elia\nFirman : Bp. Gembala\nKolektan : Bima\nTema : \"Sesungguhnya yang baru sudah datang (2 Korintus 5:17)\n& Opening Toples Doa\"",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ibadah Raya Minggu | 07:00 WIB\t\nMinggu, 11 Jan 2026\nWL : Bp. Novi\nSingers : • Ibu Ellia • Ibu Yanti\nMusik : Tim Musik\nKolektan : • Ibu Wiwik • Ibu Martha\nTerima Tamu : Bapak & Ibu Yason\nFirman : Gembala Sidang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekolah Minggu | 07:30 WIB\nMinggu, 11 Jan 2026\nPujian : Mami Hana\nKelas Besar : Mami Herfie\nKelas Kecil : Mami Ellia\nKolektan : Nuela\nMusik : P. Weddy",
+      "newGroup": false
+    }
+  ]
+}

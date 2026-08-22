@@ -1,0 +1,25 @@
+{
+  "title": "Apa yangKau alami kinimungkin tak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Apa yang Kau alami kini\nmungkin tak dapat engkau mengerti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Satu hal tanamkan di hati\nindah semua yang Tuhan b'ri",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tangan Tuhan sedang merenda\nsuatu karya yang Agung Mulia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Saatnya kan tiba nanti\nKau lihat Pelangi Kasih-Nya",
+      "newGroup": false
+    }
+  ]
+}

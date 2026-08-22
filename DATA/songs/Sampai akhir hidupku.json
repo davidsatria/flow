@@ -1,0 +1,45 @@
+{
+  "title": "Sampai akhir hidupku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa Engkau mengenalku\nLebih dari siapapun",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkau tahu ceritaku\ndan isi hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak peduli masa lalu\nEngkau tetap memilihku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ubahkanku, sempurnakan\nJadi karya yang indah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kini aku percaya\nTiada yang mustahil bagiMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "KuasaMu kuatkanku\ndasar kuberharap",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kini aku berserah\nPada rancanganMu bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kuikuti panggilanMu\nKukan setia sampai akhir hidupku",
+      "newGroup": false
+    }
+  ]
+}

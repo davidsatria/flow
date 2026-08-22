@@ -1,0 +1,45 @@
+{
+  "title": "Sorak haleluyapuji Yesus Raja",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sorak haleluya\npuji Yesus Raja Mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sorak haleluya\npuji Yesus Raja Mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Diberkati yang datang\ndalam namaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji kebesaranNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Diberkati yang datang\ndalam namaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hosana sang Raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Angkat suara puji Dia\nBesarkan namaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tinggikan agungkan Dia\nRaja sgala raja",
+      "newGroup": true
+    }
+  ]
+}

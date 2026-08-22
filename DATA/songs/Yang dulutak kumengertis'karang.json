@@ -1,0 +1,55 @@
+{
+  "title": "Yang dulutak kumengertis'karang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yang dulu\ntak kumengerti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "s'karang Kau\nbuat mengerti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau singkapkan mataku\ndengan kasihMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang tak pernah kupikirkan\nsungguh t'lah Kau sediakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau curahkan berkat-Mu\nlimpah dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "T'rima kasih Yesus\nt'rima kasih Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kub'ri syukur hanya bagiMu\nya Allahku ya Tuhanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "T'rima kasih Yesus\nt'rima kasih Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kub'ri syukur\nhanya bagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "t'rima kasih Yesus",
+      "newGroup": false
+    }
+  ]
+}

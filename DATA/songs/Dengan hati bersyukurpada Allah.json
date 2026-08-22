@@ -1,0 +1,30 @@
+{
+  "title": "Dengan hati bersyukurpada Allah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dengan hati bersyukur\npada Allah yang kudus\nsyukur kar'na Dia\nbrikan AnakNya Yesus\n(2X)",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kini yang lemah\ndikuatkan\nyang miskin diperkaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kar'na perbuatanNya\npada kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kini yang lemah\ndikuatkan\nyang miskin diperkaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kar'na perbuatanNya\npada kita syukur",
+      "newGroup": false
+    }
+  ]
+}

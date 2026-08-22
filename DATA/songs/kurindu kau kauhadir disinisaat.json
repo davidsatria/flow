@@ -1,0 +1,25 @@
+{
+  "title": "kurindu kau kauhadir disinisaat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "kurindu kau kau\nhadir disini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "saat ini tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ku rindu kau\nrohmu mengurapi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "saat ini yesus",
+      "newGroup": false
+    }
+  ]
+}

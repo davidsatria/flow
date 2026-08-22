@@ -1,0 +1,35 @@
+{
+  "title": "Kami datang bawa pujianBersama",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami datang bawa pujian\nBersama memujiMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Satukan suara dan nyanyikan\nSorak kemenangan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Glo-o-o-o-o-o-oo-ria,\nglo-o-o-o-o-o-oo-ria",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Besar Tuhan ditinggikan\nDi atas s'galanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Glo-o-o-o-o-o-oo-ria,\nglo-o-o-o-o-o-oo-ria",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Besar Tuhan ditinggikan\nPuji Dia gloria",
+      "newGroup": false
+    }
+  ]
+}

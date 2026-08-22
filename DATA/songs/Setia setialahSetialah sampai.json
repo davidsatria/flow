@@ -1,0 +1,25 @@
+{
+  "title": "Setia setialahSetialah sampai",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Setia setialah\nSetialah sampai mati",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Seperti Tuhan Yesus\nSetialah sampai mati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apakah jawabanmu\nUntuk kasih setiaNya?",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Setia setialah\nSetialah sampai mati",
+      "newGroup": false
+    }
+  ]
+}

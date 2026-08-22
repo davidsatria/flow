@@ -1,0 +1,45 @@
+{
+  "title": "Kecaplah dan lihatlahbetapa baiknya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kecaplah dan lihatlah\nbetapa baiknya Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berbahagia yang\nberlindung pada-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Takutlah akan Tuhan\nhai orang-Nya yang kudus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak kekurangan\nyang takut akan Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Singa-singa muda\nmerana kela",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Singa-singa muda\nmerana kela",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tetapi orang-orang\nyang mencari Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak kekurangan\nsatu pun yang baik",
+      "newGroup": false
+    }
+  ]
+}

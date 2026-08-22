@@ -1,0 +1,20 @@
+{
+  "title": "Allah di sini sepasti udarasegar",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Allah di sini sepasti udara\nsegar yang kuhirup",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia sepsati fajar\nyang merekah setiap hari",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengarkan doaku\nDia yang hidup",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Sedulur kang di tresnaniElingo",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sedulur kang di tresnani\nElingo marang bab iki",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saben wong enggal ngrungoake\nDisareh ing omongane",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "(Disareh hawa nesune)",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mulane padha buangen\nRereget ana ing ati",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ngelingono ing marang dawuhe Gusti\nNanging padha lakonono",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ing pangandikane Gusti\nKabeh mau Gusti kang bakal berkahi",
+      "newGroup": false
+    }
+  ]
+}

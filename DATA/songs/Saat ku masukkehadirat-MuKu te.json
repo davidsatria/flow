@@ -1,0 +1,50 @@
+{
+  "title": "Saat ku masukkehadirat-MuKu te",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat ku masuk\nkehadirat-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tersungkur\ndan sembah-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku persembahkan\nkorban syukurku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang terbaik\nbagi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku bawa\nkorban syukur",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ke tempat\nkudus-Mu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hatiku limpah\ndengan syukur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sbab Tuhan baik\nSelamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ending\nSbab Tuhan baik\nO o  sbab Tuhan baik",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Pada Satu BukitJauh Dari SiniLihat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Pada Satu Bukit\nJauh Dari Sini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lihat Salib\nTuhan Berdiri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Spotong Kayu Kasar\nTanda Dosa Besar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Disana Tuhanku\nTlah Mati",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku Datang\nPada Salib Itu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku Ingat Cintanya\nTuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ya Ku Jatuh\nPada Kakinya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sana Ku Dapat\nAmpun Dosa",
+      "newGroup": false
+    }
+  ]
+}

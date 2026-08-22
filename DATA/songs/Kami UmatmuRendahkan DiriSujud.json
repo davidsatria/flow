@@ -1,0 +1,40 @@
+{
+  "title": "Kami UmatmuRendahkan DiriSujud",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami Umatmu Rendahkan Diri\nSujud Dan Berdoa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mencari Wajahmu Berbalik Dari\nJalan Kami Yang Jahat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oleh Anugrahmu Ampunilah\nOleh Anugrahmu Pulihkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Pulihkan\nBapa Pulihkan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kembalikan\nBangsa Kami Kepadamu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Pulihkan\nAmpunilah Bangsa Kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan Pulihkan Kembali\nNegeri Kami",
+      "newGroup": false
+    }
+  ]
+}

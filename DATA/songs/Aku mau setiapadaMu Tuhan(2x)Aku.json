@@ -1,0 +1,30 @@
+{
+  "title": "Aku mau setiapadaMu Tuhan(2x)Aku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku mau setia\npadaMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku mau setia\npadaMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku mau setia\npadaMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "biar pencobaan\nmenempuh slalu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oh... Tuhan\npeganglah tanganku",
+      "newGroup": false
+    }
+  ]
+}

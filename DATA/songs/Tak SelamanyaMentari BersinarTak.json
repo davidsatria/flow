@@ -1,0 +1,45 @@
+{
+  "title": "Tak SelamanyaMentari BersinarTak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak Selamanya\nMentari Bersinar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak Selamanya\nDunia Berputar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Namun Kasihmu\nTetap Selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Janjimu Tuhan\nTak Pernah Berubah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Selamanya Ku Cintai\nTempat Kediamanmu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Selamanya Ku Kagumi\nKasihmu Tiada Batasnya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Takkan Pernah\nKau Ku Ingkari",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasihmu Selalu\nAda Untukku",
+      "newGroup": false
+    }
+  ]
+}

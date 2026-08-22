@@ -1,0 +1,15 @@
+{
+  "title": "Yesuslah roti kehidupanYesuslah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesuslah roti kehidupan\nYesuslah air kehidupan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Siapa makan, Siapa minum\nDapat hidup selamanya",
+      "newGroup": false
+    }
+  ]
+}

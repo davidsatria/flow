@@ -1,0 +1,15 @@
+{
+  "title": "Tuhan Yesustidak berubahdulu s",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Yesus\ntidak berubah\ndulu s'karang\ndan selamanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dunia ini\nbisa berubah\ncintaNya Tuhan\nkekal s'lamanya",
+      "newGroup": false
+    }
+  ]
+}

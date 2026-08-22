@@ -1,0 +1,40 @@
+{
+  "title": "Dalam setiap perkaraku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dalam\nsetiap perkaraku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kutemukan\nKau setia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tangan Tuhan\nmemegang hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menopangku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan sanggup\nbuka jalan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bagi semua yang\npercaya janji-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kekuatan, pertolongan\ns’lalu ada bagiku",
+      "newGroup": false
+    }
+  ]
+}

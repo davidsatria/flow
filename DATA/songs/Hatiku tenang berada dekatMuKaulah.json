@@ -1,0 +1,65 @@
+{
+  "title": "Hatiku tenang berada dekatMuKaulah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hatiku tenang berada dekatMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kaulah jawaban hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hatiku tenang berada dekatMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau yang p’lihara hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "PertolonganMu Begitu Ajaib",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau t’lah memikat hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Disaat aku tak sanggup lagi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Disitu tanganMu bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "PertolonganMu begitu ajaib",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau t’lah memikat hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kini mataku tertuju padaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kurasakan kasihMu Tuhan",
+      "newGroup": false
+    }
+  ]
+}

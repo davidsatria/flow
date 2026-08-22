@@ -1,0 +1,65 @@
+{
+  "title": "HARI INIHARI YANG TELAH DIJADIKAN",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "HARI INI\nHARI YANG TELAH DIJADIKAN TUHAN",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "MARI KITA\nBERSUKA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "HARI INI\nHARI YANG TELAH DIJADIKAN TUHAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "MARI KITA BERSUKA DI DALAM TUHAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "BERSUKA\nDI DALAM TUHAN",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "BERSUKA, BERSUKA DALAM TUHAN",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "MARI BERSUKA, BERSUKACITALAH",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "BERSUKA, BERSUKA DALAM TUHAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'KARANG BERSUKA, BERSUKACITALAH",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ENDING\nS'KARANG BERSUKA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'KARANG BERSUKA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "BERSUKACITALAH",
+      "newGroup": false
+    }
+  ]
+}

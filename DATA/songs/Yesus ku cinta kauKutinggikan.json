@@ -1,0 +1,35 @@
+{
+  "title": "Yesus ku cinta kauKutinggikan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus ku cinta kau\nKutinggikan kuagungkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku 'kan memuji-Mu\nBaik di dalam suka dan duka",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab kau layak\nt'rima pujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'bab kau layak\nt'rima pujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'bab kau layak\nkuagungkan Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Raja di atas\nsegala raja",
+      "newGroup": false
+    }
+  ]
+}

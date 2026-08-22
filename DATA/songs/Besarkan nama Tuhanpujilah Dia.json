@@ -1,0 +1,45 @@
+{
+  "title": "Besarkan nama Tuhanpujilah Dia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Besarkan nama Tuhan\npujilah Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kemurahan-Nya besar\ntiada terbilang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku tak dapat balas\nbetapa besar kasih-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oh... besarkanlah\nNamaNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan yang ajaib\nTuhan yang kuasa",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tuhan yang menolong\nhidupku.. haleluya..",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan yang ajaib\nTuhan yang kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jiwaku ditebus\noleh-Nya",
+      "newGroup": false
+    }
+  ]
+}

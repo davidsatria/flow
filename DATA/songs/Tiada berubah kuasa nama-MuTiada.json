@@ -1,0 +1,45 @@
+{
+  "title": "Tiada berubah kuasa nama-MuTiada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tiada berubah\nkuasa namaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada berkesudahan\nkasih setiaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apabila Tuhan\nsudah berfirman",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Maka semuanya jadi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Selama\nkumenyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kupercaya bahwa mujizat\nmasih terjadi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Selama kau besertaku\nku melihat",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ada mujizat\nsetiap hari",
+      "newGroup": false
+    }
+  ]
+}

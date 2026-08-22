@@ -1,0 +1,30 @@
+{
+  "title": "Aku jalan kebenarandan jalan k",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku jalan kebenaran\ndan jalan kehidupan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Itu yang Yesus katakan\naku percaya, Amin",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di dalam nama-Nya\nada kes'lamatan kekal",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Glory Haleluya Glory Haleluya\nGlory Haleluya Glory Haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Di dalam nama-Nya\nada kes'lamatan kekal",
+      "newGroup": false
+    }
+  ]
+}

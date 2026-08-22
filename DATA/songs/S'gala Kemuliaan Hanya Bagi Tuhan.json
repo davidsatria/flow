@@ -1,0 +1,30 @@
+{
+  "title": "S'gala Kemuliaan Hanya Bagi Tuhan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "S'gala Kemuliaan\nHanya Bagi Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'gala Hormat Pujian\nHanya Bagi Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuasa Dan Kemuliaan\nHanyalah Bagi Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'gala Kemuliaan\nKeagungan, Kejayaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Bagi Tuhan",
+      "newGroup": false
+    }
+  ]
+}

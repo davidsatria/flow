@@ -1,0 +1,30 @@
+{
+  "title": "Jalan hidup orang benarDiterangi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jalan hidup orang benar\nDiterangi oleh cahya Firman Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jalan hidup orang benar, Semakin\nterang hingga rembang tengah hari",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Apabila dia jatuh\nTidaklah dibiarkan sampai terg'letak",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'bab tangan Tuhan jua\nyang menopangnya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan membangunkan\ndia kembali",
+      "newGroup": false
+    }
+  ]
+}

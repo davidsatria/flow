@@ -1,0 +1,80 @@
+{
+  "title": "Ya TuhankuAku hendakbernyanyi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ya Tuhanku\nAku hendak",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "bernyanyi bagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Selama ku hidup",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ya Allahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku hendak bermazmur bagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Selagi ku ada",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Inilah yang kurenungkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Setiap waktu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nyanyian pujian\ndan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "pengagungan\nKepadaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Biarlah manis Kau dengar, Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Manis Kau dengar, Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan hatiku bersuka kar'naMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "end\nDan hatiku bersuka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kar'naMu",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Yesus disanjungYesus disanjungYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus disanjung\nYesus disanjung",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus disanjung tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Malaikat puji Dia\numatNya sembah Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Rajaku disanjung\ntinggi",
+      "newGroup": false
+    }
+  ]
+}

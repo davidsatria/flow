@@ -1,0 +1,25 @@
+{
+  "title": "Bagaikan tanah keringyang merindukan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bagaikan tanah kering\nyang merindukan air\ndemikianlah jiwaku\nhaus akan Engkau",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kurindu selalu\nhadirMu dihidupku\nmemulihkan jiwaku\nhapuskan air mataku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalirlah kuasa\nRoh Kudus\nmengalirlah\nditempat ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalirlah oh...\nRoh Kudus\npulihkanku\n(dihidupku)",
+      "newGroup": false
+    }
+  ]
+}

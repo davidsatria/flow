@@ -1,0 +1,25 @@
+{
+  "title": "Dia harus makin bertambahKu harus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dia harus makin bertambah\nKu harus makin berkurang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nama Yesus saja disembah\nKu di tempat yang paling belakang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bila Yesus ditinggikan\nDan salibNya dibritakan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Pasti Dia menarik semua orang\nDatang kepadaNya skarang",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Tuhan Yesusyang cinta sayagirangkan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Yesus\nyang cinta saya\ngirangkan senangkan\nhidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oleh cintaNya\npada saya\ndamai snang\nyang kekal dihatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia bikinku\njadi kaya\nbriku menang atas\nsgala percobaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Haleluya O Puji Tuhan\nsekarang dan\nselamanya",
+      "newGroup": false
+    }
+  ]
+}

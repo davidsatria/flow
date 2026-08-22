@@ -1,0 +1,25 @@
+{
+  "title": "Pujilah TuhankuselamalamanyaPujilah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Pujilah Tuhanku\nselamalamanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pujilah Tuhanku\nDia baik buat buat saya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pujilah Tuhanku\nselamalamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutak dapat balas\ncintaNya Tuhanku",
+      "newGroup": false
+    }
+  ]
+}

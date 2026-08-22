@@ -1,0 +1,50 @@
+{
+  "title": "Ku adasebagaimana ku adaberdiri",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku ada\nsebagaimana ku ada",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "berdiri menghadap\ntahtaMu Bapa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua kar'na anugerahMu\nyang t'lah s'lamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuhidup dalam\ns'gala kelimpahan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kulayak untuk\nmelayani Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua karena\nAnugerahMu tercurah bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Besar anugerahMu\nberlimpah kasihMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "semakin hari\nsemakin bertambah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "besar\nanugerahMu",
+      "newGroup": false
+    }
+  ]
+}

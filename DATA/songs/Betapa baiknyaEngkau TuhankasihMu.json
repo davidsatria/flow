@@ -1,0 +1,40 @@
+{
+  "title": "Betapa baiknyaEngkau TuhankasihMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa baiknya\nEngkau Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kasihMu tiada\nberkesudahan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Betapa mulya\nkasihMu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "jiwaku\ndiselamatkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hosana\nku memuji Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Hosana\nku tinggikan dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hosana",
+      "newGroup": false
+    }
+  ]
+}

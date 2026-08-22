@@ -1,0 +1,55 @@
+{
+  "title": "Kasih-Mu karya­Munyata dalamkuKau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih-Mu, karya­Mu\nnyata dalamku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau pegang hidupku\ndalam tangan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Darah­Mu, salib­Mu\ntebus hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nama­Mu berkuasa\nsanggup bangkitkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Harapanku di dalam­Mu\nHanya 'Kau Yesus kuatku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kupercaya kuaman dalam­Mu",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "'Tak pernah gagal rencana­Mu\nT’rangi jalanku kuasa­Mu sempurna",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pengharapanku takkan hilang\nS’bab masa depanku 'Kau sediakan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "'Tak pernah gagal rencana­Mu\nT’rangi hidupku kuasa­Mu sempurna",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pengharapanku takkan hilang\nS’bab masa depanku dalam­Mu",
+      "newGroup": false
+    }
+  ]
+}

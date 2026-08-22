@@ -1,0 +1,45 @@
+{
+  "title": "Pujilah TuhanS'bab Besar Cinta",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Pujilah Tuhan\nS'bab Besar CintaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pujilah Tuhan\nsebab besar cintaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pujilah Tuhan\nsebab besar kuasaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pujilah Tuhan\nRaja s'gala raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mari kita puji Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Puji Tuhan Haleluya\nPuji Tuhan Haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Puji Tuhan Haleluya\nPuji Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya haleluya\nhaleluya haleluya puji Tuhan",
+      "newGroup": false
+    }
+  ]
+}

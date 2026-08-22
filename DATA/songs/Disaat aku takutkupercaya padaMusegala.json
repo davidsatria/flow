@@ -1,0 +1,35 @@
+{
+  "title": "Disaat aku takutkupercaya padaMusegala",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Disaat aku takut\nkupercaya padaMu\nsegala kekuatiranku\nditanganMu kuserahkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Disaat aku lemah\nkubersandar padaMu\nsegala kesesakanku\nt'lah Kau tanggung\nbagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Engkau Allah\nyang kupercaya\ndi dalam hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Engkau Yesus\nyang sanggup\nmemberikanku\nkelegaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ya Engkau Allah\nyang kupercaya\ndi dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Engkau Yesus\nyang sanggup\nmemberikanku\nkelegaan yang baru",
+      "newGroup": false
+    }
+  ]
+}

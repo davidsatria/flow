@@ -1,0 +1,25 @@
+{
+  "title": "Bapqa Surgawiajarku mengenalbetapa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapqa Surgawi\najarku mengenal\nbetapa dalamjNya\nkasihMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bapa Surgawi\nbuatku mengerti\nbetapa kasihMu\npadaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua yang terjadi\ndi dalam hidupku\najarku menyadari\nKau slalu sertaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bri hatiku slalu\nbersyukur padaMu\nkarna rencanaMu\nindah bagiku",
+      "newGroup": false
+    }
+  ]
+}

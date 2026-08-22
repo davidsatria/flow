@@ -1,0 +1,65 @@
+{
+  "title": "Anak AllahYesus namaNyaMenyemb",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Anak Allah\nYesus namaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Menyembuhkan\nmenyucikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bahkan mati\ntebus dosaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kubur kosong\nmembuktikan Dia hidup",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Dia hidup\nada hari esok",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'bab Dia hidup\nku tak gentar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kar'na ku tahu\nDia pegang hari esok",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hidup jadi berarti\ns'bab Dia hidup",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Yesus Kristus\nJuru S'lamatku",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Kau Rajaku\nKau Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Kau t'lah bangkit\nhidup s'lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Dan mem'rintah\natas bumi s'bagai Raja",
+      "newGroup": false
+    }
+  ]
+}

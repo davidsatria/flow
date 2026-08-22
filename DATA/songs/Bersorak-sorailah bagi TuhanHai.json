@@ -1,0 +1,30 @@
+{
+  "title": "Bersorak-sorailah bagi TuhanHai",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bersorak sorailah bagi Tuhan\nHai seluruh bumi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Beribadahlah kepada Tuhan\ndengan sorak Sorai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Beribadahlah kepada Tuhan\ndengan sorak Sorai",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Nyatakanlah dihadapannya\ndengan sorak sorai",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Nyatakanlah dihadapannya\ndengan sorak sorai",
+      "newGroup": false
+    }
+  ]
+}

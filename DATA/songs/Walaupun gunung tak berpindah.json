@@ -1,0 +1,65 @@
+{
+  "title": "Walaupun gunung tak berpindah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jiwaku bertanya\nApakah masih ada harapan?",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "melewati tangisan\nrasa sesak di dada",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Iman ku berkata\nTuhanku yang pegang kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia selalu bekerja\nMeski mata ku tak melihat",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walaupun gunung itu\ntak berpindah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tetap percaya\nKau yang punya kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sekalipun ku dalam\nlembah kelam",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tak mengapa asal\nKau disampingku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walaupun masalahku\nmasih ada",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tetap percaya\nrencanaMu terindah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "PribadiMu takkan\npernah berubah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Iman yang aku pegang\nPadaMu Tuhan yang setia",
+      "newGroup": false
+    }
+  ]
+}

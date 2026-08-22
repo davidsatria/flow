@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan menetapkanlangkah-langkah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan menetapkan\nlangkah-langkah orang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang hidupnya\nberkenan kepadaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apabila ia jatuh\ntak sampai tergeletak",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Tuhan\nmenopang tanganNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "TanganNya tanganNya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sbab Tuhan\nmenopang tangannya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Apabila ia jatuh\ntak sampai tergeletak",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sbab Tuhan\nmenopang tangannya",
+      "newGroup": false
+    }
+  ]
+}

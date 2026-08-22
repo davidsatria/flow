@@ -1,0 +1,45 @@
+{
+  "title": "Hanya Kau MilikkuDi SurgaTiada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya Kau Milikku\nDi Surga",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada Yang Ku Ingini\nDi Bumi, Hanya Kau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak Kuandalkan\nKekuatanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Namun Yang Pasti\nKau Tetap S'Lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Allah Sumber Kuatku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Allah Sumber Kuatku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Allah Sumber Kuatku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan bagianku s'lamanya\nS'Lamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Ajar kami Tuhanmenghitung hari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ajar kami Tuhan\nmenghitung hari-hari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "agar kami beroleh\nhati bijaksana",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ajar kami Bapa\nhidup dalam jalan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "agar semua\nrencana-Mu digenapi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mulialah namaMu\nTuhan dan ajaib",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "jalanMu, pimpin kami\ndisetiap waktu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Besar setia-Mu Tuhan\nagunglah karya-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus kami\nbersyukur pada-Mu",
+      "newGroup": false
+    }
+  ]
+}

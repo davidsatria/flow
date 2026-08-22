@@ -1,0 +1,40 @@
+{
+  "title": "Mendidih Di Hati",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mendidih Di Hati\nMendidih Di Hati",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mendidih Di Hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku Selalu Bernyanyi\nKu Selalu Gembira",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hilanglah Susahku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku Tak Dapat\nMengerti Maksud Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sebelum Kudengar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mendidih Mendidih Mendidih\nMendidih Mendidih Di Hatiku",
+      "newGroup": false
+    }
+  ]
+}

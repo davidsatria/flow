@@ -1,0 +1,25 @@
+{
+  "title": "KU MAU HIDUP S'TURUTKEHENDAK TUHANKU",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "KU MAU HIDUP S'TURUT\nKEHENDAK TUHAN",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KU MAU MEM'BRI\nSEMUA YANG KU DAPAT B'RIKAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KU MAU CINTA DIA\nLEBIH DARI SEMUA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KU TAK DAPAT\nMEMBALAS KASIHNYA",
+      "newGroup": false
+    }
+  ]
+}

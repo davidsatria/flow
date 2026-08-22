@@ -1,0 +1,55 @@
+{
+  "title": "Sejauh timurDari baratEngkau m",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sejauh timur\nDari barat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkau membuang\nDosaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada Kau ingat lagi\nPelanggaranku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jauh ke dalam\nTubir laut",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau melem\nDosaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada Kau Perhitungkan\nKesalahanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Betapa besar kasih\nPengampunanMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak Kau pandang\nHina hati yang hancur",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuberterima kasih\nKepadaMu ya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pengampunan yang\nKau beri pulihkanku",
+      "newGroup": false
+    }
+  ]
+}

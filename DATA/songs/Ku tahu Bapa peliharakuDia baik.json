@@ -1,0 +1,25 @@
+{
+  "title": "Ku tahu Bapa peliharakuDia baik",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku tahu Bapa peliharaku\nDia baik, Dia baik",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku yakin Dia selalu sertaku\nDia baik bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Lewat badai cobaan\nSemuanya mendatangkan kebaikan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ku yakin dia slalu sertaku\nDia baik bagiku",
+      "newGroup": true
+    }
+  ]
+}

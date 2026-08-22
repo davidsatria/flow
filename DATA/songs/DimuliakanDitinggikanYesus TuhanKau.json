@@ -1,0 +1,25 @@
+{
+  "title": "DimuliakanDitinggikanYesus TuhanKau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dimuliakan\nDitinggikan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhan\nKau Rajaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang Bertahta\nYang Berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhan Kau Rajaku",
+      "newGroup": false
+    }
+  ]
+}

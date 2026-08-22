@@ -1,0 +1,45 @@
+{
+  "title": "Selidiki akulihat hatikuapakah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Selidiki aku\nlihat hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "apakah ku sungguh\nmengasihiMu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau yang Maha Tahu\ndan menilai hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tak ada yang\ntersembunyi bagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "T'lah kulihat\nkebaikanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang tak pernah\nhabis dihidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuberjuang\nsampai akhirnya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau dapati aku\ntetap setia",
+      "newGroup": false
+    }
+  ]
+}

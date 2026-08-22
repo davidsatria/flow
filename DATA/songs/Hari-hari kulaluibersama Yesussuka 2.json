@@ -1,0 +1,25 @@
+{
+  "title": "Hari-hari kulaluibersama Yesussuka 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari-hari kulalui\nbersama Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "suka duka kujalani\nbersama Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Persoalan pencobaan\n'kan kuhadapi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "bersama Yesus\nJuruselamatku",
+      "newGroup": false
+    }
+  ]
+}

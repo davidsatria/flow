@@ -1,0 +1,40 @@
+{
+  "title": "Masuk hadirat-Mu TuhanDengan korban 7",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Masuk hadirat-Mu Tuhan\nDengan korban pujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Masuk hadirat-Mu Tuhan\nBerhiaskan kekudusan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di hadapan hadirat-Mu\nTuhan, Kurasakan kedamaian",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di hadapan hadirat-Mu\nTuhan, Kunampak keagungan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus kusembah Kau\nSujud di hadapan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Keinginan dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya untuk menyembah-Mu",
+      "newGroup": false
+    }
+  ]
+}

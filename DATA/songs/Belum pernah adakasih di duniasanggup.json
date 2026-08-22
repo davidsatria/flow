@@ -1,0 +1,45 @@
+{
+  "title": "Belum pernah adakasih di duniasanggup",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Belum pernah ada\nkasih di dunia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "sanggup menerima\ndiriku apa adanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Selain kasihMu\nYesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sungguh tiada lagi\nkasih sperti ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "sanggup mengubahkan\nhidupku menjadi baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "selain kasihMu\nYesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau kukagumi dalam hati\nkasihMu tiada duanya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sampai kini kuakui\nkasihMu tiada duanya",
+      "newGroup": false
+    }
+  ]
+}

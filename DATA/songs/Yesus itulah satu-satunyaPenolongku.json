@@ -1,0 +1,35 @@
+{
+  "title": "Yesus itulah satu-satunyaPenolongku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus itulah satu-satunya\nPenolongku yang sungguh",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia berjanji akan kembali\nAngkat kita semua",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "O o o haleluya\nPuji Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Upahmu besar\ndi surga",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "O o o haleluya\npuji Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Upahmu besar\ndi surga",
+      "newGroup": false
+    }
+  ]
+}

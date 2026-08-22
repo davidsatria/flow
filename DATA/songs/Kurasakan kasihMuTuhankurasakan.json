@@ -1,0 +1,45 @@
+{
+  "title": "Kurasakan kasihMuTuhankurasakan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kurasakan kasihMu\nTuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kurasakan kuasaMu\nTuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kurasakan kasih\nkuasa Roh Kudus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kurasakan kehadiranMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Curahkanlah\nkuasaMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mujizat terjadi\ndi tempat ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Curahkanlah\nkuasaMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mujizat terjadi\nsekarang ini",
+      "newGroup": false
+    }
+  ]
+}

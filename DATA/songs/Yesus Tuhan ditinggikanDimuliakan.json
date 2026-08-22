@@ -1,0 +1,30 @@
+{
+  "title": "Yesus Tuhan ditinggikanDimuliakan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Tuhan ditinggikan\nDimuliakan dan naik ke surga",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia berikan Roh KudusNya\nMenguatkan dan menolong s'lalu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Pre Chorus\nSungguh ku rindu\nBersekutu denganMu selamanya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Allah Roh Kudus jamah hatiku\nDengan urapanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Rindu selalu dekat denganMu\nTinggal di hadiratMu",
+      "newGroup": true
+    }
+  ]
+}

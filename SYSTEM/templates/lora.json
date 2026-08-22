@@ -1,0 +1,14 @@
+{
+  "settings": {
+    "anim": "fast",
+    "font": "9",
+    "align": "center",
+    "size": "5.0",
+    "margin": "70",
+    "lh": "1.3",
+    "meta_font": "10",
+    "meta_size": "2.8",
+    "caps": false,
+    "text_bg": false
+  }
+}

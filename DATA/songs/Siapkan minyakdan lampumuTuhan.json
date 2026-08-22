@@ -1,0 +1,30 @@
+{
+  "title": "Siapkan minyakdan lampumuTuhan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Siapkan minyak\ndan lampumu\nTuhan Yesus\ndatanglah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jangan sampai\ntertinggal\nberjaga dan berdoa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "B'ri minyak\npenuhiku\ndengan urapan\nRoh Suci",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Biar api\nRoh Suci\ntetap menyala",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "menyala menyala\nsampai kujumpa Dia",
+      "newGroup": false
+    }
+  ]
+}

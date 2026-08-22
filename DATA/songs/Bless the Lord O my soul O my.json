@@ -1,0 +1,75 @@
+{
+  "title": "Bless the Lord O my soul O my",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Bless the Lord, O my soul, O my soul\nWorship His holy name",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sing like never before, O my soul\nI'll worship Your holy name",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "The sun comes up\nit's a new day dawning",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "It's time to sing\nYour song again",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Whatever may pass\nand whatever lies before me",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Let me be singing\nwhen the evening comes",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bless the Lord, O my soul, O my soul\nWorship His holy name",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sing like never before, O my soul\nI'll worship Your holy name",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "You're rich in love\nand You're slow to anger",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Your name is great\nand Your heart is kind",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "For all Your goodness\nI will keep on singing",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ten thousand reasons\nfor my heart to find",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bless the Lord, O my soul, O my soul\nWorship His holy name",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sing like never before, O my soul\nI'll worship Your holy name",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Kecaplah dan lihatlahbetapa baiknya 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kecaplah dan lihatlah\nbetapa baiknya Tuhan itu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Rasakan dan nikmati\nkasih setia Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Syukur bagiMu Tuhan\ns'gala hormat bagiMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Allah yang mengasihiku\nAllah yang mem'liharaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Selamanya",
+      "newGroup": false
+    }
+  ]
+}

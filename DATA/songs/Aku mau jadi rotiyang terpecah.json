@@ -1,0 +1,25 @@
+{
+  "title": "Aku mau jadi rotiyang terpecah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku mau jadi roti\nyang terpecah bagiMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "aku mau jadi anggur\nyang tercurah bagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku mau jadi saksi\nmelakukan kehendakMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "melayani melayani\nlebih sungguh",
+      "newGroup": false
+    }
+  ]
+}

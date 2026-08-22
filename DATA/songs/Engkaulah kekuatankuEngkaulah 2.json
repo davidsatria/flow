@@ -1,0 +1,45 @@
+{
+  "title": "Engkaulah kekuatankuEngkaulah 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Engkaulah kekuatanku\nEngkaulah kemuliaanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah s'galanya\nEngkau permata yang indah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak 'kan pernah kulepaskan\nEngkaulah s'galanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus Domba Allah\nmulia nama-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus Domba Allah\nmulia nama-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau hapus s'gala dosaku\nS'gala cela dan maluku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah segalanya\nSaat jatuh Kau angkatku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saat haus Kau p'nuhiku\nEngkaulah s'galanya",
+      "newGroup": false
+    }
+  ]
+}

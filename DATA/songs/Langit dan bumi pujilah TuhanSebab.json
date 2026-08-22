@@ -1,0 +1,30 @@
+{
+  "title": "Langit dan bumi pujilah TuhanSebab",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Langit dan bumi pujilah Tuhan\nSebab Dia ciptakan semuanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KeagunganNya mengatasi langit bumi\nSembah sujud di hadapanNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku puji ku sembah ku puji ku sembah\nYesus Kristus Sang Penebusku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku puji ku sembah ku puji ku sembah\nYesus Tuhan dan Rajaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya amen haleluya amen\nHaleluya amen haleluya amen",
+      "newGroup": false
+    }
+  ]
+}

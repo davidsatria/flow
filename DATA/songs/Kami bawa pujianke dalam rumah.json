@@ -1,0 +1,25 @@
+{
+  "title": "Kami bawa pujianke dalam rumah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami bawa pujian\nke dalam rumah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami bawa pujian\nke dalam rumah Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami persembahkan\nkorban pujian dan syukur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami persembahkan\nkorban pujian dan syukur",
+      "newGroup": false
+    }
+  ]
+}

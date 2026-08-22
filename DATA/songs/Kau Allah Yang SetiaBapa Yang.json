@@ -1,0 +1,45 @@
+{
+  "title": "Kau Allah Yang SetiaBapa Yang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau Allah Yang Setia\nBapa Yang Mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih-Mu besar Tuhan\nKau pulihkan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kaulah Harapanku\nHidupku dalam-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Terima kasih Tuhan\nKau s'lamatkan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dengan apa kan ku balas\nsegala kebaikanMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Segenap hatiku\nmenyembahMu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku bersyukur pada-Mu,\ns'lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Selamanya",
+      "newGroup": false
+    }
+  ]
+}

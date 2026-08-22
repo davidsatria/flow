@@ -1,0 +1,25 @@
+{
+  "title": "KusanjungKau di tempat tinggiSebab",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kusanjung\nKau di tempat tinggi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sebab Engkau\nImam Besar Agung",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kusanjung\nKau lebih dari yang lain",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan kudatang\nMenyembah-Mu Tuhan",
+      "newGroup": false
+    }
+  ]
+}

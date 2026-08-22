@@ -1,0 +1,30 @@
+{
+  "title": "Oleh karna kemurahan Tuhan medley aku percaya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oleh kar'na kemurahan Tuhan\nKu ada sampai hari ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oleh kar'na kebaikan Tuhan\nJanji-Mu terjadi bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku percaya\nBerkatMu atasku melimpah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kebajikan, kemurahan\nS'lalu mengikutiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kupuji, kusembah Kau Tuhan",
+      "newGroup": false
+    }
+  ]
+}

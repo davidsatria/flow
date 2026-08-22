@@ -1,0 +1,60 @@
+{
+  "title": "Ujilah aku TuhanCobalah aku Tu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ujilah aku Tuhan\nCobalah aku Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Selidiki batinku\ndan hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mataku tertuju\npada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku cinta\npada-Mu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku rindu\nhadirat-Mu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku ingin selalu\ndekat pada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menikmati\nkehadiran-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kunyanyi Hosana",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bagi rajaku\nyang duduk di Tahta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku muliakan\ndan kuagungkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau layak disembah",
+      "newGroup": false
+    }
+  ]
+}

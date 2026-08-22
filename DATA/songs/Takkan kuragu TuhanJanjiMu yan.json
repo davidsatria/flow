@@ -1,0 +1,45 @@
+{
+  "title": "Takkan kuragu TuhanJanjiMu yan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Takkan\nkuragu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "JanjiMu yang\nmenghidupkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya padaMu Tuhan\nKuberseru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dan mataku\ntertuju padaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau s'lalu punya cara\nuntuk menolongku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau s'lalu punya jalan\nkeajaibanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau dahsyat dalam segala\nperbuatanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "dan kutenang\ndi dalam caraMu",
+      "newGroup": false
+    }
+  ]
+}

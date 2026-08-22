@@ -1,0 +1,40 @@
+{
+  "title": "Berbakti berbakti berbaktiSoal",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Berbakti, berbakti, berbakti\nSoal utama",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluyah\nTuhan memberkati rotimu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dan airmu segala susahpun\nhilanglah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berbakti dengan senang\nBesarlah labanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hati merasa damai\nsusahpun hilanglah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berkat Allah turunlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Glory haleluyah\nBerbakti dengan senang...",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Kubrikan syukurkubuat kebaikan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau Bapa yang baik\nselalu besertaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Setiap detik setiap waktu\nKau perhatikanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Bapa yang setia\nselalu menjagaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau angkatku bila kujatuh\nKau menopangku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kub'rikan syukurku\nbuat kebaikan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kub'rikan syukurku\nbuat pertolongan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Kau jadikanku\nberharga dimata-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau Bapa yang baik\nku mengasihi-Mu",
+      "newGroup": false
+    }
+  ]
+}

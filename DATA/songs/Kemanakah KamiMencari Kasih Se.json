@@ -1,0 +1,40 @@
+{
+  "title": "Kemanakah KamiMencari Kasih Se",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kemanakah Kami\nMencari Kasih Sejati",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kemanakah Kami Berseru\nSaat Badai Datang Menderu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang Kami Tahu\nHanya Kau Yang Mampu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pulihkan\nS'gala Sesuatu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kami Perlukan\nKeajaibanmu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kami Butuhkan\nSentuhan Tanganmu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kami Tak Dapat Jalan Sendiri\nKami Perlu Kau Tuhan",
+      "newGroup": false
+    }
+  ]
+}

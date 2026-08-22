@@ -1,0 +1,45 @@
+{
+  "title": "Muliasembah Raja MuliaBagi Yesuspuji",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mulia\nsembah Raja Mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bagi Yesus\npuji hormat dan kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mulia\nagung K'rajaan-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dari surga\ndatang untuk s'gnap umat-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dipuji,\nditinggikan nama-Nya Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hormat dan\nmuliakanlah Yesus Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mulia,\nsembah Raja Mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia t'lah mati\ndibangkitkan jadi Raja",
+      "newGroup": false
+    }
+  ]
+}

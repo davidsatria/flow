@@ -1,0 +1,25 @@
+{
+  "title": "Roh Kudus Kau hadir di siniMengalir",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Roh Kudus Kau hadir di sini\nMengalir dalam pujian kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berhembuslah, berkaryalah\nRoh Kudus nyatakanlah s’karang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Roh Kudus penuhi\nRoh Yesus urapi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jamahlah setiap hati kami\nMengalirlah s’karang",
+      "newGroup": true
+    }
+  ]
+}

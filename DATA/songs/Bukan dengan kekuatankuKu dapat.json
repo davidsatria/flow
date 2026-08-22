@@ -1,0 +1,45 @@
+{
+  "title": "Bukan dengan kekuatankuKu dapat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bukan dengan kekuatanku\nKu dapat jalani hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tanpa Tuhan\nyang disampingku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tak mampu sendiri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah kuatku\nyang menopangku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku pandang wajah-Mu\ndan berseru",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pertolonganku\nDatang dari-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Peganglah tanganku\nJangan lepaskan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kaulah harapan\nDalam hidupku",
+      "newGroup": false
+    }
+  ]
+}

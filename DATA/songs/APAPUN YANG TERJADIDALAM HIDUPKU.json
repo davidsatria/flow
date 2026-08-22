@@ -1,0 +1,35 @@
+{
+  "title": "APAPUN YANG TERJADIDALAM HIDUPKU",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "APAPUN YANG TERJADI\nDALAM HIDUPKU INI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "TAK PERNAH KURAGUKAN\nKASIHMU TUHAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "LEWAT GUNUNG YANG TINGGI\nDALAM LEMBAH YANG CURAM",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "TAK PERNAH KURAGUKAN\nJANJIMU TUHAN",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "KAU BERFIRMAN DAN SEMBUHKANKU\nKAU BERSABDA DAN S'LAMATKANKU",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "TIADA YANG MUSTAHIL BAGIMU\nYESUS KUPERCAYA PADAMU",
+      "newGroup": false
+    }
+  ]
+}

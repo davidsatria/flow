@@ -1,0 +1,35 @@
+{
+  "title": "Urep iki pancen akeh masalahKadang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Urep iki pancen akeh masalah,\nKadang tekane gonta ganti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ojo Wedi lan ojo kuwatir\nBareng Gusti Kito adhepi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Seng penting ono Gusti Yesus ooo..\nOno Gusti Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Masio uripku akeh masalahe\nOno Yesus ono mujizate",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Seng penting ono Gusti Yesus ooo..\nOno Gusti Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Masio uripku akeh masalahe\nPenting Ono Gusti Yesus, Beres kabeh",
+      "newGroup": true
+    }
+  ]
+}

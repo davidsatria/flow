@@ -1,0 +1,30 @@
+{
+  "title": "Here we standbefore the LordHumbled",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Here we stand\nbefore the Lord\nHumbled and in awe",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "All the creatures\non earth adore\nour God\nreigns forevermore",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Now we join\nour hearts to pray\nas we seek\nyour face",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "We shall rise\nstand in the gap\nGod's love\ncome and save us all",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Come and worship\ncome and praise Him\ncome and magnify\nour God\nRedeemer King",
+      "newGroup": false
+    }
+  ]
+}

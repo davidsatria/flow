@@ -1,0 +1,45 @@
+{
+  "title": "Dialah Allah yang menyembuhkanDialah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dialah Allah yang menyembuhkan\nDialah Allah yang mencukupi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dialah panji keselamatan\nDialah raja damai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dialah Allah yang menyembuhkan\nDialah Allah yang mencukupi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dialah panji keselamatan\nDialah raja damai",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yehova Rapha Allah yang menyembuhkan\nYehova Jireh Allah yang mencukupi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yehova nissi panji keselamatan\nYehova shallom sang damaI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yehova Rapha Allah yang menyembuhkan\nYehova Jireh Allah yang mencukupi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yehova nissi panji keselamatan\nYehova shallom sang damai",
+      "newGroup": false
+    }
+  ]
+}

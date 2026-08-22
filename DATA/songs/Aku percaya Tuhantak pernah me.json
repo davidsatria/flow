@@ -1,0 +1,65 @@
+{
+  "title": "Aku percaya Tuhantak pernah me",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku percaya Tuhan\ntak pernah mengecewakan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Yesus baik",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia datang supaya\naku mendapat hidup",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hidup berkelimpahan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dialah Yehova Rapha\nDia yang menyembuhkan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yehova Jireh\nDia mencukupi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yehova Nissi\nJuru selamatku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yehova Syallom\nRaja damai",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku percaya Tuhan\ntak pernah mengecewakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Yesus baik",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia datang supaya\naku mendapat hidup",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hidup berkemenangan",
+      "newGroup": false
+    }
+  ]
+}

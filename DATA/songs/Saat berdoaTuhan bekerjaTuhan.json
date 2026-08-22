@@ -1,0 +1,40 @@
+{
+  "title": "Saat berdoaTuhan bekerjaTuhan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat berdoa\nTuhan bekerja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan menggerakkan\ntanganNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Doa melakukan yang\ntak mungkin bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Doa membukakan\ntingkap langit bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada yang mustahil bagiMu\nTiada yang tak mungkin bagiMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dulu sekarang\nsampai slama-lamanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Yesus berkuasa",
+      "newGroup": false
+    }
+  ]
+}

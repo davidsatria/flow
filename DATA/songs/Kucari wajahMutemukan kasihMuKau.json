@@ -1,0 +1,50 @@
+{
+  "title": "Kucari wajahMutemukan kasihMuKau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kucari wajahMu\ntemukan kasihMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau bukan Tuhan\nyang jauh dariku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kupanggil namaMu\nkudengar jawabMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan yang slalu\ndengar seruan hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh indah Kau Tuhan\npenuh kasih dan sayang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau tempat penghiburan\nbagi setiap hati yang terluka",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sungguh indah Kau Tuhan\nmenara perlidungan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau sumber kekuatan\nbagi setiap orang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang membutuhkan",
+      "newGroup": false
+    }
+  ]
+}

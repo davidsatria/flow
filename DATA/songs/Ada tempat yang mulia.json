@@ -1,0 +1,35 @@
+{
+  "title": "Ada tempat yang mulia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ada tempat yang mulia\nanugrah-Mu tercurah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau berikan hidup-Mu\ns'bagai ganti dosaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lebih dari yang kukira,\npengampunan yang kutrima",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih Yesus yang abadi\nmengalir di kalvari",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oleh karna salib-Mu\nSeluruh hidupku milik-Mu, Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Darah-Mu sucikanku\nKuasa salib-Mu pulihkanku",
+      "newGroup": false
+    }
+  ]
+}

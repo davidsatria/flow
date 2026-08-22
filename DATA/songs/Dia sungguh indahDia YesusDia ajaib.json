@@ -1,0 +1,55 @@
+{
+  "title": "Dia sungguh indahDia YesusDia ajaib",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dia sungguh indah\nDia Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia sungguh indah\nDia Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia ajaib, Dia mulia\nDia Agung",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia cinta daku\ndan ampuniku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "bahkan rela\nbrikan nyawaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tuk slamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sambutlah Yesus\nTinggikan Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bri Dia hormat\npujian dan kuasa Yesus Raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bagi yang mulia\nkuangkat tanganku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau kupuja, kucinta\nkusembah haleluya",
+      "newGroup": false
+    }
+  ]
+}

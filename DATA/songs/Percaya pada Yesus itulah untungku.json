@@ -1,0 +1,25 @@
+{
+  "title": "Percaya pada Yesus itulah untungku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Percaya pada Yesus, itulah untungku\nDia hiburkan hati yang susah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Percaya pada Yesus, itulah untungku\nHidup senang selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Percaya pada Yesus, itulah untungku\nDia hiburkan hati yang susah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Percaya pada Yesus, itulah untungku\nHidup senang selamanya",
+      "newGroup": false
+    }
+  ]
+}

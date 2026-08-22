@@ -1,0 +1,25 @@
+{
+  "title": "Damai sorgaada dalam hatikuDamai",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Damai sorga\nada dalam hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Damai sorga\nada dalam hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Damai sorga\nada dalam hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Glory...\nGirang halleluya",
+      "newGroup": false
+    }
+  ]
+}

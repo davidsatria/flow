@@ -1,0 +1,20 @@
+{
+  "title": "Dialah Raja RajaDialah Tuhan Tuhan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dialah Raja, Raja!\nDialah Tuhan, Tuhan !",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nama-Nya Yesus, Yesus,\nYesus, Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "oh....Dialah Raja !",
+      "newGroup": false
+    }
+  ]
+}

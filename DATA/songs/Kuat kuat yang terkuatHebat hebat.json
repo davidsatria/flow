@@ -1,0 +1,25 @@
+{
+  "title": "Kuat kuat yang terkuatHebat hebat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kuat kuat yang terkuat\nHebat hebat yang terhebat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Besar besar yang terbesar\nItulah Tuhan Yesusku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus yang terkuat\nYesus yang terhebat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus yang terbesar, besar!\nTiada tandingannya",
+      "newGroup": true
+    }
+  ]
+}

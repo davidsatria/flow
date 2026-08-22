@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOW Projector</title>
+    <link rel="icon" type="image/png" href="/logo.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@400;700&family=Lato:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&family=Merriweather:wght@300;700&family=Montserrat:wght@400;800&family=Open+Sans:wght@400;700&family=Oswald:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=stylesheet" rel="stylesheet">
+
+    <style>
+        @font-face {
+            font-family: 'LEMON MILK Bold';
+            src: url('/fonts/LEMONMILK-Bold.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'LEMON MILK';
+            src: url('/fonts/LEMONMILK-Bold.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: 'Bebas Neue';
+            src: url('/fonts/BebasNeue%20Bold.otf') format('opentype');
+            font-weight: 700;
+            font-style: normal;
+            font-display: swap;
+        }
+        :root {
+            --font-family: 'Montserrat', sans-serif;
+            --font-size: 5vw;
+            --line-height: 1.3;
+            --text-align: center;
+            --text-transform: none;
+            --margin-side: 50px;
+            --meta-font-family: 'Lato', sans-serif;
+            --meta-font-size: 2vw;
+            --text-color: #ffffff;
+            --highlight-color: #ffd700;
+            
+            --anim-speed-bg: 1.5s; /* Transisi background default */
+            --anim-speed-text: 0.4s;
+            --anim-speed-layout: 0.5s;
+            --anim-speed-slide-queue: 1.35s;
+            
+            --buffer-pulse-color: rgba(0, 150, 255, 0.8); 
+        }
+
+        .white-bg-mode .content-text {
+            color: rgba(0, 0, 0, 0.95);
+            text-shadow: none;
+        }
+        .white-bg-mode .meta-text {
+            color: rgba(0, 0, 0, 0.95);
+            text-shadow: none;
+        }
+        .white-bg-mode .content-text.text-bg-on .line-seg {
+            background: rgba(255, 255, 255, 1.0);
+        }
+
+        body, html {
+            margin: 0; padding: 0;
+            width: 100%; height: 100%;
+            background: #000; overflow: hidden;
+            font-family: var(--font-family); user-select: none;
+            cursor: default;
+        }
+
+        /* --- INDIKATOR BUFFER --- */
+        #buffer-frame {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            pointer-events: none; z-index: 50000;
+            box-shadow: inset 0 0 0 0px rgba(0, 0, 0, 0);
+            transition: box-shadow 0.5s ease;
+        }
+        body.is-buffering #buffer-frame {
+            animation: softPulse 2s infinite ease-in-out;
+        }
+        @keyframes softPulse {
+            0% { box-shadow: inset 0 0 0 1px rgba(0, 150, 255, 0.1); }
+            50% { box-shadow: inset 0 0 0 1px var(--buffer-pulse-color); }
+            100% { box-shadow: inset 0 0 0 1px rgba(0, 150, 255, 0.1); }
+        }
+
+        /* --- STARTUP SPLASH --- */
+        #startup-splash {
+            position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: #000; z-index: 20000;
+            display: flex; justify-content: center; align-items: center;
+            opacity: 1; transition: opacity 0.5s ease;
+            pointer-events: all;
+        }
+        #startup-splash.fade-out { opacity: 0; pointer-events: none; }
+
+        /* --- BACKGROUND LAYERS (OPTIMIZED) --- */
+        #layer-bg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1; background: #000; }
+        
+        .bg-buffer { 
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
+            opacity: 0; 
+            transition: opacity var(--anim-speed-bg) ease-in-out; 
+            z-index: 1;
+            /* GPU Acceleration Tricks */
+            transform: translateZ(0); 
+            will-change: opacity;
+            overflow: hidden;
+        }
+
+        .bg-buffer.active { 
+            opacity: 1; 
+            z-index: 2; /* Active layer always on top */
+        }
+
+        /* Container Media (Video & Image) */
+        .media-item {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            object-fit: cover;
+            display: none; /* Default hidden */
+        }
+        .media-item.show { display: block; }
+
+        /* --- OVERLAY & TEXT --- */
+        #layer-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 5; opacity: 0; transition: opacity var(--anim-speed-layout) ease; pointer-events: none; }
+        #layer-overlay.show { opacity: 1; }
+
+        #layer-text {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10;
+            display: flex; flex-direction: column; justify-content: center; 
+            padding-left: var(--margin-side); padding-right: var(--margin-side); align-items: center; text-align: var(--text-align); box-sizing: border-box;
+            opacity: 0; 
+            transition: opacity var(--anim-speed-text) ease, padding var(--anim-speed-layout) ease, align-items var(--anim-speed-layout) ease;
+            pointer-events: none; 
+        }
+        #layer-text.show { opacity: 1; }
+        #layer-text.anim-slide-lr {
+            opacity: 1;
+            transition: none;
+        }
+        #layer-text.anim-slide-lr.slide-enter {
+            transform: translateX(-120vw);
+        }
+        #layer-text.anim-slide-lr.slide-center {
+            transform: translateX(0);
+            transition: transform var(--anim-speed-slide-queue) cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        #layer-text.anim-slide-lr.slide-exit {
+            transform: translateX(120vw);
+            transition: transform var(--anim-speed-slide-queue) cubic-bezier(0.22, 1, 0.36, 1);
+        }
+
+        .content-text {
+            color: var(--text-color); font-family: var(--font-family); font-size: var(--font-size); font-weight: 800; line-height: var(--line-height); text-transform: var(--text-transform); text-shadow: 2px 2px 10px rgba(0,0,0,0.7); white-space: pre-wrap; width: 100%;
+            transition: opacity var(--anim-speed-text) ease, color 0.3s ease, font-size var(--anim-speed-layout) ease, line-height var(--anim-speed-layout) ease;
+        }
+        .content-text .line-seg {
+            display: inline;
+            padding: 0;
+            margin: 0;
+        }
+        .content-text .highlight-word {
+            color: var(--highlight-color);
+            font-weight: 900;
+        }
+        .content-text.text-bg-on .line-seg {
+            background: rgba(0, 0, 0, 1.0);
+            padding: 0.15em 0.35em;
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+        .line-seg span {
+            box-decoration-break: clone;
+            -webkit-box-decoration-break: clone;
+        }
+
+        .meta-text {
+            color: var(--highlight-color); font-family: var(--meta-font-family); font-size: var(--meta-font-size); margin-top: 30px; font-weight: 700; text-transform: uppercase; letter-spacing: 2px; text-shadow: 1px 1px 5px rgba(0,0,0,0.8); width: 100%;
+            transition: opacity calc(var(--anim-speed-text) * 0.8) ease, font-size var(--anim-speed-layout) ease;
+        }
+
+        #blackout-curtain { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: #000; z-index: 9999; opacity: 0; transition: opacity 0.5s ease; pointer-events: none; }
+        #blackout-curtain.active { opacity: 1; pointer-events: all; }
+
+        #click-hint-zone { position: fixed; top: 0; left: 0; width: 100px; height: 100px; z-index: 100000; cursor: pointer; }
+    </style>
+</head>
+<body>
+
+    <div id="buffer-frame"></div>
+    <div id="click-hint-zone" title="Klik: Refresh Buffer"></div>
+    <div id="startup-splash"></div>
+
+    <div id="layer-bg">
+        <div id="bg-a" class="bg-buffer active">
+            <img class="media-item img-container" src="" alt="">
+            <video class="media-item vid-container" muted loop playsinline></video>
+        </div>
+        <div id="bg-b" class="bg-buffer">
+            <img class="media-item img-container" src="" alt="">
+            <video class="media-item vid-container" muted loop playsinline></video>
+        </div>
+    </div>
+
+    <div id="layer-overlay"></div>
+    <div id="layer-text">
+        <div id="content-display" class="content-text"></div>
+        <div id="meta-display" class="meta-text"></div>
+    </div>
+    
+    <div id="blackout-curtain"></div>
+
+    <script>
+        const BASE_FONTS = {
+            '0': "'Montserrat', sans-serif",
+            '1': "'Lato', sans-serif",
+            '2': "'Roboto', sans-serif",
+            '3': "'Open Sans', sans-serif",
+            '4': "'Playfair Display', serif",
+            '5': "'Merriweather', serif",
+            '6': "'Oswald', sans-serif",
+            '7': "'Anton', sans-serif",
+            '8': "'Cinzel', serif",
+            '9': "'Lora', serif",
+            '10': "'LEMON MILK Bold', 'LEMON MILK', 'Montserrat', sans-serif",
+            '11': "'Bebas Neue', 'Montserrat', sans-serif"
+        };
+        const customFontStacks = new Map();
+        
+        let lastState = { 
+            content: null, meta: null, bg_url: null, bg_type: null, overlay: false, blackout: false, type: null, hide_text: false,
+            style: { size: null, font: null, align: null, caps: null, text_bg: null, lh: null, margin: null, meta_size: null, meta_font: null, anim: null }
+        };
+        
+        let activeBgBuffer = 'a'; // 'a' atau 'b'
+        let animJsSpeedMs = 400; 
+        let currentAnimMode = 'normal';
+        let textTransitionTimer = null;
+        let isMediaLoading = false; // Flag untuk mencegah tumpang tindih loading
+        const WHITE_SOLID_BG = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><rect width="8" height="8" fill="%23ffffff"/></svg>';
+
+        // --- COLOR STATE ---
+        let currentTextColor = localStorage.getItem('flow_text_color') || '#ffffff';
+        let currentHighlightColor = localStorage.getItem('flow_highlight_color') || '#ffd700';
+
+        function applyTextColor(color) {
+            currentTextColor = color;
+            document.documentElement.style.setProperty('--text-color', color);
+            localStorage.setItem('flow_text_color', color);
+        }
+
+        function applyHighlightColor(color) {
+            currentHighlightColor = color;
+            document.documentElement.style.setProperty('--highlight-color', color);
+            localStorage.setItem('flow_highlight_color', color);
+            // Directly update any existing highlight spans on screen
+            document.querySelectorAll('.highlight-word').forEach(el => {
+                el.style.color = color;
+            });
+        }
+
+        function cssEscapeSingle(str) {
+            return String(str || '').replace(/\\/g, '\\\\').replace(/'/g, "\\'");
+        }
+
+        function fontFormatFromFile(file) {
+            const lower = String(file || '').toLowerCase();
+            if (lower.endsWith('.otf')) return 'opentype';
+            if (lower.endsWith('.ttf')) return 'truetype';
+            if (lower.endsWith('.woff2')) return 'woff2';
+            if (lower.endsWith('.woff')) return 'woff';
+            return 'opentype';
+        }
+
+        async function loadAvailableFontsForRenderer() {
+            try {
+                const res = await fetch('/api/fonts');
+                const fonts = await res.json();
+                if (!Array.isArray(fonts) || fonts.length === 0) return;
+
+                const styleTag = document.createElement('style');
+                styleTag.id = 'dynamic-custom-fonts';
+                let css = '';
+                fonts.forEach((f) => {
+                    const family = String(f.family || '').trim();
+                    if (!family) return;
+                    const id = `custom:${f.file}`;
+                    const escapedFamily = cssEscapeSingle(family);
+                    const safeUrl = String(f.url || '').replace(/\)/g, '%29');
+                    css += `@font-face{font-family:'${escapedFamily}';src:url('${safeUrl}') format('${fontFormatFromFile(f.file)}');font-display:swap;}`;
+                    customFontStacks.set(id, `'${escapedFamily}', sans-serif`);
+                });
+                if (css) {
+                    styleTag.textContent = css;
+                    document.head.appendChild(styleTag);
+                }
+            } catch (e) {
+                // Keep running with base fonts only.
+            }
+        }
+
+        function resolveFontStack(rawValue, fallback = '0') {
+            const key = String(rawValue ?? fallback);
+            if (customFontStacks.has(key)) return customFontStacks.get(key);
+            if (BASE_FONTS[key]) return BASE_FONTS[key];
+            const parsed = String(parseInt(key, 10));
+            if (BASE_FONTS[parsed]) return BASE_FONTS[parsed];
+            return BASE_FONTS[String(fallback)] || BASE_FONTS['0'];
+        }
+        
+        // --- WebSocket Management ---
+        let ws = null;
+        let wsReconnectAttempts = 0;
+        let wsReconnectDelay = 1000; // Start with 1 second
+        let maxReconnectDelay = 30000; // Cap at 30 seconds
+        let fallbackPollInterval = null;
+
+        function connectWebSocket() {
+            try {
+                const protocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+                const wsUrl = `${protocol}//${window.location.host}`;
+                
+                ws = new WebSocket(wsUrl);
+                
+                ws.onopen = () => {
+                    console.log('[WebSocket] Connected');
+                    wsReconnectAttempts = 0;
+                    wsReconnectDelay = 1000;
+                    // Clear fallback polling if it was running
+                    if (fallbackPollInterval) {
+                        clearInterval(fallbackPollInterval);
+                        fallbackPollInterval = null;
+                    }
+                };
+                
+                ws.onmessage = (event) => {
+                    try {
+                        const messageData = JSON.parse(event.data);
+                        if (messageData.type === 'STATE_UPDATE' && messageData.data) {
+                            processData(messageData.data);
+                        }
+                    } catch (e) {
+                        console.error('[WebSocket] Parse error:', e);
+                    }
+                };
+                
+                ws.onerror = (error) => {
+                    console.error('[WebSocket] Error:', error);
+                };
+                
+                ws.onclose = () => {
+                    console.log('[WebSocket] Disconnected');
+                    attemptReconnect();
+                };
+            } catch (e) {
+                console.error('[WebSocket] Connection failed:', e);
+                attemptReconnect();
+            }
+        }
+
+        function attemptReconnect() {
+            if (wsReconnectAttempts >= 5 && !fallbackPollInterval) {
+                console.log('[Fallback] WebSocket failed, switching to HTTP polling');
+                startFallbackPolling();
+                return;
+            }
+            
+            wsReconnectAttempts++;
+            const delay = Math.min(wsReconnectDelay * Math.pow(2, wsReconnectAttempts - 1), maxReconnectDelay);
+            console.log(`[WebSocket] Reconnecting in ${delay}ms (attempt ${wsReconnectAttempts})`);
+            setTimeout(connectWebSocket, delay);
+        }
+
+        function startFallbackPolling() {
+            if (fallbackPollInterval) return; // Already running
+            console.log('[Fallback] Starting HTTP polling as backup');
+            fallbackPollInterval = setInterval(async () => {
+                try {
+                    const res = await fetch('/api/current');
+                    const data = await res.json();
+                    processData(data);
+                } catch (e) {
+                    // Silent fail
+                }
+            }, 300);
+        }
+
+        function stopFallbackPolling() {
+            if (fallbackPollInterval) {
+                clearInterval(fallbackPollInterval);
+                fallbackPollInterval = null;
+            }
+        }
+
+        // --- HANDLER KLIK POJOK KIRI ATAS ---
+        document.getElementById('click-hint-zone').addEventListener('click', function() {
+            console.log("[System] Force Refresh Triggered");
+            document.body.classList.add('is-buffering');
+            setTimeout(() => document.body.classList.remove('is-buffering'), 1000);
+            
+            // Reset state agar updateBackground dipaksa jalan
+            lastState.bg_url = null; 
+            fetchData(); 
+        });
+
+        // Double Click Fullscreen
+        document.body.addEventListener('dblclick', () => { 
+            if (!document.fullscreenElement) { document.documentElement.requestFullscreen().catch(e => {}); } 
+            else { if (document.exitFullscreen) document.exitFullscreen(); } 
+        });
+
+        window.onload = async () => {
+            document.body.classList.add('is-buffering');
+            
+            // Apply color settings immediately from localStorage (works with any server)
+            applyLocalColors();
+            
+            await loadAvailableFontsForRenderer();
+            
+            // Simulasi Boot 2 Detik
+            await new Promise(resolve => setTimeout(resolve, 2000));
+            
+            document.body.classList.remove('is-buffering');
+            const splash = document.getElementById('startup-splash');
+            splash.classList.add('fade-out');
+            
+            setTimeout(() => { 
+                splash.style.display = 'none'; 
+                startLoop(); // Mulai loop recursive
+            }, 500);
+
+            window.addEventListener('resize', () => {
+                if (document.getElementById('layer-text').classList.contains('show')) {
+                    autoShrinkText();
+                }
+            });
+        };
+
+        function applyLocalColors() {
+            applyTextColor(localStorage.getItem('flow_text_color') || '#ffffff');
+            applyHighlightColor(localStorage.getItem('flow_highlight_color') || '#ffd700');
+        }
+
+        // --- SMART LOOP WITH WEBSOCKET (RECURSIVE) ---
+        async function startLoop() {
+            connectWebSocket();
+            // Initial fetch as backup
+            try {
+                const res = await fetch('/api/current');
+                const data = await res.json();
+                processData(data);
+            } catch (e) {
+                // Silent error
+            }
+        }
+
+        // Legacy fallback functions (kept for compatibility)
+        async function fetchData() { 
+            try { 
+                const res = await fetch('/api/current'); 
+                const data = await res.json(); 
+                processData(data); 
+            } catch (e) { 
+                // Silent error agar tidak mengganggu tampilan
+            } 
+        }
+
+        function processData(data) {
+            const s = data; const ls = lastState.style;
+            
+            // 1. Update Style (Hanya jika berubah)
+            if (s.style_size !== ls.size || s.style_font_idx !== ls.font || s.style_align !== ls.align || s.style_caps !== ls.caps || s.style_text_bg !== ls.text_bg || s.style_lh !== ls.lh || s.style_margin !== ls.margin || s.style_meta_size !== ls.meta_size || s.style_meta_font !== ls.meta_font || s.style_anim !== ls.anim || s.style_text_color !== ls.text_color || s.style_highlight_color !== ls.highlight_color) {
+                updateStyles(data);
+                lastState.style = { size: s.style_size, font: s.style_font_idx, align: s.style_align, caps: s.style_caps, text_bg: s.style_text_bg, lh: s.style_lh, margin: s.style_margin, meta_size: s.style_meta_size, meta_font: s.style_meta_font, anim: s.style_anim, text_color: s.style_text_color, highlight_color: s.style_highlight_color };
+            }
+
+            // 2. State Sederhana
+            if (data.blackout !== lastState.blackout) { 
+                document.getElementById('blackout-curtain').classList.toggle('active', data.blackout); 
+                lastState.blackout = data.blackout; 
+            }
+            if (data.overlay !== lastState.overlay) { 
+                document.getElementById('layer-overlay').classList.toggle('show', data.overlay); 
+                lastState.overlay = data.overlay; 
+            }
+            
+            // 3. Update Background (Logika Berat)
+            if (data.bg_url !== lastState.bg_url || data.bg_type !== lastState.bg_type) { 
+                updateBackground(data.bg_type, data.bg_url);
+                // State diupdate di dalam fungsi updateBackground setelah media siap
+            }
+
+            // Keep text contrast synchronized with selected background.
+            applyWhiteBackgroundMode(data.bg_type, data.bg_url);
+            
+            // 4. Update Text
+            if (data.content !== lastState.content || data.meta !== lastState.meta || data.type !== lastState.type || data.hide_text !== lastState.hide_text) {
+                updateText(data.content, data.meta, data.type, data.hide_text);
+                lastState.content = data.content; 
+                lastState.meta = data.meta; 
+                lastState.type = data.type; 
+                lastState.hide_text = data.hide_text;
+            }
+        }
+
+        // --- SMART BACKGROUND LOADER ---
+        function updateBackground(type, url) {
+            if (isMediaLoading) return; // Cegah tumpang tindih
+            
+            // Tentukan Buffer
+            const nextBufferId = activeBgBuffer === 'a' ? 'bg-b' : 'bg-a';
+            const currBufferId = activeBgBuffer === 'a' ? 'bg-a' : 'bg-b';
+            
+            const nextEl = document.getElementById(nextBufferId);
+            const currEl = document.getElementById(currBufferId);
+            
+            const nextImg = nextEl.querySelector('.img-container');
+            const nextVid = nextEl.querySelector('.vid-container');
+
+            // Reset tampilan elemen di buffer tujuan
+            nextImg.classList.remove('show');
+            nextVid.classList.remove('show');
+            
+            isMediaLoading = true;
+            
+            // Fungsi yang dijalankan SAAT media siap tayang
+            const executeTransition = () => {
+                nextEl.classList.add('active');
+                currEl.classList.remove('active'); // Fade out buffer lama
+
+                // Update pointer
+                activeBgBuffer = (activeBgBuffer === 'a' ? 'b' : 'a');
+                lastState.bg_url = url;
+                lastState.bg_type = type;
+                
+                isMediaLoading = false;
+
+                // CLEANUP: Matikan resource di buffer lama setelah transisi selesai
+                setTimeout(() => {
+                    const oldVid = currEl.querySelector('video');
+                    if (oldVid) {
+                        oldVid.pause();
+                        oldVid.removeAttribute('src'); // Lepas memori
+                        oldVid.load();
+                    }
+                }, 2000); // 2 detik aman (lebih lama dari durasi CSS transition)
+            };
+
+            // Handling Tipe Media
+            if (type === 'VIDEO') {
+                nextVid.classList.add('show');
+                nextVid.src = url;
+                nextVid.load();
+
+                // Tunggu sampai bisa diputar
+                nextVid.oncanplay = () => {
+                    nextVid.play().then(() => {
+                        executeTransition();
+                    }).catch(e => {
+                        console.error("Autoplay blocked:", e);
+                        executeTransition(); // Paksa transisi meski autoplay gagal
+                    });
+                    nextVid.oncanplay = null; // Clean listener
+                };
+                
+                // Fallback jika error/timeout
+                nextVid.onerror = () => { console.error("Video Error"); isMediaLoading = false; };
+            } 
+            else if (type === 'IMAGE') {
+                nextImg.classList.add('show');
+                // Preload gambar
+                const imgLoader = new Image();
+                imgLoader.onload = () => {
+                    nextImg.src = url;
+                    executeTransition();
+                };
+                imgLoader.onerror = () => { isMediaLoading = false; };
+                imgLoader.src = url;
+            } 
+            else {
+                // SOLID COLOR / NONE
+                nextEl.style.background = '#000';
+                executeTransition();
+            }
+        }
+
+        function updateStyles(data) {
+            const r = document.documentElement;
+            // Update variable CSS
+            if (data.style_anim === 'none') { r.style.setProperty('--anim-speed-bg', '0s'); r.style.setProperty('--anim-speed-text', '0s'); r.style.setProperty('--anim-speed-layout', '0s'); r.style.setProperty('--anim-speed-slide-queue', '0s'); animJsSpeedMs = 10; } 
+            else if (data.style_anim === 'fast') { r.style.setProperty('--anim-speed-bg', '0.5s'); r.style.setProperty('--anim-speed-text', '0.3s'); r.style.setProperty('--anim-speed-layout', '0.3s'); r.style.setProperty('--anim-speed-slide-queue', '1.0s'); animJsSpeedMs = 300; } 
+            else if (data.style_anim === 'slow') { r.style.setProperty('--anim-speed-bg', '2.5s'); r.style.setProperty('--anim-speed-text', '1.2s'); r.style.setProperty('--anim-speed-layout', '1s'); r.style.setProperty('--anim-speed-slide-queue', '1.9s'); animJsSpeedMs = 1200; } 
+            else { r.style.setProperty('--anim-speed-bg', '1.5s'); r.style.setProperty('--anim-speed-text', '0.7s'); r.style.setProperty('--anim-speed-layout', '0.5s'); r.style.setProperty('--anim-speed-slide-queue', '1.35s'); animJsSpeedMs = 700; }
+
+            currentAnimMode = data.style_anim || 'normal';
+
+            r.style.setProperty('--font-family', resolveFontStack(data.style_font_idx, '0')); 
+            r.style.setProperty('--font-size', (data.style_size || 5.0) + 'vw'); 
+            r.style.setProperty('--line-height', data.style_lh || 1.3); 
+            r.style.setProperty('--text-transform', (data.style_caps === 'true') ? 'uppercase' : 'none'); 
+            r.style.setProperty('--text-align', data.style_align || 'center'); 
+            r.style.setProperty('--margin-side', (data.style_margin || 50) + 'px'); 
+            r.style.setProperty('--meta-font-size', (data.style_meta_size || 2.0) + 'vw'); 
+            r.style.setProperty('--meta-font-family', resolveFontStack(data.style_meta_font, '1'));
+            
+            // Sync colors from server or fallback to local storage
+            const textColor = data.style_text_color || localStorage.getItem('flow_text_color') || '#ffffff';
+            const highlightColor = data.style_highlight_color || localStorage.getItem('flow_highlight_color') || '#ffd700';
+            
+            r.style.setProperty('--text-color', textColor);
+            r.style.setProperty('--highlight-color', highlightColor);
+
+            const contentEl = document.getElementById('content-display');
+            contentEl.classList.toggle('text-bg-on', data.style_text_bg === 'true');
+            
+            const container = document.getElementById('layer-text');
+            if (data.style_align === 'left') container.style.alignItems = 'flex-start';
+            else if (data.style_align === 'right') container.style.alignItems = 'flex-end';
+            else container.style.alignItems = 'center';
+        }
+
+        function applyWhiteBackgroundMode(type, url) {
+            const isWhiteBg = String(url || '') === WHITE_SOLID_BG;
+            document.body.classList.toggle('white-bg-mode', isWhiteBg);
+        }
+
+        function applyTextPayload(content, meta, type, elContent, elMeta) {
+            renderContentLines(elContent, content);
+            elContent.dataset.raw = content;
+            const isSong = type && String(type).toLowerCase() === 'song';
+            if (isSong) {
+                elMeta.style.opacity = '0';
+                elMeta.innerText = ''; // Clear immediately to avoid lingering Bible reference
+                setTimeout(() => { if (!elMeta.dataset.raw || String(type).toLowerCase() === 'song') elMeta.innerText = ''; }, animJsSpeedMs);
+            } else {
+                elMeta.innerText = meta;
+                elMeta.style.opacity = '1';
+                elMeta.style.display = 'block';
+            }
+            elMeta.dataset.raw = meta;
+        }
+
+        function renderContentLines(el, text) {
+            const lines = (text || '').split('\n');
+            el.innerHTML = '';
+            lines.forEach((line, idx) => {
+                const span = document.createElement('span');
+                span.className = 'line-seg';
+                // Parse *text* -> highlighted span
+                const parsed = line.replace(/\*([^*]+)\*/g, '<span class="highlight-word">$1</span>');
+                span.innerHTML = parsed;
+                el.appendChild(span);
+                if (idx < lines.length - 1) el.appendChild(document.createElement('br'));
+            });
+        }
+
+        // --- AUTO-SHRINK LOGIC ---
+        function autoShrinkText() {
+            const elContent = document.getElementById('content-display');
+            const r = document.documentElement;
+
+            // Revert to original size from state before calculating
+            const baseSizeStr = lastState.style?.size || 5.0;
+            let currentSize = parseFloat(baseSizeStr);
+            r.style.setProperty('--font-size', currentSize + 'vw');
+
+            // Wait for browser to layout the restored size, then begin stepping
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => {
+                    shrinkStep(currentSize, elContent, r);
+                });
+            });
+        }
+
+        function shrinkStep(currentSize, elContent, r) {
+            const maxHeight = window.innerHeight * 0.92;
+            if (elContent.scrollHeight > maxHeight && currentSize > 3.0) {
+                currentSize *= 0.90; // Reduce by 10% proportionally
+                r.style.setProperty('--font-size', currentSize + 'vw');
+                // Wait for browser reflow then check again
+                requestAnimationFrame(() => {
+                    requestAnimationFrame(() => {
+                        shrinkStep(currentSize, elContent, r);
+                    });
+                });
+            }
+        }
+
+        function updateText(content, meta, type, hide_text) {
+            const container = document.getElementById('layer-text');
+            const elContent = document.getElementById('content-display');
+            const elMeta = document.getElementById('meta-display');
+            const safeContent = content || '';
+            const safeMeta = meta || '';
+
+            if (textTransitionTimer) {
+                clearTimeout(textTransitionTimer);
+                textTransitionTimer = null;
+            }
+
+            if (!safeContent || hide_text) {
+                container.classList.remove('anim-slide-lr', 'slide-enter', 'slide-center', 'slide-exit');
+                container.classList.remove('show');
+                return;
+            }
+
+            if (safeContent !== elContent.dataset.raw || safeMeta !== elMeta.dataset.raw) {
+                if (currentAnimMode === 'slide_lr') {
+                    const hadPrevious = Boolean(elContent.dataset.raw || elMeta.dataset.raw);
+                    container.classList.add('anim-slide-lr', 'show');
+
+                    if (hadPrevious) {
+                        container.classList.remove('slide-enter', 'slide-center');
+                        container.classList.add('slide-exit');
+                        textTransitionTimer = setTimeout(() => {
+                            applyTextPayload(safeContent, safeMeta, type, elContent, elMeta);
+                            container.classList.remove('slide-exit', 'slide-center');
+                            container.classList.add('slide-enter');
+                            requestAnimationFrame(() => requestAnimationFrame(() => {
+                                container.classList.remove('slide-enter');
+                                container.classList.add('slide-center');
+                                autoShrinkText();
+                            }));
+                        }, animJsSpeedMs);
+                    } else {
+                        applyTextPayload(safeContent, safeMeta, type, elContent, elMeta);
+                        container.classList.remove('slide-exit', 'slide-center');
+                        container.classList.add('slide-enter');
+                        requestAnimationFrame(() => requestAnimationFrame(() => {
+                            container.classList.remove('slide-enter');
+                            container.classList.add('slide-center');
+                            autoShrinkText();
+                        }));
+                    }
+                } else {
+                    container.classList.remove('anim-slide-lr', 'slide-enter', 'slide-center', 'slide-exit');
+                    
+                    // Optimization check
+                    const isSameItem = (lastState.type === type && lastState.meta === safeMeta);
+                    const isBlinkingDisabled = currentAnimMode === 'none';
+                    
+                    if (isBlinkingDisabled) {
+                        applyTextPayload(safeContent, safeMeta, type, elContent, elMeta);
+                        container.classList.add('show');
+                        autoShrinkText();
+                    } else if (isSameItem && lastState.content) {
+                        // Smooth verse transition: fade text only, keep meta stable
+                        elContent.style.opacity = '0';
+                        textTransitionTimer = setTimeout(() => {
+                            applyTextPayload(safeContent, safeMeta, type, elContent, elMeta);
+                            elContent.style.opacity = '1';
+                            container.classList.add('show');
+                            autoShrinkText();
+                        }, animJsSpeedMs);
+                    } else {
+                        // Full fade transition for different items
+                        container.classList.remove('show');
+                        textTransitionTimer = setTimeout(() => {
+                            applyTextPayload(safeContent, safeMeta, type, elContent, elMeta);
+                            container.classList.add('show');
+                            autoShrinkText();
+                        }, animJsSpeedMs);
+                    }
+                }
+            } else {
+                container.classList.add('show');
+                autoShrinkText();
+            }
+        }
+    </script>
+</body>
+</html>

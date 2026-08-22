@@ -1,0 +1,35 @@
+{
+  "title": "Lingkupiku dengan sayapMunaungiku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Lingkupiku\ndengan sayapMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "naungiku\ndalam kuasaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Di saat badai\nbergelora",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "ku akan terbang\nbersamaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bapa Kau Raja\natas s'mesta",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "ku tenang\ns'bab Kau Allahku",
+      "newGroup": false
+    }
+  ]
+}

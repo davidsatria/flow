@@ -1,0 +1,25 @@
+{
+  "title": "Bila Kau Ijinkan Sesuatu Terja",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bila Kau Ijinkan Sesuatu Terjadi\nKupercaya Semua Untuk Kebaikanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bila Nanti Telah Tiba WaktuMu\nKupercaya KuasaMu Memulihkan Hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Waktu Tuhan Pasti Yang Terbaik\nWalau Kadang Tak Mudah Dimengerti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lewati Cobaan Kutetap Percaya\nWaktu Tuhan Pasti Yang Terbaik",
+      "newGroup": true
+    }
+  ]
+}

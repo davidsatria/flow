@@ -1,0 +1,50 @@
+{
+  "title": "Hitam atau putihkulit hitam kulit",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hitam atau putih\nkulit hitam kulit putih",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hitam atau putih\nrambut lurus rambut k'riting",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semuanya.. semuanya..\ndisayang Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hitam atau putih\nkulit hitam kulit putih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hitam atau putih\nmata bulat mata sipit",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semuanya.. semuanya..\ndisayang Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Yesus mengasihimu\nTuhan Yesus mencintaimu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tanpa memandang\nsuku bangsa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Semua berharga\ndi mata Tuhan",
+      "newGroup": false
+    }
+  ]
+}

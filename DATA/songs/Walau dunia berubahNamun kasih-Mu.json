@@ -1,0 +1,35 @@
+{
+  "title": "Walau dunia berubahNamun kasih-Mu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Walau dunia berubah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Namun kasih-Mu Tuhan\nTetap sama dihidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau setia dalam setiap\nrencana-Mu ku percaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hidupku dalam tangan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sampai detik ini kumelihat\nPenyertaan-Mu sempurna",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sampai selamanya Kaulah Tuhan\nSatu-satunya pengharapanku",
+      "newGroup": true
+    }
+  ]
+}

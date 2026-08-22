@@ -1,0 +1,30 @@
+{
+  "title": "Yesus Engkau baikSungguh baik sangat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Engkau baik\nSungguh baik sangat baik 2x",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KasihMu tak berkesudahan\nKasihMu kekal selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku t'lah mengenal kasih karuniaMu 2x",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau kaya rela jadi miskin\nSupaya aku jadi kaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hosana Hosana\nBagi Yesus Allahku\nHosana Hosana\nBagi Yesus Tuhanku",
+      "newGroup": false
+    }
+  ]
+}

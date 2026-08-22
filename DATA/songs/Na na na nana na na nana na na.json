@@ -1,0 +1,50 @@
+{
+  "title": "Na na na nana na na nana na na",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Na na na na\nna na na na\nna na na na",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "He made\nthe blind man see\nHe calmed\nthe stormy sea",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "He made\nthe lame man walk\nSo I believe\nin God",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "When I hear\nHis mighty work\nI know\nHis power is real",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "My faith, My hope\nis in Him\nso I believe in God\nbelieve in God",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Impossible is nothing\nis nothing and\nI do believe in You",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Impossible is nothing\nis nothing\nAll things are possible",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Impossible is nothing\nis nothing\nwhen I put my trust in You",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Impossible is nothing\nis nothing\nAll things are possible",
+      "newGroup": false
+    }
+  ]
+}

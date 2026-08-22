@@ -1,0 +1,60 @@
+{
+  "title": "Kumenyembahdalam kudus hadirat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kumenyembah\ndalam kudus hadiratMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hampiri tahta kasih\nkaruniaMu Bapa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kekuatanku\nhanya dalam HadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesusku hanya\nKaulah segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kuyakin Kau hadir disini\nKurasakan Kuasa yang tak terbatas",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuyakin Kau nyata di sini\nKemenangan terjadi di sini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ending\nKuyakin Kau nyata di sini\nKesembuhan terjadi di sini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuyakin Kau nyata di sini\nKelepasan terjadi di sini",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Segnap Jiwaku memujiMu\nSungguh besar Kau Yesusku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Segnap Hatiku menyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau Besar Kau Besar\nKau Besar Kau Besar",
+      "newGroup": false
+    }
+  ]
+}

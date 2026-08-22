@@ -1,0 +1,25 @@
+{
+  "title": "KemenanganlahKemenanganlaholeh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kemenanganlah\nKemenanganlah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "oleh Darah Yesus\nkemenanganlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Harap pada Tuhan\niblis mundurlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "oleh percaya\nkemenanganlah",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Kalau Tuhan besertakuaku rasa tak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kalau Tuhan besertaku\naku rasa tak takut",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kalau Tuhan besertaku\naku rasa sentosa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kalau Tuhan besertaku\nsiang malam terjaga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kalau Tuhan besertaku\ns'gala susah hilanglah",
+      "newGroup": false
+    }
+  ]
+}

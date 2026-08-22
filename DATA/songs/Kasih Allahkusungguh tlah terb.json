@@ -1,0 +1,45 @@
+{
+  "title": "Kasih Allahkusungguh tlah terb",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih Allahku\nsungguh tlah terbukti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ketika Dia serahkan\nAnakNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih Allah mau berkorban\nbagi kau dan aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak ada kasih\nseperti kasihMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersyukur bersyukur\nbersyukurlah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "bersyukur atas\nkasih setiaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kusembah kusembah\ndan kusembah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "s'lama hidupku\nkusembah Kau Tuhan",
+      "newGroup": false
+    }
+  ]
+}

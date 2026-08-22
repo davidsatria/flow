@@ -1,0 +1,40 @@
+{
+  "title": "Kunaikkan syukurpadaMu YesusKusembah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kunaikkan syukur\npadaMu Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kusembah sujud\nkepadaMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di hadapan tahta\nkemuliaanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutinggikan kuagungkan\nselamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Segala puji syukur\nbagiMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kutinggikan\nnamaMu selalu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kemuliaan hanya bagiMu\nTerpujilah namaMu",
+      "newGroup": false
+    }
+  ]
+}

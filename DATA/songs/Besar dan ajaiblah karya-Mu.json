@@ -1,0 +1,25 @@
+{
+  "title": "Besar dan ajaiblah karya-Mu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Besar dan ajaiblah karya-Mu\nAdil dan benarlah jalan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Raja segala bangsa\nYang Mahakuasa, Mulia nama-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Layaklah segala bangsa\nsujud kepada-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'bab Kau Allah\nyang kudus layak disembah",
+      "newGroup": false
+    }
+  ]
+}

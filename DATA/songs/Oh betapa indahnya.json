@@ -1,0 +1,45 @@
+{
+  "title": "Oh betapa indahnya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oh betapa indahnya\nDan betapa eloknya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bila saudara seiman\nHidup dalam persatuan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bak urapan di kepala Harun\nYang ke janggut dan jubahnya turun",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Seperti embun yang dari Hermon\nMengalir ke bukit Sion",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kesanalah\ndiperintahkan Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Agar berkat-berkat\ndicurahkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kehidupan untuk selamanya\nOh betapa indahnya",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Oh betapa indahnya",
+      "newGroup": true
+    }
+  ]
+}

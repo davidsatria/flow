@@ -1,0 +1,55 @@
+{
+  "title": "Oh mulianyahadirat-MuKami bait",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oh mulianya,\nhadirat-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami bait-Mu,\nmemujamu-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Diberkati Kau Tuhan\nDengan pujian kami",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam dekapan, hadirat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Memenuhi, tempat ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oh the glory,\nof Your presence",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "We Your Temple,\ngive You reverence",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "So arise to Your rest\nAnd be blessed by our praise",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "As we glory,\nin Your embrace",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "As Your presence,\nnow fills this place",
+      "newGroup": false
+    }
+  ]
+}

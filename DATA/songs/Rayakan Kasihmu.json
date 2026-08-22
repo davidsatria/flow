@@ -1,0 +1,70 @@
+{
+  "title": "Rayakan Kasihmu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan baik\ndi dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S′lalu setia\ndi s'panjang hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nyatalah perbuatan-Mu\nKaulah sukacitaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan baik\ndi dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S′lalu setia\ndi s'panjang hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nyatalah perbuatan-Mu\nKaulah sukacitaku",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Haleluya, ku bersorak\nTuhanku luar biasa",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Haleluya, ku bersorak\nTuhanku dahsyat berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kuangkat suaraku\npuji nama-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku bernyanyi bagi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku bersuka,\nku melompat bagi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus,\nKau di dalamku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kurayakan kasih-Mu",
+      "newGroup": false
+    }
+  ]
+}

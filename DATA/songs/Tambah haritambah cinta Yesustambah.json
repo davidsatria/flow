@@ -1,0 +1,35 @@
+{
+  "title": "Tambah haritambah cinta Yesustambah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tambah hari\ntambah cinta Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tambah hari\ntambah kupercaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tambah hari\ntambah benci dosa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tambah hari\ntambah kusetia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji Tuhan Haleluya\nPuji Haleluya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji Tuhan Haleluya\nPuji Tuhan",
+      "newGroup": false
+    }
+  ]
+}

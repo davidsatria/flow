@@ -1,0 +1,40 @@
+{
+  "title": "Aku hendakbersyukurpada Tuhankar'na",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku hendak bersyukur\npada Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kar'na keadilanNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan bermazmur\nbagi nama Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "yang\nMaha Tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ya Tuhan Tuhan kami\nbetapa mulyanya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "NamaMu\nTuhan kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "dimuliakan\natas s'luruh bumi",
+      "newGroup": false
+    }
+  ]
+}

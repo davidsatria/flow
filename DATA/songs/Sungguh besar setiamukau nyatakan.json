@@ -1,0 +1,50 @@
+{
+  "title": "Sungguh besar setiamukau nyatakan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sungguh besar setiamu\nkau nyatakan bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kau bapa yang slalu\nmengerti isi hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kemuliaanmu kau janjikan\nAku tetap percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kupercaya janjimu ajaib\nTerukir dalam kehidupanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuberserah di dalam kekuatanmu\nKupercaya",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Nama di atas segala nama\nNama yang t’lah membebaskanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S’gala kuasa tunduk pada nama itu\nYesus Tuhan segala tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nama di atas segala nama\nNama yang t’lah membebaskanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S’gala kuasa tunduk pada nama itu\nYesus Raja segala raja",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "DARAHNYAAMAT KUASASUCIKANDARI",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "DARAHNYA\nAMAT KUASA",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "SUCIKAN\nDARI DOSA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "LEPASKAN\nSGALA SUSAH",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "DARAHNYA\nTEBUS SAYA",
+      "newGroup": false
+    }
+  ]
+}

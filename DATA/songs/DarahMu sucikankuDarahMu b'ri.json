@@ -1,0 +1,20 @@
+{
+  "title": "DarahMu sucikankuDarahMu b'ri",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "DarahMu sucikanku\nDarahMu b'ri kehidupan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DarahMu gantikanku\ns'bagai korban\ntebusan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sucikanku\nseputih salju\nYesusku korbanMu\nyang mulia",
+      "newGroup": false
+    }
+  ]
+}

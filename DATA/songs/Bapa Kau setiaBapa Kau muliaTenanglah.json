@@ -1,0 +1,60 @@
+{
+  "title": "Bapa Kau setiaBapa Kau muliaTenanglah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa Kau setia\nBapa Kau mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tenanglah, jiwaku\naman bersama-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lebih dari harta\nKaulah segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tenanglah, jiwaku\ndalam hadirat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau tunjukkan\nkasih setia-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau menyediakan\nyang 'ku perlu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau setia, Kau mulia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dulu, sekarang\ndan selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau tunjukkan\nkasih setia-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau menyediakan\nyang 'ku perlu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau setia, Kau mulia\nBapa Kau setia",
+      "newGroup": false
+    }
+  ]
+}

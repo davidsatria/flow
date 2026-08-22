@@ -1,0 +1,40 @@
+{
+  "title": "Allah yang sucimaha muliaKau disanjung",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Allah yang suci\nmaha mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau disanjung sembah s'lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Surga bumipun\nnyanyikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bapa yang kekal\nmaha kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau disanjung sembah s'lamanya\nSurga bumipun serukan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya... haleluya\nOh kudus-kuduslah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Haleluya...haleluya\nterpujilah nama Tuhan",
+      "newGroup": false
+    }
+  ]
+}

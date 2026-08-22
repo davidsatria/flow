@@ -1,0 +1,30 @@
+{
+  "title": "Bapa kurindumenyenangkanMuajarku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa kurindu\nmenyenangkanMu\najarku lebih dalam\ntuk mengenalMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bapa kupinta\nlayakkan aku\nbawaku untuk\nmenyembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "di balik tirai\nyang suci",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bertemu muka\ndengan muka\ntenggelam di dalam\nkasihMu Bapa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oh Tuhan\nkurindu Kau selalu\ndiam dalam\nbaitMu",
+      "newGroup": false
+    }
+  ]
+}

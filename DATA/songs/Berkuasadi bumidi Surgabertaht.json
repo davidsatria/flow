@@ -1,0 +1,65 @@
+{
+  "title": "Berkuasadi bumidi Surgabertaht",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Berkuasa\ndi bumi\ndi Surga",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "bertahta\ndalam\nkemuliaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dialah Tuhan\nAllah kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "namaNya berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "pembebas umatNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Betapa hebat\nbetapa kuat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "dahsyatNya\nAllah kita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia berjaya\natas semua\nperbuatanNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Betapa hebat\nbetapa kuat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dahsyatNya\nAllah kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia ternama\nYesus Raja\ns'gala raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan\nAllah kita",
+      "newGroup": false
+    }
+  ]
+}

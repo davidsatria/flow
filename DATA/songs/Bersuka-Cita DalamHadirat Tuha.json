@@ -1,0 +1,45 @@
+{
+  "title": "Bersuka-Cita DalamHadirat Tuha",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bersuka-Cita Dalam\nHadirat Tuhan,",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya-Haleluyah\nAmin!",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersuka-Cita Dalam\nHadirat Tuhan,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Haleluya-Haleluyah\nAmin!",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oooh Menari Lompatlah!\nMenari Lompatlah!",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersuka Dalam Tuhan!",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menari Lompatlah!\nMenari Lompatlah!",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersuka Dalam Tuhan!",
+      "newGroup": false
+    }
+  ]
+}

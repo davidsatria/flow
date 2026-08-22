@@ -1,0 +1,25 @@
+{
+  "title": "B'rilah yang baikB'rilah yang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "B'rilah yang baik\nB'rilah yang baik",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan sudah memb'rikan\nyang terbaik",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apa yang Kau b'ri\nb'rilah s'karang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan pasti balaskan\nmemberkati Kau s'lamanya",
+      "newGroup": false
+    }
+  ]
+}

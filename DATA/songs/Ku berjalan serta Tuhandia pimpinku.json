@@ -1,0 +1,25 @@
+{
+  "title": "Ku berjalan serta Tuhandia pimpinku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku berjalan serta Tuhan\ndia pimpinku sepanjang jalanku.",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku berjalan biar siang dan malam\nku berjalan serta Tuhan...",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku berjalan, kekanaan\nKu berjalan kekanaan..",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku berjalan, kekanaan\nKu berjalan sampai kekanaan..",
+      "newGroup": true
+    }
+  ]
+}

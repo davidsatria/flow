@@ -1,0 +1,20 @@
+{
+  "title": "HANYALAH YESUS SENDIRIYANG JADI",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "HANYALAH YESUS SENDIRI\nYANG JADI PENGHIBUR HATI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "HARTA DUNIA KEINDAHAN\nTIDAK MEMBRI KEPUASAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "HANYALAH YESUS SENDIRI",
+      "newGroup": false
+    }
+  ]
+}

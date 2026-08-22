@@ -1,0 +1,50 @@
+{
+  "title": "Hadirat-Mu hadirat-Musungguh i",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hadirat-Mu hadirat-Mu\nsungguh indah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hadirat-Mu hadirat-Mu\nsungguh mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kurindukan selalu dihidupku\nDiam selalu di dalam hadirat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh mulianya hadirat-Mu\nkami bait-Mu memuja-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Diberkati Kau Tuhan\ndengan pujian kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam dekapan hadirat-Mu\nmemenuhi tempat ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ending\nMemenuhi tempat ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Memenuhi gereja ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Memenuhi hati ini",
+      "newGroup": false
+    }
+  ]
+}

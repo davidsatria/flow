@@ -1,0 +1,35 @@
+{
+  "title": "Ada satu sobatkuyang setiatak pernah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ada satu sobatku\nyang setia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tak pernah Dia\ntinggalkan diriku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Diwaktu aku susah\nwaktuku sendirian",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia s'lalu menemani\ndiriku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "NamaNya Yesus\nNamaNya Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "nama Yesus yang\nmenghibur hatiku",
+      "newGroup": false
+    }
+  ]
+}

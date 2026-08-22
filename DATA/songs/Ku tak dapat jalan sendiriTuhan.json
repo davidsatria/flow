@@ -1,0 +1,25 @@
+{
+  "title": "Ku tak dapat jalan sendiriTuhan",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Ku tak dapat jalan sendiri\nTuhan tolonglah daku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Biarlah sinarMu menerangiku\nSbab ku tak dapat jalan sendiri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Melewati lembah duka semu\njalanku gelap dan ngeri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhanku perlu pertolonganmu\nsbab ku tak dapat jalan sendiri",
+      "newGroup": false
+    }
+  ]
+}

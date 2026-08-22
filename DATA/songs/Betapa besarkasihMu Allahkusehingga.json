@@ -1,0 +1,35 @@
+{
+  "title": "Betapa besarkasihMu Allahkusehingga",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa besar\nkasihMu Allahku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "sehingga Kau brikan\nYesus padaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Supaya aku\ntidak binasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "melainkan beroleh\nhidup yang kekal",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kusembah Kau\nKusembah Kau",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkau yang layak\nuntuk kusembah",
+      "newGroup": true
+    }
+  ]
+}

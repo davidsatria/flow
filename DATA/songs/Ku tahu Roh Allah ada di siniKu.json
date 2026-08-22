@@ -1,0 +1,20 @@
+{
+  "title": "Ku tahu Roh Allah ada di siniKu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku tahu Roh Allah ada di sini\nKu lihat perubahan pada s'tiap wajah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bila kuasa sorga turun\nSesuatu pasti terjadi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Karena Roh Allah ada di sini",
+      "newGroup": false
+    }
+  ]
+}

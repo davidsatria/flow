@@ -1,0 +1,35 @@
+{
+  "title": "Hati senanghati senangHati senangdi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hati senang\nhati senang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hati senang\ndi dalam Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersukacita selalu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "berdoa senantiasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ucapkanlah syukur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dalam s'gala perkara",
+      "newGroup": false
+    }
+  ]
+}

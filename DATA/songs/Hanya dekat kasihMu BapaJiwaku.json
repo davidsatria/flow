@@ -1,0 +1,45 @@
+{
+  "title": "Hanya dekat kasihMu BapaJiwaku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya dekat kasihMu Bapa\nJiwaku pun tentram",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkau menerimaku\ndengan sepenuhnya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau dunia melihat rupa\nnamun Kau memandangku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "sampai kedalaman hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan inilah yang kumau\nKau mengenal hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "jauh melebihi semua\nyang terdekat sekalipun",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan inilah yang ku tahu\nKau menjaga hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "supaya kehidupan\nmemancar senantiasa",
+      "newGroup": false
+    }
+  ]
+}

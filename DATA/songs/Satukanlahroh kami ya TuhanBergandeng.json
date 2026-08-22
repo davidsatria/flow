@@ -1,0 +1,55 @@
+{
+  "title": "Satukanlahroh kami ya TuhanBergandeng",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Satukanlah\nroh kami ya Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bergandeng tangan\nkami semuanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam hadiratMu\nkami menyembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Curahkanlah\nrohMu atas kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Roh tercurah dari surga\nbumi bersukacita",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Roh tercurah dari surga\nbangsa-bangsa bersorak",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Roh tercurah dari surga\ngereja Tuhan dibangkitkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Roh tercurah dari surga\ngereja Tuhan dimenangkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Semua bangsa-bangsa\nkan mengaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bahwa Yesus Tuhan",
+      "newGroup": false
+    }
+  ]
+}

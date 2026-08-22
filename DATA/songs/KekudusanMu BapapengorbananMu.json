@@ -1,0 +1,35 @@
+{
+  "title": "KekudusanMu BapapengorbananMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "KekudusanMu Bapa\npengorbananMu Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "PenghiburanMu Roh Kudus\nMembuatku terpesona",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada lagi kata\ntiada lagi harta",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada lagi daya\nS'lain memuji dan menyembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Glori, glori, bagiMu Yesus\nAllah yang kudus selamanya Oh",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Glori, glori, nyanyi Hosana\nBagi Sang Raja, Haleluya",
+      "newGroup": true
+    }
+  ]
+}

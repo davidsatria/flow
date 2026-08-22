@@ -1,0 +1,25 @@
+{
+  "title": "Ajarku Tuhanberterima kasihAja",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ajarku Tuhan\nberterima kasih",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ajarku\nbersyukur kepadaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Keberadaanku semua\nberkat Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ajarku Tuhan\nberterima kasih",
+      "newGroup": false
+    }
+  ]
+}

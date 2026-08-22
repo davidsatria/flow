@@ -1,0 +1,25 @@
+{
+  "title": "Siang sabarlan manteptekan pun",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Siang sabar\nlan mantep\ntekan pungkasane",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sing sabar\nlan mantep\nnderek Gusthi Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sing sabar\nlan mantep\npikantuk ganjaran",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sing sabar\nlan mantep\nmlebu Kraton Swargo",
+      "newGroup": false
+    }
+  ]
+}

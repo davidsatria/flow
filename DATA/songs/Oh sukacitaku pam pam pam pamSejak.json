@@ -1,0 +1,40 @@
+{
+  "title": "Oh sukacitaku pam pam pam pamSejak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oh, sukacitaku, pam pam pam pam\nSejak ku jumpa Yesusku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oh, sukacitaku, pam pam pam pam\nKutemukan Juruselamat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia mengasihi aku\nbahkan mati bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sukacita ku kini penuh",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Pada-Nya ku berharap\nPada Yesus Allah yang hidup",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Pada-Nya kuberserah\nEngkau sungai kehidupanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "uu…aa…uu…aa…\nPam pam pam pam",
+      "newGroup": false
+    }
+  ]
+}

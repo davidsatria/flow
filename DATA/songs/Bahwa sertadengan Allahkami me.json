@@ -1,0 +1,25 @@
+{
+  "title": "Bahwa sertadengan Allahkami me",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bahwa serta\ndengan Allah\nkami melakukan\nperkara yang besar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bahwa serta\ndengan Allah\nkami hadapi\nsemua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah akan\nmenginjak-injak\nsegala musuh kami",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Perkara besar\nterjadi, bahwa\nserta dengan Allah",
+      "newGroup": false
+    }
+  ]
+}

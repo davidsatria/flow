@@ -1,0 +1,40 @@
+{
+  "title": "ENGKAULAH KEKUATANKUTEMPAT PER",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "ENGKAULAH KEKUATANKU\nTEMPAT PERLINDUNGANKU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "SAAT BADAI MENERPA\nAKU TAK AKAN GOYAH",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "AKU TAK AKAN GOYAH\nS'BAB KAU SERTAKU",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "SEJAUH LANGIT DARI BUMI\nBEGITU BESARNYA KASIH-MU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "PENUHI HATI KAMI YANG RINDU\nMENYEMBAHMU, YESUS",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "SEJAUH LANGIT DARI BUMI\nBEGITU BESARNYA KASIH-MU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KAULAH TUHAN,\nKEKUATANKU SUKACITAKU",
+      "newGroup": false
+    }
+  ]
+}

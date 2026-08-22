@@ -1,0 +1,50 @@
+{
+  "title": "Apa yang takpernah dilihat mataYang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Apa yang tak\npernah dilihat mata",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "dan tak pernah\ndidengar telinga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang tak pernah\ntimbul di dalam hati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua disediakan-nya\nbagi yang mengasihi Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Allah sanggup melakukan\nsegala perkara",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dulu s'karang dan\ns'lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "kuasa-Nya tidak\nberubah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Allah sanggup melakukan\nsegala perkara",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dulu s'karang dan s'lamanya\nkuasa-Nya tak berubah",
+      "newGroup": false
+    }
+  ]
+}

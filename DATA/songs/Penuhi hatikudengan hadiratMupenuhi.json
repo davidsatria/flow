@@ -1,0 +1,30 @@
+{
+  "title": "Penuhi hatikudengan hadiratMupenuhi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Penuhi hatiku\ndengan hadiratMu\npenuhi hatiku\ndengan Roh KudusMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Penuhi hatiku\ndengan kasihMu\nbetapa Kau puaskan\nhatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kusembah\nKau Tuhan\nkutinggikan namaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuangkat tanganku\ndihadapan tahtaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan ajarku\nmenyembahMu selalu\nkurindu menyenangkan hatiMu",
+      "newGroup": false
+    }
+  ]
+}

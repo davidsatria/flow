@@ -1,0 +1,55 @@
+{
+  "title": "Hidupku ada di tanganMuKau bri",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hidupku ada di tanganMu\nKau bri rancangan yang terindah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak hanya yang baik saja\nYang kuterima",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau tubuhku diremukkan\nWalau jiwaku terkoyakkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pujianku takkan terhentikan\nRohMu yang memberi penghiburan",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Akan kupikul salibku\nCukuplah kasih setiaMu",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Kubertahan kau kuatku\nTeguhkan imanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kumau tetap bersyukur\nSenantiasa bersyukur",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'gala yang kualami\nBiar kehendak-Mu terjadi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kumau tetap bersyukur\nSenantiasa bersyukur",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Hatiku 'kan bersuka\nS'bab tahun ini, tahun yang terbaik",
+      "newGroup": false
+    }
+  ]
+}

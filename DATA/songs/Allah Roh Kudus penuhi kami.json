@@ -1,0 +1,35 @@
+{
+  "title": "Allah Roh Kudus penuhi kami",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Allah Roh Kudus\npenuhi kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kurindu Kau selalu\ndalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah Roh Kudus\nubah hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "celikanku jamahlah\nkurindu hadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kusembah kudus\nkudus kuduslah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dan kusanjung Kau mulia\nmulia bagiMu Tuhan",
+      "newGroup": false
+    }
+  ]
+}

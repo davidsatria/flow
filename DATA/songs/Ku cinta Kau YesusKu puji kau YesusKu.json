@@ -1,0 +1,25 @@
+{
+  "title": "Ku cinta Kau YesusKu puji kau YesusKu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku cinta Kau Yesus\nKu puji kau Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku sembah kau Yesus\nTuhan dan Raja-Ku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan seg'nap hati\ndan dengan seg'nap jiwaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "akal budi\nkucinta kau",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Ku selalu memandang TuhanKu selalu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku selalu memandang Tuhan\nKu selalu memuji Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku percaya kepada Tuhan\nKu berpasrah kepadaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Siang malam ku ingat Tuhan\nKarna Tuhan pelindungku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersama Dia ku takkan gentar\nMenghadapi semua musuh",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kiri kananku ada Tuhan\nSek’lilingku ada Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dalam hidupku ada Tuhan\nYesus s’lalu bersamaku",
+      "newGroup": false
+    }
+  ]
+}

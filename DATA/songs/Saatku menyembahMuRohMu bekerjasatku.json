@@ -1,0 +1,20 @@
+{
+  "title": "Saatku menyembahMuRohMu bekerjasatku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saatku menyembahMu\nRohMu bekerja\nsatku memujiMu\nKau bertahta diatas\npujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuangkat hatiku\nkupandang kekudusanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saatku kusembah\nkupujiMu\nkurasakan kehadiranMu Tuhan",
+      "newGroup": false
+    }
+  ]
+}

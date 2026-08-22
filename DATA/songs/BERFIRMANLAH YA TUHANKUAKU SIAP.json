@@ -1,0 +1,25 @@
+{
+  "title": "BERFIRMANLAH YA TUHANKUAKU SIAP",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "BERFIRMANLAH YA TUHANKU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "AKU SIAP MENDENGARKAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "BERSABDALAH YA YESUSKU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "FIRMAN-MU KEKUATAN HIDUPKU",
+      "newGroup": false
+    }
+  ]
+}

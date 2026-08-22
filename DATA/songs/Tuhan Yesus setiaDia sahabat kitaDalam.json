@@ -1,0 +1,30 @@
+{
+  "title": "Tuhan Yesus setiaDia sahabat kitaDalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Yesus setia\nDia sahabat kita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam s'gala susahku\nselalu menghiburku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia mengerti\nBahasa tetesan air mata",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Waktu badai mengamuk\nDan gelombang Menerjang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Yesus Setia",
+      "newGroup": false
+    }
+  ]
+}

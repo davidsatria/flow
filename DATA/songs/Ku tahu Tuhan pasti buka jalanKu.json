@@ -1,0 +1,15 @@
+{
+  "title": "Ku tahu Tuhan pasti buka jalanKu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku tahu Tuhan pasti buka jalan\nKu tahu Tuhan pasti buka jalan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Asal ‘ku hidup suci tidak turut dunia\nKu tahu Tuhan pasti buka jalan",
+      "newGroup": false
+    }
+  ]
+}

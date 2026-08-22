@@ -1,0 +1,30 @@
+{
+  "title": "Yesus  Yesus  YesusNama itu pikat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus,  Yesus,  Yesus\nNama itu pikat hatiku\nDia hapus semua dosaku (ya ya ya)",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan bri hati yang baru\nHati resah Dia lenyapkan  (ya ya ya)\nSejahtera Dia berikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hati bimbang tak menentu\nHidup kekal Dia brikan padaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jangan kau bimbang, nyanyi sembahyang\nNyanyi (4x) susahpun hilang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jangan kau bimbang, nyanyi sembahyang\nNyanyi (4x) susahpun hilang",
+      "newGroup": false
+    }
+  ]
+}

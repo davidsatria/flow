@@ -1,0 +1,25 @@
+{
+  "title": "Kini saatnya berdiri di altar-NyaS'bab",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kini saatnya berdiri di altar-Nya\nS'bab Allah Maha Kudus hadir di sini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari memuji, angkat tangan, menyembah\nS'bab Allah Maha Kudus hadir di sini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kita masuk takhta suci-Nya\nBersama",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari puji Yesusku\nKita masuk hadirat-Nya Maha Kudus",
+      "newGroup": true
+    }
+  ]
+}

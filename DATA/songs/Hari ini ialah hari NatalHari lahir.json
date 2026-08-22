@@ -1,0 +1,25 @@
+{
+  "title": "Hari ini ialah hari NatalHari lahir",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari ini ialah hari Natal\nHari lahir Juruselamat kita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Malaikat di sorga bersoraklah\nHaleluya Puji Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Marilah kita bersukaria\nMenyambut hari yang mulia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Pujilah hosana Dia lahir di dunia\nTebus dosa kita semua",
+      "newGroup": false
+    }
+  ]
+}

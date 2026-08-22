@@ -1,0 +1,60 @@
+{
+  "title": "Apakah kau payahmencari-cariapakah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Apakah kau payah mencari-cari,\napakah kau payah berkeliling",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bawalah sekarang\nsegala susahmu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pada kaki Yesus\nserahkanlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah Dia janji\ns’lalu kan panas",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan tak pernah Dia janji\nhanya ada hujan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tapi Dia berjanji\nmemb’ri kekuatan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bila taufan ganas\nmelandamu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S’rahkanlah, s’rahkanlah\ns’rahkan pada Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "segala beban\nyang menindih hidupmu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "s’rahkanlah, s’rahkanlah\ns’rahkan pada Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia kan ganti s’gala\nduka menjadi suka",
+      "newGroup": false
+    }
+  ]
+}

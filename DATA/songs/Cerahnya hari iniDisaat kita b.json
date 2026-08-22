@@ -1,0 +1,55 @@
+{
+  "title": "Cerahnya hari iniDisaat kita b",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Cerahnya hari ini\nDisaat kita bersatu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bahagia 'kan kita lalui",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Seiring langkah-langkah\ndetak waktu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Cerahnya hari ini\nDisaat Engkau hadir Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menata langkah hidup kita\nTanpa ada segaris ragu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan kini t'lah bersemi\nBahagia di hati",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Menatap kehidupan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Menyambut hangatnya\nmentari esok",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami bersyukur\nkami bersyukur\nPada-Mu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami bersyukur\nkami bersyukur\nPada-Mu Yesus",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Tak usah ku takutAllah menjagakutak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak usah ku takut\nAllah menjagaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tak usah ku bimbang\nYesus p'liharaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak usah ku susah\nRoh Kudus hiburku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak usah ku cemas\nDia memberkatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "El Shaddai El Shaddai\nAllah Maha Kuasa",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia Besar Dia Besar\nEl Shaddai mulia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "El Shaddai El Shaddai\nAllah Maha Kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "berkatNya berlimpah\nEl Shaddai",
+      "newGroup": false
+    }
+  ]
+}

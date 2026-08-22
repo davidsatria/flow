@@ -1,0 +1,45 @@
+{
+  "title": "Ku tak perlu kuatirterhadap ap",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku tak perlu kuatir\nterhadap apapun",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tanganMu yang penuh kasih\nmenopangku tanpa henti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tak perlu takut\ntuk melangkah maju",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "HadiratMu yang berkuasa\nmenjagaku senantiasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Seperti tiang awan yang\nmeneduhkan dari terik siang",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Hatiku selalu tenang\ndi dalam tanganMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Seperti tiang api yang menerangi\ndari gelap malam",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau menjagai hidupku\ndengan kebaikanMu",
+      "newGroup": false
+    }
+  ]
+}

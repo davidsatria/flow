@@ -1,0 +1,35 @@
+{
+  "title": "Aku mengasihi Engkau Yesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku mengasihi Engkau Yesus\nDengan segenap hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku mengasihi Engkau Yesus\nDengan segenap jiwaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku renungkan firmanMu\nsiang dan malam",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku pegang printahMu\ndan ku lakukan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkau tahu ya Tuhan\nTujuan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hanyalah untuk\nmenyenangkan hatiMu",
+      "newGroup": false
+    }
+  ]
+}

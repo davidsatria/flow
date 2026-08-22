@@ -1,0 +1,45 @@
+{
+  "title": "Aku Datang danKu Bersujud Diha",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku Datang dan\nKu Bersujud DihadapanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kurasakan Indah\nHadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tlah Kubuka Mata Hatiku\nDan Sluruh Jiwaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Untuk Ku Nikmati\nFirmanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "FirmanMu Yang Kuasa\nTuk Mengubah Sikap Hati",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "FirmanMu Yang Tegakkan\nDi Saat Ku Terjatuh",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Penuhkanlah Bejanaku\nDengan Air SungaiMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku Haus Akan FirmanMu",
+      "newGroup": false
+    }
+  ]
+}

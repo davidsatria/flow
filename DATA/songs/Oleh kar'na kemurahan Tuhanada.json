@@ -1,0 +1,30 @@
+{
+  "title": "Oleh kar'na kemurahan Tuhanada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oleh kar'na kemurahan Tuhan\nada sampai hari ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oleh kar'na kebaikan Tuhan\nterjadi bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku percaya\natasku melimpah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kebajikan, kemurahan\ns'lalu mengikutiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kupuji, kusembah\nKau Tuhan",
+      "newGroup": false
+    }
+  ]
+}

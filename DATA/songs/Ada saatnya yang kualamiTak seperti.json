@@ -1,0 +1,55 @@
+{
+  "title": "Ada saatnya yang kualamiTak seperti",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ada saatnya yang kualami\nTak seperti yang aku ingini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kutetapkan hati untuk percaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ada saatnya yang kuhadapi\nSeringkali aku tak mengerti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku memilih untuk tetap setia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sampai akhir di hidupku\nKu kan tetap menyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Melayanimu seumur hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sampai ku menutup mata\nKu tetap mengasihiMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Biar Kau dapati\nKu hambaMu yang setia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ada saatnya yang kuhadapi\nSeringkali aku tak mengerti",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku memilih untuk tetap setia",
+      "newGroup": false
+    }
+  ]
+}

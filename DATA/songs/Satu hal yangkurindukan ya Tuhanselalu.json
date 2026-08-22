@@ -1,0 +1,25 @@
+{
+  "title": "Satu hal yangkurindukan ya Tuhanselalu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Satu hal yang\nkurindukan ya Tuhan\nselalu berada\ndidekatMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengan segnap hati\ndengan segnap jiwa\nku menanti\ndi hadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lebih dalam lagi\nkurindu kau Tuhan\nlebih dari\nsegala yang ada",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lebih dalam lagi\nkucinta Kau Yesus\nkumengasihiMu",
+      "newGroup": false
+    }
+  ]
+}

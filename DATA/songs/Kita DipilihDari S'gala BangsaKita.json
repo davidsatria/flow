@@ -1,0 +1,45 @@
+{
+  "title": "Kita DipilihDari S'gala BangsaKita",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kita Dipilih\nDari S'gala Bangsa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kita Dipilih Jadi UmatNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kita Dipilih\nDan DikuduskanNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Membawa Kemuliaan\nHanya Bagi Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "T'rimalah Kemuliaan\nDan Hormat Kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "T'rimalah Sembah Kami\nPujian Kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "T'rimalah Kemuliaan\nDan Hormat Kami",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "T'rimalah Sembah Dan\nPujian Kami",
+      "newGroup": false
+    }
+  ]
+}

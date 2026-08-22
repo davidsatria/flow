@@ -1,0 +1,25 @@
+{
+  "title": "Ku tau Tuhanpasti buka jalan(2X)Kalau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku tau Tuhan\npasti buka jalan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tau Tuhan\npasti buka jalan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kalau ku hidup suci\ntidak turut dunia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutau Tuhan\npasti buka jalan",
+      "newGroup": false
+    }
+  ]
+}

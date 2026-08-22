@@ -1,0 +1,40 @@
+{
+  "title": "Hari yang terindahketika kujumpaDengan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari yang terindah\nketika kujumpa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengan Yesus yang\nmenjadi kekasih hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau banyak rintangan\njalan yang dihadapan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KasihNya kini jadi kuatku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Di hatiku…ada cintaNya\nDi hatiku…kucinta padaNya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kuingin selalu\nmendengar suaraNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bertumbuh dalam\nimanku padaNya",
+      "newGroup": false
+    }
+  ]
+}

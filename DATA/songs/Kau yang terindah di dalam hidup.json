@@ -1,0 +1,55 @@
+{
+  "title": "Kau yang terindah di dalam hidup",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau yang terindah\ndi dalam hidup ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada Allah Tuhan\nyang seperti engkau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Besar perkasa\npenuh kemuliaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau yang termanis\ndi dalam hidup ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku cinta Kau\nlebih dari segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Besar kasih\nsetiaMu kepadaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku sembah Kau ya Allahku\nKu tinggikan namaMu selalu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'tiap lutut kan bertelut\nMenyembah Yesus Tuhan Rajaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku sembah Kau ya Allahku\nKu tinggikan namaMu selalu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Semua lidah kan mengaku\nEngkaulah Yesus Tuhan Rajaku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan kupercaya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan kupercaya\nrencanaMu indah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Walau saat ini\ntak ku mengerti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkau t'lah berfirman\nkan b'ri masa depan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Damai sejahtera\npenuh harapan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tahu rencanaMu\nindah bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku tahu kehendakMu\nbaik bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tahu rancanganMu\nsempurna bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tahu jalan-jalanMu\nyang terbaik bagiku",
+      "newGroup": false
+    }
+  ]
+}

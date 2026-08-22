@@ -1,0 +1,65 @@
+{
+  "title": "Meskipun musuhDi depankuRintangan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Meskipun musuh\nDi depanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Rintangan menghadang\nLangkahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutahu sungguh\nEngkau bersamaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Beribu rebah dikiriku\nBerlaksa disisi kananku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutahu janjimu\nEngkau bersamaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Takkan pernah\nGoyah keyakinanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pada dirimu\nYesus Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada yang\nSeperti dirimu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kaulah kuatku\nKebanggaanku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Gunung batu dan\nKeselamatanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kuat tanganmu\nPerlindunganku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kaulah Allah sumber\nKemenanganku",
+      "newGroup": false
+    }
+  ]
+}

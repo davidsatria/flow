@@ -1,0 +1,45 @@
+{
+  "title": "Nggandol Gusti Nggandol GustiNggandol",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Nggandol Gusti, Nggandol Gusti\nNggandol Gusti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saben Dino Rino Wengi\nNggandol Gusti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nggandol Gusti, Nggandol Gusti\nNggandol Gusti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saben Dino Rino Wengi\nNggandol Gusti",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kulo Amung Pracoyo\nOra Bakal Ciloko",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Nanging Uripku\nMulyo Selaminyo",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Atiku Roso Tentrem\nAtiku Soyo Seneng",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saben Dino Kulo Nggih\nNggandol Gusti",
+      "newGroup": false
+    }
+  ]
+}

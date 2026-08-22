@@ -1,0 +1,30 @@
+{
+  "title": "Tuhan Raja Maha BesarMari datang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Raja Maha Besar\nMari datang menyembah Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia pencipta dunia ini\nDia membentuk gunung-gunung",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ke hadirat-Nya datanglah\nNyanyi bersyukur pada-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dengan bersuka bernyanyilah\nDia batu kes'lamatan puji Dia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Raja Maha Besar",
+      "newGroup": false
+    }
+  ]
+}

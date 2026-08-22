@@ -1,0 +1,45 @@
+{
+  "title": "Kasih-Nya seperti sungai",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih-Nya seperti sungai\nKasih-Nya seperti sungai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih-Nya seperti\nsungai di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalir di waktu susah\nMengalir di waktu senang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih-Nya seperti\nsungai di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berkat-Nya seperti sungai\nBerkat-Nya seperti sungai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berkat-Nya seperti\nsungai di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalir di waktu susah\nMengalir di waktu senang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berkat-Nya seperti\nsungai di hatiku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Hanya KauAllah BapakuTuhanJuru",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya Kau\nAllah Bapaku\nTuhan\nJurus'lamatku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saatku sebut\nnamaMu Yesus\nKau menjawab\nimanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Kau\nRaja Damaiku\nRoh Kudus\npenghiburku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saatku ikut\nsuaraMu Yesus\nKau berkati\njalanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada nama lain\nyang berkuasa\nmenyelamatkan\nhidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya nama Yesus\nyang kupercaya\nKau s'lalu sanggup\nmenolongku",
+      "newGroup": false
+    }
+  ]
+}

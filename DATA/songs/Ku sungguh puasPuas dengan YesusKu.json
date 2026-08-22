@@ -1,0 +1,30 @@
+{
+  "title": "Ku sungguh puasPuas dengan YesusKu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku sungguh puas\nPuas dengan Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku sungguh puas\nPuas dengan Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Keperluan Dia cukupkan\nPuji Tuhan, ku puas",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku sungguh puas\nPuas dengan-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ending\nKu sungguh puas\nPuas dengan-Nya",
+      "newGroup": false
+    }
+  ]
+}

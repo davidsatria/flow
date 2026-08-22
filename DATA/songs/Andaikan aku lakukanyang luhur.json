@@ -1,0 +1,55 @@
+{
+  "title": "Andaikan aku lakukanyang luhur",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Andaikan aku lakukan\nyang luhur mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jika tanpa kasih cinta\nhampa tak berguna",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Andaikan aku pahami\nbahasa semua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "hanyalah bahasa cinta\nkunci tiap hati",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ajarilah kami\nbahasa cintaMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "agar kami Dekat\npadaMu ya Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ajarilah kami\nbahasa cintaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "agar kami Dekat padaMu\nCinta itu lemah lembut",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "sabar sederhana\nCinta itu murah hati",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "rela menderita",
+      "newGroup": false
+    }
+  ]
+}

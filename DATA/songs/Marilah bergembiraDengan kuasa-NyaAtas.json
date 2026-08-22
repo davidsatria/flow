@@ -1,0 +1,15 @@
+{
+  "title": "Marilah bergembiraDengan kuasa-NyaAtas",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Marilah bergembira\nDengan kuasa-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Atas segala pencobaan\nYang ada di dunia",
+      "newGroup": false
+    }
+  ]
+}

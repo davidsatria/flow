@@ -1,0 +1,40 @@
+{
+  "title": "Imanuel ImanuelNamaNya disebut",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Imanuel, Imanuel\nNamaNya disebut Imanuel",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Allah serta dengan kita\nNamaNya disebut Imanuel",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Imanuel, Imanuel\nNamaNya disebut Imanuel",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bila Engkau tak besertaku\nKu tak mau berjalan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku perlu Tuhan pimpin langkahku\nDengan kasih karunia-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pimpin langkahku setiap waktu\nBerjalan dalam roh-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nyatakan Tuhan kemuliaan-Mu\nDan berjalanlah denganku",
+      "newGroup": false
+    }
+  ]
+}

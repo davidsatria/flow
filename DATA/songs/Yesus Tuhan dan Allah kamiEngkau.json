@@ -1,0 +1,35 @@
+{
+  "title": "Yesus Tuhan dan Allah kamiEngkau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Tuhan dan Allah kami\nEngkau layak menerima pujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hormat dan Kuasa, Sebab\nKau t'lah ciptakan segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oleh kar'na kehendak-Mu\nSemuanya itu telah ada",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan diciptakan untuk Kemuliaan-Mu\nTerpujilah Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ho ho Hosana, terpujilah Tuhan\nterpujilah Tuhan Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ho ho Hosana, terpujilah Tuhan\nterpujilah Tuhan Yesus",
+      "newGroup": true
+    }
+  ]
+}

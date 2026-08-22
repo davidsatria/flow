@@ -1,0 +1,45 @@
+{
+  "title": "Tiada kuragu lagi'tuk mengikutMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tiada kuragu lagi\n'tuk mengikutMu Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada kuragu lagi\n'tuk melayaniMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau banyak rintangan\ndan badaipun menerjang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada kuragu lagi\nuntuk selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus, Yesus sahabatku\npenolong dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kurindu semua\norang mengenalMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkau jalan kebenaran\nDan memb'ri hidup yang kekal",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bagi s'tiap orang\nyang percaya padaMu",
+      "newGroup": false
+    }
+  ]
+}

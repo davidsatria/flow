@@ -1,0 +1,25 @@
+{
+  "title": "Datang pada HuDatang pada HuYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Datang pada Hu\nDatang pada Hu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus mau brikan\ndamai sepenuh",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kalau jiwamu lelah dan\nbertanggungan brat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Datang datang\ndatang pada Hu",
+      "newGroup": false
+    }
+  ]
+}

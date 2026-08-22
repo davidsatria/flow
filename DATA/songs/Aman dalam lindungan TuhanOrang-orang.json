@@ -1,0 +1,30 @@
+{
+  "title": "Aman dalam lindungan TuhanOrang-orang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aman dalam lindungan Tuhan\nOrang-orang yang percaya kepadaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Adalah seperti gunung sion\nYang tak kan goyah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan tetap teguh selama-lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sorak-sorai halleluya\nTerpujilah Tuhan selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sorak-sorai halleluya\nKu aman dalam perlindungan Tuhan",
+      "newGroup": false
+    }
+  ]
+}

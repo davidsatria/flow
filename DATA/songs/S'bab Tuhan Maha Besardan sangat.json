@@ -1,0 +1,40 @@
+{
+  "title": "S'bab Tuhan Maha Besardan sangat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "S'bab Tuhan Maha Besar\ndan sangat terpuji",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia lebih dahsyat\ndari s'gala Allah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Tuhan Maha Besar\ndan sangat terpuji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KuasaNya dahsyat\nmenghancurkan musuh",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Ceritakanlah perbuatanNya\ndiantara segala bangsa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan perbuatanNya\nyang sungguh ajaib",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "diantara suku bangsa",
+      "newGroup": false
+    }
+  ]
+}

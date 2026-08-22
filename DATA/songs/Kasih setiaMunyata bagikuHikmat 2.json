@@ -1,0 +1,45 @@
+{
+  "title": "Kasih setiaMunyata bagikuHikmat 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih setiaMu\nnyata bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hikmat kebajikan\ntersedia bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Allah sanggup\nlimpahkan s'galanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan anugerahNya\nsangat besar bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku diberkati\nAku dilimpahi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kar'na Allah sanggup\nUntuk menyediakan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku diberkati\nAku dilimpahi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Atas sempurna anug'rah\nTuhan bagiku",
+      "newGroup": false
+    }
+  ]
+}

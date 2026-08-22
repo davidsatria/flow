@@ -1,0 +1,25 @@
+{
+  "title": "Hati yang gembiraAdalah obatS’perti",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hati yang gembira\nAdalah obat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S’perti obat hati yang senang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tetapi semangat yang patah\nKeringkan Tulang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hati yang gembira\nTuhan Senang",
+      "newGroup": false
+    }
+  ]
+}

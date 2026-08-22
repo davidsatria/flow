@@ -1,0 +1,55 @@
+{
+  "title": "Setiap janji-MuTuhanKusimpan d",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Setiap janji-Mu Tuhan\nKusimpan dalam lubuk hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lewati setiap masalah\nTiap tetes air mata dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Janji-Mu menopang\nhidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih-Mu menuntun\nlangkahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam setiap waktu\npenolongku yang aku percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "T'rima kasih\nbuat kasih setia-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Penyertaan-Mu\nsempurna",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Janji-Mu tak pernah\nterlambat menolongku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "T'rima kasih\nkubert'rima kasih",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Buat kasih setia-Mu\ndi dalam hidupku",
+      "newGroup": false
+    }
+  ]
+}

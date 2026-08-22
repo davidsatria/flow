@@ -1,0 +1,45 @@
+{
+  "title": "Bapaku yang baikKau sangat ku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapaku yang baik\nKau sangat ku cinta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lebih dari segalanya\ndi dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bapaku yang baik\nEngkau yang ku perlu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lebih dari segalanya\nKasihMu bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tak pernah berakhir\nKasih setiaMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Selalu nyata\ndalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tak pernah berhenti\nberharap padaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku\nKau segalanya",
+      "newGroup": false
+    }
+  ]
+}

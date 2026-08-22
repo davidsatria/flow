@@ -1,0 +1,45 @@
+{
+  "title": "Ingat kasihNyaIngat kebaikanNyadan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ingat kasihNya\nIngat kebaikanNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "dan AnugrahNya\nSlamatkanku ...",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "sbab kasihNya\nsetinggi langit",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kasih setia Allah\npada kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Besar kasih Allah\npada kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tak kan lupa kasihNya,\nku tak kan lupa anugrahNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia penuhkan, Dia penuhkan,\nDia puaskan hasratku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Besar kasih Allah\npada kita",
+      "newGroup": false
+    }
+  ]
+}

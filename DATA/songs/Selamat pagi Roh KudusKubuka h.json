@@ -1,0 +1,25 @@
+{
+  "title": "Selamat pagi Roh KudusKubuka h",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Selamat pagi, Roh Kudus\nKubuka hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kudatang lagi ke hadirat-Mu\nJamahlah hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kurasakan hadirat-Mu\nKurasakan kasih-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya Kau yang kuperlu\nKu mengasihi-Mu",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "ROH KUDUS YANG MANISDATANG KE",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "ROH KUDUS YANG MANIS\nDATANG KE ATASKU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ROH KUDUS YANG MANIS\nDATANG KE ATASKU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "DATANG PENUHIKU\nDATANG URAPIKU",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "DATANG SEGARKANKU\nROH KUDUS YANG MANIS",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DATANG PENUHIKU\nDATANG URAPIKU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DATANG SEGARKANKU\nROH KUDUS YANG MANIS",
+      "newGroup": false
+    }
+  ]
+}

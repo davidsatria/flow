@@ -1,0 +1,25 @@
+{
+  "title": "Tuhan yang bersama kamiBerjalan",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Tuhan yang bersama kami\nBerjalan bersama kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tak takut, ku tak gentar\nS'bab Allahku bersama kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan yang bersama kami\nBerjalan bersama kami",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tangan-Mu yang pegang hidupku\nKu yakin Kau bersama kami",
+      "newGroup": false
+    }
+  ]
+}

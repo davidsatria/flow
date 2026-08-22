@@ -1,0 +1,30 @@
+{
+  "title": "Roh KudusKau hadir disiniRoh K",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Roh Kudus\nKau hadir disini\nRoh Kudus\nkumengasihiMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau lembut\nKau manis\nKaulah penghiburku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Penolongku\ndiutus Bapaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kubuka hati\nuntuk RohMu Tuhan\nkubuka hati\nmenyembahMu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jamahlah kami\npenuhi kami\ndengan kuasa\nAllah Maha Tinggi",
+      "newGroup": false
+    }
+  ]
+}

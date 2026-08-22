@@ -1,0 +1,30 @@
+{
+  "title": "Rayakan Yesus Rayakan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Rayakan Yesus rayakan\nRayakan Yesus rayakan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Rayakan Yesus rayakan\nRayakan Yesus rayakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia Lahir, Dia Lahir\nDan hidup selamanya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia Lahir, Dia Lahir\nMarilah rayakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Marilah rayakan\nKelahiran Tuhan kita",
+      "newGroup": false
+    }
+  ]
+}

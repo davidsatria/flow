@@ -1,0 +1,35 @@
+{
+  "title": "Hidup hiduphidup selamanyaYesusku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hidup hidup\nhidup selamanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesusku hiduplah\nhidup selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hidup hidup\nhidup selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesusku hiduplah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh haleluya Oh haleluya\nYesusku hiduplah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oh haleluya Oh haleluya\nYesusku hiduplah",
+      "newGroup": true
+    }
+  ]
+}

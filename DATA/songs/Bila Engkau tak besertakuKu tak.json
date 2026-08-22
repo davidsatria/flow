@@ -1,0 +1,25 @@
+{
+  "title": "Bila Engkau tak besertakuKu tak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bila Engkau tak besertaku\nKu tak mau berjalan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku perlu Tuhan pimpin langkahku\nDengan kasih karunia-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pimpin langkahku setiap waktu\nBerjalan dalam roh-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nyatakan Tuhan kemuliaan-Mu\nDan berjalanlah denganku",
+      "newGroup": false
+    }
+  ]
+}

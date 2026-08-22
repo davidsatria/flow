@@ -1,0 +1,25 @@
+{
+  "title": "Yesus yang termanis buat jiwakuBuat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus yang termanis buat jiwaku\nBuat jiwaku, buat jiwaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus yang termanis buat jiwaku\nKu cinta s’lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Medley\nKu tak dapat jalan sendiri\nTuhan tolonglah daku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Biarlah sinar-Mu menerangiku\nS’bab ku tak dapat jalan sendiri",
+      "newGroup": false
+    }
+  ]
+}

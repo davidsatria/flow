@@ -1,0 +1,60 @@
+{
+  "title": "Mari Kita Semua Umat Pilihan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mari Kita Semua\nUmat Pilihan Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengarlah Panggilan-Nya\nTuk Menggenapi Firman-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekaranglah Waktu-Nya\nTuk Berdiri Bagi Bangsa Ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mari Maju\nUmat Pemenang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku Kan Bangkit\nNyatakan Kemuliaan-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku Kan Bangkit\nNyatakan Kebesaran-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sampai Setiap Lutut Bertelut\nSemua Lidah Mengaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus Kristus Dia Lah Tuhan\nRaja Segala Raja",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Dialah Raja",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Dialah Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Dialah Raja",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Yesus ajaibTuhanku ajaibkasihNya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus ajaib\nTuhanku ajaib",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kasihNya ajaib\nbagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus ajaib\nTuhanku ajaib",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "RahmatNya tetap\nselamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tak berbuah kasihNya\nsetiap hari bertambah indahnya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sampai bumi berlalu\ndan habislah ragaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku ajaib\nbagiku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Di hatiMu terukir namakuDi mataMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Di hatiMu terukir namaku\nDi mataMu terlukis wajahku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bukan karna kuat gagahku\nNamun hanya karna kemurahanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Meski terkadang aku terjatuh\nTak pernah lelah Kau hampiriku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Memelukku dengan cintaMu\nBetapa besar mulia kasihMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "BagiMu Tuhan sgala pujian\nHormat kemuliaan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada ternilai salibMu Tuhan\nSungguh berharga Engkau…",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus",
+      "newGroup": false
+    }
+  ]
+}

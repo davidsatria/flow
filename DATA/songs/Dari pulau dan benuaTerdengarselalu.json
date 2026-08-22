@@ -1,0 +1,60 @@
+{
+  "title": "Dari pulau dan benuaTerdengarselalu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dari pulau dan benua",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Terdengar\nselalu t’rus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lagu pujian semua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bagi Nama Penebus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Glo……ria, muliakan Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Glo……ria, muliakan Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ending\nmuliakan\nTuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tinggi-tinggi dalam surga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tent’ra Tuhan yang kudus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak lelah bernyanyi juga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dihadapan Penebus",
+      "newGroup": false
+    }
+  ]
+}

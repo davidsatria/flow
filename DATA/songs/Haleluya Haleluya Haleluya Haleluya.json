@@ -1,0 +1,40 @@
+{
+  "title": "Haleluya Haleluya Haleluya Haleluya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Haleluya ..\nHaleluya ..",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya ..\nHaleluya ..",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Puji Tuhan\nHaleluya ...",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Puji Tuhan\nHaleluya ...",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Puji Tuhan\nHaleluya ...",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji Tuhan",
+      "newGroup": false
+    }
+  ]
+}

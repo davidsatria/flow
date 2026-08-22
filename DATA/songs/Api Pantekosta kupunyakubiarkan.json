@@ -1,0 +1,20 @@
+{
+  "title": "Api Pantekosta kupunyakubiarkan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Api Pantekosta kupunya\nkubiarkan menyala",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Api Pantekosta kupunya\nkubiarkan menyala",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "menyala menyala\nslamanya",
+      "newGroup": true
+    }
+  ]
+}

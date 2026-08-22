@@ -1,0 +1,35 @@
+{
+  "title": "Saat ku menyembah-Muroh-Mu bekerjaSaat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat ku menyembah-Mu\nroh-Mu bekerja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saat ku memuji-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau bertahta\ndi atas pujian",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku angkat hatiku\nku pandang kekudusan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saat ku sembah,\nku puji-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku rasakan\nkehadiran-Mu, Tuhan",
+      "newGroup": false
+    }
+  ]
+}

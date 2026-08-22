@@ -1,0 +1,25 @@
+{
+  "title": "Bila Roh Allah adadi dalamkuKu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bila Roh Allah ada\ndi dalamku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku kan menari\nS'perti Daud menari",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kukan menari\nKukan menari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kukan menari\nS'perti Daud menari",
+      "newGroup": true
+    }
+  ]
+}

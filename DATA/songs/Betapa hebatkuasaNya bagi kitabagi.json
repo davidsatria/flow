@@ -1,0 +1,25 @@
+{
+  "title": "Betapa hebatkuasaNya bagi kitabagi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa hebat\nkuasaNya bagi kita\nbagi kita yang percaya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sesuai dengan\nkekuatan kuasaNya\nbetapa hebat kuasa\nTuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Betapa hebat\nkuasaNya bagi kita\nbagi kita bagi kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sesuai dengan\nkekuatan kuasaNya\nbetapa hebat\nkuasa Tuhan",
+      "newGroup": false
+    }
+  ]
+}

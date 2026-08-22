@@ -1,0 +1,50 @@
+{
+  "title": "Datang pada Tuhandengan sorak-",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Datang pada Tuhan\ndengan sorak-sorai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "datang pada Tuhan\ndengan nyanyian syukur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Dia Raja dan Tuhan\nallah yang berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kemuliaan\nhanya bagi Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku mau b'ri korban syukur\npadaNya setiap waktu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku mau memuji Tuhan\nselalu seumur hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku mau\nbersorak-sorai hei....",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan bernyanyi\ndihadapanNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "umatNya\nbersuka",
+      "newGroup": false
+    }
+  ]
+}

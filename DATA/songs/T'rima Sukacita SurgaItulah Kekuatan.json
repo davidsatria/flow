@@ -1,0 +1,55 @@
+{
+  "title": "T'rima Sukacita SurgaItulah Kekuatan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "T'rima Sukacita Surga\nItulah Kekuatan Bagi Jiwa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kudapat Rasakan\nKasihnya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ditengah Badai\nYang Bergelora",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "T'rima Sukacita Surga\nItulah Kekuatan Bagi Jiwa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kudapat Saksikan\nKuasanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Taklukkan Badai\nYang Bergelora",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya Kau Ada\nDalam Hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Takkan Patah Semangatku\nTakkan Hilang Kekuatanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya Ku Mau\nBersorak Bagimu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sukacita Surga\nNyata Penuhiku",
+      "newGroup": false
+    }
+  ]
+}

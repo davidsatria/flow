@@ -1,0 +1,45 @@
+{
+  "title": "Ku masuki gerbangNyadengan hati 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku masuki gerbangNya\ndengan hati bersyukur",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "HalamanNya\ndengan pujian",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kataku hari ini\nharinya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku bersuka\ns'bab Dia girangkanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia girangkanku oh\nDia girangkanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku bersuka\ns'bab Dia girangkanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia girangkanku\noh Dia girangkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku bersuka\ns'bab Dia girangkanku",
+      "newGroup": false
+    }
+  ]
+}

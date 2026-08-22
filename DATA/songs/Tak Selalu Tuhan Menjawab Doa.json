@@ -1,0 +1,50 @@
+{
+  "title": "Tak Selalu Tuhan Menjawab Doa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak selalu\nTuhan menjawab doa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Namun dia b'ri yang terbaik\nDi waktu yang tepat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ijinkanlah\nTuhan untuk bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang mustahil\nmenjadi mungkin",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oleh kar'na percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus mendengar\nlebih dari yang kudoakan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yesus menjawab\nlebih dari yang kuharapkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dengan cara-nya\ndi waktu yang tepat",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kukan melihat\ndia jadikan semua",
+      "newGroup": false
+    }
+  ]
+}

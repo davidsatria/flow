@@ -1,0 +1,45 @@
+{
+  "title": "PUJIAN DAN SYUKURKUKUBAWA PADAMUDENGAN",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "PUJIAN DAN SYUKURKU\nKUBAWA PADAMU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DENGAN RENDAH HATI\nKUPERSEMBAHKAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "SADAR BILA KU ADA\nHANYA KARENA ANUGERAH",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "BUKAN KARENA KEKUATANKU",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "KU TAHU HIDUPKU\nADALAH PENYEMBAHAN",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KAU CIPTAKANKU\nDALAM KEMULIAANMU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KU TAHU HIDUPKU\nBERHARGA DI MATAMU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "SEGENAP HIDUP KU\nPERSEMBAHKAN",
+      "newGroup": false
+    }
+  ]
+}

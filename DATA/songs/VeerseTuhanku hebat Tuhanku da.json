@@ -1,0 +1,50 @@
+{
+  "title": "VeerseTuhanku hebat Tuhanku da",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Veerse\nTuhanku hebat, Tuhanku dahsyat\nTuhan membuat orang jadi kaya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ia merendahkan, Ia meninggikan\nIa menegakkan orang yang hina",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ia mengangkat orang yang miskin\nYang rendah hatinya dari dalam lumpur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ia mendudukkan orang pilihan-Nya\nBersama dengan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau Tuhan sanggup mengubah air menjadi anggur",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Anggur yang manis dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan sanggup mengubah ratap\nRatapku kini jadi tarian indah bagi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ending\nMengubah air\nMenjadi anggur manis bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengubah ratap\nJadi tarian indah bagi-Mu",
+      "newGroup": false
+    }
+  ]
+}

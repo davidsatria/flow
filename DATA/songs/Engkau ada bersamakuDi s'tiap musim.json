@@ -1,0 +1,45 @@
+{
+  "title": "Engkau ada bersamakuDi s'tiap musim",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Engkau ada bersamaku\nDi s'tiap musim hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "'Tak pernah 'Kau\nbiarkan kusendiri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kekuatan dijiwaku\nadalah bersama-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "'Tak pernah\nkuragukan kasih-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersama-Mu Bapa\nkulewati semua",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Perkenanan-Mu yang\nteguhkan hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkau yang bertindak\nmemb'ri pertolongan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Anug'rah-Mu besar\nmelimpah bagiku",
+      "newGroup": false
+    }
+  ]
+}

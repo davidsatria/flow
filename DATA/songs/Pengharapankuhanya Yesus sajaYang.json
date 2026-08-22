@@ -1,0 +1,40 @@
+{
+  "title": "Pengharapankuhanya Yesus sajaYang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Pengharapanku\nhanya Yesus saja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang mati atas Golgota",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia gembala jiwaku\nyang sungguh",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Dia harapanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus harapan jiwaku\nYesus pelepas dosaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia pohon s'lamat\nDan kes'nanganku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus Dia harapanku",
+      "newGroup": false
+    }
+  ]
+}

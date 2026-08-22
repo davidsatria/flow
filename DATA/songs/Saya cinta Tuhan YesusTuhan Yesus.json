@@ -1,0 +1,15 @@
+{
+  "title": "Saya cinta Tuhan YesusTuhan Yesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saya cinta Tuhan Yesus\nTuhan Yesus cinta saya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya Haleluya Haleluya\nHaleluya Haleluya Haleluya",
+      "newGroup": false
+    }
+  ]
+}

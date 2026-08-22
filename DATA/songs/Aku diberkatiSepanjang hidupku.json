@@ -1,0 +1,25 @@
+{
+  "title": "Aku diberkatiSepanjang hidupku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku diberkati",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sepanjang hidupku\ndiberkati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bila waktu pagi hari\nsiang berganti malam",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku diberkati",
+      "newGroup": false
+    }
+  ]
+}

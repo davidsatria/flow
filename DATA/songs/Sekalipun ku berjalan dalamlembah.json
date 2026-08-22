@@ -1,0 +1,65 @@
+{
+  "title": "Sekalipun ku berjalan dalamlembah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sekalipun\nku berjalan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam lembah kekelaman\nKau besertaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekalipun\nhidup tak menentu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Engkau\nkepastian bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan yang bersama kami",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Berjalan bersama kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tak takut, ku tak gentar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Allahku bersama kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan yang bersama kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Berjalan bersama kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tangan-Mu yang\npegang hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku yakin\nKau bersama kami",
+      "newGroup": false
+    }
+  ]
+}

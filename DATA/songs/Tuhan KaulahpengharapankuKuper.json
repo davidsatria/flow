@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan KaulahpengharapankuKuper",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Kaulah\npengharapanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kupercaya\nhanya kepada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Allah\nperlindunganku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkau yang s'lalu\nku puji",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mulutku penuh\ndengan pujian",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kepada-Mu\nya Yesus Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'panjang hari\nku b'ri penghormatan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kepada-Mu\nya Allahku",
+      "newGroup": false
+    }
+  ]
+}

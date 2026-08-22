@@ -1,0 +1,45 @@
+{
+  "title": "S’mua kar’na anug’rahMuHari ini",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "S’mua kar’na anug’rahMu\nHari ini ada",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bukan kar’na kuatku\nNamun kar’na RohMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Pre Chorus\nKu bawa hatiku\npenyembahanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku s’makin berkurang\nYesus s’makin bertambah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Mengikut Yesus\nItulah kesukaan hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kulepas semua hakku\nUntuk mengenal kehendakNya dihidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mengiring Yesus\nItulah kekuatan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuyakin anug’rahNya mampu\nJadikanku hamba yang berkenan s’lalu",
+      "newGroup": false
+    }
+  ]
+}

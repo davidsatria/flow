@@ -1,0 +1,15 @@
+{
+  "title": "Ku ditanganMuku dihatiMudi pikiranMudi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku ditanganMu\nku dihatiMu\ndi pikiranMu\ndi rencanaMu\ntak pernah ku sendiri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku ditanganMu\nku dihatiMu\ndi pikiranMu\ndi rencanaMu\ntak pernah di tinggalkan",
+      "newGroup": false
+    }
+  ]
+}

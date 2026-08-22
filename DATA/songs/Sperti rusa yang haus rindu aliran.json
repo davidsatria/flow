@@ -1,0 +1,45 @@
+{
+  "title": "Sperti rusa yang haus rindu aliran",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sperti rusa yang haus\nrindu aliran sungai-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hatiku tak tahan\nmenungguMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bagai tanah gersang\nmenananti datangnya hujan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Begitupun\njiwaku Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hanya Engkau pribadi\nyang mengenal hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "tiada yang tersembunyi bagiMu\nsluruh isi hatiku kau tahu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan bawaku tuk lebih dekat\nlagi padaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tinggal dalam indahnya\ndekapan kasihMu",
+      "newGroup": false
+    }
+  ]
+}

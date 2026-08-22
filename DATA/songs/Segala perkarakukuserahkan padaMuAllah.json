@@ -1,0 +1,45 @@
+{
+  "title": "Segala perkarakukuserahkan padaMuAllah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Segala perkaraku\nkuserahkan padaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Allah pembelaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Segala kuatirku\nkutaruh dikakiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah pemliharaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bila Kau yang\nmembuka pintu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "tak ada satupun\nyang dapat menutupnya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bila Kau yang\nmengangkat aku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "tiada yang dapat\nmerendahkanku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Diberkatilah orang yangmengandalkan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Diberkatilah orang yang\nmengandalkan Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Diberkatilah orang yang\nmengandalkan Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Diberkatilah orang yang\nmengandalkan Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang menaruh harapnya\nhanya kepada Tuhan",
+      "newGroup": false
+    }
+  ]
+}

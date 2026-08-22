@@ -1,0 +1,35 @@
+{
+  "title": "Tiada yangseperti Engkaubegitu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tiada yang\nseperti Engkau\nbegitu mengasihiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan\nsanggup menjawab\nsemua seru doaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada yang\nseperti Engkau\nbegitu mengasihiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan\nsanggup melawat\nseluruh kehidupanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku percaya\nTuhanku ajaib\nKau turun tangan\nmemulihkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku percaya\nTuhanku dahsyat\nKau turun tangan\nmemberkatiku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Oh Tuhan pencipta langit bumi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oh Tuhan pencipta langit bumi\nDengan kuat kuasaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oh Tuhan pencipta langit bumi\nDengan kuat tanganNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada mustahil bagi Dia\nTiada mustahil bagi Dia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Gagah perkasa\npenasehat Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada, tiada sesungguhnya tiada\nTiada mustahil bagi Dia",
+      "newGroup": false
+    }
+  ]
+}

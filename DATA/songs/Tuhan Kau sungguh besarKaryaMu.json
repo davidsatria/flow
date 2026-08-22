@@ -1,0 +1,50 @@
+{
+  "title": "Tuhan Kau sungguh besarKaryaMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Kau sungguh besar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KaryaMu sungguh ajaib",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada hentinya ku mengagumi\nSungguh Kau ajaib",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku mau s'lalu bersyukur\nkepadaMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Anug'rahMu\nmempesonaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Selalu dan selalu\nKau angkat hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau membuatku\nberharga di mataMu",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Ku berharga di mataMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Anug'rahMu cukup bagiku",
+      "newGroup": false
+    }
+  ]
+}

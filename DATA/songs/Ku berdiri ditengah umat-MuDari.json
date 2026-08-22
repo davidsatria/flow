@@ -1,0 +1,45 @@
+{
+  "title": "Ku berdiri ditengah umat-MuDari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku berdiri ditengah umat-Mu\nDari s'gala suku bangsa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami umat-Mu yang t'lah ditebus\nDan telah diselamatkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada kata layak 'tuk ku berikan\nTiada kata 'tuk memuji-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tapi ku kan bersorak\nSegenap hati dan kekuatanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya Haleluya\nbagi Anak Domba",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya Haleluya\nDarah-Nya meneguhkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Setiap lidah suku bangsa\nSemua makhluk dan pulau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "B'rikan glori, b'rikan hormat,\nB'ri pujian bagi Anak Domba",
+      "newGroup": false
+    }
+  ]
+}

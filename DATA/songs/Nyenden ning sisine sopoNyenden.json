@@ -1,0 +1,15 @@
+{
+  "title": "Nyenden ning sisine sopoNyenden",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Nyenden ning sisine sopo\nNyenden ning Gusti Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nyenden 4x\nNyenden ning Gusti Yesus",
+      "newGroup": false
+    }
+  ]
+}

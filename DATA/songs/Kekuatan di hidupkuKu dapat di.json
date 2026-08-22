@@ -1,0 +1,40 @@
+{
+  "title": "Kekuatan di hidupkuKu dapat di",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kekuatan di hidupku\nKu dapat di dalam-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau teguhkan hatiku\nTiada yang mustahil bagi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab aku percaya\nBukan karena melihat",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Namun karena Firman-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yang s'lalu digenapi\ndi hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku percaya bukan\nkarena melihat",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Namun karena Firman-Mu\ntiada pernah berubah",
+      "newGroup": false
+    }
+  ]
+}

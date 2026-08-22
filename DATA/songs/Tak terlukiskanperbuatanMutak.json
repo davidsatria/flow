@@ -1,0 +1,30 @@
+{
+  "title": "Tak terlukiskanperbuatanMutak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak terlukiskan\nperbuatanMu\ntak terselami\npemikiranMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kar'na Kau Tuhan\ndiatas s'galanya\nMaha Besar tiada\nbandingannya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus perkasa\nyang telah\nmembuktikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KasihNya\nsungguh hebat\ntiada bandingannya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersorak-sorai\nbagi raja mulia\nyang brikan kemenangan\natas kita haleluya",
+      "newGroup": false
+    }
+  ]
+}

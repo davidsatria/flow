@@ -1,0 +1,45 @@
+{
+  "title": "Jiwaku haushaus akan kasihMuJiwaku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jiwaku haus\nhaus akan kasihMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jiwaku rindu\nrindu akan cintaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Siramilah taman\nhatiku yang kering ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Agar cintaMu\nbersemi di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh Yesus kekasihku\nhanyalah Kau",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "NamaMu\nkan kuukir di hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Seumur hidupku\nhanya bagiMu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku mau setia\nsetia selamanya",
+      "newGroup": false
+    }
+  ]
+}

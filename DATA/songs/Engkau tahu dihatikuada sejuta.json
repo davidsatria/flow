@@ -1,0 +1,30 @@
+{
+  "title": "Engkau tahu dihatikuada sejuta",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Engkau tahu dihatiku\nada sejuta rindu\n'tuk selalu\nbersamaMu Yesusku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ijinkan ku\nmenyenangkan hatiMu\nlewat nyanyian\nhatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Biarkanlah\nkumenyembah walau\ntak dengan\npuisi yang indah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Biarkanlah\nkumenyembah\nmemberikan hati ini\nkuberserah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan penuh\nkasih sayang\nbiarkan Tuhan\naku menyembah",
+      "newGroup": false
+    }
+  ]
+}

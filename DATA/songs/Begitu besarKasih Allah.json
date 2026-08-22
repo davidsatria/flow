@@ -1,0 +1,45 @@
+{
+  "title": "Begitu besarKasih Allah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Begitu besar\nKasih Allah pada kita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Diberkatilah anak cucu kita\nDimana-mana",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan mengubah miskin\nDan menjadikan kaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia merendahkan\nDan meninggikan juga",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Berbahagialah\nBagi orang yang percaya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Anak cucunya pasti\nTidak akan meminta-minta",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Karna Allah\nMenggenapi firmanNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada yang mustahil\nBagi orang percaya",
+      "newGroup": false
+    }
+  ]
+}

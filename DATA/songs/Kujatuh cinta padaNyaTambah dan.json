@@ -1,0 +1,45 @@
+{
+  "title": "Kujatuh cinta padaNyaTambah dan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kujatuh cinta padanya\nTambah dan dalam",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "dan tambah\ndan dalam lagi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kujatuh cinta padanya\nTambah dan dalam",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dan tambah\ndan dalam lagi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus indah dan\nindahlah semakin indah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oh cintanya antara\nAllah dan aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku jatuh cinta pada-Nya\ntambah dan dalam",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dan tambah\ndan dalam lagi",
+      "newGroup": false
+    }
+  ]
+}

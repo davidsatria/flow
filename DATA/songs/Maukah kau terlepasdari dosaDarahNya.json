@@ -1,0 +1,45 @@
+{
+  "title": "Maukah kau terlepasdari dosaDarahNya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Maukah kau terlepas\ndari dosa?",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DarahNya berkuasa\ndarahNya berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ingat kes'lamatanmu berharga\nDarah Domba Allah berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ada kuasa dalam darahNya\ndarah domba Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ada kuasa dalam darahNya\ndarah Anak Domba Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'karang saya sudah bebas\nS'karang saya sudah bebas",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saya bebas oleh darah\ndarahNya domba Allah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekarang saya bebas, bebas, bebas\nhaleluya",
+      "newGroup": false
+    }
+  ]
+}

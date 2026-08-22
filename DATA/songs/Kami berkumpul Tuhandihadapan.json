@@ -1,0 +1,50 @@
+{
+  "title": "Kami berkumpul Tuhandihadapan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami berkumpul Tuhan\ndihadapan tahtaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "sujud menyembah\ndalam indahNya hadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami rindu curahan\nKuasa Roh Kudus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "genapi firmanMu\njadikanku alatMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Biar belas kasihanMu Bapa\npenuhi hati kami",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "curahkan kuasa Roh Kudus\nApi kemuliaanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Membakar hati yang rindu\nuntuk melayaniMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sampai seluruh neg'ri ini\nsampai seluruh bumi ini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dipenuhi\napi kemuliaanMu",
+      "newGroup": false
+    }
+  ]
+}

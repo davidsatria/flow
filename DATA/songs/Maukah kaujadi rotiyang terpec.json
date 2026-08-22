@@ -1,0 +1,55 @@
+{
+  "title": "Maukah kaujadi rotiyang terpec",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Maukah kau\njadi roti\nyang terpecah\nbagiKu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Maukah kau jadi anggur\nyang tercurah\nbagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Maukah kau\njadi saksi\nmemberitakan\ninjilku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Melayani\nmengasihi\nlebih sungguh",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku mau\njadi roti\nyang terpecah\nbagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku mau\njadi anggur\nyang tercurah\nbagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku mau\njadi saksi\nmemberitakan\ninjilMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Melayani\nmengasihi\nlebih sungguh",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Melayani melayani\nlebih sungguh\nmelayani melayani\nlebih sungguh",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan lebih dulu\nmelayani kepadaku\nmelayani melayani\nlebih sungguh",
+      "newGroup": false
+    }
+  ]
+}

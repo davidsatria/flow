@@ -1,0 +1,55 @@
+{
+  "title": "Datanglah ke baitNyadengan hati",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Datanglah ke baitNya\ndengan hati bersyukur",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ke dalam pelataranNya\ndengan hati bersuka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Rasakan dan lihatlah\nbetapa baikNya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "bagi yang berlindung\npadaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Akan bersorak-sorai\nakan bersorak-sorai",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersyukurlah kepada Tuhan\nsebab Ia baik",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "BahwasanNya tuk selamanya\nkasih setiaNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersyukurlah kepada Tuhan\nsebab Ia baik",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "BahwasanNya tuk selamanya\nKasih setiaNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "bersyukurlah...",
+      "newGroup": false
+    }
+  ]
+}

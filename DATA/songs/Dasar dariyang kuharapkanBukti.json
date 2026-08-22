@@ -1,0 +1,70 @@
+{
+  "title": "Dasar dariyang kuharapkanBukti",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dasar dari\nyang kuharapkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bukti dari sgala\nyang tak kulihat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Iman brikanku kekuatan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuk melakukan\nperkara yang hebat",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Bersama Roh-Mu\nkupasti menang",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tinggi nama-Mu dipuji\nHormat kemuliaan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sorak dengan segnap hati\nRaja keagungan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau tak biarkan pencobaan\nMelebihi batas kekuatanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau yang brikanku\nkemuliaan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Smakin serupa\ndengan gambaran-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Bersama Roh-Mu\nkupasti menang",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tinggi nama-Mu dipuji\nHormat kemuliaan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sorak dengan segnap hati\nRaja keagungan",
+      "newGroup": true
+    }
+  ]
+}

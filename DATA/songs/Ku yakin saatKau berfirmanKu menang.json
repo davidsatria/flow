@@ -1,0 +1,55 @@
+{
+  "title": "Ku yakin saatKau berfirmanKu menang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku yakin saat\nKau berfirman",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku menang saat\nKau bertindak",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hidupku hanya ditentukan\noleh perkataanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku aman karna\nKau menjaga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku kuat karna\nKau menopang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hidupku hanya ditentukan\noleh kuasaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bagi Tuhan tak ada\nyang mustahil",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bagi Tuhan tak ada\nyang tak mungkin",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "MujizatNya\ndisediakan bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku diangkat\ndan dipulihkanNya",
+      "newGroup": false
+    }
+  ]
+}

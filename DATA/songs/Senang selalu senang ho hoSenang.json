@@ -1,0 +1,20 @@
+{
+  "title": "Senang selalu senang ho hoSenang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Senang selalu senang ho ho\nSenang selalu senang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Selamanya Tuhan sertaku\nSelamanya Tuhan sertaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Senang selalu senang",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Maju maju sajaTuhan s'Ialu sertaNanti",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Maju maju saja\nTuhan s'Ialu serta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nanti satu kali salib\ndigantikan mahkota",
+      "newGroup": false
+    }
+  ]
+}

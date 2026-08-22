@@ -1,0 +1,45 @@
+{
+  "title": "Ya Roh Kudusberhembus s’karang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ya Roh Kudus\nberhembus s’karang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berhembuslah\ndi tempat ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalirkan Roh-Mu\nmembawa kuasa-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ya Roh Kudus\nhadir di sini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Urapilah, urapilah\nDengan kuasa-Mu ya Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "penuhilah kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Urapilah, urapilah\nBerhembuslah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "mengalirlah sekarang",
+      "newGroup": false
+    }
+  ]
+}

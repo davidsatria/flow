@@ -1,0 +1,25 @@
+{
+  "title": "Kau Allah yang besarajaib dan muliaKau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau Allah yang besar\najaib dan mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau Yesus yang selalu\nmembuatku terpesona",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Segala pujian\nbagi-Mu ya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Kau yang layak\nkuagungkan",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Bila ku ingatcinta TuhankuKu tidak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bila ku ingat\ncinta Tuhanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tidak mau\nmundur lagi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bila ku ingat\ncinta Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tidak mau\nmundur lagi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh tidak mau\nKu tidak mau mundur lagi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sungguh tidak mau\nKu tidak mau mundur lagi",
+      "newGroup": true
+    }
+  ]
+}

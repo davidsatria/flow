@@ -1,0 +1,25 @@
+{
+  "title": "B’ri Puji B’ri HormatBagi Yesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "B’ri Puji, B’ri Hormat\nBagi Yesus Yang Duduk Di Tahta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berkuasa, Mulia\nS’Gala Bangsa ’Kan Datang Menyembah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Halleluya… Halleluya\nKudus Dan Mulia Nama-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Halleluya… Halleluya\nKu Sembah Kau Yesus, ku Sembah Kau",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Kasih dari sorgamemenuhi tempat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih dari sorga\nmemenuhi tempat ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih dari\nBapa Sorgawi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kasih dari Yesus\nmengalir di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Membuat damai\ndi hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mengalir kasih\ndari tempat tinggi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mengalir kasih\ndari takhta Allah Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mengalir, mengalir\nMengalir dan mengalir",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalir memenuhi\nhidupku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Indah rencanaMuTuhandi dalam h",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Indah rencanaMu\nTuhan\ndi dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Walau ku tak tahu\ndan ku tak mengerti\nsemua jalanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dulu ku tak tahu\nTuhan\nberat kurasakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hati menderita\ndan ku tak berdaya\nmenghadapi semua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kini kumengerti\ns'karang\nKau tolong padaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kini kumelihat\ndan kumerasakan\nindah rencanaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kini kumengerti\ns'karang\nKau tolong padaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kini kumelihat\ndan kumerasakan\nindah rencanaMu",
+      "newGroup": false
+    }
+  ]
+}

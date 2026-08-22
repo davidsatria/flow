@@ -1,0 +1,35 @@
+{
+  "title": "Tidak dengan tangan yang hampadatang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tidak dengan tangan yang hampa\nkudatang ke hadirat-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Menyatakan rasa syukurku\natas s'gala berkat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tidak dengan tangan yang hampa\nku sujud menyembah-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Persembahkan s'luruh hidupku\ndi atas mezbah-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Segalanya yang ku miliki\nsemuanya dari pada-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kan ku bawa persembahanku\nYang terbaik hanya bagi-Mu",
+      "newGroup": false
+    }
+  ]
+}

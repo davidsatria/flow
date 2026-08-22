@@ -1,0 +1,25 @@
+{
+  "title": "Lebih dari segalanya kuberharap",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Lebih dari segalanya kuberharap padaMu\nLebih dari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Begitu rindu hatiku berada dekatMu\nAlangkah dalam kasihMu memenuhi hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tenanglah jiwaku dalam naungan sayapMu\nMenebus awan kelabu, pandang kemuliaanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Selalu kurindu lekat dalam hatiMu\nMengikuti rencanaMu Yesus Tuhan Rajaku",
+      "newGroup": false
+    }
+  ]
+}

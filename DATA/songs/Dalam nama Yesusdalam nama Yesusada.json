@@ -1,0 +1,35 @@
+{
+  "title": "Dalam nama Yesusdalam nama Yesusada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dalam nama Yesus\ndalam nama Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ada kemenangan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam nama Yesus\ndalam nama Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "iblis dikalahkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam nama Tuhan Yesus\nsiapa dapat melawan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam nama Tuhan Yesus\nada kemenangan",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Masuk gerbangNya bersyukur",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Masuk gerbangNya bersyukur\nDengan penuh pujian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bersuka di hadiratNya\nNyanyi besarkan agung namaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji Dia tiuplah sangkakala\nMusik dan tarian",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua mahluk di bumi di sorga\nDengan s'gnap hati angkat pujian",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Tuhan baik\nS'bab Tuhan baik",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sbab Tuhan baik\nAnug'rahNya kekal selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Tuhan baik\nS'bab Tuhan baik",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sbab Tuhan baik\nAnug'rahNya kekal selamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "When I am down andoh my soul so",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "When I am down and,\noh, my soul so weary",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "When troubles come\nand my heart burdened be",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Then I am still and\nwait here in the silence",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Until you come and\nsit awhile with me",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "You raise me up\nso I can stand on mountains",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "You raise me up\nto walk on stormy seas",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "I am strong\nwhen I am on your shoulders",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "You raise me up\nto more than I can be",
+      "newGroup": false
+    }
+  ]
+}

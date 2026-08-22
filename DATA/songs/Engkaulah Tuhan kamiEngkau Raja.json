@@ -1,0 +1,25 @@
+{
+  "title": "Engkaulah Tuhan kamiEngkau Raja",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Engkaulah Tuhan kami\nEngkau Raja kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Layak dipuji disembah\ndi bumi di surga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah Tuhan kami\nsegala bangsa 'kan memuji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesuslah namanya\nyang kekal dan mulia",
+      "newGroup": false
+    }
+  ]
+}

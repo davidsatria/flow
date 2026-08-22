@@ -1,0 +1,40 @@
+{
+  "title": "Roh kudus hadir disiniMengalir",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Roh kudus hadir disini\nMengalir di Bait Suci",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Perkara ajaib pun terjadi\nKuasa mujizat nyata",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kar’na Roh Allah\nsedang bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada yang mustahil\nDan tiada yang sukar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bila Roh Allah\nturut bekerja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada yang mustahil\nBagi orang percaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bila roh Allah turut bekerja\nDiantara kita",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Betapa hatikuberterima kasihYesusKau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa hatiku\nberterima kasih Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau mengasihiku\nKau memilikiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hanya ini Tuhan\npersembahanku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "segenap hidupku\njiwa dan ragaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab tak kumiliki\nharta kekayaan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "yang cukup berarti\nuntuk kupersembahkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hanya ini Tuhan\npermohonanku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "terimalah Tuhan\npersembahanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Pakailah hidupku\nsebagai alatMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "seumur hidupku",
+      "newGroup": false
+    }
+  ]
+}

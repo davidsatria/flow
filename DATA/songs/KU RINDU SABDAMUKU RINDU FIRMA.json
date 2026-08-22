@@ -1,0 +1,60 @@
+{
+  "title": "KU RINDU SABDAMUKU RINDU FIRMA",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "KU RINDU SABDAMU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KU RINDU FIRMANMU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "FIRMAN\nTUHAN YESUS",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "YANG HERAN DAN BERKUASA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "BERFIRMANLAH TUHAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "OLEH KUASA ROHMU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KEPADAMU KAMI\nMAU BERSERAH",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "BERFIRMANLAH BERFIRMANLAH TUHAN",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ROHUL KUDUS URAPI HAMBAMU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "BERFIRMANLAH BERFIRMANLAH TUHAN",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KURINDU MENIKMATI SABDAMU",
+      "newGroup": false
+    }
+  ]
+}

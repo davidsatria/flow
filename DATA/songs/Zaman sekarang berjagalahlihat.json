@@ -1,0 +1,20 @@
+{
+  "title": "Zaman sekarang berjagalahlihat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Zaman sekarang berjagalah\nlihat dunia bergelora",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kedengaran sini sana\nbanyak kabar menggem",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berlidunglah\npada Sabda Allah",
+      "newGroup": false
+    }
+  ]
+}

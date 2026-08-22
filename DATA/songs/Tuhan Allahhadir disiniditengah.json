@@ -1,0 +1,35 @@
+{
+  "title": "Tuhan Allahhadir disiniditengah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Allah\nhadir disini\nditengah umatNya\nyang memuji",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mengucap syukur\ndalam namaNya\nYesus Tuhan kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Allah\nhadir disini\nberkatnya\ndirasakan semua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mari masyurkan\nkebesaranNya\nAllah yang perkasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Haleluya\npujilah Dia\nditempat kudusNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Haleluya\ntingikan namanNya\nAllah yang perkasa",
+      "newGroup": false
+    }
+  ]
+}

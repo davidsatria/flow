@@ -1,0 +1,30 @@
+{
+  "title": "Mari kita bersukaria",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mari kita bersukaria\nKar'na ini hari bahagia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kita berkumpul jadi satu\nPuji Tuhan semesta itu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tepuk tangan wajah berseri\nHilangkanlah hati yang sedih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bukankah Yesus berkata\nDamai yang dib'rikan kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mari kita bersukaria",
+      "newGroup": false
+    }
+  ]
+}

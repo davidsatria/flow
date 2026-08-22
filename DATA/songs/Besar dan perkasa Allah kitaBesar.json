@@ -1,0 +1,30 @@
+{
+  "title": "Besar dan perkasa Allah kitaBesar",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Besar dan perkasa Allah kita\nBesar dan dahsyat Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Besar dan perkasa Allah kita\nBesar dan dahsyat Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Angkatlah panjimu\ndan suaramu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji Sang Raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Besar dan perkasa Allah kita\nBesar dan dahsyat Dia",
+      "newGroup": false
+    }
+  ]
+}

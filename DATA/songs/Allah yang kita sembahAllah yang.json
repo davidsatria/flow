@@ -1,0 +1,30 @@
+{
+  "title": "Allah yang kita sembahAllah yang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Allah yang kita sembah\nAllah yang Maha Kuasa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Malaikat tunduk diri\nSurga bumi puji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah yang\nMaha Kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allahku luar biasa\nAllahku luar biasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Amin amin amin\namin amin",
+      "newGroup": false
+    }
+  ]
+}

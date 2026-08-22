@@ -1,0 +1,15 @@
+{
+  "title": "Dia peliharakuDia peliharakuDi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dia peliharaku\nDia peliharaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di senang atau susah\nDia peliharaku",
+      "newGroup": false
+    }
+  ]
+}

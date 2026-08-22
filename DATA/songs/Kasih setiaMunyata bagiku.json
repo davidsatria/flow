@@ -1,0 +1,45 @@
+{
+  "title": "Kasih setiaMunyata bagiku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih setiaMu\nnyata bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hikmat kebajikan,\ntersedia bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Allah sanggup\nlimpahkan s'galanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan anugerahNya\nsangat besar bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku diberkati\nAku dilimpahi",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Karena Allah sanggup\nUntuk menyediakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku diberkati\nAku dilimpahi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Atas sempurna\nanug'rah Tuhan bagiku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Oleh karenabilurMu Yesusku dis",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oleh karena\nbilurMu Yesus\nku disembuhkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oleh karena\nbilurMu Yesus\nku dikuatkanNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau hancurkan\nsemua sakit\nKau hancurkan\nsemua iblis",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan Kau bebaskan\ndari belenggu dosa",
+      "newGroup": false
+    }
+  ]
+}

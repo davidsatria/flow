@@ -1,0 +1,45 @@
+{
+  "title": "Dia Yesus t'lah mati bagikuDia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dia Yesus t'lah mati bagiku\nDia Tuhan s'lamatkan jiwaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bagi Dia pujianku\ntak dapat kubalas kasihNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia angkatku jadi anakNya\nb'ri damai di dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bagi dia sembahku\nhanya Dia s'galanya bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bagi Dia segala pujian\nhormat serta syukur",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kekal selamaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bagi Dia segala pujian\nhormat serta syukur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "s'lama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

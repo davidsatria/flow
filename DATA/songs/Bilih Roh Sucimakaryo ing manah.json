@@ -1,0 +1,35 @@
+{
+  "title": "Bilih Roh Sucimakaryo ing manah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bilih Roh Suci\nmakaryo ing manah kulo",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kulo memuji\nGusti kanthi sukoreno",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Awit Roh Suci\nmakaryo ing manah kulo",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Gesang Langgeng\nAyem tentrem Selaminyo",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Roh Suci Oh.. Roh suci\nMakaryo ing manah Kulo",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Roh Suci Oh.. Roh suci\nMakaryo ing manah Kulo",
+      "newGroup": true
+    }
+  ]
+}

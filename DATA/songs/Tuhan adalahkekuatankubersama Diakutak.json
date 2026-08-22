@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan adalahkekuatankubersama Diakutak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan adalah\nkekuatanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "bersama Dia\nku tak akan goyah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kukan terbang tinggi\nbagai Rajawali",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "melakukan perbuatan\nyang besar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kukan terbang tinggi\nbagai rajawali",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "dan \nmelayang tinggi\ndalam kemuliaanNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Biar bumi bergoncang\ndan badai menerpa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "kukan terbang tinggi\nbersama Dia",
+      "newGroup": false
+    }
+  ]
+}

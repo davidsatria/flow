@@ -1,0 +1,35 @@
+{
+  "title": "Ku masuk ruang Maha KudusDengan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku masuk ruang Maha Kudus\nDengan darah Anak Domba",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku masuk dengan hati tulus\nMenyembah yang Maha Kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku menyembahMu\nKu sembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku menyembahMu\nKu sembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Sebab namaMu Kudus\nKudus Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Sebab namaMu Kudus\nKudus Tuhan",
+      "newGroup": false
+    }
+  ]
+}

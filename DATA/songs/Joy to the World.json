@@ -1,0 +1,55 @@
+{
+  "title": "Joy to the World",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Joy to the world\nthe Lord is come!",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Let Earth receive\nher King",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Let every heart\nprepare Him room,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "And heaven\nand nature sing,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "And heaven, and heaven\nand nature sing.",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Joy to the world!\nthe Saviour reigns;",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Let men\ntheir songs employ;",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "While fields and floods\nrocks, hills, and plains",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Repeat\nthe sounding joy,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Repeat, repeat\nthe sounding joy.",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Yesus telah lahirKe dalam dunia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus telah lahir\nKe dalam dunia ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lambang pem'rintahan\nberada di bahu-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Nama-Nya\npenasehat ajaib",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Allah yang perkasa\nBapa yang kekal Raja damai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Semua manusia\npujilah dan sembah Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Glori bagi Dia\nHaleluyah amin",
+      "newGroup": false
+    }
+  ]
+}

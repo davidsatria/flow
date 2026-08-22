@@ -1,0 +1,65 @@
+{
+  "title": "Ke dua tangankumempunyai jarid",
+  "lyrics": [
+    {
+      "type": "i",
+      "text": "Ke dua tanganku\nmempunyai jari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "direntangkan dirapatkan\nputar ke belakang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "lompat kiri, lompat kanan\nJalan serta Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ke dua kaki ku\nmempunyai jari",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "direntangkan dirapatkan\nputar ke belakang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "lompat depan, lompat belakang\nJalan serta Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jalan serta Yesus\nJalan sertaNya setiap hari",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jalan serta Yesus\nSerta Yesus selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jalan dalam suka\njalan dalam duka",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jalan serta-Nya\nsetiap hari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jalan dalam suka\njalan dalam duka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Serta Yesus\nselamanya",
+      "newGroup": false
+    }
+  ]
+}

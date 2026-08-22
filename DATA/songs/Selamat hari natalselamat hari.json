@@ -1,0 +1,20 @@
+{
+  "title": "Selamat hari natalselamat hari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Selamat hari natal\nselamat hari natal\nselamat hari natal\ndan tahun baru",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "We wish you merry christmas\nWe wish you merry christmas",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "We wish you merry christmas\nand happy new year",
+      "newGroup": false
+    }
+  ]
+}

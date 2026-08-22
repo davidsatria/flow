@@ -1,0 +1,25 @@
+{
+  "title": "Bilur-Nya Bilur-NyaBilur-Nya Sungguh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bilur-Nya Bilur-Nya\nBilur-Nya Sungguh Heran",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bilur-Nya Bilur-Nya\nMembawa Kesembuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Asal Percaya Saja\nSemua Sakit Hilanglah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oleh Darah Yesus\nTertolong",
+      "newGroup": true
+    }
+  ]
+}

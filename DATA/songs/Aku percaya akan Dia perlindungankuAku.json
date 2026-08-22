@@ -1,0 +1,15 @@
+{
+  "title": "Aku percaya akan Dia perlindungankuAku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku percaya akan Dia perlindunganku\nAku percaya akan Dia tanduk selamatku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku percaya akan Dia Sang perisaiku\nTempat perlindungan yang tinggi",
+      "newGroup": false
+    }
+  ]
+}

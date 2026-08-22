@@ -1,0 +1,65 @@
+{
+  "title": "Apa yang kau alami kiniMungkin",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Apa yang\nkau alami kini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mungkin tak dapat\nengkau mengerti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Cobaan yang\nengkau alami",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak melebihi\nkekuatanmu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhanku\ntak akan memberi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ular beracun\npada yang minta roti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Satu hal\ntanamkan di hati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Indah semua\nyang Tuhan b'ri",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tangan Tuhan\nsedang merenda",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Suatu karya\nyang agung mulia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saatnya 'kan\ntiba nanti",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau lihat\npelangi kasihNya",
+      "newGroup": false
+    }
+  ]
+}

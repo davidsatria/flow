@@ -1,0 +1,30 @@
+{
+  "title": "Tiada sekalipunTuhan meninggal",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tiada sekalipun\nTuhan meninggalkan\nkuberjuang sendiri\ndi dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada sesaatpun\nEngkau membiarkan\nAda yang menghalangi\nrencanaMu atasku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kaulah Tuhan\nyang berkuasa\ntunjukkan jalan\natas setiap perkaraku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan kuhidup bukan\nkar'na melihat\nnamun percaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ada pertolongan\nyang ajaib\nbagiku selalu",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Aku akan masukdalam rumah Tuha",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku akan masuk\ndalam rumah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "menikmati keindahannya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku akan nyanyi\ndalam rumah Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dia buat hatiku\nslalu gembira",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Slalu gembira\nSlalu gembira",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia buat hatiku\nslalu gembira",
+      "newGroup": false
+    }
+  ]
+}

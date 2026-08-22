@@ -1,0 +1,25 @@
+{
+  "title": "Kulo nderek GustiKulo nderek G",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kulo nderek Gusti\nKulo nderek Gusti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dateng pundhi lampahipun\nKulo nderek Gusti",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Slaminyo nderek Gusti\nManah ayem lan tentrem",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Gusti\nManah ayem lan tentrem",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Tak ku tahu kan hari esokNamun",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak ku tahu kan hari esok\nNamun langkahku tegap",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bukan surya kuharapkan\nKarna surya kan lenyap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "O tiada ku gelisah\nAkan masa menjelang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku berjalan serta Yesus\nMaka hatiku tenang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Banyak hal tak kupahami\nDalam masa menjelang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tapi trang bagiku ini\nTangan Tuhan yang pegang",
+      "newGroup": false
+    }
+  ]
+}

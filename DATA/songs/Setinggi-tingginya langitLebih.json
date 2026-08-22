@@ -1,0 +1,30 @@
+{
+  "title": "Setinggi-tingginya langitLebih",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Setinggi-tingginya langit\nLebih tinggi kasih Yesusku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sedalam-dalam lautan\nLebih dalam kasih Yesusku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Seindah-indah pelangi\nLebih indah kasih Yesusku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasih Yesus, oh, kasih Yesus\nMengalahkan segalanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih Yesus, oh, kasih Yesus\nMengalahkan segalanya",
+      "newGroup": true
+    }
+  ]
+}

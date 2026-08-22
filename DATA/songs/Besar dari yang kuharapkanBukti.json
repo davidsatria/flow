@@ -1,0 +1,50 @@
+{
+  "title": "Besar dari yang kuharapkanBukti",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Besar dari yang kuharapkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bukti dari s'gala yang tak kulihat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Iman b'rikanku kekuatan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "'Tuk melakukan perkara yang hebat",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Bersama roh-Mu\nKu pasti menang",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tinggi nama-Mu dipuji",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hormat kemuliaan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sorak dengan s'genap hati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Raja\nkeagungan",
+      "newGroup": false
+    }
+  ]
+}

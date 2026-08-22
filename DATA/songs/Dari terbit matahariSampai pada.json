@@ -1,0 +1,20 @@
+{
+  "title": "Dari terbit matahariSampai pada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dari terbit matahari\nSampai pada masuknya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Biarlah nama Tuhan dipuji",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji Tuhan\nPuji Tuhan",
+      "newGroup": false
+    }
+  ]
+}

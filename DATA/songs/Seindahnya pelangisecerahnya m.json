@@ -1,0 +1,45 @@
+{
+  "title": "Seindahnya pelangisecerahnya m",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Seindahnya pelangi\nsecerahnya mentari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "namun Kau yang terindah,\nhanya Kau yang termegah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau badai menghadang,\ndan bumipun bergoncang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "namun Kau kan setia\nmenjagaku selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh nyata kasihMu,\ndisepanjang hidupku,",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "dengan darahMu\nKau tebus dosaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sungguh nyata kasihMu,\ndisepanjang hidupku,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "seg'nap hatiku hanyalah\nuntukMu",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Di hadapan kemegahan-Mu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Di hadapan kemegahan-Mu\nKu datang menyembah-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Membawa hatiku\nMembawa hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku teringat\nkasih setia-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di dalam\ns'tiap langkahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oh, sungguh Engkau baik\nDi dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkau baik, Teramat baik\nEngkau baik, Teramat baik",
+      "newGroup": true
+    }
+  ]
+}

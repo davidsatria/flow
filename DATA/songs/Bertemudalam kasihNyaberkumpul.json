@@ -1,0 +1,35 @@
+{
+  "title": "Bertemudalam kasihNyaberkumpul",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bertemu\ndalam kasihNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "berkumpul dalam\nanugerahNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersukacita semua\ndidalam rumah Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh saudaraku dan\nkau saudariku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuhan cinta\ndan mengasihimu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari bersukacita semua\nDi dalam rumah Tuhan",
+      "newGroup": false
+    }
+  ]
+}

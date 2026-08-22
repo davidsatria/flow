@@ -1,0 +1,40 @@
+{
+  "title": "Apa padakukudapat dari Bapakeadaanku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Apa padaku kudapat dari Bapa\nkeadaanku juga dari Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Apa kubuat itu\nguna Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dan apa yang kuperlu kutrima\nlipat ganda",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bersuka suka\nserta menyanyi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "bersuka kar'na\nAllah hidup",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tak cari duniawi\ntapi jalan ke Surga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dan sbab kupandang\nYesus ku trus bersuka",
+      "newGroup": false
+    }
+  ]
+}

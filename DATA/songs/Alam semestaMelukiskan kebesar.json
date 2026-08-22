@@ -1,0 +1,35 @@
+{
+  "title": "Alam semestaMelukiskan kebesar",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Alam semesta\nMelukiskan kebesaran\nTuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bumi dan surga Menyanyikan\nkemuliaan namaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hosana, hosana",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Layak dipuji disembah\nKaulah yang bertahta",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dulu s'karang dan s'lamanya\nRaja atas sgala raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "NamaMu besar termulia",
+      "newGroup": false
+    }
+  ]
+}

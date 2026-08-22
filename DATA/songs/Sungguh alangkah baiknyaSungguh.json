@@ -1,0 +1,35 @@
+{
+  "title": "Sungguh alangkah baiknyaSungguh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sungguh alangkah baiknya\nSungguh alangkah indahnya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bila saudara semua,\nHidup rukun bersama",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Seperti minyak di kepala Harun\nYang ke janggut dan jubahnya turun",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Seperti embun di bukit Hermon\nMengalir ke bukit Sion",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sebab ke sanalah Allah mem'rintah\nAgar  berkat-berkatNya tercurah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Serta memberikan anugerah\nHidup s'lama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

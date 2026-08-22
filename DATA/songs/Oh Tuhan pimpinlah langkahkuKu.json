@@ -1,0 +1,25 @@
+{
+  "title": "Oh Tuhan pimpinlah langkahkuKu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oh Tuhan pimpinlah langkahku\nKu tak b'rani jalan sendiri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "SertaMu itulah doaku\nAjarku merendahkan diri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menurut FirmanMu s'tiap hari\nJadikan pelita dalam g'lap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mencari domba yang sesat\nItulah kerinduan jiwaku",
+      "newGroup": false
+    }
+  ]
+}

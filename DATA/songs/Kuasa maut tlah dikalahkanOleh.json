@@ -1,0 +1,30 @@
+{
+  "title": "Kuasa maut tlah dikalahkanOleh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kuasa maut tlah dikalahkan\nOleh darah anak domba Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S’mua musuh tlah ditaklukkan\nOleh kebangkitan Tuhan kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus hidup Dia bangkit\nDia naik ke naik surga",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Siapkan tempat bagiku\nYesus hidup, Dia bangkit",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Maut t’lah dipatahkan\nKita jadi lebih dari pemenang",
+      "newGroup": false
+    }
+  ]
+}

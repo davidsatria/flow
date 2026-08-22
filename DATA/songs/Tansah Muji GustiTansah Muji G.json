@@ -1,0 +1,35 @@
+{
+  "title": "Tansah Muji GustiTansah Muji G",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tansah Muji Gusti\nTansah Muji Gusti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tansah Muji Gusti ing atiku\nTansah Muji Gusti ing atiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Gusti niku sae\nGusti niku sae",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Gusti niku sae kangge kawulo",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Gusti niku sae\nGusti niku sae",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Gusti niku sae kangge kawulo",
+      "newGroup": false
+    }
+  ]
+}

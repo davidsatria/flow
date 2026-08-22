@@ -1,0 +1,50 @@
+{
+  "title": "Hari ini hari yangtelah dijadikan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari ini hari yang\ntelah dijadikan Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari kita Bersuka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari ini hari yang\ntelah dijadikan Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mari kita bersuka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Didalam Tuhan bersuka\nDidalam Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersuka..\nbersuka dalam Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Mari bersuka\nbersukacitalah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersuka..\nbersuka dalam Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Skarang bersuka\nbersukacitalah",
+      "newGroup": false
+    }
+  ]
+}

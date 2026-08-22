@@ -1,0 +1,25 @@
+{
+  "title": "ADA SUKACITADALAM MELAYANI TUH 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "ADA SUKACITA\nDALAM MELAYANI TUHAN",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "SUKACITA DARI\nROHUL KUDUS",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "HATI PENUH DAMAI\nKAR'NA YESUS BESERTA",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "DALAM KITA\nMELAYANI TUHAN",
+      "newGroup": false
+    }
+  ]
+}

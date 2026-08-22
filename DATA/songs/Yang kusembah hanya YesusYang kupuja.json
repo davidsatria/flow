@@ -1,0 +1,45 @@
+{
+  "title": "Yang kusembah hanya YesusYang kupuja",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yang kusembah, hanya Yesus\nYang kupuja, hanya Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang kusanjung, hanya Yesus\nSebab Kau Allahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang b'ri damai, hanya Yesus\nYang b'ri berkat, hanya Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang b'ri rohNya, hanya Yesus\nSebab Kau Allahku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus, Kau Allahku\nYesus, Engkau Tuhanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus, Engkau Rajaku\nYang turun ke dunia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus kusembah Kau\nCurahkan Roh KudusMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kini aku menyembah\nMasuk hadiratMu",
+      "newGroup": false
+    }
+  ]
+}

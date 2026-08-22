@@ -1,0 +1,20 @@
+{
+  "title": "S'karang saya sudah bebasS'karang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "S'karang saya sudah bebas\nS'karang saya sudah bebas",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saya bebas oleh darah\ndarahNya domba Allah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekarang saya bebas, bebas\nbebas Haleluya",
+      "newGroup": false
+    }
+  ]
+}

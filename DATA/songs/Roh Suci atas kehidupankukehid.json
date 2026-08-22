@@ -1,0 +1,20 @@
+{
+  "title": "Roh Suci atas kehidupankukehid",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Roh Suci atas kehidupanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kehidupanku,\nkehidupanku,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Roh Suci atas kehidupanku\nYesus kehidupanku",
+      "newGroup": false
+    }
+  ]
+}

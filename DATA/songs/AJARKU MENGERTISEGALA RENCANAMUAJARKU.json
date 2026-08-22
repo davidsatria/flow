@@ -1,0 +1,45 @@
+{
+  "title": "AJARKU MENGERTISEGALA RENCANAMUAJARKU",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "AJARKU MENGERTI\nSEGALA RENCANAMU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "AJARKU BERSERAH HANYA PADAMU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "PIMPINLAH JALANKU\nDALAM TERANG FIRMANMU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "AJARKU BERHARAP\nHANYA PADAMU",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "BAPAKU AJAIB\nS'GALA RANCANGANMU",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "TUHANKU\nHERAN PERBUATANMU",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "ENGKAU SANGGUP MENGADAKAN\nSEGALA YANG KUPERLUKAN",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "MENURUT KEHENDAKMU\nTERJADILAH",
+      "newGroup": false
+    }
+  ]
+}

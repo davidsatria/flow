@@ -1,0 +1,40 @@
+{
+  "title": "Sekalipun aku dalam lembah kelam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sekalipun aku\ndalam lembah kelam",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ku tak takut\ns'bab Kau besertaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekalipun badai\ntopan datang menerpa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kutak gentar\ns'bab Kau disisiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku percaya\nberkatMu atasku melimpah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kebajikan kemurahan\ns'lalu melingkupiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "kupuji kusembah\nKau Tuhan",
+      "newGroup": false
+    }
+  ]
+}

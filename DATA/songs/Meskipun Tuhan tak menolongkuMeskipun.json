@@ -1,0 +1,45 @@
+{
+  "title": "Meskipun Tuhan tak menolongkuMeskipun",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Meskipun Tuhan tak menolongku\nMeskipun duri dalam dagingku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kutetap memilih dan percaya\nDan mengucap syukur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Meskipun doaku tak terjawab\nMeskipun dagingku habis lenyap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutetap memilih tuh percaya\nDan mengucap syukur",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Berkali kali Kau menolong\nBerkali kali Kau kuatkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam rasa sakit engkau ada\nYesus setia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berkali kali kau menolong\nBerkali kali kau kuatkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalam lembah kelam Engkau ada\nYesus setia",
+      "newGroup": false
+    }
+  ]
+}

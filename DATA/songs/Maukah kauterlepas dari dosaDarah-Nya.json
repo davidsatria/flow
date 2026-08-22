@@ -1,0 +1,25 @@
+{
+  "title": "Maukah kauterlepas dari dosaDarah-Nya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Maukah kau\nterlepas dari dosa?",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Darah-Nya berkuasa,\ndarah-Nya berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ingat, keselamatanmu\nberharga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Darah Domba\nAllah berkuasa",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Allah Itu BaikSungguh Baik Bag",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Allah Itu Baik\nSungguh Baik Bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ditunjukkannya\nKasih Setianya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia Menyediakan\nYang Kuperlukan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menyatakan Kebaikan\nMenyatakan Kebaikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menyatakan Kebaikannya\nPadaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasih Setianya\nTak Pernah Berubah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dulu S'karang\nDan S'lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ajaiblah Kuasa\nDalam Namanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku\nLuar Biasa",
+      "newGroup": false
+    }
+  ]
+}

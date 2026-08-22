@@ -1,0 +1,55 @@
+{
+  "title": "Tak Pernah tinggalkan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak Pernah Tinggalkan\nPerbuatan Tangan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus, Kaulah Penciptaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sehelai Rambutku Jatuh\nEngkau Pun Tau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Kau Pedulikanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Kau Perhatikanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tak Kan Pernah Terlambat\nPertolongan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tak Kan Pernah Terlelap\nKau Menjagaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kaulah Segalanya\nYang Kuperlu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Di Setiap Jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S’bab Engkau Allah Yang Tau\nYang Terbaik Di Dalam Hidupku",
+      "newGroup": false
+    }
+  ]
+}

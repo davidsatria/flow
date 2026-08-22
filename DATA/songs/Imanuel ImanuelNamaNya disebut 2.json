@@ -1,0 +1,35 @@
+{
+  "title": "Imanuel ImanuelNamaNya disebut 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Imanuel Imanuel",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "NamaNya disebut Imanuel",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah serta dengan kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "NamaNya disebut Imanuel",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Imanuel Imanuel",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "NamaNya disebut Imanuel",
+      "newGroup": false
+    }
+  ]
+}

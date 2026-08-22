@@ -1,0 +1,45 @@
+{
+  "title": "Ku tidak takutSbab kau besertakuKu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku tidak takut\nSbab kau besertaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tidak bimbang\nSbab engkau Allahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkau meneguhkanku\nBahkan menolongku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau batu karangku\nYesus Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus memegangku\nDengan tangan kananMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus memberiku\nKemenangan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus memegangku\nDengan tangan kananMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus memberiku\nKemenangan",
+      "newGroup": false
+    }
+  ]
+}

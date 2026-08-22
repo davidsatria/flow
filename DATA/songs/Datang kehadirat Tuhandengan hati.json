@@ -1,0 +1,45 @@
+{
+  "title": "Datang kehadirat Tuhandengan hati",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Datang kehadirat Tuhan\ndengan hati yang penuh sukacita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Datang kehadirat Tuhan dengan\nsenyum dan muka yang gembira",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tanggalkan beban dan\nkesedihan yang ada di dalam hatimu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kenakan jubah pujian\nsambut hadirNya Sang Raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Biar gunung-gunung pun\nbersorak-sorai memuji Dia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "dan pohon-pohon pun\nbertepuk tangan memuji Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'kalian kita disini\nberkumpul dan memuji Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus Tuhan Raja Dialah\nyang bertahta di atas pujian",
+      "newGroup": false
+    }
+  ]
+}

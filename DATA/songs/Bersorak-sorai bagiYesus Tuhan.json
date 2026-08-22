@@ -1,0 +1,50 @@
+{
+  "title": "Bersorak-sorai bagiYesus Tuhan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bersorak-sorai bagi\nYesus Tuhan kita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berbahagialah sebab\nengkau disayang Allah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan kan memenuhi\nsegala kebutuhanmu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan anakNya tak dibiarkan\nmeminta-minta..",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'karang ku tahu Tuhan\nmemberikan kem'nangan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pada orang-orang\nyang dicintaiNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia tak pernah terlambat\nmenolong kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau sana sini, situ pusing\nsemua orang susah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tetapi engkau kan\ntetap tertawa",
+      "newGroup": false
+    }
+  ]
+}

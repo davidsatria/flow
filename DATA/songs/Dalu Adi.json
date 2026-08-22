@@ -1,0 +1,70 @@
+{
+  "title": "Dalu Adi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dalu adi abyor cahyeng kartika\ndalu suci miyosing Pamarta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "jagad raya kang risak wit duraka\nden pulihken pindha Pirdus mulya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "pra manungsa\nkang sangsara wit dosa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "linuwaran\nmrih tentrem raharja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "mangga sujud\nsaos bekti mring Gusti",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "dalu adi\nPanebus wus manjalma",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "dalu suci\nSang Kristus wus prapta.",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalu adi lintang panjer sung cahya\ndalu suci rawuhing Sang Putra,",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "bayi suci rinengga kaapesan\nkarsa mbikak korining kaswargan,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "angrukunken Allah klayan manungsa\nwah sung gesang sayekti sampuma",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dalu adi Sang putra tedhak donya\ndalu suci mlaekat sung puja,",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kang Mamulya karsa ngesorken srira\nngrembat dosa mrih jagad slameta,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dayaning pati mangkya ingasorken,\npra manungsa sinung gesang langgeng",
+      "newGroup": false
+    }
+  ]
+}

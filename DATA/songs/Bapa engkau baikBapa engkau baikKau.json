@@ -1,0 +1,15 @@
+{
+  "title": "Bapa engkau baikBapa engkau baikKau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa engkau baik\nBapa engkau baik",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau selalu baik kepadaku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Matius 12,11-13",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "11 Tetapi Yesus berkata kepada mereka: \"Jika seorang dari antara kamu mempunyai seekor domba dan domba itu terjatuh ke dalam lobang pada hari Sabat, tidakkah ia akan menangkapnya dan mengeluarkannya? \nMatius 12:11",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "12 Bukankah manusia jauh lebih berharga dari pada domba? Karena itu boleh berbuat baik pada hari Sabat.\" \nMatius 12:12",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "13 Lalu kata Yesus kepada orang itu: Ulurkanlah tanganmu! Dan ia mengulurkannya, maka pulihlah tangannya itu, dan menjadi sehat seperti tangannya yang lain. \nMatius 12:13",
+      "newGroup": false
+    }
+  ]
+}

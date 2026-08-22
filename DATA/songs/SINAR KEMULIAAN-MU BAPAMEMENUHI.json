@@ -1,0 +1,35 @@
+{
+  "title": "SINAR KEMULIAAN-MU BAPAMEMENUHI",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "SINAR KEMULIAAN-MU BAPA\nMEMENUHI DI S’KELILINGKU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KURASAKAN HADIRAT-MU,\nKAU TENGGELAMKAN JIWAKU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KU INGIN TETAP TINGGAL\nBERSAMA-MU",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "KU INGIN TETAP DI SINI\nMENIKMATI BAIT-MU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KU INGIN TETAP DI SINI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DAN MEMANDANG\nINDAH WAJAH-MU",
+      "newGroup": false
+    }
+  ]
+}

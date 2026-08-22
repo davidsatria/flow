@@ -1,0 +1,50 @@
+{
+  "title": "Tiba saatnyakami berkumpul bersatuDari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tiba saatnya\nkami berkumpul bersatu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dari s'gnap\nsuku dan bangsa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berdiri dihadapan\ntahta anak Domba",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "satu suara\nmenyatakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kes'lamatan bagi Allah\nyang duduk bertahta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami naikkan pada\nAnak Domba",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pujian dan kekuatan\nhormat dan kekuasaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kemuliaan bagi Dia\nselamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ending\nKemuliaan bagi Dia\nselamanya",
+      "newGroup": false
+    }
+  ]
+}

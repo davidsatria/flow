@@ -1,0 +1,15 @@
+{
+  "title": "Yesus disalibkan karna cintaNy",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus disalibkan karna cintaNya\nkepadaku kepadamu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus disalibkan karna cintaNya\ndosa dihapuskan",
+      "newGroup": false
+    }
+  ]
+}

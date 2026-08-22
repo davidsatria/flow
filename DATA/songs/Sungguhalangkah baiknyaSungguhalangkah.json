@@ -1,0 +1,60 @@
+{
+  "title": "Sungguhalangkah baiknyaSungguhalangkah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sungguh\nalangkah baiknya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sungguh\nalangkah Indahnya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bila saudara semua\nHidup rukun bersama",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'perti minyak\ndi kepala harun",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang ke janggut\ndan jubahnya turun",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'perti embun\ndi bukit Hermon",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "mengalir\nke bukit Sion",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab kesanalah\nAllah mem'rintah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Agar berkat-berkatnya tercurah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Serta memberikan anugerah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "hidup s'lama-s'lamanya",
+      "newGroup": false
+    }
+  ]
+}

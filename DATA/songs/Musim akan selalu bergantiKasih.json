@@ -1,0 +1,65 @@
+{
+  "title": "Musim akan selalu bergantiKasih",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Musim akan selalu berganti\nKasih Tuhan tetap abadi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak akan berubah\nsampai selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tetap percaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuyakin Tuhan memberkati\nKuyakin Tuhan melindungi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Burung di udara\nTuhan pelihara",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Karena kasihNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan selalu menolongku\nSelalu menjagaku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sehelai dirambutku\nTak akan terjatuh",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "tanpa seijinMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan selalu menolongku\nselalu menjagaku",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Dia mengenyangkanku\nDan peliharaku",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Seumur hidupku",
+      "newGroup": false
+    }
+  ]
+}

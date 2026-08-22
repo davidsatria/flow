@@ -1,0 +1,45 @@
+{
+  "title": "Iso Ora Iso",
+  "lyrics": [
+    {
+      "type": "i",
+      "text": "Lai lai lai lai lai lai\nLai lai lai lai lai lai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Iso ora iso, Kudu iso kudu iso\nGusti sing beresi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Percaya saja Jangan menyerah\nBersukacitalah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Iso ora iso, kudu iso kudu iso\nGusti sing mbenahi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Waktu angkat tangan\nTuhan turun tangan Bersukacitalah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku hebat Yesusku ajaib\nDi dalam Yesus ku pasti bisa",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Segala perkara dapat kutanggung\nDi dalam Yesus ku pasti menang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku hebat Yesusku ajaib\nDi dalam Yesus ku pasti bisa",
+      "newGroup": false
+    }
+  ]
+}

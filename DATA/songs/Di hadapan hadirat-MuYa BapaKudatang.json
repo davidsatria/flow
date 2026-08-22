@@ -1,0 +1,45 @@
+{
+  "title": "Di hadapan hadirat-MuYa BapaKudatang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Di hadapan hadirat-Mu\nYa Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kudatang dengan\npenuh kerinduan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di hadapan hadirat-Mu\nYa Bapa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Segala keangkuhanku\nhilang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kusembah Kau Ya Bapa\nKusembah Kau Ya Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kutinggikan\nnamaMu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dalam hidupku\nDalam hidupku s'lalu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "end\nDalam hidupku\nDalam hidupku s'lalu",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Roh Kudusselamat datang disiniRoh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Roh Kudus\nselamat datang disini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Roh Kudus\nselamat datang disini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bapa Maha Kuasa\npenuh kasih anugerah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Selamat datang disini",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dihadirat-Mu ada\nkesembuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada Allah\ns’perti Kau Tuhan",
+      "newGroup": true
+    }
+  ]
+}

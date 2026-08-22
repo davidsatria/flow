@@ -1,0 +1,40 @@
+{
+  "title": "Ketika akuberbeban beratKu datang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ketika aku\nberbeban berat\nKu datang kepada Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia b'rikan damai dan sukacita\nSejaht'ra dalam hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ketika aku berputus asa\nKu datang kepada Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia bebaskan ku\nDan lepas kan ku\nKini aku jadi baru",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus Yesus Tuhan\nMulia namamu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tinggikan\nku angungkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nama-mu\nselama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Nama Yesus HeranlahCinta-Nya oh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Nama Yesus Heranlah\nCinta-Nya oh heranlah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuasa-Nya oh heranlah\nHeran lebih dari s'mua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Heran nama-Nya\nHeran kuasa-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nama Yesus heranlah\noh haleluya",
+      "newGroup": false
+    }
+  ]
+}

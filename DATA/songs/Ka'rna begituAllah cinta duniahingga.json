@@ -1,0 +1,25 @@
+{
+  "title": "Ka'rna begituAllah cinta duniahingga",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ka'rna begitu\nAllah cinta dunia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "hingga dib'rikan-Nya\nanakNya yang tunggal",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Supaya yang percaya\ntak'kan binasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "M'lainkan dapat\nhidup kekal",
+      "newGroup": false
+    }
+  ]
+}

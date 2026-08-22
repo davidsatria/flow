@@ -1,0 +1,25 @@
+{
+  "title": "Tak pernah kekuranganbersama Y",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak pernah kekurangan\nbersama Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada pernah tidak ada\ndalam Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus s’lalu b’rikan\ndan menyediakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Haleluya!\nPuji Tuhan selamanya",
+      "newGroup": false
+    }
+  ]
+}

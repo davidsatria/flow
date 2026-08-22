@@ -1,0 +1,40 @@
+{
+  "title": "KU TAK PANDANGDARI GEREJA MANAASAL",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "KU TAK PANDANG\nDARI GEREJA MANA",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ASAL KAU BERDIRI\nDIATAS FIRMANNYA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "BILA HATIMU\nSEPERTI HATIKU",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ENGKAULAH SAUDARA\nDAN SAUDARIKU",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "DALAM YESUS KITA BERSAUDARA\nDALAM YESUS KITA BERSAUDARA",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DALAM YESUS KITA BERSAUDARA",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KUCINTA KELUARGA ALLAH\nKUCINTA KELUARGA ALLAH",
+      "newGroup": false
+    }
+  ]
+}

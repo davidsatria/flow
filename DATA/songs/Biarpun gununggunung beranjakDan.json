@@ -1,0 +1,40 @@
+{
+  "title": "Biarpun gununggunung beranjakDan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Biarpun gunung\ngunung beranjak",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan bukit-bukitpun\nbergoyang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tapi kasih setiaMu\ntak akan beranjak dariku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak akan beranjak\ntak akan bergoyang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak akan beranjak\ntak akan bergoyang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan demikianlah\nFirman Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "yang mengasihiku",
+      "newGroup": false
+    }
+  ]
+}

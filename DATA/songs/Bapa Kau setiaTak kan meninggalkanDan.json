@@ -1,0 +1,35 @@
+{
+  "title": "Bapa Kau setiaTak kan meninggalkanDan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa Kau setia\nTak kan meninggalkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan ku percaya Engkau milikku\nDan ku milikMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kerinduanku\ntinggikan namaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kar'na ku tahu Engkau dalamku\nDan ku dalamMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ubah hatiku seputih hatiMu\nSetulus salibMu, KasihMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Biar mataku seperti mataMu\nPancarkan kasihMu, Ku mau jadi sepertiMu",
+      "newGroup": true
+    }
+  ]
+}

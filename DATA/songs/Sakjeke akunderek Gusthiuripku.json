@@ -1,0 +1,45 @@
+{
+  "title": "Sakjeke akunderek Gusthiuripku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sakjeke aku\nnderek Gusthi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "uripku tansah\ndiberkahi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Atiku ayem tentrem\natiku ayem tentrem",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kabeh iku Gusthi\nYesus kang maringi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Maturnuwun\nMaturnuwun Maturnuwun",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Gusthi Yesus kula\nmaturnuwun",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ending\nMaturnuwun\nGusthi Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kula\nmaturnuwun",
+      "newGroup": false
+    }
+  ]
+}

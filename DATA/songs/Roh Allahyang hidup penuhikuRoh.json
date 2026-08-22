@@ -1,0 +1,50 @@
+{
+  "title": "Roh Allahyang hidup penuhikuRoh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Roh Allah\nyang hidup penuhiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Roh Allah\nyang hidup pulihkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Datanglah Urapan\nke atasku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "membangkitkan\nkuasaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Membebaskan hidup\nyang terbelenggu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "memulihkan hati\nm'reka yang terluka",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Serta mencelikkan\nmata yang buta",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "jadikan hidupku alatMu\nDipenuhi Urapan Baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "menyatakan kebesaran\nkuasaMu",
+      "newGroup": false
+    }
+  ]
+}

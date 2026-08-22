@@ -1,0 +1,45 @@
+{
+  "title": "Saat pagi kudatang lagi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat pagi hari\nkudatang lagi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "menghadap Tuhan\ndan rendahkan diri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengucap syukur\nbuat hari yang Kau bri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "memuji Tuhan\ndengan sepenuh hati",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kusembah Kau\nAllah Maha Kudus",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "kutinggikan\nAllah Maha Tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kuserahkan\ntubuh jiwa rohku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "dalam pimpinanMu\nTuhan",
+      "newGroup": false
+    }
+  ]
+}

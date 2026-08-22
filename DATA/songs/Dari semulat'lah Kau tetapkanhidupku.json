@@ -1,0 +1,25 @@
+{
+  "title": "Dari semulat'lah Kau tetapkanhidupku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dari semula\nt'lah Kau tetapkan\nhidupku dalam\ntanganMu, dalam\nrencanaMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Rencana indah\nt'lah Kau siapkan\nbagi masa depanku\nyang penuh harapan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Smua baik (2X)\ns'gala yang\nKauperbuat\ndi dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Smua baik\nsungguh teramat baik\nKau jadikan hidupku\nberarti",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Engkaulah kekuatankuEngkaulah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Engkaulah kekuatanku,\nEngkaulah kemuliaanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkau permata yang indah,\ntakkan pernah kulepaskan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus Domba Allah,\nMulia namaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus Domba Allah,\nMulia namaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau hapus segala dosaku,\nsegala cela dan maluku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saat jatuh Kau angkatku,\nsaat haus Kau penuhiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah segalanya",
+      "newGroup": false
+    }
+  ]
+}

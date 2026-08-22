@@ -1,0 +1,45 @@
+{
+  "title": "Kudatang ya Bapadalam kerindua",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kudatang ya Bapa\ndalam kerinduan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "memandang\nkeindahanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuberikan s'galanya\nsemuanya yang ada",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kuingin menyenangkan\nhatiMu ooh Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jadikan aku indah\nyang Kau pandang Mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Seturut karyaMu\ndi dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ajarku berharap\nhanya kepadaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "taat dan setia\nkepadaMu Tuhan",
+      "newGroup": false
+    }
+  ]
+}

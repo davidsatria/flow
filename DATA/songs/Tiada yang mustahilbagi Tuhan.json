@@ -1,0 +1,25 @@
+{
+  "title": "Tiada yang mustahilbagi Tuhan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tiada yang mustahil\nbagi Tuhan Yesus\ntiada yang mustahil\nbagi Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Semua pasti jadi\noleh kuasa Firman\ntiada yang mustahil\nbagi Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang lemah dikuatkan\nyang susah dihiburkan\nyang sakit disembuhkan\noleh kuasa Firman",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua pasti jadi\noleh kuasa Firman\ntiada yang mustahil\nbagi Dia",
+      "newGroup": false
+    }
+  ]
+}

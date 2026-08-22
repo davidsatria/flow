@@ -1,0 +1,45 @@
+{
+  "title": "Hanya dekat AllahkuRasa tenang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya dekat Allahku\nRasa tenang hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau sertai jalanku\nSpanjang hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya dekat padaMu\nAda kekuatan baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kaulah perlindunganku\nKeselamatanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kuingin s'lalu\nBersekutu denganMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Menikmati hadiratMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Biarkan RohMu\nTinggal dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh indah\nBersamaMu selamanya",
+      "newGroup": false
+    }
+  ]
+}

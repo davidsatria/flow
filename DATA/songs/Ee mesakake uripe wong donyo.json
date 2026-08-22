@@ -1,0 +1,45 @@
+{
+  "title": "Ee mesakake uripe wong donyo",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "E,e mesakake\nuripe wong donyo",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Rino Ian wengi\ndiancam ning pati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tan ono bungah\nNadyan sugih bondo",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Atine giris\nlara trus teko",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Entek bondone\nmung kanggo nambakke",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "E,e mesakake\nuripe wong donyo",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "O haleluya\nbegjo awake dewe",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Nadyan koyo ngene\nNing Gusti mberkahi",
+      "newGroup": false
+    }
+  ]
+}

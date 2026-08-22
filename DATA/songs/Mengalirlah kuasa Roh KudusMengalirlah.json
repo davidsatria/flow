@@ -1,0 +1,25 @@
+{
+  "title": "Mengalirlah kuasa Roh KudusMengalirlah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mengalirlah kuasa Roh Kudus\nMengalirlah di tempat ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mengalirlah o Roh Kudus\nPulihkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalirlah kuasa Roh Kudus\nMengalirlah di tempat ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mengalirlah o Roh Kudus\nDi hidupku",
+      "newGroup": false
+    }
+  ]
+}

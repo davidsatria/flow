@@ -1,0 +1,45 @@
+{
+  "title": "Banyak perkarayang tak dapatku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Banyak perkara\nyang tak dapat kumengerti",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mengapakah harus terjadi\ndi dalam kehidupan ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Satu perkara\nyang kusimpan dalam hati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada sesuatu 'kan terjadi\ntanpa Allah perduli",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Allah mengerti\nAllah peduli",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "segala persoalan\nyang kita hadapi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tak akan pernah dibiarkannya\nkubergumul sendiri",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "s'bab Allah\nmengerti",
+      "newGroup": false
+    }
+  ]
+}

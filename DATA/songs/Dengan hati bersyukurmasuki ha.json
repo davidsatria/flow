@@ -1,0 +1,25 @@
+{
+  "title": "Dengan hati bersyukurmasuki ha",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dengan hati bersyukur\nmasuki hadiratMu\nmembawa pujian\nbagiMu Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kumemandang\nwajahMu bersuka\ndidepanMu sambil\nmenc'ritakan kasihMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kumengangkat\ntanganku\nbersorak-sorai\nbagi kebaikanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkau baik\nsangat baik\nkasih setiaMu\ntak pernah berubah\n(2X)",
+      "newGroup": false
+    }
+  ]
+}

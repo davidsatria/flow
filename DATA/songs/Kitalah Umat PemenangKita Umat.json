@@ -1,0 +1,40 @@
+{
+  "title": "Kitalah Umat PemenangKita Umat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kitalah Umat Pemenang,\nKita Umat Pemuji",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kita Anak Perjanjian",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus T'lah Bangkit\nKalahkan Maut",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bangkit Ya Lahir Baru\nJalan Dalam Kuasa Darah-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jadi Ahli Waris-Nya\nAnak Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Anak Allah\nAnak Allah Hei!",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Anak Allah Hei! Hei! Hei!",
+      "newGroup": false
+    }
+  ]
+}

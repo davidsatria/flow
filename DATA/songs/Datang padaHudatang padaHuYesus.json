@@ -1,0 +1,20 @@
+{
+  "title": "Datang padaHudatang padaHuYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Datang padaHu\ndatang padaHu\nYesus mau b'rikan\ndamai sepenuh",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kalau jiwamu\nlelah dan\nbertanggungan\nb'rat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Datang datang\ndatang padaHu",
+      "newGroup": false
+    }
+  ]
+}

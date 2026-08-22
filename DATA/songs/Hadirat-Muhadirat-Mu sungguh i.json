@@ -1,0 +1,40 @@
+{
+  "title": "Hadirat-Muhadirat-Mu sungguh i",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hadirat-Mu\nhadirat-Mu sungguh indah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hadirat-Mu\nhadirat-Mu sungguh mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku rindukan\nselalu dihidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Diam selalu\ndi dalam hadirat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh, mulianya hadirat-Mu\nkami bait-Mu memuja-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Diberkati kau Tuhan\ndengan pujian kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam dekapan hadirat-Mu\nmemenuhi tempat ini",
+      "newGroup": false
+    }
+  ]
+}

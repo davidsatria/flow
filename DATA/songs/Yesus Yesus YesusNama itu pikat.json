@@ -1,0 +1,25 @@
+{
+  "title": "Yesus Yesus YesusNama itu pikat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Yesus Yesus\nNama itu pikat hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia hapus semua dosaku\nDan bri hati yang baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hati resah dia lenyapkan\nSejahtera dia berikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hati bimbang tak menentu\nHidup kekal dia brikan padaku",
+      "newGroup": false
+    }
+  ]
+}

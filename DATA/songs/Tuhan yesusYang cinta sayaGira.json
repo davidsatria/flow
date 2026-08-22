@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan yesusYang cinta sayaGira",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan yesus\nYang cinta saya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Girangkan\nSenangkan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oleh cintanya\nPada saya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Damai s’nang\nYang kekal di hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia bikin ku\nJadi kaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "B'ri ku menang\nAtas s'gala pencobaan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Haleluyah\nOh puji tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekarang dan\nSelamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "I pray you'll be our eyesand watch",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "I pray you'll be our eyes\nand watch us where we go.",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "And help us to be wise\nin times when we don't know",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Let this be our prayer\nwhen we lose our way",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lead us to a place\nguide us with your grace",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "To a place where we'll be safe",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Need to find a place\nguide us with your grace",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Give us faith so we'll be safe",
+      "newGroup": false
+    }
+  ]
+}

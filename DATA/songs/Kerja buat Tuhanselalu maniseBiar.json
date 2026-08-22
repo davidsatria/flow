@@ -1,0 +1,45 @@
+{
+  "title": "Kerja buat Tuhanselalu maniseBiar",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kerja buat Tuhan\nselalu manise",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Biar pikul salib\nselalu manise",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ayo kerja buat Tuhan\nsungguh senang-senange",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dipanggil Tuhan\nselalu manise",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Membuang diri\nke ladang Tuhan saudara,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "serta Tuhan selalu manise",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Manise manise ikut Tuhan\nsungguh slalu manise",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Manise manise ikut  Tuhan\nsungguh slalu manise",
+      "newGroup": true
+    }
+  ]
+}

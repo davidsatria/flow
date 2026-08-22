@@ -1,0 +1,10 @@
+{
+  "title": "Welcome",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Welcome!",
+      "newGroup": true
+    }
+  ]
+}

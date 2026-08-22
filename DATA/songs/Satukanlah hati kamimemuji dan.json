@@ -1,0 +1,40 @@
+{
+  "title": "Satukanlah hati kamimemuji dan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Satukanlah hati kami\nmemuji dan menyembah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oh Yesus,\nTuhan dan Rajaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Eratkanlah tali kasih\ndi antara kami semua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oh Yesus,\nTuhan dan Rajaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bergandengan tangan\ndalam satu kasih",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bergandengan tangan\ndalam satu iman",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saling mengasihi di antara kami\nKeluarga Kerajaan Allah",
+      "newGroup": false
+    }
+  ]
+}

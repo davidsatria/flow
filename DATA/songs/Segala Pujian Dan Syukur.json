@@ -1,0 +1,45 @@
+{
+  "title": "Segala Pujian Dan Syukur",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau Tuhan yang s'lamatkanku\nt'rimakasih Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan yang pulihkanku\nt'rimakasih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan yang sembuhkanku\nt'rimakasih Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan memberkatiku\nt'rimakasih",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'gala pujian dan syukur hanya bagiMu Yesus \nDengan apa 'kan kubalas kasihMu \nS'gala hormat kemuliaan hanya layak bagiMu\nKu sembah Yesus seumur hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan yang s'lamatkanku, t'rimakasih Yesus \nKau Tuhan yang pulihkanku, t'rimakasih \nKau Tuhan yang sembuhkanku, t'rimakasih Yesus\nKau Tuhan memberkatiku, t'rimakasih",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'gala pujian dan syukur hanya bagiMu Yesus \nDengan apa 'kan kubalas kasihMu \nS'gala hormat kemuliaan hanya layak bagiMu\nKu sembah Yesus seumur hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'gala pujian dan syukur hanya bagiMu Yesus \nDengan apa 'kan kubalas kasihMu \nS'gala hormat kemuliaan hanya layak bagiMu\nKu sembah Yesus seumur hidupku",
+      "newGroup": false
+    }
+  ]
+}

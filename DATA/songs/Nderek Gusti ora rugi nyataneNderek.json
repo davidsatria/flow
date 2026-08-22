@@ -1,0 +1,35 @@
+{
+  "title": "Nderek Gusti ora rugi nyataneNderek",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Nderek Gusti ora rugi nyatane\nNderek Gusti soyo ayem atine",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sak nyatane wae uripku pundak berkahi\nNderek Gusti ora rugi nyatane",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nderek Gusti soyo ayem atine\nMulane Gusti Yesus tak puji selawase",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Monggo-monggo\nsami ndherek Gusti,",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Monggo sami ndherek Gusti,\nGusti Yesus juru wilujeng,",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Monggo-monggo\nsami ndherek Gusti.",
+      "newGroup": false
+    }
+  ]
+}

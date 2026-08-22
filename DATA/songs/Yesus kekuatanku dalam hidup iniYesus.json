@@ -1,0 +1,25 @@
+{
+  "title": "Yesus kekuatanku dalam hidup iniYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus kekuatanku dalam hidup ini\nYesus kekuatanku menghadapi semua",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bersama Dia hatiku tak akan goyah\nYesus kekuatan di hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus hapuskan tetesan air mata\nYesus sembuhkan semua luka hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bersama Dia hatiku tak akan goyah\nYesus kekuatan di hidupku",
+      "newGroup": true
+    }
+  ]
+}

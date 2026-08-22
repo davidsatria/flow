@@ -1,0 +1,65 @@
+{
+  "title": "Kau Bapayang mengasihikukuasaM",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau Bapa\nyang mengasihiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kuasaMu\nmemulihkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hati yang baru\nKau berikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "untukku dapat\nmelihat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "RencanaMu\nindah bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau ada\ndi setiap jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hatiku haus dan lapar\nakan Engkau",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kaulah segalanya\ndi dalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "kerajaanMu kebenaranMu\nitu bagianku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kaulah yang ku pandang\nselama hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "MengasihiMu\nmemuliakanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bapa dan Rajaku",
+      "newGroup": false
+    }
+  ]
+}

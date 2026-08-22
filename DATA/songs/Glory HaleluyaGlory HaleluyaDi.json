@@ -1,0 +1,15 @@
+{
+  "title": "Glory HaleluyaGlory HaleluyaDi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Glory Haleluya\nGlory Haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di dalam nama-Nya\nada kes'lamatan kekal",
+      "newGroup": false
+    }
+  ]
+}

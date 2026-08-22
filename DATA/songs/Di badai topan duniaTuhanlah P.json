@@ -1,0 +1,40 @@
+{
+  "title": "Di badai topan duniaTuhanlah P",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Di badai topan dunia\nTuhanlah Perlindungan-ku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kendati goncang semesta,\nTuhanlah Perlindungan-ku!",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Baik siang maupun malam g’lap,\nTuhanlah Perlindungan-ku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "niscaya takutku lenyap,\nTuhanlah Perlindungan-ku!",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ya, Yesus Gunung Batu\ndi dunia, di dunia, di dunia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ya, Yesus Gunung Batu\ndi dunia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tempat berlindung\nyang teguh.",
+      "newGroup": false
+    }
+  ]
+}

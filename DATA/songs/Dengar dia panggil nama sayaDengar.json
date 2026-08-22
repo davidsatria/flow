@@ -1,0 +1,45 @@
+{
+  "title": "Dengar dia panggil nama sayaDengar",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dengar dia panggil nama saya\nDengar dia panggil namamu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengar dia panggil nama saya\njuga dia panggil namamu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kujawab ya ya ya\nkujawab ya ya ya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kujawab ya Tuhan\nKujawab ya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kujawab ya ya ya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh giranglah\nOh giranglah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Yesus\namat cinta pada saya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh giranglah",
+      "newGroup": false
+    }
+  ]
+}

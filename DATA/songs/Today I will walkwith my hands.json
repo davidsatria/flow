@@ -1,0 +1,85 @@
+{
+  "title": "Today I will walkwith my hands",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Today I will walk\nwith my hands in God",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Today I will trust in Him\nand not be afraid",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "For He will be there\nfor He will be there",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Every moment to share\non this wonderful day",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "He has made",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari bahagia\ndalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berjalan bersama-Mu\nYesus Tuhanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Kau sertaku\ns'lalu sertaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sepanjang hidupku\nbahagia selalu Sertaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'bab Kau sertaku\ns'lalu sertaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sepanjang hidupku\nbahagia selalu Sertaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "For He will be there\nfor He will be there",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Every moment to share\non this wonderful day",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "He has made",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "On this wonderful day\nWonderful day",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Wonderful day\nHe has made",
+      "newGroup": false
+    }
+  ]
+}

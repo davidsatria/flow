@@ -1,0 +1,40 @@
+{
+  "title": "Allah kitaheran dan besarAllah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Allah kita heran dan besar\nAllah yang heranlah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Allah yang cinta kita semua\nBerkati dengan limpah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah yang heranlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah kita heran dan besar\nAllah yang heranlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah yang cinta kita semua\nBerkati dengan limpah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah yang heranlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah kita heran",
+      "newGroup": false
+    }
+  ]
+}

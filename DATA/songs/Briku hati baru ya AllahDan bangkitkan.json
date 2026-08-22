@@ -1,0 +1,30 @@
+{
+  "title": "Briku hati baru ya AllahDan bangkitkan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Briku hati baru ya Allah\nDan bangkitkan RohMu dalamku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Briku hati baru ya Allah\nDan bangkitkan RohMu dalamku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jaga ku dalam hadiratMu Tuhan\nJangan ambil RohMu dariku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Perbah'ruiku\nsukacita keselamatanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jangan ambil\nRohMu dariku",
+      "newGroup": false
+    }
+  ]
+}

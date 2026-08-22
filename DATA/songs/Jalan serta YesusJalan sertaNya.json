@@ -1,0 +1,35 @@
+{
+  "title": "Jalan serta YesusJalan sertaNya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jalan serta Yesus\nJalan sertaNya setiap hari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jalan serta Yesus\nSerta Yesus selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jalan dalam suka\njalan dalam duka",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jalan serta-Nya setiap hari",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jalan dalam suka\njalan dalam duka",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Serta Yesus selamanya",
+      "newGroup": false
+    }
+  ]
+}

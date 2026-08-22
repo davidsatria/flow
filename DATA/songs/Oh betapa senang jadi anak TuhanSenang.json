@@ -1,0 +1,15 @@
+{
+  "title": "Oh betapa senang jadi anak TuhanSenang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oh, betapa senang jadi anak Tuhan\nSenang jadi anak Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Senang jadi anak Tuhan\nOh, betapa senangnya jadi anak Tuhan",
+      "newGroup": false
+    }
+  ]
+}

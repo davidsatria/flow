@@ -1,0 +1,45 @@
+{
+  "title": "Dari utara ke selatanterdengar",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dari utara ke selatan\nterdengar pujian bagi Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dari barat sampai ke timur\nnama Yesus disanjung tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dari pulau-pulau lembah-lembah\ngunung-gunung yang tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KemuliaanNya disaksikan\nkebesaranNya dic'ritakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Yesus nama Yesus\nnama Yesus disanjung tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dari pulau-pulau lembah-lembah\ngunung-gunung yang tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allahku dahsyat berkuasa\ns'luruh bumi sujud menyembah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tinggikan namaMu",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Bapa ku datangMenyembahMu disi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa ku datang\nMenyembahMu disini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kupercaya Kau\nAda bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak usah ku takut\nsbab Kau sertaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak usah ku bimbang\nKau didalamku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak usah ku cemas\nKau penghiburku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saat ku lemah\nKau kuatku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku nyanyi haleluya\nKu nyanyi haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sungguh Kau hebat\nAjaib perkasa perbuatanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku nyanyi haleluya\nKu nyanyi haleluya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sungguh Kau hebat\nAjaib perkasa perbuatanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "di hidupku",
+      "newGroup": false
+    }
+  ]
+}

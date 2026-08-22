@@ -1,0 +1,30 @@
+{
+  "title": "Aku mau percayakarena kasih se",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku mau percaya\nkarena kasih setiaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hatiku bersorak\nkar'na peny'lamatanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku mau bernyanyi\nkepada Tuhan Yesusku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kar'na Dia t'lah\nberbuat baik kepadaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kumau percaya\nkumau bernyanyi kar'naMu",
+      "newGroup": false
+    }
+  ]
+}

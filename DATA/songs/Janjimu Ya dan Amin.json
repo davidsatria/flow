@@ -1,0 +1,50 @@
+{
+  "title": "Janjimu Ya dan Amin",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat ku lemah\nKau angkat hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saat ku jatuh\nKau topang tanganku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau penolongku yang setia\nKupercaya padaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jurus’lamatku\nTempat pengharapanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku percaya janjiMu\nya dan amin",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "KasihMu setia\ndidalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku percaya\nanug’rahMu besar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Lebih dari semua\nyang dapat kupinta",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Lebih dari semua\nyang dapat kupinta",
+      "newGroup": true
+    }
+  ]
+}

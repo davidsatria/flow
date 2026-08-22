@@ -1,0 +1,30 @@
+{
+  "title": "Saudara dengarlahsangkakalamembawa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saudara dengarlah\nsangkakala\nmembawa kelepasan\nbagi semua orang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tidakkah engkau tahu\ninilah Tahun Yobel\nangkat tanganmu\nbebaskan tawanan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ini Tahun pembebasan\n(2x)\nsemua tawanan\ndilepaskan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang lumpuh\ndan yang buta\nlompat dan bersoraklah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab ini\nTahun Pembebasan",
+      "newGroup": false
+    }
+  ]
+}

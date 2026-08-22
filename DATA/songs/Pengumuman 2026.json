@@ -1,0 +1,30 @@
+{
+  "title": "Pengumuman 2026",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ibadah Umum RABU\nRab, 28 Jan 26 | 18:00 WIB\nWL : Ibu Yono\nSingers : • Ibu Hana • Ibu Yanti\nMusik : Tim Musik\nKolektan : Bp. Cupu\nFirman : Gembala Sidang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ibadah Keluarga\nJum, 30 Jan 26 | 16:00 WIB\nTempat : Pastori\nPujian : Ibu Sunyoto\nFirman : Bp. Gembala",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ibadah Pemuda Remaja\nSab, 31 Jan 26 | 17:00 WIB\nPujian : Kak Elia\nFirman : Ibu Gembala\nKolektan : Michel\nTema : Buah dari hati \n(Matius 12:33-37)",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ibadah Raya Minggu (Perjamuan)\nMin, 1 Feb 26 | 07:00 WIB\nWL : Ibu Gembala\nSingers : • Ibu Ellia • Bp. Novi\nMusik : Tim Musik\nKolektan : • Ibu Wiwik • Ibu Martha\nTerima Tamu : Bapak & Ibu Sukidi\nFirman : Gembala Sidang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sekolah Minggu\nMin, 1 Feb 26 | 07:30 WIB\nPujian : Mami Vina A.\nKelas Besar : Mami Ellia\nKelas Kecil : Mami Anggi\nKolektan  : Etis\nMusik : Axel",
+      "newGroup": false
+    }
+  ]
+}

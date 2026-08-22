@@ -1,0 +1,45 @@
+{
+  "title": "Ku tak membawaapapun jugasaatku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku tak membawa\napapun juga",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "saatku datang\nke dunia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kutinggal semua\npada akhirnya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "saatku kembali\nke Surga",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Inilah yang kupunya\nhati s'bagai hamba",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "yang mau taat dan\nsetia padaMu Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kemanapun kubawa\nhati yang menyembah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dalam Roh dan\nkebenaran, sampai s'lamanya",
+      "newGroup": false
+    }
+  ]
+}

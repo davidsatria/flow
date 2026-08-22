@@ -1,0 +1,40 @@
+{
+  "title": "Yesus Tuhan ditinggikanatas segala",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Tuhan ditinggikan\natas segala Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dimuliakan naik ke surga\nberikan Roh Kudus-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ya Roh Kudus curahkanlah\nurapan kuasa-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau penghibur dan penolong\ndalam kehidupanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Datanglah sekarang penuhi kami\ndengan kuasa-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Urapi kami sekarang ini\ndengan api Roh-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Roh Kudus ini hamba-Mu\nRoh Kudus penuhi hamba-Mu",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Saat ini kudatang lagiKepada-Mu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat ini kudatang lagi\nKepada-Mu Tuhan junjungan hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuangkat tanganku, kupuji nama-Mu\nYesus kusembah Kau Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari-hari tlah kulalui\nBersama-Mu Tuhan kurasa bahagia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Peganglah tanganku\ntuntunlah jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan Kaulah segalanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya sorak hosana\nHaleluya glori bagi-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Haleluya sorak hosana\nTerpujilah nama-Mu",
+      "newGroup": false
+    }
+  ]
+}

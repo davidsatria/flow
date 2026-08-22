@@ -1,0 +1,55 @@
+{
+  "title": "Yesus Kau kebenaranyang menyel",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Kau kebenaran\nyang menyelamatkanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau membrikanku hidup\ndan pengharapan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku ikut kehendakMu\nku perlu anugerahMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "ku nyatakan janjiku\nkepadaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kalau kuhidup\nku hidup bagiMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "hatiku tetap\ntetap menyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dunia tak bisa menjauhkanku\ndari kasihMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'lama kuhidup\nkuhidup bagiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "mataku tetap\ntetap memandangMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dunia tak bisa menjauhkanku\ndari kasihMu",
+      "newGroup": false
+    }
+  ]
+}

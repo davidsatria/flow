@@ -1,0 +1,35 @@
+{
+  "title": "Tuhan aku rinduTuhan aku siapPenuhi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan aku rindu\nTuhan aku siap",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Penuhi aku dengan rohMu\nKu rindu lawatanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan aku rindu\nTuhan aku siap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Penuhi aku dengan rohMu\nKu rindu lawatanMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku rindukan kau hadir disini\nSaat ini Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku rindukan rohMu mengurapi\nSaat ini Yesus",
+      "newGroup": false
+    }
+  ]
+}

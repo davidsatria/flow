@@ -1,0 +1,25 @@
+{
+  "title": "SLAMINYO NDEREK GUSTIMANAH AYEM",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "SLAMINYO NDEREK GUSTI\nMANAH AYEM LAN TENTREM",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "GUSTI MARINGI SEDOYO\nMANAH AYEM LAN TENTREM",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "KULO NDEREK GUSTI\nKULO NDEREK GUSTI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "DATENG PUNDHI LAMPAHIPUN\nKULO NDEREK GUSTI",
+      "newGroup": true
+    }
+  ]
+}

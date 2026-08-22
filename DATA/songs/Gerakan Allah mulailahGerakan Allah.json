@@ -1,0 +1,35 @@
+{
+  "title": "Gerakan Allah mulailahGerakan Allah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Gerakan Allah mulailah\nGerakan Allah mulailah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kudengar suara\npohon murbai bunyi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kutahu gerakan\nAllah mulailah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Saudara maju, saudari maju\nmaju majulah terus",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Maju dalam Roh Hu\nMaju dalam Roh Hu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "maju maju terus",
+      "newGroup": false
+    }
+  ]
+}

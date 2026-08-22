@@ -1,0 +1,15 @@
+{
+  "title": "Mari masuk (2x)masuk hatikuya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mari masuk (2x)\nmasuk hatiku\nya Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Datang s'karang\ndatang tinggal\ndalam hatiku\nya Yesus",
+      "newGroup": false
+    }
+  ]
+}

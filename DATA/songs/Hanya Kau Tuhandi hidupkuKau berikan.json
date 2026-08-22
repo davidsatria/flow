@@ -1,0 +1,65 @@
+{
+  "title": "Hanya Kau Tuhandi hidupkuKau berikan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya Kau Tuhan\ndi hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau berikan hidup\nyang baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Darah-Mu menyucikan\npulihkan hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kunyatakan Kaulah\nsegalanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah sumber\npengharapan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuasa-Mu sanggup\nmenyembuhkan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jiwaku pun berserah\nhanya kepada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus kaulah\nsegalanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Karena salib-Mu 'ku hidup\nKarena salib-Mu 'ku menang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkau yang berkuasa\nsanggup",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "'Tuk melakukan\nmukjizat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dihidupku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Kalau kamiada sampai hari iniItu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kalau kami\nada sampai hari ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Itu semua\nkarna berkat Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari demi hari\ntlah kami lewati",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Susah atau pun\nsenang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami percaya..\nTuhan slalu serta",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan tak pernah\nmeninggalkan kami",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sbab itu janjiNya.. bagi kita\nOrang yang mengasihi Dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Eben Haezer..\nEben Haezer..",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sampai disini\nTuhan sudah menolong",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Eben Haezer.. Eben Haezer..\nTuhan pasti menolong",
+      "newGroup": false
+    }
+  ]
+}

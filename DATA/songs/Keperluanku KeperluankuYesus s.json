@@ -1,0 +1,15 @@
+{
+  "title": "Keperluanku KeperluankuYesus s",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Keperluanku Keperluanku\nYesus saja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Keperluanku Keperluanku\nYesus saja",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "title": "Dialah Yang Maha tinggiDialah Yang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dialah Yang Maha tinggi\nDialah Yang Maha suci",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dialah Yesus Raja damai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dialah Yang Maha mulia\nDialah Yang Maha besar",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dialah Yesus luar biasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kami bangga memiliki\nAllah sepertiMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami bahagia\nmenjadi milikMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami tinggikan\nkami muliakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kami agungkan\nnamaMu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kami bangga memiliki\nAllah sepertiMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami bahagia\nmenjadi milikMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami memuji\nkami menyembah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KepadaMu Yesus",
+      "newGroup": false
+    }
+  ]
+}

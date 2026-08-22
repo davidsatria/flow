@@ -1,0 +1,60 @@
+{
+  "title": "Di dalam doamuKau sebut namakuDi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Di dalam doamu\nKau sebut namaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di dalam harapmu\nKau sebut namaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di dalam segala hal\nNamaku di hatimu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak dapatku balas\nCintamu ayahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak kan aku lupakan\nNasehatmu ibu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hormati orang tuamu\nAgar lanjut umurmu dibumi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Trima kasih ayah dan ibu\nKasih sayangmu padaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pengorbananmu\nMeneteskan peluh",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tuk kebahagiaanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan lindungi ayah ibuku\nDalam doa kuberseru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tetes air matamu\nYang kau tabur dituai bahagia",
+      "newGroup": false
+    }
+  ]
+}

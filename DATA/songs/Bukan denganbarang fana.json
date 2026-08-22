@@ -1,0 +1,45 @@
+{
+  "title": "Bukan denganbarang fana",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bukan dengan barang fana\nKau membayar dosaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dengan darah yang mahal\ntiada noda dan cela",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bukan dengan emas perak\nKau menebus diriku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Oleh segenap Kasih\ndan pengorbananMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kutelah mati dan tinggalkan\ncara hidupku yang lama",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Semuanya sia-sia\ndan tak berarti lagi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hidup ini kuletakkan\npada mezbahMu ya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jadilah padaku\nseperti yang Kau ingini",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Dia tak pernah lepaskan tangankuDia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dia tak pernah lepaskan tanganku\nDia tak pernah lepaskan tanganku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Walau angin menderu\njuga ombak memburu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia tak pernah lepaskan tanganku",
+      "newGroup": false
+    }
+  ]
+}

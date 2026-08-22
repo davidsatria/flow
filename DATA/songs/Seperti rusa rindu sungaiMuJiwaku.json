@@ -1,0 +1,35 @@
+{
+  "title": "Seperti rusa rindu sungaiMuJiwaku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Seperti rusa rindu sungaiMu\nJiwaku rindu Engkau",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kaulah Tuhan hasrat hatiku\nKu rindu menyembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kaulah kekuatan dan perisaiku\nKepadaMu rohku berserah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kaulah Tuhan hasrat hatiku\nKu rindu menyembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus..Yesus..\nKau berarti bagiku..",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus..Yesus..\nKau segalanya bagiku",
+      "newGroup": true
+    }
+  ]
+}

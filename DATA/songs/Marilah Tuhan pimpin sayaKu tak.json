@@ -1,0 +1,15 @@
+{
+  "title": "Marilah Tuhan pimpin sayaKu tak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Marilah Tuhan pimpin saya\nKu tak b'rani jalan sendiri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam dunia penuh susah\nJangan kau tinggal ku sendiri",
+      "newGroup": false
+    }
+  ]
+}

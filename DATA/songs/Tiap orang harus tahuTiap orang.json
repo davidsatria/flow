@@ -1,0 +1,30 @@
+{
+  "title": "Tiap orang harus tahuTiap orang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tiap orang harus tahu\nTiap orang harus tahu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiap orang harus tahu\nsiapakah Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus kembang\nMawar Sharon",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bintang Fajar\nyang Mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia terindah dari semua\ntiap orang harus tahu",
+      "newGroup": false
+    }
+  ]
+}

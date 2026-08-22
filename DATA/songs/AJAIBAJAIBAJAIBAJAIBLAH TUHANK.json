@@ -1,0 +1,50 @@
+{
+  "title": "AJAIBAJAIBAJAIBAJAIBLAH TUHANK",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "AJAIB...AJAIB...AJAIB\nAJAIBLAH TUHANKU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "AJAIB...AJAIB...AJAIB\nAJAIBLAH DIA SUNGUH",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "BESARLAH RAHMAT-NYA\nHERANLAH KUASA-NYA",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "AJAIBLAH ENGKAU TUHAN\nAJAIB...AJAIB",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "RASAKAN KUASA ALLAH TURUNLAH\nRASAKAN KUASA ALLAH TURUNLAH",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "PINTU RAHMAT-NYA TERBUKA BAGIKU\nRASAKAN KUASA ALLAH TURUNLAH",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "API PANTEKOSTA KU PUNYA\nKUBIARKAN MENYALA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "API PANTEKOSTA KU PUNYA\nKUBIARKAN MENYALA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "MENYALA..MENYALA S'LAMANYA",
+      "newGroup": false
+    }
+  ]
+}

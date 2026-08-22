@@ -1,0 +1,45 @@
+{
+  "title": "KerahkanlahkekuatanMu ya Allah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kerahkanlah\nkekuatanMu ya Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tunjukkanlah\nkuasaMu ya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "serakkanlah musuhMu\ns'lamatkanlah umatMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah dahsyat\ndi tempat kudusNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Allah bangkit\nbersoraklah  ( Hei... )",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Allah bangkit\nbernyanyilah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Musuh dikalahkan\numatNya dibebaskan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allah dahsyat\ndi tempat kudusNya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Jiwaku bertanya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jiwaku bertanya\nApakah masih ada harapan?",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Melewati tangisan\nRasa sesak di dada",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Imanku berkata\nTuhanku yang pegang kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia selalu bekerja\nMeski mataku tak melihat",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walaupun gunung itu tak berpindah\nTetap percaya Kau yang punya kuasa",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sekalipun ku dalam lembah kelam\nTak mengapa asal Kau di sampingku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walaupun masalahku masih ada\nTetap percaya rencanaMu terindah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "PribadiMu takkan pernah berubah\nIman yang aku pegang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "PadaMu Tuhan yang setia.",
+      "newGroup": false
+    }
+  ]
+}

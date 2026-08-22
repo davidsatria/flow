@@ -1,0 +1,45 @@
+{
+  "title": "Hati yang Hancur",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Nyatakan yang Kau mau\nSelidiki hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Singkapkan bila ada yang salah\nRoh Kudus jamah hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nyatakan yang Kau mau\nSelidiki hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Singkapkan bila ada yang salah\nRoh Kudus jamah hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hati yang hancur Kau berkenan\nHati yang taat yang Kau cari",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Temukanlah hati yang berkenan\nTemukan di hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Melebihi gemerlapnya dunia\nPerkenananMu itu yang utama",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kumau taat ku mau bertobat\nMenyenangkanMu tujuan hidupku",
+      "newGroup": false
+    }
+  ]
+}

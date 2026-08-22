@@ -1,0 +1,45 @@
+{
+  "title": "Bernyanyilah bagi Tuhan HuaNya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bernyanyilah bagi Tuhan Hua\nNyanyikanlah nyanyian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "syukur\nsyukur bagi Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Persembahkanlah\nhormat dan pujian",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Atas kemurahanNya\npada kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersyukurlah atas segala berkat\nYang telah dilimpahkanNya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "bagi kita, bagi kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan tak putus-putusnya\nkita terima terima terima",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ya Allahku yang ajaib",
+      "newGroup": false
+    }
+  ]
+}

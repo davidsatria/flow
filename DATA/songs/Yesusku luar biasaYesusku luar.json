@@ -1,0 +1,20 @@
+{
+  "title": "Yesusku luar biasaYesusku luar",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesusku luar biasa\nYesusku luar biasa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesusku luar biasa\nYesusku luar biasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Amin, amin, amin...\nAmin, amin",
+      "newGroup": false
+    }
+  ]
+}

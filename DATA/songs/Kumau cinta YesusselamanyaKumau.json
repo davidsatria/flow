@@ -1,0 +1,45 @@
+{
+  "title": "Kumau cinta YesusselamanyaKumau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kumau cinta Yesus\nselamanya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kumau cinta Yesus\nselamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Meskipun badai\nsilih berganti dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tetap cinta Yesus\nselamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ya Abba Bapa\nini aku anakMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Layakanlah seluruh\nhidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ya Abba Bapa\nini aku anakMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pakailah sesuai\ndengan rencanaMu",
+      "newGroup": false
+    }
+  ]
+}

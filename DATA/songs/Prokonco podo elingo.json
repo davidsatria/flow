@@ -1,0 +1,65 @@
+{
+  "title": "Prokonco podo elingo",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Prokonco podo elingo\nurip neng donyo tan langgeng",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "koyo kembang suket\ning ngoro-oro",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sedelo mekar endah\nsedelo maneh alum",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "wusono garing\ntanpo guno",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ngabekti podho ngabektio\nLumpukno bondo neng swargo",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Awit bondo neng dunyo\nora langgeng",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Neng dunyo\nakeh durjono",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lan akeh rayap ngenget\nNgabekti podho ngabektio",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Delengen jagade\nakeh bencono",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "pratondo wus\ncedak rawuhe",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Podo mratobata\nYesus margane",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kamulyan, Kaswargan\ncumawis mring kowe",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Ku dib'ri kuasadari Raja mulia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku dib'ri kuasa\ndari Raja mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Menaklukkan musuh\ndi bawah kakiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku pakai kuasa\ndari Raja mulia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bila Allah ada bersamaku\nsiapa jadi lawanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh besar Kau Tuhanku\nEngkau perisai hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku berdiri dengan iman\nIman dalam Yesus Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau yang memb'ri kemenangan\nKu bersorak merayakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Terpujilah\nEngkau Raja s'gala raja",
+      "newGroup": false
+    }
+  ]
+}

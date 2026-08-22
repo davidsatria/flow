@@ -1,0 +1,45 @@
+{
+  "title": "Kita bertemu lagi'tuk puji Tuhankita",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kita bertemu lagi\n'tuk puji Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kita bertemu lagi\ndalam kasih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sesuatu pasti terjadi\nuntuk kebaikan kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kita bertemu lagi\n'tuk puji Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kita bertemu\n'tuk menyembah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "kita bertemu\nsaling mengasihi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kita bertemu\nsaling mendoakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "puji Dia glory haleluya\npuji NamaNya",
+      "newGroup": false
+    }
+  ]
+}

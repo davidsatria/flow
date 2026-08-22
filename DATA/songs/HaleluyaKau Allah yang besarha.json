@@ -1,0 +1,15 @@
+{
+  "title": "HaleluyaKau Allah yang besarha",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Haleluya\nKau Allah yang besar\nhaleluya\nKau mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "NamaMu kuasaMu\nkasihMu kekal\nKau yang layak\nditinggikan",
+      "newGroup": false
+    }
+  ]
+}

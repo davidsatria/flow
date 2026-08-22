@@ -1,0 +1,30 @@
+{
+  "title": "Dalam s'gala keadaanWaktu berlimpah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dalam s'gala keadaan\nWaktu berlimpah maupun kurang\nTetap Yesus yang mempesona hatiku\nDia b'ri damai dan kesempatan baru",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di s'tiap musim kehidupan\nWaktu ku kuat maupun lemah\nTetap Yesus yang mempesona hatiku\nDia b'ri hidup dan kesempatan baru",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'kali Yesus, selamanya Yesus\nHarapanku tak akan hilang\nKar'na kasih-Nya, s'karang ku ada\nOh, Yesusku, kucinta Kau s'lamanya",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Tak s'lalu pahami apa yang akan terjadi\nDi hati, s'kali Yesus, tetap Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "ending\nKar'na kasih-Nya, s'karang ku ada\nHo, Yesusku, kucinta Kau s'lamanya",
+      "newGroup": true
+    }
+  ]
+}

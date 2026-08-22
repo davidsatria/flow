@@ -1,0 +1,35 @@
+{
+  "title": "Trima kasih Tuhanuntuk kasih s",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Trima kasih Tuhan\nuntuk kasih setiaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "yang kualami\ndalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Trima kasih Yesus\nuntuk kebaikanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "sepanjang\nhidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Trima kasih Yesusku\nbuat anugrah yang Kau b'ri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'bab hari ini\nTuhan adakan syukur bagiMu",
+      "newGroup": true
+    }
+  ]
+}

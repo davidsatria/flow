@@ -1,0 +1,55 @@
+{
+  "title": "Kasih AllahMelingkupi sayaLingkupi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih Allah\nMelingkupi saya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lingkupi saya\nSelama-lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Karna kasihNya\nKu tak takut jua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Allah slalu\nSanggup tolong saya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tak dapat\nHidup tanpa kasih",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kasih Yesus\nMengangkat aku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan menghibur aku\nMenggerakkanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tak dapat\nHidup tanpa kasih",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasih Yesus\nMengangkat aku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Layani Tuhan\nDan sesama lebih sungguh",
+      "newGroup": false
+    }
+  ]
+}

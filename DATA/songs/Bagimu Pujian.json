@@ -1,0 +1,45 @@
+{
+  "title": "Bagimu Pujian",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku datang padaMu\nMembawa pujianku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya kekuatan hadiratMu\nSanggup menjaga hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mendekat padaMu\nKu mau sentuh hatiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Biar ku melihat kemuliaan\nYang Kau sediakan bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "BagiMu pujian\nhormat kemuliaan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kaulah kebanggaan\ndi dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "JanjiMu bersinar\nbuktikan Kau besar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada yang sepertiMu\nYesus Tuhanku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Ku Tetap Allah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa dahsyat Engkau Tuhan\nPencipta segala yang ada",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dulu sekarang sampai selamanya\nHanya Engkau Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak terselami PikiranMu\nTak terukur panjang setiaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dulu sekarang sampai selamanya\nHanya Engkau Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kusembah Engkau Yesus\nHanya Engkau Allah di hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tiada yang lain hanya Kau\nHanya Engkau Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Selamanya\nKau tetap Allah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walau dunia\nsemua bergoncang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tak tergoyahkan\nKau tetap Allah",
+      "newGroup": false
+    }
+  ]
+}

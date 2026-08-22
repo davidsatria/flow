@@ -1,0 +1,25 @@
+{
+  "title": "Kasih pastilemah lembutKasih p",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih pasti\nlemah lembut\nKasih pasti\nmemaafkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kasih pasti\nmurah hati\nKasihMu kasihMu\nTuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ajarilah kami ini\nsaling mengasihi\najarilah kami ini\nsaling mengampuni",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ajarilah kami ini\nkasihMu ya Tuhan\nKasihMu Kudus\ntiada batasnya",
+      "newGroup": false
+    }
+  ]
+}

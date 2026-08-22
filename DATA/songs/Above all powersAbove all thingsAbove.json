@@ -1,0 +1,70 @@
+{
+  "title": "Above all powersAbove all thingsAbove",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Above all powers\nAbove all things",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Above all nature\nand all created things",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Above all wisdom\nand all the ways of man",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "You were here before\nthe world began",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Above all kingdoms\nAbove all thrones",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Above all wonders\nthe world has ever known",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Above all wealth\nand treasures of the earth",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "There's no way to measure\nwhat You're worth",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Crucified\nLaid behind the stone",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "You lived to die\nRejected and alone",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Like a rose\ntrampled on the ground",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "You took the fall\nAnd thought of me",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Above all",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Ku rindu setiap waktuhidup di",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku rindu setiap waktu\nhidup di kebenaran-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bukan dengan kuatku\nnamun karna Roh-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Kau\nyang kupegang teguh",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkaulah Tuhan\nEngkaulah Raja",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Berdaulat atas hidupku\nKuberserah penuh",
+      "newGroup": false
+    }
+  ]
+}

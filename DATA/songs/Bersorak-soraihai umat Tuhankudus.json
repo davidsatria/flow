@@ -1,0 +1,25 @@
+{
+  "title": "Bersorak-soraihai umat Tuhankudus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bersorak-sorai\nhai umat Tuhan\nkudus dan mulialah\nnamaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Besarlah kasihNya\najaib perbuatanNya\nberkuasa selama\nlamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bagi Dia\nyang memrintah\nyang layak trima\nsgala pujian",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bagi Dia\nyang bertahta\nsurga bumi sujud\nmenyembah\ndihadapanNya",
+      "newGroup": false
+    }
+  ]
+}

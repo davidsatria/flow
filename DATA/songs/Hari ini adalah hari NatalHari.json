@@ -1,0 +1,35 @@
+{
+  "title": "Hari ini adalah hari NatalHari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari ini adalah hari Natal\nHari kelahiran Tuhan Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Juru Slamat datang ke dunia\nMembawa terang dan keselamatan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hari natal telah tiba\nMari bersukacita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sambutlah\nSang Raja yang datang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hari natal telah tiba\nMari bersukacita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sambutlah\nTuhan Yesus",
+      "newGroup": false
+    }
+  ]
+}

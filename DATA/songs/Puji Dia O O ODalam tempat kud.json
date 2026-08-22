@@ -1,0 +1,25 @@
+{
+  "title": "Puji Dia O O ODalam tempat kud",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Puji Dia O O O\nDalam tempat kudusNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Puji Dia O O O\nKar'na Dia yang perkasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Puji Dia O O O\nKar'na kebesaranNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Biar yang bernafas memuji Dia",
+      "newGroup": false
+    }
+  ]
+}

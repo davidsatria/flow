@@ -1,0 +1,35 @@
+{
+  "title": "Kub'ri kemuliaandan hormatkuangkat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kub'ri kemuliaan\ndan hormat",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kuangkat suara pujian",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kuagungkan namaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab Kau besar\nperbuatanMu ajaib",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tiada seperti Engkau",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tiada seperti Engkau",
+      "newGroup": false
+    }
+  ]
+}

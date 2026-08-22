@@ -1,0 +1,45 @@
+{
+  "title": "Kaulah kekuatankuEngkaulah har",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kaulah kekuatanku\nEngkaulah harapanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "tak ku andalkan kekuatanku\nsaat hadapi badai hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kaulah kekuatanku\nEngkaulah harapanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tak ku andalkan kekuatanku\nsaat hadapi badai hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "ku percaya\nEngkau Tuhan berkuasa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkau sanggup\nmemulihkan hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "dalam tanganMu\nku serahkan sluruh hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tiada yang mustahil\nbagiMu Yesusku..",
+      "newGroup": false
+    }
+  ]
+}

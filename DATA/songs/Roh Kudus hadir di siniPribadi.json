@@ -1,0 +1,40 @@
+{
+  "title": "Roh Kudus hadir di siniPribadi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Roh Kudus hadir di sini\nPribadi yang  menawan dan suci",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kurindu mendekat mengerti hatiMu\nBerjalan dalam kehendakMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Roh Kudus manis dan lembut\nPenolong yang sejati dan suci",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kurindu mendekat mengerti hatiMu\nBerjalan dalam KuasaMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bekerjalah Ya Roh Kudus\nBertahtalah lebih lagi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "UrapanMu lawatanMu\nKaulah yang kuperlu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau terutama di hidupku",
+      "newGroup": false
+    }
+  ]
+}

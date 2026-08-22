@@ -1,0 +1,50 @@
+{
+  "title": "Lebih dari pemenangdalam s'gala",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Lebih dari pemenang\ndalam s'gala perkara",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "iblis t'lah dikalahkan\noleh kuasa darahNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jika Allah dipihak kita\nsiapa dapat melawan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kita lebih dari pemenang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya\nkibarkanlah panjiNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus Raja\nsegala raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya\nbangkitlah gerejaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kita lebih\nlebih dari pemenang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kita lebih dari pemenang",
+      "newGroup": false
+    }
+  ]
+}

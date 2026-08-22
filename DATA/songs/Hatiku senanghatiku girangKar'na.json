@@ -1,0 +1,45 @@
+{
+  "title": "Hatiku senanghatiku girangKar'na",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hatiku senang,\nhatiku girang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kar'na hadirat Tuhan\nada disini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apapun masalah\nyang engkau hadapi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Akan terlepas\ndalam hadirat-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Mari puji dan\nsembah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bebaskan Roh\nuntuk menyembah Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mujizat-Nya\nsedang terjadi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku bebas, aku sembuh,\naku menang",
+      "newGroup": false
+    }
+  ]
+}

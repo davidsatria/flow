@@ -1,0 +1,25 @@
+{
+  "title": "Kami sujud di kakimumerendahkan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami sujud di kakimu\nmerendahkan diri\nbersatu dengan tangismu\nbagi kota tercinta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Biar belas kasihmu Bapa\nkan bertambah nyata\ndicurahkan atas kami\nlawatlah umatMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ampunilah... slamatkanlah\npulihkanlah kota tercinta",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sinari dengan terang KasihMu\ndengar doa kami",
+      "newGroup": false
+    }
+  ]
+}

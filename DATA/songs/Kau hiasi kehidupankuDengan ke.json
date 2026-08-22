@@ -1,0 +1,35 @@
+{
+  "title": "Kau hiasi kehidupankuDengan ke",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau hiasi kehidupanku\nDengan kemurahan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau rancangkan masa depanku\nPenuh dengan harapan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Aku ada saat ini\nSemuanya karna kasih-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Aku hidup hari ini\nSemua berkat kemurahan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Terima kasih Yesus\nEngkau sangat baik",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Teramat baik\nbagiku",
+      "newGroup": false
+    }
+  ]
+}

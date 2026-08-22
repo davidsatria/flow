@@ -1,0 +1,65 @@
+{
+  "title": "Bapa kudatang dan berserah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa, kudatang dan berserah\nKunyatakan Kau yang berkuasa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam gelap Kau setia\nKau cahaya hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau kuatkan aku bertahan\nKau harapan dalam kesesakan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau buktikan\nkesetiaan-Mu, Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkau Allah Imanuel",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bapa, kudatang 'tuk menyembah\nKunyatakan Kau yang bertakhta",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam lemah, Kau sempurna\nKau cahaya bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau kuatkan aku bertahan\nKau harapan dalam kesesakan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau buktikan\nkesetiaan-Mu, Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Engkau Allah Imanuel",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Imanuel, Imanuel\nEngkau besertaku",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Imanuel, Imanuel\nEngkau Allah besertaku",
+      "newGroup": false
+    }
+  ]
+}

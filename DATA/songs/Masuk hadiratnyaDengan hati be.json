@@ -1,0 +1,25 @@
+{
+  "title": "Masuk hadiratnyaDengan hati be",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Masuk hadiratnya\nDengan hati bersyukur",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Memuji dia memuji dia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bri puji dan hormat\nTinggikan namanya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yesus nama sgala nama",
+      "newGroup": false
+    }
+  ]
+}

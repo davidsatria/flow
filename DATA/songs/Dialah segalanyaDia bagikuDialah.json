@@ -1,0 +1,45 @@
+{
+  "title": "Dialah segalanyaDia bagikuDialah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dialah segalanya\nDia bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dialah segalanya\nbesar kecil",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Korbankan diriNya\ndan slamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dialah segalanya\nDia bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Seperti air madu\ndari batu karang",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "dicicip air madu\nyang manis",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oh lihatlah\nTuhan Yesus baik",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "dicicip air madu\nyang manis",
+      "newGroup": false
+    }
+  ]
+}

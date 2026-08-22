@@ -1,0 +1,45 @@
+{
+  "title": "Tempat Pertama",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jauh lebih indah\ndari emas yang mulia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "NamaMu berharga\nbagi hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jauh lebih kuat\ndari semua yang kutahu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "NamaMu melekat\ndi dalam jiwaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "NamaMu s'lalu ada\nDi tempat pertama, di hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dan selalu menjadi\nYang utama di rinduku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Di manapun ku berada\nTak akan berubah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "NamaMu selalu berada\nDi tempat pertama",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Hanya ada",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya ada\nsatu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia yang selalu\nmengasihi aku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya ada\nsatu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus yang selalu\nmengasihi aku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia mengasihi aku\nDia pedulikan aku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia menjagai aku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia mengasihi aku\nDia pedulikan aku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia menjagai aku",
+      "newGroup": false
+    }
+  ]
+}

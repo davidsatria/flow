@@ -1,0 +1,55 @@
+{
+  "title": "Kekuatandi hidupkukudapatdalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kekuatan\ndi hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kudapat\ndalam Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dia tak pernah\ntinggalkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "setia menopangku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berseru berharap\ndalam Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ajaib\nKau Tuhan\npenuh kuasa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "sanggup pulihkan\nkeadaanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dalam tanganMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "s'luruh hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tak akan goyah\nselamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "HARI-HARI KULALUI BERSAMA YESUSSUKA",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "HARI-HARI KULALUI BERSAMA YESUS",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "SUKA DUKA KUJALANI BERSAMA YESUS",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "PERSOALAN PENCOBAAN\nKUHADAPI",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "BERSAMA YESUS JURUS’LAMATKU",
+      "newGroup": false
+    }
+  ]
+}

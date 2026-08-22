@@ -1,0 +1,35 @@
+{
+  "title": "Hatiku Percaya (Acoustic)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhanlah kekuatan dan mazmurku\nDia gunung batu dan kes'lamatanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya pada-Mu hatiku percaya\nKaulah menara dan kota perlindungan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku mau s'lalu bersyukur\nS'bab cinta-Mu padaku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tak kan pernah berubah\nHatiku percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walau bumi bergoncang\nGunung-gunung beranjak",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Namun kasih setiaMu\nTak pergi dariku",
+      "newGroup": false
+    }
+  ]
+}

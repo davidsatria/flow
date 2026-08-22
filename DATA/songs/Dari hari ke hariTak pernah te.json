@@ -1,0 +1,45 @@
+{
+  "title": "Dari hari ke hariTak pernah te",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dari hari ke hari\nTak pernah terbatalkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "BerkatMu turun\natas hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dari hari ke hari\nTiada pernah tertunda",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KesetiaanMu Kau\nlimpahkan bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tak berkesudahan\nKasih setiaMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "RahmatMu tak pernah habis\nDari hari hariku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "TanganMu yang perkasa\nBesar kejayaanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Slalu menopang hidupku\nSlalu pegang erat tanganku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Di Sluruh duniaRoh Allah bekerjaDi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Di Sluruh dunia\nRoh Allah bekerja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di s'luruh dunia\nseperti nabi berkata",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di s'luruh dunia\nada ilham Roh yang heran",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tentang kemuliaan Tuhan\nSeperti air menutup lautan",
+      "newGroup": false
+    }
+  ]
+}

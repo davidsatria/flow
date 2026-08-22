@@ -1,0 +1,55 @@
+{
+  "title": "Oh TuhankuBila KuterpesonaMere",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Oh Tuhanku\nBila Kuterpesona",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Merenungkan\nCiptaanmu Semua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kusaksikan Bintang,\nGuruh, Angkasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tanda Kebesaran-Mu\nDi Dunia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Maka Jiwaku Pun\nMemuji-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sungguh Besar\nKau Allahku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Maka Jiwaku Pun\nMemuji-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sungguh Besar\nKau Allahku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kami Memuji Kebesaran-Mu\nAjaib Tuhan, Ajaib Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami Memuji Kebesaran-Mu\nAjaib Tuhan, Ajaib Tuhan",
+      "newGroup": true
+    }
+  ]
+}

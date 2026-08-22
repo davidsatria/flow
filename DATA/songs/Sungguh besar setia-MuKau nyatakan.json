@@ -1,0 +1,45 @@
+{
+  "title": "Sungguh besar setia-MuKau nyatakan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sungguh besar setia-Mu\nKau nyatakan bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau Bapa yang\nselalu mengerti isi hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kemuliaan-Mu Kau janjikan\nAku tetap percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku percaya janji-Mu ajaib\nTerukir dalam kehidupanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku berserah di dalam kekuatan-Mu\nHanya Kau segalanya bagiku (Ku percaya)",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Tak akan kutakut\nTak akan kugentar",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kaulah Iman-ku\nKaulah Tuhan-ku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak akan kuragukan\nKebaikan-Mu di hidupku",
+      "newGroup": false
+    }
+  ]
+}

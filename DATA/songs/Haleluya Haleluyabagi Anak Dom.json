@@ -1,0 +1,25 @@
+{
+  "title": "Haleluya Haleluyabagi Anak Dom",
+  "lyrics": [
+    {
+      "type": "c",
+      "text": "Haleluya Haleluya\nbagi Anak Domba",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya Haleluya\nDarah-Nya meneguhkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Setiap lidah suku bangsa\nSemua makhluk dan pulau",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "B'rikan glori, b'rikan hormat,\nB'ri pujian bagi Anak Domba",
+      "newGroup": false
+    }
+  ]
+}

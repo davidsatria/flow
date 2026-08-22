@@ -1,0 +1,35 @@
+{
+  "title": "Mari kita puji Dia haleluyaMari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Mari kita puji Dia haleluya\nMari kita puji Dia haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari kita puji Dia haleluya\nHaleluya mari kita puji Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hai saudara puji Dia haleluya\nHai saudari puji Dia haleluya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kita semua puji Dia haleluya\nHaleluya mari kita puji Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Singing glory, praise the Lord, hallelujah\nSinging glory, praise the Lord, hallelujah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Singing glory, praise the Lord, hallelujah\nSinging glory, hallelujah, praise the Lord",
+      "newGroup": false
+    }
+  ]
+}

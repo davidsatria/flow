@@ -1,0 +1,25 @@
+{
+  "title": "Tak pernah kecewamengiring YesusTak",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak pernah kecewa\nmengiring Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah kecewa\nkusrahkan smua",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berjalan sertaNya\nsmakin bahagia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah kecewa\ntuk selamanya",
+      "newGroup": false
+    }
+  ]
+}

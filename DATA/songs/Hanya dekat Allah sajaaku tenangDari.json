@@ -1,0 +1,30 @@
+{
+  "title": "Hanya dekat Allah sajaaku tenangDari",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya dekat Allah saja\naku tenang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dari pada-Nyalah\nkeselamatanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Dia\ngunung batuku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Dia\nkota bentengku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku tidak akan goyah\ns'lama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Node
+node_modules/
+
+# Desktop binaries / installer (versi desktop sudah tidak dilanjutkan)
+*.exe
+*.zip
+*.rar
+SOURCE/dist/
+SOURCE/FLOW.nsi
+
+# Logs
+*.log
+batch_log.txt
+
+# Data runtime
+DATA/backgrounds/
+DATA/flow.log
+DATA/FLOW 0.5.41.code-workspace
+
+# Backup
+songs copy.json
+songs.jsonbak

@@ -1,0 +1,30 @@
+{
+  "title": "HendaklahMasing-Masing Memberi",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hendaklah\nMasing-Masing Memberi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Menurut\nKerelaan Hatinya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jangan Dengan\nSusah Atau Paksa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sebab Tuhan Mengasihi\nOrang Yang Memberi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan Sukacita",
+      "newGroup": false
+    }
+  ]
+}

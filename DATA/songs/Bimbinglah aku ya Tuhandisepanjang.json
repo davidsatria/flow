@@ -1,0 +1,35 @@
+{
+  "title": "Bimbinglah aku ya Tuhandisepanjang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bimbinglah aku ya Tuhan\ndisepanjang jalan hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "FirmanMu bagaikan suluh\nagar ku tak sesatd i jalan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tanpa Yesus disisiku\ntanpa Yesus membimbingku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tanpa Yesus menopangku\nkukan jatuh",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan Yesus disisiku\ndengan Yesus membimbingku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan Yesus menopangku\nku tak jatuh",
+      "newGroup": false
+    }
+  ]
+}

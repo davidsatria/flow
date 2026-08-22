@@ -1,0 +1,45 @@
+{
+  "title": "Telah kulihatbukti kasih-MuKau",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Telah kulihat\nbukti kasih-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau menderita\ngantikanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan darah-Mu,\nKau s'lamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kini kuhidup\nmenyenangkan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Terlalu besar\nkasih-Mu Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pengorbanan yang\nKau b'rikan bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Terlalu mahal\ndarah-Mu Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tercurah untuk\nmenebus hidupku",
+      "newGroup": false
+    }
+  ]
+}

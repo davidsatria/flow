@@ -1,0 +1,45 @@
+{
+  "title": "Firman-Mup'lita bagi kakikuTerang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Firman-Mu,\np'lita bagi kakiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Terang bagi jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Firman-Mu,\np'lita bagi kakiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Terang bagi jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Waktu ku bimbang\nDan hilang jalanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tetaplah Kau di sisiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan takkan ku takut\nAsal Kau di dekatku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Besertaku selamanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "title": "Matius 1,2-10",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "2 Abraham memperanakkan Ishak, Ishak memperanakkan Yakub, Yakub memperanakkan Yehuda dan saudara-saudaranya, \nMatius 1:2",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "3 Yehuda memperanakkan Peres dan Zerah dari Tamar, Peres memperanakkan Hezron, Hezron memperanakkan Ram, \nMatius 1:3",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "4 Ram memperanakkan Aminadab, Aminadab memperanakkan Nahason, Nahason memperanakkan Salmon, \nMatius 1:4",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "5 Salmon memperanakkan Boas dari Rahab, Boas memperanakkan Obed dari Rut, Obed memperanakkan Isai, \nMatius 1:5",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "6 Isai memperanakkan raja Daud. Daud memperanakkan Salomo dari isteri Uria, \nMatius 1:6",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "7 Salomo memperanakkan Rehabeam, Rehabeam memperanakkan Abia, Abia memperanakkan Asa, \nMatius 1:7",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "8 Asa memperanakkan Yosafat, Yosafat memperanakkan Yoram, Yoram memperanakkan Uzia, \nMatius 1:8",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "9 Uzia memperanakkan Yotam, Yotam memperanakkan Ahas, Ahas memperanakkan Hizkia, \nMatius 1:9",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "10 Hizkia memperanakkan Manasye, Manasye memperanakkan Amon, Amon memperanakkan Yosia, \nMatius 1:10",
+      "newGroup": false
+    }
+  ]
+}

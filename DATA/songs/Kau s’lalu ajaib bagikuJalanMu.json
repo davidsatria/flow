@@ -1,0 +1,40 @@
+{
+  "title": "Kau s’lalu ajaib bagikuJalanMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau slalu ajaib bagiku\nJalanMu tak terselami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saat Kau yang\nmembuka pintu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak ada\nyang menutupnya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Masih ada jalan\nterbuka untukku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Masih ada\njalannya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Masih ada jalan\nterbuka untukku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kulihat\nkebesaranMu",
+      "newGroup": false
+    }
+  ]
+}

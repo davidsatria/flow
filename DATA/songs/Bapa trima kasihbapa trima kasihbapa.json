@@ -1,0 +1,20 @@
+{
+  "title": "Bapa trima kasihbapa trima kasihbapa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bapa trima kasih\nbapa trima kasih",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "bapa di dalam surga\nku bertrima kasih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "amin",
+      "newGroup": false
+    }
+  ]
+}

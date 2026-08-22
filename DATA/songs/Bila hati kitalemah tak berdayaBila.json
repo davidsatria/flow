@@ -1,0 +1,45 @@
+{
+  "title": "Bila hati kitalemah tak berdayaBila",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bila hati kita\nlemah tak berdaya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bila iman kita\nbagai tembok runtuh",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya ada satu\nharapan yang pasti",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Agung dan perkasa\nsampai selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hanya satu Nama\nyang menggetarkan hati",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya satu Nama\nyang menegarkan diri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya satu Nama\nindah tak terperi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Nama Yesus\nNama Raja s’gala raja",
+      "newGroup": false
+    }
+  ]
+}

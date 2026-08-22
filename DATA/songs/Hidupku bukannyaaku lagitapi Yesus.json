@@ -1,0 +1,20 @@
+{
+  "title": "Hidupku bukannyaaku lagitapi Yesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hidupku bukannya\naku lagi\ntapi Yesus dalamku\n(2x)",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus hidup\nYesus hidup dalamku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hidupku bukannya\naku lagi\ntapi Yesus dalamku",
+      "newGroup": false
+    }
+  ]
+}

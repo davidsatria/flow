@@ -1,0 +1,65 @@
+{
+  "title": "Kau TuhanYang s'lamatkankuT'rima",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kau Tuhan\nYang s'lamatkanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "T'rima Kasih Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan\nYang Pulihkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "T'rima Kasih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan\nYang Sembuhkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "T'rima Kasih Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau Tuhan\nMemberkatiku,",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "T'rima Kasih",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'gala Pujian dan Syukur\nHanya Bagi-Mu Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dengan Apakah\nKubalas Kasih-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'gala Hormat Kemuliaan\nHanya Layak Bagi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kusembah Yesus\nSeumur Hidupku",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Kami Memuji Kebesaranmu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kami memuji kebesaranMu\nAjaib Tuhan Ajaib Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ajaib Tuhan\nAjaib Tuhan",
+      "newGroup": false
+    }
+  ]
+}

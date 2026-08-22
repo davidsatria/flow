@@ -1,0 +1,40 @@
+{
+  "title": "Dia tak pernah gagalkar'na Dia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Dia tak pernah gagal\nkar'na Dia Allah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia tak pernah lalai\nDia jamin FirmanNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'bab Dia Allah\nRaja sgala raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kekuatanku perisaiku\ndan Gunung Batuku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bersoraklah\nPuji sembah Dia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yesusku Raja Mulia\nYesusku Allah perkasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesusku Allah pemenang\nYesus Raja",
+      "newGroup": false
+    }
+  ]
+}

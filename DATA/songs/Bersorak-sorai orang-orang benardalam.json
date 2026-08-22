@@ -1,0 +1,25 @@
+{
+  "title": "Bersorak-sorai orang-orang benardalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bersorak-sorai orang-orang benar\ndalam Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bersorak-sorai orang-orang benar\ndalam Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jiwaku membumbung tinggi s'perti\ndi langit",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "S'bab besar kasih-Nya kepada kita\nbersuka cita",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "ku ingin menikmatipribadiMu Tu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "ku ingin menikmati\npribadiMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "seperti rusa rindu\nmata air jernih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "harta dan kekayaan\npangkat, mas dan perak",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tak sebanding denganMu\nYesus kekasihku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "menikmati Tuhan\nmenikmati Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "di setiap waktu\nKau berharga",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "menikmati Tuhan\nmenikmati Yesus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dalam kekekalan\nKau mulia",
+      "newGroup": false
+    }
+  ]
+}

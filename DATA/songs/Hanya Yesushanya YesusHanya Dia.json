@@ -1,0 +1,25 @@
+{
+  "title": "Hanya Yesushanya YesusHanya Dia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya Yesus\nhanya Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya Dia b'ri\ndamai s'nang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiap pikulan\npasti 'kan hilang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Yesus\ns’lamanya",
+      "newGroup": false
+    }
+  ]
+}

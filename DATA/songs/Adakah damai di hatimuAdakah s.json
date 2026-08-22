@@ -1,0 +1,40 @@
+{
+  "title": "Adakah damai di hatimuAdakah s",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Adakah damai di hatimu\nAdakah sukacita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ijinkan Kristus\nRaja Damai itu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di hatimu\nbertahta",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku punya damai\nyang melimpah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'bab kasihNya tercurah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Damai sejaht'ra yang\nbuatku bahagia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan berwajah ceria",
+      "newGroup": false
+    }
+  ]
+}

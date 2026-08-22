@@ -1,0 +1,20 @@
+{
+  "title": "Pandang t'rus padaNyaJangan menoleh",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Pandang t'rus padaNya\nJangan menoleh jalan t'rus",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jangan pandang salah\norang lain",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pandang saja Yesus",
+      "newGroup": false
+    }
+  ]
+}

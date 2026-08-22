@@ -1,0 +1,35 @@
+{
+  "title": "Kurindu sabdaMukurindu firmanMuFirman",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kurindu sabdaMu\nkurindu firmanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Firman Tuhan Yesus\nyang heran dan berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berfirmanlah Tuhan\noleh Kuasa RohMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya padaMu\nkami berserah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Berfirmanlah berfirmanlah Tuhan\nRohulkudus urapi hambaMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kurindu menikmati sabdaMu",
+      "newGroup": false
+    }
+  ]
+}

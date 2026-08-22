@@ -1,0 +1,40 @@
+{
+  "title": "Hidup yang kupilihmembuatku be",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hidup yang kupilih\nmembuatku berarti\nkar'na Yesus Tuhan\nTempat kupercaya\ndan berharap",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kubuka mataku\nlihat sekelilingku\nku harus nyatakan\nkebenaranNya\nyang membebaskan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kar'na kuasaMu\nkar'na kehebatanMu\nkudapat lakukan\nperkara besar\nyang Engkau janjikan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Kaulah\nsahabatku\nYesus Kau yang akan\nslalu berada disisiku\nKau sumber kuatku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Kaulah\nsahabatku\nYesus Kau yang tak\npernah jemu-jemu\ndisisiku, Kau\nsumber kuatku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau sahabatku\nberada di sisiku\nKau sahabatku\nselama-lamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau sahabatku\nberada di sisiku\nselama-lamanya",
+      "newGroup": false
+    }
+  ]
+}

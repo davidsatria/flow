@@ -1,0 +1,25 @@
+{
+  "title": "Betapa heranlahheranlah heranlahbetapa",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa heranlah\nheranlah heranlah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "betapa heranlah\nyesusku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Apa yang tak diduga\ndiberi oleh sabdaNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Betapa heranlah\noh.. heranlah",
+      "newGroup": false
+    }
+  ]
+}

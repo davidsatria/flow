@@ -1,0 +1,25 @@
+{
+  "title": "S'perti rusarindu sungaiMuBegitulah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "S'perti rusa\nrindu sungaiMu\nBegitulah jiwaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ya, Roh Kudus penuhi aku\nDengan urapan baru",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Penuhiku, penuhiku\nDengan hadiratMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Urapiku, urapiku\ndengan minyak kudusMu",
+      "newGroup": true
+    }
+  ]
+}

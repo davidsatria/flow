@@ -1,0 +1,25 @@
+{
+  "title": "Hanya ku bisa lari kepada YesusHanya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya ku bisa lari kepada Yesus\nHanya ku bisa lari kepada-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di bawah kaki-Nya Yesus, ku sentosa\nHanya ku bisa lari kepada-Nya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hanya Yesus, hanya Yesus\nHanya Dia b'ri damai, s'nang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiap pikulan, pasti 'kan hilang\nHanya Yesus s'lamanya",
+      "newGroup": true
+    }
+  ]
+}

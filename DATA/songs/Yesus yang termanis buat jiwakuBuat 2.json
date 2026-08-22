@@ -1,0 +1,20 @@
+{
+  "title": "Yesus yang termanis buat jiwakuBuat 2",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus yang termanis buat jiwaku\nBuat jiwaku, buat jiwaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus yang termanis buat jiwaku\nKu Cinta selamanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku Cinta slamanya\nKu Cinta slamanya",
+      "newGroup": false
+    }
+  ]
+}

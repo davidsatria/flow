@@ -1,0 +1,15 @@
+{
+  "title": "Hatiku s'karang girangHatiku s'karang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hatiku s'karang girang\nHatiku s'karang girang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia lepaskan saya dari dosa\nS'karang ku bergirang",
+      "newGroup": false
+    }
+  ]
+}

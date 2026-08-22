@@ -1,0 +1,25 @@
+{
+  "title": "Apa artinya hidup initanpa Yesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Apa artinya hidup ini\ntanpa Yesus kau miliki",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Apa arti kekayaan ini\ntanpa Yesus kau miliki",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bila saatnya telah tiba\nkita dipanggil olehNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Maka semua yang kita miliki\ntak akan berarti lagi",
+      "newGroup": false
+    }
+  ]
+}

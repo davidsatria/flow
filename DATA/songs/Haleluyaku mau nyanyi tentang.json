@@ -1,0 +1,35 @@
+{
+  "title": "Haleluyaku mau nyanyi tentang",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Haleluya\nku mau nyanyi tentang Dia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Haleluya\nku mau sorak tentang Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Haleluya\nku tak dapat hidup tanpa Dia",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Skarang ku adalah\nciptaan baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan ku hidup\ndalam keselamatanNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak ada kutuk mengikat\nOh puji Tuhan",
+      "newGroup": false
+    }
+  ]
+}

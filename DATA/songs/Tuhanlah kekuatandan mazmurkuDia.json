@@ -1,0 +1,50 @@
+{
+  "title": "Tuhanlah kekuatandan mazmurkuDia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhanlah kekuatan\ndan mazmurku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dia gunung batu\ndan keselamatanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya padaMu\nhatiku percaya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kaulah menara\ndan kota perlidungan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku mau s'lalu bersyukur\ns'bab cintaMu padaku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Takkan pernah berubah\nhatiku percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walau bumi bergoncang\ngunung-gunung beranjak",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Namun kasih setiaMu\ntak pergi dariku",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "kasih setiaMu\ntak pergi dariku",
+      "newGroup": true
+    }
+  ]
+}

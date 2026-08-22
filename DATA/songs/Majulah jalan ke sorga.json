@@ -1,0 +1,15 @@
+{
+  "title": "Majulah jalan ke sorga",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Majulah jalan ke sorga  \nTambah hari majulah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus slamanya beserta  \nlebih manis rasanya",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Bangkit s'rukannama YesusMaju",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Bangkit s'rukan nama Yesus\nMaju nyatakan kuasaNya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kita buat iblis gemetar\nkalahkan tipu dayanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan\nkuasa NamaNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Nama Yesus menara yang kuat\nNama Yesus kota benteng yang teguh",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Nama Yesus\nkalahkan semua musuh",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "nama Yesus\ndi atas s'galanya",
+      "newGroup": false
+    }
+  ]
+}

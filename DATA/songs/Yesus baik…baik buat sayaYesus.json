@@ -1,0 +1,15 @@
+{
+  "title": "Yesus baik…baik buat sayaYesus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus baik…baik buat saya\nYesus baik…baik buat saya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tak dapat balas kasihMu Yesus\nYesus baik…baik buat saya",
+      "newGroup": false
+    }
+  ]
+}

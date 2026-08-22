@@ -1,0 +1,35 @@
+{
+  "title": "Hanya kepadaNyakukan berlaridisaat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya kepadaNya\nkukan berlari\ndisaat kubimbang\ndalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang aku percaya\ndalam hadiratNya\nada kekuatan\nyang baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Walau kumelangkah\ndalam tekanan\nbadai pencobaan\ndatang menghadang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yang aku percaya\ndalam hadiratNya\nada kekuatan\nyang baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kukan terbang tinggi\nbagai rajawali\ndiatas segala\npersoalan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan aku percaya\nsaat kubersama Dia\ntiada yang\nmustahil bagi Dia",
+      "newGroup": false
+    }
+  ]
+}

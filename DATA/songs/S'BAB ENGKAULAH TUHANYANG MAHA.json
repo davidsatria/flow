@@ -1,0 +1,40 @@
+{
+  "title": "S'BAB ENGKAULAH TUHANYANG MAHA",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "S'BAB ENGKAULAH TUHAN\nYANG MAHA TINGGI",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KAU DITINGGIKAN\nATAS S'GALA ALLAH",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'BAB ENGKAULAH TUHAN\nYANG MAHA MULIA",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KAU DIMULIAKAN\nATAS S'GALA ALLAH",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "KAU KUSEMBAH, KAU KUSEMBAH\nKAU KUSEMBAH, OH TUHAN",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KAU KUSEMBAH, KAU KUSEMBAH\nKAU KUSEMBAH, OH TUHAN",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "KAU KUSEMBAH\nOH TUHAN",
+      "newGroup": false
+    }
+  ]
+}

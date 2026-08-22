@@ -1,0 +1,25 @@
+{
+  "title": "Kasih Yesus indah dalam hidupk",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kasih Yesus indah dalam hidupku\nMenghiasi hati dan jiwaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tak dapat hidup tanpa kasihMu Tuhan\nPegang tanganku sepanjang jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasih Yesus mengalir dalamku\nSeperti sungai yang tak pernah kering",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kasih Yesus membebat hatiku\nDalam kasihMu ku merasa teduh",
+      "newGroup": false
+    }
+  ]
+}

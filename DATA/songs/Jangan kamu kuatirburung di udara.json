@@ -1,0 +1,45 @@
+{
+  "title": "Jangan kamu kuatirburung di udara",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Jangan kamu kuatir\nburung di udara Dia plihara",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jangan kamu kuatir\nbunga di padang Dia hiasi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jangan kamu kuatir\napa yang kau makan minum pakai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jangan kamu kuatir\nBapa di Sorga memlihara",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku tidak kuatir\nburung di udara Dia plihara",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku tidak kuatir\nbunga di padang Dia hiasi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku tidak kuatir\napa yang ku makan minum pakai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku tidak kuatir\nBapa di Sorga pliharaku",
+      "newGroup": false
+    }
+  ]
+}

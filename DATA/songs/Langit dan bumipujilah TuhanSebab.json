@@ -1,0 +1,55 @@
+{
+  "title": "Langit dan bumipujilah TuhanSebab",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Langit dan bumi\npujilah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sebab dia ciptakan\nsmuanya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KeagunganNya mengatasi\nlangit bumi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sembah sujud\ndi hadapanNya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kupuji kusembah\nkupuji kusembah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus kristus\nsang penebusku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kupuji kusembah\nkupuji kusembah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhan dan Rajaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Halleluya amin\nHalleluya amin",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Halleluya amin\nHalleluya amin",
+      "newGroup": false
+    }
+  ]
+}

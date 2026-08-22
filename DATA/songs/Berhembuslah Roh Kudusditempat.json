@@ -1,0 +1,45 @@
+{
+  "title": "Berhembuslah Roh Kudusditempat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Berhembuslah Roh Kudus\nditempat ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berhembuslah Roh Kudus\ndengan kuasaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pulihkanlah gerejaMu\ndi akhir zaman",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "berhembuslah\nberhembuslah s'karang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Urapilah kami\ndengan minyak baru",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "penuhilah kami\ndengan hadiratMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kami rindu Tuhan\nmelihat kuasaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "dicurahkan\nditempat ini",
+      "newGroup": false
+    }
+  ]
+}

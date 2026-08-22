@@ -1,0 +1,35 @@
+{
+  "title": "Sungguh indah nama YesusDi dalam",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sungguh indah nama Yesus\nDi dalam hatiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku mau iring Dia selalu\nSampai akhir hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sungguh indah nama Yesus\nDi dalam hatiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku mau iring Dia selalu\nSampai akhir hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Glory glory glory haleluya\nTerpuji namaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sungguh indah nama Tuhan Yesus\nDi dalam hidupku",
+      "newGroup": true
+    }
+  ]
+}

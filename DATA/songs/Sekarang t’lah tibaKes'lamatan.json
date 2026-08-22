@@ -1,0 +1,45 @@
+{
+  "title": "Sekarang t’lah tibaKes'lamatan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sekarang t’lah tiba\nKes'lamatan dan kuasa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan pemerintahan\nAllah kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuasa Dia yang\ndiurapiNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kar’na t’lah\ndilem",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Para pendakwa kita",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Oleh darah Anak Domba\nOleh kesaksian kita",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Iblis dikalahkan\nKuasaNya dihancurkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Oleh darah\nAnak Domba",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Sampai masa tuamuaku Yesus tetap",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sampai masa tuamu\naku Yesus tetap Dia\ndan sampai masa putih\nrambutmu, aku\nmenggendongmu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku telah\nmelakukannya\ndan mau\nmenanggung kamu\nt'rus",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku mau\nmemikul kamu dan\nmenyelamatkanmu",
+      "newGroup": false
+    }
+  ]
+}

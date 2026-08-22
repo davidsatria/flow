@@ -1,0 +1,30 @@
+{
+  "title": "Hidupku menggenapi firman-MuTanda",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Kau sempurna\nDalam rencana-Mu dan karya-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuserahkan hidupku\nMurnikan dengan roh-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Hidupku menggenapi\nfirman-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tanda mujizat\nsertai tiap langkahku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau bersamaku di dalamku\nJadi bukti kebesaran-Mu",
+      "newGroup": false
+    }
+  ]
+}

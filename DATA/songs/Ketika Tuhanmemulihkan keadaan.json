@@ -1,0 +1,45 @@
+{
+  "title": "Ketika Tuhanmemulihkan keadaan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ketika Tuhan\nmemulihkan keadaan sion",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Keadaan kita\nseperti orang yang bermimpi",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Waktu itu mulut kita\npenuh dengan tawa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Lidah kita\ndengan sorak-sorai",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yang menabur\ndengan mencucurkan air mata",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Akan menuai dengan\nbersorak-sorai",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang berjalan menangis\nsambil menabur benih",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pasti pulang membawa\nberkas-berkasnya",
+      "newGroup": false
+    }
+  ]
+}

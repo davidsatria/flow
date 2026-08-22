@@ -1,0 +1,50 @@
+{
+  "title": "Betapa kubersyukurAtas s’gala",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Betapa kubersyukur\nAtas s’gala berkat-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Semua yang Kau berikan\nberguna bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Allahku yang mulia\nMem’lihara sempurna",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau sertai langkahku\nselamanya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Syukur, kubersyukur\nkepada-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Puji, kupuji agung\nnama-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sembah, kusembah\nkesucian-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku ada s'bagaimana\naku ada",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya kar’na\nanug’rah-Mu",
+      "newGroup": false
+    }
+  ]
+}

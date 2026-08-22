@@ -1,0 +1,60 @@
+{
+  "title": "Ku ada sebagaimana ku adaBerdiri",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku ada, sebagaimana ku ada",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Berdiri menghadap\ntahta-Mu Bapa",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua kar'na anug'rah-Mu\nYang t'lah s'lamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku hidup dalam s'gala kelimpahan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku layak untuk\nmelayani Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua kar'na anug'rah-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tercurah bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Besar anug'rah-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Melimpah kasih-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Semakin hari s'makin bertambah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Besar anug'rah-Mu",
+      "newGroup": false
+    }
+  ]
+}

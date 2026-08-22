@@ -1,0 +1,25 @@
+{
+  "title": "Aku tresno Yesus jero jero jero",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Aku tresno Yesus\njero jero jero banget",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku tresno Yesus\njero jero jero banget",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tresnoku jer..jer.. ro..ro\njero jero jero banget",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tresnoku jer..jer.. ro..ro\njero jero jero banget",
+      "newGroup": false
+    }
+  ]
+}

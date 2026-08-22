@@ -1,0 +1,55 @@
+{
+  "title": "Yen tak sawang sawang gunung l",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yen tak sawang sawang gunung lautan\nSaka ngendi tekane pitulungan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pitulunganku mung saka Gusti\nSeng ndakdeno langit bumi lan isine",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mung sanding Gusti Yesus atiku tenang\nOra kurang arane welas katresnan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ora alum snadyan awan kepanasan\nOra luntur kesiram bayune udan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Maturnuwun Gusti maturnuwun\nBerkahe Gusti mboten keitung",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Maturnuwun Gusti maturnuwun\nNopo kang Gusti kerso kulo purun",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mung sanding Gusti Yesus atiku tenang\nOra kurang arane welas katresnan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ora alum snadyan awan kepanasan\nOra luntur kesiram bayune udan",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Dateng pundi kulo tumut\nKados pundi kulo manut",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Dateng pundi kulo tumut\nKagem Gusti kulo nurut",
+      "newGroup": false
+    }
+  ]
+}

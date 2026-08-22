@@ -1,0 +1,35 @@
+{
+  "title": "Ya Tuhan tiap jamku memerlukan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ya Tuhan tiap jam\nku memerlukanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Engkaulah yang membri\nSejahtera penuh",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Setiap jam ya Tuhan\nDikau kuperlukan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku datang Juruslamat\nBerkatilah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ya Tuhan tiap jam\ndi suka dukaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jikalau Tuhan jauh\npercuma hidupku",
+      "newGroup": false
+    }
+  ]
+}

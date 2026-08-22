@@ -1,0 +1,45 @@
+{
+  "title": "Tak sekalipun melupakankuKau menuntun",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak sekalipun melupakanku\nKau menuntun langkahku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tak pernah sendiri\nKau tak tinggalkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak sekalipun melupakanku\nKau menuntun langkahku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku tak pernah sendiri\nKau tak tinggalkanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tak akan\npernah menyerah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sampai kulihat\nKau bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku percaya mukjizat\nkan nyata",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku takkan\nberhenti percaya",
+      "newGroup": false
+    }
+  ]
+}

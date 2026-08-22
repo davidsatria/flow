@@ -1,0 +1,55 @@
+{
+  "title": "Yesus yang Maha Kuasameninggalkan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus yang Maha Kuasa\nmeninggalkan tahta-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "turun ke dunia\ndalam kandang yang hina",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus yang tak berdosa\nrela tuk menderita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "b'rikan nyawa-Nya\ndisalib di Golgota",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Salib-Nya membebaskanku\nDarah-Nya menyucikanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bilur-Nya menyembuhkanku\nKasih-Nya memulihkanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus yang tak berdosa\nrela tuk menderita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "b'rikan nyawa-Nya\ndisalib di Golgota",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Salib-Nya membebaskanku\nDarah-Nya menyucikanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bilur-Nya menyembuhkanku\nKasih-Nya memulihkanku",
+      "newGroup": true
+    }
+  ]
+}

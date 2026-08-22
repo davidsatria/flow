@@ -1,0 +1,55 @@
+{
+  "title": "Hati kita girangmendengar seru",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hati kita girang",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "mendengar seruan\nMari",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "kita datang\nke rumah Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan nyanyian\nsyukur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dengan sorak sorai\nglori",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari Tuhan\nkita rayakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Lebih baik satu hari\ndi rumah Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Daripada s’ribu hari\ndi tempat lain",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lebih baik berdiri\ndi ambang rumah-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Daripada di kemah\norang fasik",
+      "newGroup": false
+    }
+  ]
+}

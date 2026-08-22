@@ -1,0 +1,20 @@
+{
+  "title": "Glori-gloriabagi Yesus Tuhangl",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Glori-gloria\nbagi Yesus Tuhan\nglori-gloria\nbagi Sang Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus kupuji\nglori-gloria\nYesus kutinggikan\nglori-gloria",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tepuk tangan\nbersoraklah hei...\nbersoraklah hei...\nbersoraklah\nhei...hei...hei...\nglori-gloria",
+      "newGroup": false
+    }
+  ]
+}

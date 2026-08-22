@@ -1,0 +1,55 @@
+{
+  "title": "Kubawa hidupku skarangketempat",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kubawa hidupku skarang\nketempat kudusMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di mazbahMu kuserahkan\nseluruh hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Penuhiku hatiku skarang\ndengan urapan yang baru",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Agar aku lebih lagi\nmendengar suaraMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jadikan aku Tuhan\nRumah DoaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "agar semua suku bangsa\ndatang menyembahMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jadikan aku Tuhan\nRumah DoaMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "agar semua suku bangsa\ndatang menyembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Jadikan aku Tuhan\nRumah DoaMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "agar semua keluargaku\ndatang menyembahMu",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "HALELUYAH HALELUYAH",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "ENGKAU KUDUS, KUDUS\nENGKAU ALLAH MAHA KUASA",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "LAYAK DIPUJI, \nLAYAK DISEMBAH",
+      "newGroup": false
+    }
+  ]
+}

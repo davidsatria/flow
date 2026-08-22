@@ -1,0 +1,40 @@
+{
+  "title": "Saat Indahku berhadapan dengan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat Indah\nku berhadapan dengan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Memandang wajah-Mu\nYesus kekasih jiwaku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bawa daku\ndiam dalam pelukan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Menikmati kasih\ndan indahnya hadirat-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "HadiratMuTuhan Kurasakan\nKekudusanMu Bapa penuhiku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kurindu selalu\nDiam dalam baitMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Menikmati kasih anugrahMu",
+      "newGroup": false
+    }
+  ]
+}

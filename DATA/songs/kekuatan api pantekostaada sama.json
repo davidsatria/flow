@@ -1,0 +1,15 @@
+{
+  "title": "kekuatan api pantekostaada sama",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "kekuatan api pantekosta\nada sama saja sampai s'karang ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "kekuatan api pantekosta\nada sama saja",
+      "newGroup": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "title": "Ku adasampai hari iniItu semuakarena",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku ada\nsampai hari ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Itu semua\nkarena anugerahmu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku hidup\nsampai hari ini",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Semua karena\nkebaikan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kubersyukur\nkubersyukur",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau selalu baik\ndalam hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kubersyukur\nkubersyukur",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Selamanya\nkumenyembah-Mu",
+      "newGroup": false
+    }
+  ]
+}

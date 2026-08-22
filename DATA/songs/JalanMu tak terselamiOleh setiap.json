@@ -1,0 +1,45 @@
+{
+  "title": "JalanMu tak terselamiOleh setiap",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "JalanMu tak terselami\nOleh setiap hati kami",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Namun satu hal ku percaya\nAda rencana yang indah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tiada terduga kasihMu\nHeran dan besar bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Arti kehadiranMu slalu\nNyata di dalam hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Penyertaanmu sempurna\nRancanganMu penuh damai",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Aman dan sejahtera\nwalau di tengah badai",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ingin ku slalu bersama\nRasakan keindahan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Arti kehadiranMu Tuhan",
+      "newGroup": false
+    }
+  ]
+}

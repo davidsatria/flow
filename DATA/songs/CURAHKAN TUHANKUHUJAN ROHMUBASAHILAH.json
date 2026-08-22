@@ -1,0 +1,25 @@
+{
+  "title": "CURAHKAN TUHANKUHUJAN ROHMUBASAHILAH",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "CURAHKAN TUHANKU\nHUJAN ROHMU",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "BASAHILAH SKARANG\nTANAH GERSANG",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "TLAH LAMA KUNANTI\nBRIKAN KINI",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "LALU KUBERSUJUD\nMENYEMBAHMU",
+      "newGroup": false
+    }
+  ]
+}

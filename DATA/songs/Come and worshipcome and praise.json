@@ -1,0 +1,30 @@
+{
+  "title": "Come and worshipcome and praise",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Come and worship\ncome and praise Him\ncome and magnify\nour God Redeemer King",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "I will worship You\nI will worship You\nI will worship You",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KumenyembahMu\nkumenyembahMu\nkumenyembahMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jesus i believe in You\nJesus i belong to You\nYour the r\nwith all i'am",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus aku percaya\nYesus aku milikMu\nkuhidup karenaMu\ndan hanya untukMu\nselamanya",
+      "newGroup": false
+    }
+  ]
+}

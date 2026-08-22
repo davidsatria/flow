@@ -1,0 +1,45 @@
+{
+  "title": "Terkadang kita merasatak ada jalant",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Terkadang kita merasa\ntak ada jalan terbuka",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak ada lagi waktu\nterlambat sudah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan tak pernah berdusta\nDia slalu pegang janjiNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bagi orang percaya\nmujizat nyata",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia mengerti Dia peduli\npersoalan yang sedang terjadi",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia mengerti Dia peduli\npersoalan yang kita alami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Namun satu yang\nDia minta, agar kita percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "sampai mujizat\nmenjadi nyata",
+      "newGroup": false
+    }
+  ]
+}

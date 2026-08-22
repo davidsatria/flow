@@ -1,0 +1,45 @@
+{
+  "title": "Hai mari berhimpun",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hai mari berhimpun dan bersukaria\nTurut semua ke Betlehem",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Marilah pandang\nTuhan bala Surga",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sembah dan puji Dia\nSembah dan puji Dia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sembah dan puji\nDia Sang Raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bernyanyilah kamu tentara malaikat\nTurut bernyanyi manusia",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Pujilah Tuhan\njuru slamat dunia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sembah dan puji Dia\nSembah dan puji Dia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sembah dan puji\nDia Sang Raja",
+      "newGroup": false
+    }
+  ]
+}

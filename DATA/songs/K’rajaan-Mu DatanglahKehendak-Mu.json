@@ -1,0 +1,55 @@
+{
+  "title": "K’rajaan-Mu DatanglahKehendak-Mu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "K’rajaan-Mu Datanglah\nKehendak-Mu Jadilah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Di Bumi Seperti Di Surga",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "K’rajaan-Mu Datanglah\nKehendak-Mu Jadilah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di Bumi Seperti Di Surga",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Muliakanlah\nRaja Sgala Raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Penguasa Di Udara\nDiruntuhkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Biarlah Nama Tuhan\nDitegakkan Skarang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kemuliaan Kuasa-Nya\nAtas Kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "K’rajaan-Mu Datanglah\nKehendak-Mu Jadilah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di Bumi Seperti Di Surga",
+      "newGroup": false
+    }
+  ]
+}
