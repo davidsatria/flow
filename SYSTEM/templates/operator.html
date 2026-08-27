@@ -3184,7 +3184,7 @@
             if (e.key === '=') { e.preventDefault(); changeFontSize(0.5); }
             
             // Schedule Navigation: Ctrl+Up/W = previous item, Ctrl+Down/S = next item
-            if (e.ctrlKey && (e.key === 'ArrowUp' || e.key === 'ArrowDown' || e.key === 'w' || e.key === 'W' || e.key === 's' || e.key === 'S')) {
+            if (e.ctrlKey && !e.shiftKey && (e.key === 'ArrowUp' || e.key === 'ArrowDown' || e.key === 'w' || e.key === 'W' || e.key === 's' || e.key === 'S')) {
                 e.preventDefault();
                 verseNumberInput = '';
                 navigateSchedule((e.key === 'ArrowUp' || e.key === 'w' || e.key === 'W') ? -1 : 1);
