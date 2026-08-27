@@ -2226,9 +2226,9 @@
             'wah': 'Wahyu', 'rev': 'Wahyu'
         };
         
-        // Parse format alkitab: "Mat 5:3" atau "Mat 5:3-5" atau "Matius 5:3-10" (supports numeric prefixes e.g. 1Kor)
+        // Parse format alkitab: "kej1.1" atau "kej 1:1" atau "Mat 5:3" atau "1Kor 5" atau range "kej1.1-3" (spasi opsional; bab:ayat pakai : , atau .)
         function parseBibleReference(q) {
-            const pattern = /^([\d\.\w\s]+)\s+(\d+)(?::(\d+)(?:-(\d+))?)?$/i;
+            const pattern = /^([\w\.\s]+?)\s*(\d+)(?:\s*[:\.,]\s*(\d+)(?:-(\d+))?)?$/i;
             const match = q.trim().match(pattern);
             if (!match) return null;
 
