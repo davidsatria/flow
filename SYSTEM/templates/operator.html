@@ -258,6 +258,7 @@
 
         .nav-tab.active[data-tab="database"] { background: rgba(56,189,248,0.1); color: var(--color-db); border: 2px solid rgba(56,189,248,0.5); box-shadow: 0 0 10px rgba(56,189,248,0.3); }
         .nav-tab.active[data-tab="jadwal"] { background: rgba(16,185,129,0.1); color: var(--color-sched); border: 2px solid rgba(16,185,129,0.5); box-shadow: 0 0 10px rgba(16,185,129,0.3); }
+        .nav-tab.active[data-tab="arsip"] { background: rgba(168,85,247,0.1); color: var(--color-arsip, #a855f7); border: 2px solid rgba(168,85,247,0.5); box-shadow: 0 0 10px rgba(168,85,247,0.3); }
         .nav-tab.active[data-tab="presenter"] { background: rgba(248,113,113,0.1); color: var(--color-pres); border: 2px solid rgba(248,113,113,0.5); box-shadow: 0 0 10px rgba(248,113,113,0.3); }
         .nav-tab.active[data-tab="pengaturan"] { background: rgba(129,140,248,0.1); color: var(--color-set); border: 2px solid rgba(129,140,248,0.5); box-shadow: 0 0 10px rgba(129,140,248,0.3); }
         
@@ -377,6 +378,7 @@
         .list-item { padding: 9px 14px; border-bottom: 1px solid var(--border); cursor: pointer; display: flex; align-items: center; justify-content: space-between; transition: 0.1s; }
         .list-item:hover { background: var(--bg-element); }
         .list-item.in-schedule { border-left: 4px solid var(--success); background: rgba(16, 185, 129, 0.05); }
+        .list-item.live { border-left: 3px solid var(--color-sched); background: var(--bg-sched); }
         
         .schedule-item { padding: 9px 12px; border-bottom: 1px solid var(--border); cursor: default; display: flex; align-items: center; gap: 6px; background: var(--bg-panel); border-left: 3px solid transparent; transition: background 0.15s, opacity 0.15s; }
         .schedule-item.active-sched { border-left-color: var(--color-sched); background: var(--bg-sched); }
@@ -732,7 +734,80 @@
     </style>
 </head>
 <body class="dock-hidden">
-    
+
+    <!-- PIN GATE (hanya halaman Operator) -->
+    <div id="pin-gate">
+        <div class="pin-gate-card">
+            <img class="pin-gate-logo" src="/logo.png" alt="FLOW">
+            <h1 class="pin-gate-title">FLOW Operator</h1>
+            <p class="pin-gate-sub">Masukkan PIN untuk membuka panel operator</p>
+            <input id="pin-input" type="password" inputmode="numeric" autocomplete="off"
+                   maxlength="4" placeholder="••••"
+                   oninput="this.value=this.value.replace(/[^0-9]/g,'')">
+            <button id="pin-submit" class="pin-gate-btn">Buka</button>
+            <p id="pin-error" class="pin-gate-error"></p>
+        </div>
+    </div>
+    <style>
+        #pin-gate {
+            position: fixed; inset: 0; z-index: 99999;
+            display: flex; align-items: center; justify-content: center;
+            background: #16171d; font-family: 'Segoe UI', Tahoma, sans-serif;
+        }
+        .pin-gate-card {
+            background: #1e2029; border: 1px solid #2d303d; border-radius: 16px;
+            padding: 34px 40px; width: 320px; max-width: 88vw;
+            text-align: center; box-shadow: 0 12px 40px rgba(0,0,0,0.45);
+        }
+        .pin-gate-logo { width: 56px; height: 56px; border-radius: 12px; margin-bottom: 14px; }
+        .pin-gate-title { margin: 0; font-size: 22px; color: #F1F5F9; font-weight: 700; }
+        .pin-gate-sub { margin: 8px 0 20px; font-size: 13px; color: #94a3b8; }
+        #pin-input {
+            width: 100%; box-sizing: border-box; padding: 12px;
+            font-size: 26px; text-align: center; letter-spacing: 10px;
+            color: #F1F5F9; background: #282a36; border: 1px solid #2d303d;
+            border-radius: 8px; outline: none;
+        }
+        #pin-input:focus { border-color: #8b5cf6; }
+        .pin-gate-btn {
+            width: 100%; margin-top: 14px; padding: 12px; border: none; border-radius: 8px;
+            background: #8b5cf6; color: #fff; font-size: 15px; font-weight: 700; cursor: pointer;
+            font-family: inherit; transition: background .15s;
+        }
+        .pin-gate-btn:hover { background: #7c3aed; }
+        .pin-gate-error { min-height: 18px; margin: 12px 0 0; font-size: 13px; color: #f87171; }
+    </style>
+    <script>
+        (function () {
+            var CORRECT = '707';
+            var KEY = 'flow_op_unlocked';
+            function unlock() {
+                var g = document.getElementById('pin-gate');
+                if (g) g.style.display = 'none';
+                try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+            }
+            function checkPin() {
+                var v = document.getElementById('pin-input').value.trim();
+                if (v === CORRECT) { unlock(); }
+                else {
+                    document.getElementById('pin-error').textContent = 'PIN salah. Coba lagi.';
+                    document.getElementById('pin-input').value = '';
+                    document.getElementById('pin-input').focus();
+                }
+            }
+            var unlocked = false;
+            try { unlocked = sessionStorage.getItem(KEY) === '1'; } catch (e) {}
+            if (unlocked) { unlock(); }
+            else {
+                document.getElementById('pin-submit').addEventListener('click', checkPin);
+                document.getElementById('pin-input').addEventListener('keydown', function (e) {
+                    if (e.key === 'Enter') checkPin();
+                });
+                document.getElementById('pin-input').focus();
+            }
+        })();
+    </script>
+
     <!-- WELCOME / SPLASH SCREEN -->
     <div id="welcome-screen">
         <div class="welcome-logo"><img src="/logo.png" alt="FLOW"></div>
@@ -753,9 +828,10 @@
             </div>
             
             <div class="nav-tabs-wrapper">
-                <button class="nav-tab active" data-tab="jadwal" onclick="switchMainTab('jadwal')">JADWAL</button>
-                <button class="nav-tab" data-tab="database" onclick="switchMainTab('database')">DATABASE</button>
-            </div>
+                            <button class="nav-tab active" data-tab="jadwal" onclick="switchMainTab('jadwal')">JADWAL</button>
+                            <button class="nav-tab" data-tab="database" onclick="switchMainTab('database')">DATABASE</button>
+                            <button class="nav-tab" data-tab="arsip" onclick="switchMainTab('arsip')" title="Arsip Sesi (simpan/muat)">ARSIP</button>
+                        </div>
 
             <div class="nav-bottom-actions">
                 <button class="side-btn" onclick="changeFontSize(0.5)" title="Perbesar Font">
@@ -823,24 +899,54 @@
             <!-- VIEW: JADWAL -->
             <div id="view-jadwal" style="display:none; flex-direction:column; height:100%;">
                 <div class="panel-header">
-                    <span id="schedule-title" class="panel-title" style="color:var(--color-sched); cursor:text;" onclick="editScheduleTitle()" title="Klik untuk ubah nama jadwal">JADWAL</span>
-                    <div class="save-group">
-                        <button class="btn-snap-v2" onclick="copyElementToClipboard('view-jadwal', 'Jadwal-FLOW')" title="Salin sebagai Gambar">
-                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/></svg>
-                        </button>
-                        <button class="btn-action-sm" onclick="exportScheduleToFile()" title="Export Jadwal"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg></button>
-                        <button class="btn-action-sm" onclick="importScheduleFromFile()" title="Import Jadwal"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></button>
-                        <button class="btn-action-sm" style="color:var(--color-sched); border-color:var(--color-sched);" onclick="addSchedulePartition()" title="Tambah Partisi Teks">
-                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-                        </button>
-                        <button class="btn-action-sm" onclick="clearSchedule()" title="Hapus Semua" style="color:var(--danger); border-color:var(--danger);">✕</button>
-                    </div>
-                </div>
-                <div id="schedule-list" class="list-container"></div>
-                <input type="file" id="schedule-file-input" accept=".txt" style="display:none;">
-            </div>
+                                    <span id="schedule-title" class="panel-title" style="color:var(--color-sched); cursor:text;" onclick="editScheduleTitle()" title="Klik untuk ubah nama jadwal">JADWAL</span>
+                                    <div class="save-group">
+                                        <button class="btn-snap-v2" onclick="copyElementToClipboard('view-jadwal', 'Jadwal-FLOW')" title="Salin sebagai Gambar">
+                                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/></svg>
+                                        </button>
+                                        <button class="btn-action-sm" onclick="exportScheduleToFile()" title="Export Jadwal"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg></button>
+                                        <button class="btn-action-sm" onclick="importScheduleFromFile()" title="Import Jadwal"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></button>
+                                        <button class="btn-action-sm" style="color:var(--color-sched); border-color:var(--color-sched);" onclick="addSchedulePartition()" title="Tambah Partisi Teks">
+                                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
+                                        </button>
+                                        <button class="btn-action-sm" onclick="saveActiveSession()" title="Simpan / Update sesi aktif" style="color:var(--color-sched); border-color:var(--color-sched);"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg></button>
+                                        <button class="btn-action-sm" onclick="clearSchedule()" title="Hapus Semua" style="color:var(--danger); border-color:var(--danger);">✕</button>
+                                    </div>
+                                </div>
+                                <!-- Bar nama sesi aktif (lebar, di bawah header) -->
+                                                <div id="session-name-bar" style="padding:10px 16px; border-bottom:2px solid rgba(168,85,247,0.5); color:var(--color-sched); background:rgba(168,85,247,0.08); flex-shrink:0; display:flex; align-items:center; gap:10px;">
+                                                    <span id="session-name-text" class="panel-title" style="cursor:text; flex:1; min-width:0; font-weight:700; font-size:1.0rem;" onclick="editScheduleTitle()" title="Klik untuk ubah nama sesi">JADWAL</span>
+                                                    <button class="btn-action-sm" onclick="editScheduleTitle()" title="Ganti nama sesi" style="color:var(--color-sched); border-color:var(--color-sched); flex-shrink:0;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg></button>
+                                                </div>
+                                <div id="schedule-list" class="list-container"></div>
+                                                    <input type="file" id="schedule-file-input" accept=".txt" style="display:none;">
+                                                                                    </div>
 
-            <!-- VIEW: PENGATURAN -->
+                                                <!-- OVERLAY: ARSIP SESI (popup) -->
+                                                <!-- VIEW: ARSIP SESI -->
+                                                                <div id="view-arsip" style="display:none; flex-direction:column; height:100%;">
+                                                                    <div class="panel-header">
+                                                                        <span class="panel-title" style="color:var(--color-sched);">📚 ARSIP SESI</span>
+                                                                        <button class="btn-action-sm" onclick="switchMainTab('jadwal')" title="Kembali ke JADWAL" style="color:var(--color-sched); border-color:var(--color-sched);">↩</button>
+                                                                    </div>
+                                                                    <div style="padding:12px 16px; display:flex; flex-direction:column; gap:12px; overflow-y:auto; flex:1;">
+                                                                        <div style="display:flex; gap:8px; flex-shrink:0;">
+                                                                            <input id="save-sched-name" placeholder="Nama sesi / tanggal ibadah..." style="flex:1; min-width:0; background:var(--bg2); border:1px solid var(--border); border-radius:8px; padding:10px; color:var(--text); font-size:0.85rem;" onkeydown="if(event.key==='Enter')saveNamedSchedule()">
+                                                                            <button class="btn-action-sm" style="color:var(--color-sched); border-color:var(--color-sched); min-width:44px;" onclick="saveNamedSchedule()" title="Simpan sesi ini sebagai arsip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg></button>
+                                                                        </div>
+                                                                        <div style="font-size:0.72rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; font-weight:600; flex-shrink:0;">Sesi tersimpan</div>
+                                                                        <div id="saved-sched-list-container" class="sched-archive-list" style="display:flex; flex-direction:column; gap:8px; flex:1;"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <style>
+                                                                                    .saved-name { flex:1; min-width:0; word-break:break-word; cursor:pointer; }
+                                                                                                        .saved-active { background: rgba(168,85,247,0.10); border-bottom-color: rgba(168,85,247,0.45); }
+                                                                                                        .saved-active .saved-name { color: #a855f7; font-weight:600; }
+                                                                                                        .sched-rename-btn { color:var(--color-sched); border-color:var(--color-sched); }
+                                                                                                        .sched-rename-btn:hover { background: rgba(16,185,129,0.12); }
+                                                                                                    </style>
+
+                                                <!-- VIEW: PENGATURAN -->
             <div id="view-pengaturan">
                 
                 <!-- INFO JARINGAN -->
@@ -1106,6 +1212,7 @@
         let currentStyleSize = 5.0;
         let songDisplayLimit = 200; // Limit tampilan awal lagu di database
         let currentScheduleTitle = 'JADWAL';
+        let _activeSessionName = null;
         const SOLID_WHITE_BG = 'data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><rect width="8" height="8" fill="%23ffffff"/></svg>';
         const BASE_FONT_OPTIONS = [
             { value: '0', label: 'Montserrat (Default)' },
@@ -1715,8 +1822,8 @@
             if (pushToHistory) {
                 history.pushState({ tab: tab }, '', '#' + tab);
             }
-            // Only update active tab if tab is jadwal or database (they are in the main nav)
-            if(tab === 'jadwal' || tab === 'database') {
+            // Only update active tab if tab is in the main nav
+                        if(tab === 'jadwal' || tab === 'database' || tab === 'arsip') {
                 document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active')); 
                 const activeTab = document.querySelector(`.nav-tab[data-tab="${tab}"]`);
                 if(activeTab) {
@@ -1741,6 +1848,13 @@
                 document.body.classList.add('theme-database');
             }
             else if (tab === 'jadwal') {
+                            sidebar.classList.add('theme-jadwal');
+                            if(vNav) vNav.classList.add('theme-jadwal');
+                            workspace.classList.add('theme-jadwal');
+                            document.body.classList.add('theme-jadwal');
+                            loadSavedSchedules(); // muat daftar arsip sesi saat buka JADWAL
+                        }
+            else if (tab === 'arsip') {
                 sidebar.classList.add('theme-jadwal');
                 if(vNav) vNav.classList.add('theme-jadwal');
                 workspace.classList.add('theme-jadwal');
@@ -1768,10 +1882,13 @@
                 document.body.classList.remove('focus-presenter');
                 setBibleGroupButtonsVisible(false);
                 document.getElementById('view-database').style.display = 'none'; 
-                document.getElementById('view-jadwal').style.display = 'none'; 
-                document.getElementById('view-pengaturan').style.display = 'none'; 
-                document.getElementById('view-' + tab).style.display = 'flex'; 
-                if(tab === 'jadwal') renderScheduleList();
+                                document.getElementById('view-jadwal').style.display = 'none'; 
+                                document.getElementById('view-pengaturan').style.display = 'none'; 
+                                const arsipView = document.getElementById('view-arsip');
+                                if (arsipView) { arsipView.style.display = 'none'; }
+                                document.getElementById('view-' + tab).style.display = 'flex'; 
+                                if(tab === 'jadwal') renderScheduleList();
+                                if(tab === 'arsip') loadSavedSchedules();
                 if(tab === 'database') {
                     document.getElementById('search-input').value = '';
                     renderSidebarList();
@@ -2010,7 +2127,7 @@
             } catch(e) { }
         }
         async function loadSchedule() { try { const res = await fetch('/api/schedule'); if(res.ok) { scheduleData = await res.json(); renderScheduleList(); } } catch(e) {} }
-        async function loadSavedSchedules() { try { const res = await fetch('/api/saved_schedules'); const data = await res.json(); const container = document.getElementById('saved-sched-list-container'); container.innerHTML = ''; const names = Object.keys(data); if(names.length === 0) { container.innerHTML = '<div style="padding:15px; color:var(--text-muted); text-align:center; font-weight:600;">Arsip Kosong</div>'; return; } names.forEach(name => { const div = document.createElement('div'); div.className = 'saved-item'; div.innerHTML = `<span>📄 ${name}</span><div class="saved-actions"><button class="btn-action-sm" onclick="loadNamedSchedule('${name}')">Muat</button><button class="btn-action-sm" style="color:var(--danger); border-color:var(--danger);" onclick="deleteNamedSchedule('${name}')">Hapus</button></div>`; container.appendChild(div); }); } catch(e){} }
+        async function loadSavedSchedules() { try { const res = await fetch('/api/saved_schedules'); const data = await res.json(); const container = document.getElementById('saved-sched-list-container'); container.innerHTML = ''; const names = Object.keys(data); if(names.length === 0) { container.innerHTML = '<div style="padding:8px; color:var(--text-muted); text-align:center; font-weight:600;">Arsip Kosong</div>'; return; } names.forEach(name => { const div = document.createElement('div'); div.className = 'saved-item' + (name === _activeSessionName ? ' saved-active' : ''); div.innerHTML = `<span class="saved-name" onclick="loadNamedSchedule('${name}')" title="Klik utk muat sesi">${name === _activeSessionName ? '🟢 ' : '📄 '}${name}</span><div class="saved-actions"><button class="btn-action-sm sched-rename-btn" onclick="renameNamedSchedule('${name}')" title="Ganti nama sesi"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:14px;height:14px"><path d="M17 3a2.828 2.828 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/></svg></button><button class="btn-action-sm" style="color:var(--danger); border-color:var(--danger);" onclick="deleteNamedSchedule('${name}')" title="Hapus sesi">✕</button></div>`; container.appendChild(div); }); } catch(e){} }
 
         function setFilter(type) {
             currentFilter = type;
@@ -2122,7 +2239,9 @@
                     currentFilteredList = songsDB; const visibleItems = songsDB.slice(0, songDisplayLimit);
                     visibleItems.forEach((song, idx) => {
                         const div = document.createElement('div'); div.className = 'list-item';
+                        div.dataset.title = song.title;
                         const inSchedule = scheduleData.some(s => s.type === 'SONG' && s.title === song.title); if (inSchedule) div.classList.add('in-schedule');
+                        if (currentLoadedItem && currentLoadedItem.type === 'SONG' && currentLoadedItem.data.title === song.title) div.classList.add('live');
                         div.innerHTML = `<div style="flex:1; font-weight:400;" onclick='clickSidebarItem(${idx})'>${song.title}</div>`; container.appendChild(div);
                     });
                     
@@ -2147,6 +2266,15 @@
             // Scroll sedikit biar kelihatan lagu baru
             const container = document.getElementById('nav-list');
             if(container) container.scrollTop += 100;
+        }
+
+        // Highlight lagu yg sedang tampil di drawer kanan (sinkron dengan currentLoadedItem)
+        function updateSidebarHighlight() {
+            const targetTitle = currentLoadedItem && currentLoadedItem.type === 'SONG' ? currentLoadedItem.data.title : null;
+            document.querySelectorAll('#nav-list .list-item').forEach(it => {
+                const isLive = targetTitle !== null && it.dataset.title === targetTitle;
+                it.classList.toggle('live', isLive);
+            });
         }
 
         function clickSidebarItem(idx) { loadContentToDrawer('SONG', currentFilteredList[idx]); }
@@ -2319,7 +2447,7 @@
                     currentFilteredList = results.filter(r => (currentFilter === 'SONG' ? r.type === 'SONG' : r.type === 'BIBLE'));
                     if (currentFilteredList.length === 0) { 
                         const qEscaped = q.replace(/'/g, "\\'");
-                        container.innerHTML = `<div style="padding:20px; text-align:center;">Nihil. ${currentFilter==='SONG'?`<br><br><button class="btn-save" style="width:100%" onclick="openEditor('${qEscaped}')">+ Buat Lagu Baru</button><br><br><button class="btn-style" style="width:100%; border-radius:12px; margin-top:10px;" onclick="searchLRCLIB('${qEscaped}')">🔍 Cari di lrclib.net</button>`:''}</div>`; 
+                        container.innerHTML = `<div style="padding:20px; text-align:center;">Nihil. ${currentFilter==='SONG'?`<br><br><button class="btn-save" style="width:100%" onclick="openEditor('${qEscaped}')">+ Buat Lagu Baru</button><br><br><button class="btn-style" style="width:100%; border-radius:12px; margin-top:10px;" onclick="searchLRCLIB('${qEscaped}')">🔍 Cari Lirik di AI (davidsatria)</button>`:''}</div>`; 
                     } 
                     else {
                         container.innerHTML = ''; currentFilteredList.slice(0, 200).forEach((item) => {
@@ -2341,7 +2469,7 @@
                             lrclibBtn.className = 'search-result-item';
                             lrclibBtn.style.textAlign = 'center';
                             lrclibBtn.style.padding = '12px';
-                            lrclibBtn.innerHTML = `<div style="color:var(--color-set); font-weight:600; font-size:0.85rem;">🔍 Cari di Internet (LRCLIB)</div>`;
+                            lrclibBtn.innerHTML = `<div style="color:var(--color-set); font-weight:600; font-size:0.85rem;">🔍 Cari Lirik di AI (davidsatria)</div>`;
                             lrclibBtn.onclick = () => searchLRCLIB(q);
                             container.appendChild(lrclibBtn);
                         }
@@ -2351,45 +2479,40 @@
         }
 
         async function searchLRCLIB(query) {
-            const container = document.getElementById('nav-list');
-            container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Mencari di LRCLIB...</div>';
-            try {
-                const res = await fetch(`https://lrclib.net/api/search?q=${encodeURIComponent(query)}`);
-                const results = await res.json();
-                
-                const qEscaped = query.replace(/'/g, "\\'");
-                if (!Array.isArray(results) || results.length === 0) {
-                    container.innerHTML = `<div style="padding:20px; text-align:center;">Tidak ditemukan di internet.<br><br><button class="btn-save" style="width:100%" onclick="openEditor('${qEscaped}')">+ Buat Lagu Baru</button></div>`;
-                    return;
-                }
-                
-                container.innerHTML = `<div style="padding:10px; font-size:0.75rem; color:var(--text-muted); text-align:center; border-bottom:1px solid var(--border); text-transform:uppercase; font-weight:600; letter-spacing:1px;">Hasil dari lrclib.net</div>`;
-                
-                let foundAny = false;
-                results.slice(0, 30).forEach(item => {
-                    if (!item.plainLyrics) return; // Skip instrumental or empty lyrics
-                    foundAny = true;
-                    const div = document.createElement('div'); 
-                    div.className = 'search-result-item';
-                    div.innerHTML = `<div class="search-meta">${item.trackName} - ${item.artistName}</div>
-                                     <div class="search-text" style="font-size:0.85rem; color:var(--text-muted);">${item.albumName || 'Unknown Album'}</div>`;
-                    
-                    div.onclick = () => {
-                        const title = `${item.trackName} - ${item.artistName}`;
-                        const rawLyrics = item.plainLyrics;
-                        openEditor(title, rawLyrics);
-                    };
-                    container.appendChild(div);
-                });
+                    const container = document.getElementById('nav-list');
+                                        container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Mencari lirik di AI (davidsatria)...</div>';
+                                        try {
+                                            const res = await fetch('/api/lirik', {
+                                                                                        method: 'POST',
+                                                                                        headers: { 'Content-Type': 'application/json' },
+                                                                                        body: JSON.stringify({ message: query })
+                                                                                    });
+                                            const data = await res.json();
+                                            const reply = (data && data.reply) ? data.reply : '';
 
-                if (!foundAny) {
-                    container.innerHTML = `<div style="padding:20px; text-align:center;">Hanya instrumental ditemukan.<br><br><button class="btn-save" style="width:100%" onclick="openEditor('${qEscaped}')">+ Buat Lagu Baru</button></div>`;
-                }
-                
-            } catch (e) {
-                container.innerHTML = '<div style="padding:20px; text-align:center; color:red;">Gagal koneksi ke LRCLIB.</div>';
-            }
-        }
+                                            const qEscaped = query.replace(/'/g, "\\'");
+                                            if (!reply || reply.indexOf('Judul :') === -1) {
+                                                container.innerHTML = `<div style="padding:20px; text-align:center;">Lirik tidak ditemukan.<br><br><button class="btn-save" style="width:100%" onclick="openEditor('${qEscaped}')">+ Buat Lagu Baru</button></div>`;
+                                                return;
+                                            }
+
+                                            // Parse judul & lirik dari reply davidai (format: "Judul : X\nLirik :\n\n#v\n...")
+                                            let title = (reply.match(/Judul\s*:\s*([^\n]+)/i) || [])[1] || query;
+                                            title = title.trim();
+                                            let lirikRaw = reply.replace(/Judul\s*:\s*[^\n]+/i, '').replace(/Lirik\s*:\s*/i, '').trim();
+                                            if (!lirikRaw) lirikRaw = reply.split('\n').slice(2).join('\n').trim();
+
+                                            const div = document.createElement('div');
+                                            div.className = 'search-result-item';
+                                            div.style.flexDirection = 'column';
+                                            div.style.alignItems = 'flex-start';
+                                            div.innerHTML = `<div class="search-meta">${title}</div><div style="font-size:0.75rem; color:var(--text-muted);">Lirik dari AI (ai.davidsatria.com/lirik)</div>`;
+                                            div.onclick = () => openEditor(title, lirikRaw);
+                                            container.appendChild(div);
+                                        } catch (e) {
+                                            container.innerHTML = '<div style="padding:20px; text-align:center; color:red;">Gagal koneksi ke AI lirik.</div>';
+                                        }
+                                    }
 
         // --- SCHEDULE SYSTEM ---
         function addToSchedule(type, data) {
@@ -2769,6 +2892,7 @@
             currentLoadedItem.data.lines = renderLines;
             currentLoadedItem.data.type = isBible ? 'BIBLE' : type;
             renderDrawer({ title: data.title, type: isBible ? 'BIBLE' : type, lines: renderLines }); 
+            updateSidebarHighlight();
         }
         function renderDrawer(data) { 
             const isBible = data.type === 'BIBLE';
@@ -3216,6 +3340,19 @@
             }
         }
         
+        async function saveActiveSession() {
+                    const name = (_activeSessionName || currentScheduleTitle || '').trim();
+                    if(!name) { alert('Beri nama jadwal dulu (klik judul untuk ubah)'); return; }
+                    await fetch('/api/saved_schedules', {
+                        method: 'POST',
+                        headers: {'Content-Type': 'application/json'},
+                        body: JSON.stringify({ action: 'save', name: name, content: scheduleData })
+                    });
+                    _activeSessionName = name;
+                                        showToast('Sesi disimpan: ' + name);
+                                        // langsung pindah ke ARSIP — bukti sukses & sesi aktif ter-highlight
+                                        switchMainTab('arsip');
+                }
         async function saveNamedSchedule() {
             const input = document.getElementById('save-sched-name');
             const name = (input?.value || currentScheduleTitle || '').trim();
@@ -3228,7 +3365,10 @@
             if (input) input.value = '';
             loadSavedSchedules();
         }
-        async function loadNamedSchedule(name) { if(!confirm(`Load arsip "${name}"?`)) return; const res = await fetch('/api/saved_schedules', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ action: 'load', name: name }) }); const data = await res.json(); scheduleData = data.data; renderScheduleList(); if(currentFilter === 'SONG') renderSidebarList(); updateSongScheduleButton(); }
+        async function loadNamedSchedule(name) { if(!confirm(`Load arsip "${name}"?`)) return; const res = await fetch('/api/saved_schedules', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ action: 'load', name: name }) }); const data = await res.json(); scheduleData = data.data; _activeSessionName = name; setScheduleTitle(name); renderScheduleList(); if(currentFilter === 'SONG') renderSidebarList(); updateSongScheduleButton(); switchMainTab('jadwal'); }
+        async function renameNamedSchedule(oldName) { if(!confirm(`Ganti nama arsip "${oldName}"?`)) return; const newName = prompt('Nama baru untuk sesi ini:', oldName); if(!newName || newName.trim()==='' || newName===oldName) return; try { const res = await fetch('/api/saved_schedules'); const data = await res.json(); const content = data[oldName]; if(!content) return alert('Sesi tidak ditemukan'); await fetch('/api/saved_schedules', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ action: 'save', name: newName.trim(), content: content }) }); await fetch('/api/saved_schedules', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ action: 'delete', name: oldName }) }); // jika ini sesi yang sedang aktif, perbarui koneksi jadwal aktif menuju nama baru
+            if(_activeSessionName === oldName) { _activeSessionName = newName.trim(); setScheduleTitle(newName.trim()); }
+            loadSavedSchedules(); } catch(e){ alert('Gagal mengganti nama sesi'); } }
         async function deleteNamedSchedule(name) { if(!confirm(`Hapus arsip "${name}"?`)) return; await fetch('/api/saved_schedules', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ action: 'delete', name: name }) }); loadSavedSchedules(); }
 
         function sanitizeScheduleTitle(title) {
@@ -3239,18 +3379,21 @@
         }
 
         function setScheduleTitle(title) {
-            const clean = sanitizeScheduleTitle(title) || 'JADWAL';
-            currentScheduleTitle = clean;
-            const el = document.getElementById('schedule-title');
-            if (el) el.innerText = clean;
-            localStorage.setItem('flow-schedule-title', clean);
-        }
+                    const clean = sanitizeScheduleTitle(title) || 'JADWAL';
+                    currentScheduleTitle = clean;
+                    const headEl = document.getElementById('schedule-title');
+                    if (headEl) headEl.innerText = 'JADWAL'; // header tetap 'JADWAL'
+                    const nameEl = document.getElementById('session-name-text');
+                    if (nameEl) nameEl.innerText = clean; // nama sesi aktif tampil di bar bawah
+                    localStorage.setItem('flow-schedule-title', clean);
+                }
 
         function editScheduleTitle() {
-            const next = prompt('Nama jadwal:', currentScheduleTitle || 'JADWAL');
-            if (next === null) return;
-            setScheduleTitle(next);
-        }
+                    const next = prompt('Nama jadwal:', currentScheduleTitle || 'JADWAL');
+                    if (next === null) return;
+                    setScheduleTitle(next);
+                    _activeSessionName = null; // judul diubah manual = sesi baru (tombol simpan jadi 'save baru')
+                }
 
         function getScheduleExportBaseName() {
             return sanitizeScheduleTitle(currentScheduleTitle || 'jadwal').replace(/\s+/g, '_').toLowerCase() || 'jadwal';
