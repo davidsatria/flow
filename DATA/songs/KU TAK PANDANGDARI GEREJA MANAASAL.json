@@ -1,39 +1,39 @@
 {
-  "title": "KU TAK PANDANGDARI GEREJA MANAASAL",
+  "title": "Ku tak pandangdari gereja manaasal",
   "lyrics": [
     {
       "type": "v",
-      "text": "KU TAK PANDANG\nDARI GEREJA MANA",
+      "text": "Ku tak pandang\nDari gereja mana",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "ASAL KAU BERDIRI\nDIATAS FIRMANNYA",
+      "text": "Asal kau berdiri\nDiatas firmannya",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "BILA HATIMU\nSEPERTI HATIKU",
+      "text": "Bila hatimu\nSeperti hatiku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "ENGKAULAH SAUDARA\nDAN SAUDARIKU",
+      "text": "Engkaulah saudara\nDan saudariku",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "DALAM YESUS KITA BERSAUDARA\nDALAM YESUS KITA BERSAUDARA",
+      "text": "Dalam yesus kita bersaudara\nDalam yesus kita bersaudara",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "DALAM YESUS KITA BERSAUDARA",
+      "text": "Dalam yesus kita bersaudara",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KUCINTA KELUARGA ALLAH\nKUCINTA KELUARGA ALLAH",
+      "text": "Kucinta keluarga allah\nKucinta keluarga allah",
       "newGroup": false
     }
   ]

@@ -1,24 +1,24 @@
 {
-  "title": "DARAHNYAAMAT KUASASUCIKANDARI",
+  "title": "Darahnyaamat kuasasucikandari",
   "lyrics": [
     {
       "type": "v",
-      "text": "DARAHNYA\nAMAT KUASA",
+      "text": "Darahnya\nAmat kuasa",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "SUCIKAN\nDARI DOSA",
+      "text": "Sucikan\nDari dosa",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "LEPASKAN\nSGALA SUSAH",
+      "text": "Lepaskan\nSgala susah",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "DARAHNYA\nTEBUS SAYA",
+      "text": "Darahnya\nTebus saya",
       "newGroup": false
     }
   ]

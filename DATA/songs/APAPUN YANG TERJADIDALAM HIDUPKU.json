@@ -1,34 +1,34 @@
 {
-  "title": "APAPUN YANG TERJADIDALAM HIDUPKU",
+  "title": "Apapun yang terjadidalam hidupku",
   "lyrics": [
     {
       "type": "v",
-      "text": "APAPUN YANG TERJADI\nDALAM HIDUPKU INI",
+      "text": "Apapun yang terjadi\nDalam hidupku ini",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "TAK PERNAH KURAGUKAN\nKASIHMU TUHAN",
+      "text": "Tak pernah kuragukan\nKasihmu tuhan",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "LEWAT GUNUNG YANG TINGGI\nDALAM LEMBAH YANG CURAM",
+      "text": "Lewat gunung yang tinggi\nDalam lembah yang curam",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "TAK PERNAH KURAGUKAN\nJANJIMU TUHAN",
+      "text": "Tak pernah kuragukan\nJanjimu tuhan",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "KAU BERFIRMAN DAN SEMBUHKANKU\nKAU BERSABDA DAN S'LAMATKANKU",
+      "text": "Kau berfirman dan sembuhkanku\nKau bersabda dan s'lamatkanku",
       "newGroup": true
     },
     {
       "type": "c",
-      "text": "TIADA YANG MUSTAHIL BAGIMU\nYESUS KUPERCAYA PADAMU",
+      "text": "Tiada yang mustahil bagimu\nYesus kupercaya padamu",
       "newGroup": false
     }
   ]

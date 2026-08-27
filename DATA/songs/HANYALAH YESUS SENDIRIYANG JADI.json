@@ -1,19 +1,19 @@
 {
-  "title": "HANYALAH YESUS SENDIRIYANG JADI",
+  "title": "Hanyalah yesus sendiriyang jadi",
   "lyrics": [
     {
       "type": "v",
-      "text": "HANYALAH YESUS SENDIRI\nYANG JADI PENGHIBUR HATI",
+      "text": "Hanyalah yesus sendiri\nYang jadi penghibur hati",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "HARTA DUNIA KEINDAHAN\nTIDAK MEMBRI KEPUASAN",
+      "text": "Harta dunia keindahan\nTidak membri kepuasan",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "HANYALAH YESUS SENDIRI",
+      "text": "Hanyalah yesus sendiri",
       "newGroup": false
     }
   ]

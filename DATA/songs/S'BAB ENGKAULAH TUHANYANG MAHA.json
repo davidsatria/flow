@@ -1,39 +1,39 @@
 {
-  "title": "S'BAB ENGKAULAH TUHANYANG MAHA",
+  "title": "S'bab engkaulah tuhanyang maha",
   "lyrics": [
     {
       "type": "v",
-      "text": "S'BAB ENGKAULAH TUHAN\nYANG MAHA TINGGI",
+      "text": "S'bab engkaulah tuhan\nYang maha tinggi",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KAU DITINGGIKAN\nATAS S'GALA ALLAH",
+      "text": "Kau ditinggikan\nAtas s'gala allah",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "S'BAB ENGKAULAH TUHAN\nYANG MAHA MULIA",
+      "text": "S'bab engkaulah tuhan\nYang maha mulia",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "KAU DIMULIAKAN\nATAS S'GALA ALLAH",
+      "text": "Kau dimuliakan\nAtas s'gala allah",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "KAU KUSEMBAH, KAU KUSEMBAH\nKAU KUSEMBAH, OH TUHAN",
+      "text": "Kau kusembah, kau kusembah\nKau kusembah, oh tuhan",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KAU KUSEMBAH, KAU KUSEMBAH\nKAU KUSEMBAH, OH TUHAN",
+      "text": "Kau kusembah, kau kusembah\nKau kusembah, oh tuhan",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KAU KUSEMBAH\nOH TUHAN",
+      "text": "Kau kusembah\nOh tuhan",
       "newGroup": false
     }
   ]

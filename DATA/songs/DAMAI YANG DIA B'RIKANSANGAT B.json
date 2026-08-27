@@ -1,24 +1,24 @@
 {
-  "title": "DAMAI YANG DIA B'RIKANSANGAT B",
+  "title": "Damai yang dia b'rikansangat b",
   "lyrics": [
     {
       "type": "v",
-      "text": "DAMAI YANG DIA B'RIKAN\nSANGAT BESAR",
+      "text": "Damai yang dia b'rikan\nSangat besar",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "DAMAI YANG JADIKAN\nHATI GEMAR",
+      "text": "Damai yang jadikan\nHati gemar",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "TUHAN BESERTAKU\nS'PANJANG JALANKU",
+      "text": "Tuhan besertaku\nS'panjang jalanku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "KU S'RAHKAN PADA NYA\nYESUS TUHAN",
+      "text": "Ku s'rahkan pada nya\nYesus tuhan",
       "newGroup": false
     }
   ]

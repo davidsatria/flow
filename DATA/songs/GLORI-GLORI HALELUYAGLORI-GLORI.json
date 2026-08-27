@@ -1,44 +1,44 @@
 {
-  "title": "GLORI-GLORI HALELUYAGLORI-GLORI",
+  "title": "Glori-glori haleluyaglori-glori",
   "lyrics": [
     {
       "type": "v",
-      "text": "GLORI-GLORI HALELUYA\nGLORI-GLORI HALELUYA",
+      "text": "Glori-glori haleluya\nGlori-glori haleluya",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "GLORI-GLORI HALELUYA\nHALELUYA PUJI HU",
+      "text": "Glori-glori haleluya\nHaleluya puji hu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "TUHAN YESUS\nTIDAK BERUBAH",
+      "text": "Tuhan yesus\nTidak berubah",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "TIDAK BERUBAH,\nTIDAK BERUBAH",
+      "text": "Tidak berubah,\nTidak berubah",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "TUHAN YESUS\nTIDAK BERUBAH",
+      "text": "Tuhan yesus\nTidak berubah",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "TAK BERUBAH\nSELAMA-LAMANYA",
+      "text": "Tak berubah\nSelama-lamanya",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "HALELUYA, HALELUYA,\nHALELUYA",
+      "text": "Haleluya, haleluya,\nHaleluya",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "HALELUYA, HALELUYA,\nHALELUYA",
+      "text": "Haleluya, haleluya,\nHaleluya",
       "newGroup": false
     }
   ]

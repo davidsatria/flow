@@ -1,14 +1,14 @@
 {
-  "title": "HALELUYAH HALELUYAH",
+  "title": "Haleluyah haleluyah",
   "lyrics": [
     {
       "type": "v",
-      "text": "ENGKAU KUDUS, KUDUS\nENGKAU ALLAH MAHA KUASA",
+      "text": "Engkau kudus, kudus\nEngkau allah maha kuasa",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "LAYAK DIPUJI, \nLAYAK DISEMBAH",
+      "text": "Layak dipuji, \nLayak disembah",
       "newGroup": false
     }
   ]

@@ -1,24 +1,24 @@
 {
-  "title": "BERJUANG TRUSSAMPAI TUHAN DATA",
+  "title": "Berjuang trussampai tuhan data",
   "lyrics": [
     {
       "type": "v",
-      "text": "BERJUANG TRUS\nSAMPAI TUHAN DATANG",
+      "text": "Berjuang trus\nSampai tuhan datang",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "BERJUANG TRUS\nSAMPAI TUHAN DATANG",
+      "text": "Berjuang trus\nSampai tuhan datang",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "BERJUANG BERJUANG\nO GLORY HALELUYA",
+      "text": "Berjuang berjuang\nO glory haleluya",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "BERJUANG TRUS\nSAMPAI TUHAN DATANG",
+      "text": "Berjuang trus\nSampai tuhan datang",
       "newGroup": false
     }
   ]

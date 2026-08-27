@@ -1,34 +1,34 @@
 {
-  "title": "SINAR KEMULIAAN-MU BAPAMEMENUHI",
+  "title": "Sinar kemuliaan-mu bapamemenuhi",
   "lyrics": [
     {
       "type": "v",
-      "text": "SINAR KEMULIAAN-MU BAPA\nMEMENUHI DI S’KELILINGKU",
+      "text": "Sinar kemuliaan-mu bapa\nMemenuhi di s’kelilingku",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KURASAKAN HADIRAT-MU,\nKAU TENGGELAMKAN JIWAKU",
+      "text": "Kurasakan hadirat-mu,\nKau tenggelamkan jiwaku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "KU INGIN TETAP TINGGAL\nBERSAMA-MU",
+      "text": "Ku ingin tetap tinggal\nBersama-mu",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "KU INGIN TETAP DI SINI\nMENIKMATI BAIT-MU",
+      "text": "Ku ingin tetap di sini\nMenikmati bait-mu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KU INGIN TETAP DI SINI",
+      "text": "Ku ingin tetap di sini",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "DAN MEMANDANG\nINDAH WAJAH-MU",
+      "text": "Dan memandang\nIndah wajah-mu",
       "newGroup": false
     }
   ]

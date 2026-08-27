@@ -1,19 +1,19 @@
 {
-  "title": "HALELUYA HALELUYAHALELUYA HALE",
+  "title": "Haleluya haleluyahaleluya hale",
   "lyrics": [
     {
       "type": "v",
-      "text": "HALELUYA, HALELUYA,\nHALELUYA, HALELUYA",
+      "text": "Haleluya, haleluya,\nHaleluya, haleluya",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "HALELUYA, HALELUYA,\nHALELUYA, HALELUYA",
+      "text": "Haleluya, haleluya,\nHaleluya, haleluya",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "HALELUYA, HALELUYA,\nHALELUYA, HALELUYA",
+      "text": "Haleluya, haleluya,\nHaleluya, haleluya",
       "newGroup": true
     }
   ]

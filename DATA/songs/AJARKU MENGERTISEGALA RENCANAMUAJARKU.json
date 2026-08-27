@@ -1,44 +1,44 @@
 {
-  "title": "AJARKU MENGERTISEGALA RENCANAMUAJARKU",
+  "title": "Ajarku mengertisegala rencanamuajarku",
   "lyrics": [
     {
       "type": "v",
-      "text": "AJARKU MENGERTI\nSEGALA RENCANAMU",
+      "text": "Ajarku mengerti\nSegala rencanamu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "AJARKU BERSERAH HANYA PADAMU",
+      "text": "Ajarku berserah hanya padamu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "PIMPINLAH JALANKU\nDALAM TERANG FIRMANMU",
+      "text": "Pimpinlah jalanku\nDalam terang firmanmu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "AJARKU BERHARAP\nHANYA PADAMU",
+      "text": "Ajarku berharap\nHanya padamu",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "BAPAKU AJAIB\nS'GALA RANCANGANMU",
+      "text": "Bapaku ajaib\nS'gala rancanganmu",
       "newGroup": true
     },
     {
       "type": "c",
-      "text": "TUHANKU\nHERAN PERBUATANMU",
+      "text": "Tuhanku\nHeran perbuatanmu",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "ENGKAU SANGGUP MENGADAKAN\nSEGALA YANG KUPERLUKAN",
+      "text": "Engkau sanggup mengadakan\nSegala yang kuperlukan",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "MENURUT KEHENDAKMU\nTERJADILAH",
+      "text": "Menurut kehendakmu\nTerjadilah",
       "newGroup": false
     }
   ]

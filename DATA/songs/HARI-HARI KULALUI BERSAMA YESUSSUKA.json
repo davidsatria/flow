@@ -1,24 +1,24 @@
 {
-  "title": "HARI-HARI KULALUI BERSAMA YESUSSUKA",
+  "title": "Hari-hari kulalui bersama yesussuka",
   "lyrics": [
     {
       "type": "v",
-      "text": "HARI-HARI KULALUI BERSAMA YESUS",
+      "text": "Hari-hari kulalui bersama yesus",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "SUKA DUKA KUJALANI BERSAMA YESUS",
+      "text": "Suka duka kujalani bersama yesus",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "PERSOALAN PENCOBAAN\nKUHADAPI",
+      "text": "Persoalan pencobaan\nKuhadapi",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "BERSAMA YESUS JURUS’LAMATKU",
+      "text": "Bersama yesus jurus’lamatku",
       "newGroup": false
     }
   ]

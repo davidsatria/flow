@@ -1,39 +1,39 @@
 {
-  "title": "ENGKAULAH KEKUATANKUTEMPAT PER",
+  "title": "Engkaulah kekuatankutempat per",
   "lyrics": [
     {
       "type": "v",
-      "text": "ENGKAULAH KEKUATANKU\nTEMPAT PERLINDUNGANKU",
+      "text": "Engkaulah kekuatanku\nTempat perlindunganku",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "SAAT BADAI MENERPA\nAKU TAK AKAN GOYAH",
+      "text": "Saat badai menerpa\nAku tak akan goyah",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "AKU TAK AKAN GOYAH\nS'BAB KAU SERTAKU",
+      "text": "Aku tak akan goyah\nS'bab kau sertaku",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "SEJAUH LANGIT DARI BUMI\nBEGITU BESARNYA KASIH-MU",
+      "text": "Sejauh langit dari bumi\nBegitu besarnya kasih-mu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "PENUHI HATI KAMI YANG RINDU\nMENYEMBAHMU, YESUS",
+      "text": "Penuhi hati kami yang rindu\nMenyembahmu, yesus",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "SEJAUH LANGIT DARI BUMI\nBEGITU BESARNYA KASIH-MU",
+      "text": "Sejauh langit dari bumi\nBegitu besarnya kasih-mu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "KAULAH TUHAN,\nKEKUATANKU SUKACITAKU",
+      "text": "Kaulah tuhan,\nKekuatanku sukacitaku",
       "newGroup": false
     }
   ]

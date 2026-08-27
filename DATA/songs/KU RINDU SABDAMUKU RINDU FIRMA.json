@@ -1,59 +1,59 @@
 {
-  "title": "KU RINDU SABDAMUKU RINDU FIRMA",
+  "title": "Ku rindu sabdamuku rindu firma",
   "lyrics": [
     {
       "type": "v",
-      "text": "KU RINDU SABDAMU",
+      "text": "Ku rindu sabdamu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KU RINDU FIRMANMU",
+      "text": "Ku rindu firmanmu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "FIRMAN\nTUHAN YESUS",
+      "text": "Firman\nTuhan yesus",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "YANG HERAN DAN BERKUASA",
+      "text": "Yang heran dan berkuasa",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "BERFIRMANLAH TUHAN",
+      "text": "Berfirmanlah tuhan",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "OLEH KUASA ROHMU",
+      "text": "Oleh kuasa rohmu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "KEPADAMU KAMI\nMAU BERSERAH",
+      "text": "Kepadamu kami\nMau berserah",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "BERFIRMANLAH BERFIRMANLAH TUHAN",
+      "text": "Berfirmanlah berfirmanlah tuhan",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "ROHUL KUDUS URAPI HAMBAMU",
+      "text": "Rohul kudus urapi hambamu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "BERFIRMANLAH BERFIRMANLAH TUHAN",
+      "text": "Berfirmanlah berfirmanlah tuhan",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "KURINDU MENIKMATI SABDAMU",
+      "text": "Kurindu menikmati sabdamu",
       "newGroup": false
     }
   ]

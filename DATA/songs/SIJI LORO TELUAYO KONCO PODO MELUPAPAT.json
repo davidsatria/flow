@@ -1,39 +1,39 @@
 {
-  "title": "SIJI LORO TELUAYO KONCO PODO MELUPAPAT",
+  "title": "Siji loro teluayo konco podo melupapat",
   "lyrics": [
     {
       "type": "v",
-      "text": "SIJI LORO TELU\nAYO KONCO PODO MELU",
+      "text": "Siji loro telu\nAyo konco podo melu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "PAPAT LIMO ENEM",
+      "text": "Papat limo enem",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "NDEREK GUSTI YO SING TEMEN",
+      "text": "Nderek gusti yo sing temen",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "PITU WOLU SONGO",
+      "text": "Pitu wolu songo",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "NDEREK GUSTI OJO SEMBRONO",
+      "text": "Nderek gusti ojo sembrono",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "SEPULUH WES JANGKEP",
+      "text": "Sepuluh wes jangkep",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "NDEREK GUSTI YO SING MANTEB",
+      "text": "Nderek gusti yo sing manteb",
       "newGroup": false
     }
   ]

@@ -1,24 +1,24 @@
 {
-  "title": "SLAMINYO NDEREK GUSTIMANAH AYEM",
+  "title": "Slaminyo nderek gustimanah ayem",
   "lyrics": [
     {
       "type": "v",
-      "text": "SLAMINYO NDEREK GUSTI\nMANAH AYEM LAN TENTREM",
+      "text": "Slaminyo nderek gusti\nManah ayem lan tentrem",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "GUSTI MARINGI SEDOYO\nMANAH AYEM LAN TENTREM",
+      "text": "Gusti maringi sedoyo\nManah ayem lan tentrem",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "KULO NDEREK GUSTI\nKULO NDEREK GUSTI",
+      "text": "Kulo nderek gusti\nKulo nderek gusti",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "DATENG PUNDHI LAMPAHIPUN\nKULO NDEREK GUSTI",
+      "text": "Dateng pundhi lampahipun\nKulo nderek gusti",
       "newGroup": true
     }
   ]

@@ -1,34 +1,34 @@
 {
-  "title": "ROH KUDUS YANG MANISDATANG KE",
+  "title": "Roh kudus yang manisdatang ke",
   "lyrics": [
     {
       "type": "v",
-      "text": "ROH KUDUS YANG MANIS\nDATANG KE ATASKU",
+      "text": "Roh kudus yang manis\nDatang ke atasku",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "ROH KUDUS YANG MANIS\nDATANG KE ATASKU",
+      "text": "Roh kudus yang manis\nDatang ke atasku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "DATANG PENUHIKU\nDATANG URAPIKU",
+      "text": "Datang penuhiku\nDatang urapiku",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "DATANG SEGARKANKU\nROH KUDUS YANG MANIS",
+      "text": "Datang segarkanku\nRoh kudus yang manis",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "DATANG PENUHIKU\nDATANG URAPIKU",
+      "text": "Datang penuhiku\nDatang urapiku",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "DATANG SEGARKANKU\nROH KUDUS YANG MANIS",
+      "text": "Datang segarkanku\nRoh kudus yang manis",
       "newGroup": false
     }
   ]

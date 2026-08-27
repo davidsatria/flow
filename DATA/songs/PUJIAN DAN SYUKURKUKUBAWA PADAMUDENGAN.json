@@ -1,44 +1,44 @@
 {
-  "title": "PUJIAN DAN SYUKURKUKUBAWA PADAMUDENGAN",
+  "title": "Pujian dan syukurkukubawa padamudengan",
   "lyrics": [
     {
       "type": "v",
-      "text": "PUJIAN DAN SYUKURKU\nKUBAWA PADAMU",
+      "text": "Pujian dan syukurku\nKubawa padamu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "DENGAN RENDAH HATI\nKUPERSEMBAHKAN",
+      "text": "Dengan rendah hati\nKupersembahkan",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "SADAR BILA KU ADA\nHANYA KARENA ANUGERAH",
+      "text": "Sadar bila ku ada\nHanya karena anugerah",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "BUKAN KARENA KEKUATANKU",
+      "text": "Bukan karena kekuatanku",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "KU TAHU HIDUPKU\nADALAH PENYEMBAHAN",
+      "text": "Ku tahu hidupku\nAdalah penyembahan",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KAU CIPTAKANKU\nDALAM KEMULIAANMU",
+      "text": "Kau ciptakanku\nDalam kemuliaanmu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KU TAHU HIDUPKU\nBERHARGA DI MATAMU",
+      "text": "Ku tahu hidupku\nBerharga di matamu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "SEGENAP HIDUP KU\nPERSEMBAHKAN",
+      "text": "Segenap hidup ku\nPersembahkan",
       "newGroup": false
     }
   ]

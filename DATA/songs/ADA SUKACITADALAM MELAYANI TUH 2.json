@@ -1,24 +1,24 @@
 {
-  "title": "ADA SUKACITADALAM MELAYANI TUH 2",
+  "title": "Ada sukacitadalam melayani tuh 2",
   "lyrics": [
     {
       "type": "v",
-      "text": "ADA SUKACITA\nDALAM MELAYANI TUHAN",
+      "text": "Ada sukacita\nDalam melayani tuhan",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "SUKACITA DARI\nROHUL KUDUS",
+      "text": "Sukacita dari\nRohul kudus",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "HATI PENUH DAMAI\nKAR'NA YESUS BESERTA",
+      "text": "Hati penuh damai\nKar'na yesus beserta",
       "newGroup": true
     },
     {
       "type": "c",
-      "text": "DALAM KITA\nMELAYANI TUHAN",
+      "text": "Dalam kita\nMelayani tuhan",
       "newGroup": false
     }
   ]

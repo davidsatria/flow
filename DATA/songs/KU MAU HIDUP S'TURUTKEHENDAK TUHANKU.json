@@ -1,24 +1,24 @@
 {
-  "title": "KU MAU HIDUP S'TURUTKEHENDAK TUHANKU",
+  "title": "Ku mau hidup s'turutkehendak tuhanku",
   "lyrics": [
     {
       "type": "v",
-      "text": "KU MAU HIDUP S'TURUT\nKEHENDAK TUHAN",
+      "text": "Ku mau hidup s'turut\nKehendak tuhan",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "KU MAU MEM'BRI\nSEMUA YANG KU DAPAT B'RIKAN",
+      "text": "Ku mau mem'bri\nSemua yang ku dapat b'rikan",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "KU MAU CINTA DIA\nLEBIH DARI SEMUA",
+      "text": "Ku mau cinta dia\nLebih dari semua",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "KU TAK DAPAT\nMEMBALAS KASIHNYA",
+      "text": "Ku tak dapat\nMembalas kasihnya",
       "newGroup": false
     }
   ]

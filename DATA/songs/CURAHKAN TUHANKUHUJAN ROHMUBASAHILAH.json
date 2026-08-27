@@ -1,24 +1,24 @@
 {
-  "title": "CURAHKAN TUHANKUHUJAN ROHMUBASAHILAH",
+  "title": "Curahkan tuhankuhujan rohmubasahilah",
   "lyrics": [
     {
       "type": "v",
-      "text": "CURAHKAN TUHANKU\nHUJAN ROHMU",
+      "text": "Curahkan tuhanku\nHujan rohmu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "BASAHILAH SKARANG\nTANAH GERSANG",
+      "text": "Basahilah skarang\nTanah gersang",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "TLAH LAMA KUNANTI\nBRIKAN KINI",
+      "text": "Tlah lama kunanti\nBrikan kini",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "LALU KUBERSUJUD\nMENYEMBAHMU",
+      "text": "Lalu kubersujud\nMenyembahmu",
       "newGroup": false
     }
   ]
