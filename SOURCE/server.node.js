@@ -637,30 +637,68 @@ app.get('/api/bible/chapter', (req, res) => {
   res.json(chapterMap.get(chapterNum) || []);
 });
 
+// --- Fuzzy song search: toleransi 1 huruf (mis: anugrahmu vs anugerahmu) ---
+function levenshtein(a, b) {
+  const m = a.length, n = b.length;
+  if (!m) return n; if (!n) return m;
+  let prev = Array.from({ length: n + 1 }, (_, i) => i);
+  for (let i = 1; i <= m; i++) {
+    const cur = [i];
+    for (let j = 1; j <= n; j++) {
+      cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    }
+    prev = cur;
+  }
+  return prev[n];
+}
+
+// SEMUA kata query harus muncul di text target, toleran 1 huruf utk kata panjang (>=4)
+function fuzzyWordsAppear(qLower, text) {
+  const qWords = qLower.split(/\s+/).filter(Boolean);
+  const tWords = text.split(/\s+/).filter(Boolean);
+  if (!qWords.length || !tWords.length) return false;
+  return qWords.every((qw) =>
+    tWords.some((tw) =>
+      tw === qw ||
+      (qw.length >= 4 && Math.abs(tw.length - qw.length) <= 1 && levenshtein(tw, qw) <= 1)
+    )
+  );
+}
+
 app.get('/api/search', (req, res) => {
   const qRaw = String(req.query.q || '');
-  const qLower = qRaw.toLowerCase();
+  // Abaikan karakter khusus ' " - saat pencarian (mis: sperti cocok dengan s'perti)
+  const normalize = (s) => String(s).toLowerCase().replace(/['"\-]/g, '');
+  const qLower = normalize(qRaw);
   const results = [];
 
-  if (qRaw.length >= 3) {
+  if (normalize(qRaw).length >= 3) {
     const songs = listSongs();
     for (const s of songs) {
       const title = String(s?.title || '');
-      if (title.toLowerCase().includes(qLower)) {
+      const normTitle = normalize(title);
+      const lyrics = Array.isArray(s?.lyrics) ? s.lyrics : [];
+      const lineTexts = lyrics.map((l) => String(l?.text || '')).filter(Boolean);
+      // 1) exact dulu
+      if (normTitle.includes(qLower)) {
         results.push({ type: 'SONG', title, match_text: 'Judul cocok', full_data: s });
         continue;
       }
-      const lyrics = Array.isArray(s?.lyrics) ? s.lyrics : [];
-      for (const line of lyrics) {
-        const text = String(line?.text || '');
-        if (text.toLowerCase().includes(qLower)) {
-          results.push({ type: 'SONG', title, match_text: text, full_data: s });
-          break;
-        }
+      let exactLine = null;
+      for (const text of lineTexts) {
+        if (normalize(text).includes(qLower)) { exactLine = text; break; }
+      }
+      if (exactLine !== null) {
+        results.push({ type: 'SONG', title, match_text: exactLine, full_data: s });
+        continue;
+      }
+      // 2) fuzzy fallback (toleran 1 huruf: anugrahmu ~ anugerahmu)
+      if (fuzzyWordsAppear(qLower, normTitle) || lineTexts.some((t) => fuzzyWordsAppear(qLower, normalize(t)))) {
+        results.push({ type: 'SONG', title, match_text: title + ' (fuzzy)', full_data: s });
       }
     }
 
-    const keywords = qLower.split(/\s+/).filter(Boolean);
+    const keywords = normalize(qRaw).split(/\s+/).filter(Boolean);
     const limit = 20;
     let count = 0;
     for (const b of bibleStructure) {
