@@ -400,7 +400,7 @@ app.use((req, res, next) => {
 app.get(['/','/index.html','/home'], (req, res) => {
   res.sendFile(path.join(TEMPLATE_DIR, 'home.html'));
 });
-app.get('/favicon.ico', (req, res) => res.sendStatus(204));
+app.get('/favicon.ico', (req, res) => res.sendFile(path.join(SYSTEM_DIR, 'favicon.png')));
 app.get('/operator', (req, res) => res.sendFile(path.join(TEMPLATE_DIR, 'operator.html')));
 app.get('/projector', (req, res) => res.sendFile(path.join(TEMPLATE_DIR, 'projector.html')));
 app.get('/overlay', (req, res) => res.sendFile(path.join(TEMPLATE_DIR, 'overlay.html')));
