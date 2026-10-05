@@ -1,9 +1,9 @@
 {
-  "title": "Ku ada sebagaimana ku adaBerdiri",
+  "title": "Ku Ada Sebagaimana Ku Ada",
   "lyrics": [
     {
       "type": "v",
-      "text": "Ku ada, sebagaimana ku ada",
+      "text": "Ku ada\nsebagaimana ku ada",
       "newGroup": true
     },
     {
@@ -18,7 +18,7 @@
     },
     {
       "type": "v",
-      "text": "Ku hidup dalam s'gala kelimpahan",
+      "text": "Ku hidup dalam\ns'gala kelimpahan",
       "newGroup": false
     },
     {
@@ -28,27 +28,17 @@
     },
     {
       "type": "v",
-      "text": "Semua kar'na anug'rah-Mu",
-      "newGroup": false
-    },
-    {
-      "type": "v",
-      "text": "Tercurah bagiku",
+      "text": "Semua kar'na anug'rah-Mu\nTercurah bagiku",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "Besar anug'rah-Mu",
+      "text": "Besar anug'rah-Mu\nMelimpah kasih-Mu",
       "newGroup": true
     },
     {
       "type": "c",
-      "text": "Melimpah kasih-Mu",
-      "newGroup": false
-    },
-    {
-      "type": "c",
-      "text": "Semakin hari s'makin bertambah",
+      "text": "Semakin hari\ns'makin bertambah",
       "newGroup": false
     },
     {

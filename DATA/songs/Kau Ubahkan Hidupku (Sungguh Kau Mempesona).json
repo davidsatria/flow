@@ -1,0 +1,40 @@
+{
+  "title": "Kau Ubahkan Hidupku (Sungguh Kau Mempesona)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sungguh Kau mempesona\nS'gala perbuatan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hapuskan raguku\nKau buktikan kasih-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Mati bagiku\nHapuskan dosaku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kau ubahkan hidupku\nSemua menjadi baru",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'karang ku bersuka di dalam-Mu Yesusku\nKau jagai hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Melangkah di jalan-Mu\nSampai kuterima mahkota kehidupanku",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Sampai kuterima mahkota kehidupanku",
+      "newGroup": true
+    }
+  ]
+}

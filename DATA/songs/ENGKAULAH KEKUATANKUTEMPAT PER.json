@@ -22,17 +22,17 @@
       "newGroup": true
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Penuhi hati kami yang rindu\nMenyembahmu, yesus",
-      "newGroup": true
+      "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Sejauh langit dari bumi\nBegitu besarnya kasih-mu",
       "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Kaulah tuhan,\nKekuatanku sukacitaku",
       "newGroup": false
     }

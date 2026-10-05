@@ -1,0 +1,40 @@
+{
+  "title": "Nilai Hidupku (SalibMu Membuka Mataku)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Salib-Mu membuka mataku\nBetapa berharga nilai hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Menanggung semua dosaku\nBerikan hidup-Mu menggantikan diriku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bukan kar'na perbuatanku\nAnug'rah yang selamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus, apa arti hidupku\nBila Kau tak berikan nyawa-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Yang terbaik tersedia bagiku\nKubersyukur atas kasih karunia-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Yesus, Kaulah arti hidupku\nYang telah memberikan nyawa-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Yang terbaik tersedia bagiku\nKubersyukur atas kasih karunia-Mu",
+      "newGroup": false
+    }
+  ]
+}

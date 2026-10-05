@@ -1,0 +1,30 @@
+{
+  "title": "Tuhan Kupercaya (Symphony Worship)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Engkaulah jawaban\nDi setiap doaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saat ku menyembah\nRoh-Mu bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan ku percaya\nKuasa-Mu sempurna",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Saat ku berdoa\nKuasa-Mu bekerja",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Saat ku berdoa\nKuasa-Mu bekerja",
+      "newGroup": true
+    }
+  ]
+}

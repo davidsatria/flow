@@ -1,0 +1,50 @@
+{
+  "title": "Kasih Bapa (KasihMu Lebih dari Mentari)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Seperti mentari yang bersinar\nSeperti itu kasih Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Seperti gelombang samudra\nTakkan pernah berhenti Kau mengasihiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Seperti tingginya langit biru\nDemikian tinggi kasih Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sedalam lembah bayang maut\nDemikian dalam Kau tebus hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kasih-Mu lebih dari mentari\nYang tak pernah berhenti memancarkan sinarnya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Cinta-Mu lebih dari samudra\nTenggelamku di dalam kesetiaan-Mu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Terima kasih atas cinta-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Terima kasih Tuhan\nKau mau tebus hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Terima kasih atas cinta-Mu",
+      "newGroup": false
+    }
+  ]
+}

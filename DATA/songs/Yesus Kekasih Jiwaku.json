@@ -2,33 +2,43 @@
   "title": "Yesus Kekasih Jiwaku",
   "lyrics": [
     {
-      "type": "v",
-      "text": "Yesus kekasih jiwaku\nSungguh kupercaya padamu",
+      "type": "b",
+      "text": "Sya La La La La La La La",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "Karena kasihmu padaku\nKau tebus dosaku",
+      "text": "Yesus Kekasih Jiwaku\nSungguh Kupercaya Pada-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Karena Kasih-Mu Padaku\nKau Tebus Dosaku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "Dari terbitnya matahari\nDan sampai terbenamnya",
+      "text": "Dari Terbitnya Matahari\nDan Sampai Terbenamnya",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "Kuangkat lagu pujian\nTinggikan namamu",
+      "text": "Kuangkat Lagu Pujian\nTinggikan Nama-Mu",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "Dengan gendang kupuji-kupuji\nDengan kecapi oh oh oh",
+      "text": "Dengan Gendang\nKupuji Kupuji",
       "newGroup": true
     },
     {
       "type": "c",
-      "text": "Kubernyanyi haleluya\nYesus kekasihku",
+      "text": "Dengan Kecapi\nOh… Oh...",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku Bernyanyi Haleluya\nYesus Kekasihku",
       "newGroup": false
     }
   ]

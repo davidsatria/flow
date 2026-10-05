@@ -1,0 +1,35 @@
+{
+  "title": "Kami Perlu Kau Tuhan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kemanakah kami mencari kasih sejati\nKemanakah kami berseru",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Saat badai datang menderu\nYang kami tahu hanya Kau yang mampu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Pulihkan s'gala sesuatu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kami perlukan keajaiban-Mu\nKami butuhkan sentuhan tangan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kami tak dapat jalan sendiri\nKami perlu Kau Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Kami tak dapat jalan sendiri\nKami perlu Kau Tuhan",
+      "newGroup": true
+    }
+  ]
+}

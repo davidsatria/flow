@@ -1,0 +1,50 @@
+{
+  "title": "Tanda-Tanda Telah Nyata",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tanda-tanda t'lah nyata\nhujan akhir t'lah tiba",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Allah sedang\nmelawat umatNya",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ladang telah menguning\nsiap untuk dituai",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Banyak jiwa menanti\nuluran tangan kita",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuailah-tuailah\nsekarang",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Nyatakan kemuliaanNya\npada segala bangsa",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "biar kuasaNya\ndinyatakan melimpah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bangkitlah gereja Tuhan\npandang sekelilingMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Generasi ini s'lamatkan\nya Tuhan ini doaku",
+      "newGroup": false
+    }
+  ]
+}

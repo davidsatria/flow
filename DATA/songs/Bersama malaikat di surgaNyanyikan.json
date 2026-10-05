@@ -32,9 +32,9 @@
       "newGroup": true
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Haleluya haleluya\naku menyembah-Mu",
-      "newGroup": true
+      "newGroup": false
     }
   ]
 }

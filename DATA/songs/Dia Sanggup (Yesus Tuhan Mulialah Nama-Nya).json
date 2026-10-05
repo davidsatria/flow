@@ -1,0 +1,40 @@
+{
+  "title": "Dia Sanggup (Yesus Tuhan Mulialah Nama-Nya)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus Tuhan mulialah nama-Nya\nYesus Allahku besar kasih-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dahulu sekarang dan sampai selamanya\nKasih-Nya tak pernah berubah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus Tuhan mulialah nama-Nya\nYesus Allahku besar kuasa-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dahulu sekarang dan sampai selamanya\nKuasa-Nya tak pernah berubah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dia sanggup, Yesus sanggup\nMelakukan perkara yang besar",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia sanggup, Yesus sanggup\nMemulihkan yang terluka",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Menyembuhkan yang menderita\nDia sanggup memulihkan hidupku",
+      "newGroup": false
+    }
+  ]
+}

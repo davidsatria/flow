@@ -1,0 +1,50 @@
+{
+  "title": "Tuhan Baik di Dalam Hidupku (Rayakan KasihMu)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan baik di dalam hidupku\nS'lalu setia di s'panjang hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Nyatalah perbuatan-Mu\nKaulah sukacitaku",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Haleluya, ku bersorak\nTuhanku luar biasa",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Haleluya, ku bersorak\nTuhanku dahsyat berkuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kuangkat suaraku puji nama-Mu\nKubernyanyi bagi-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kubersuka kumelompat bagi-Mu\nYesus, Kau di dalamku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kurayakan kasih-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Yesus, Kau di dalamku\nKurayakan kasih-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Haleluya",
+      "newGroup": false
+    }
+  ]
+}

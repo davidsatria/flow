@@ -1,0 +1,40 @@
+{
+  "title": "Ku Tetap Pegang Salib Kristus",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hidup yang putus asa tak berarti\nJalan dengan tanpa harapan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lalu tangan yang berlubang paku\nMenjamah jadi hidup baru",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Dan kayu yang kasar mengubahkan\nJalan hidup yang penuh kegagalan",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Kupuji Dia selama-lamanya\nSebab salib merubah hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Dan ku yakin darah Yesus yang suci\nSudah mengalir di Kalvari",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Bila jaman berlalu dunia menderu\nKu tetap pegang salib Kristus",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Ku tetap pegang salib Kristus",
+      "newGroup": true
+    }
+  ]
+}

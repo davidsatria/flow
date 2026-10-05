@@ -495,7 +495,7 @@ app.get('/api/camera/frame', (req, res) => {
 
 app.get('/api/status', (req, res) => {
   const activePort = app?.locals?.activePort || PORT;
-  res.json({ ip: getIpAddress(), ssid: getWifiSsid(), port: activePort });
+  res.json({ ip: getIpAddress(), ssid: getWifiSsid(), port: activePort, publicUrl: process.env.FLOW_PUBLIC_URL || '' });
 });
 
 app.get('/api/qr', async (req, res) => {
@@ -516,10 +516,33 @@ app.get('/api/qr', async (req, res) => {
   }
 });
 
+app.get('/api/shutdown', (req, res) => {
+  res.status(403).json({ error: 'Forbidden' });
+  log('[API] Shutdown ditolak (403) — endpoint dinonaktifkan untuk akses publik.');
+});
 app.post('/api/shutdown', (req, res) => {
-  res.json({ ok: true });
-  log('[API] Shutdown requested.');
-  setTimeout(() => process.exit(0), 300);
+  res.status(403).json({ error: 'Forbidden' });
+  log('[API] Shutdown ditolak (403) — endpoint dinonaktifkan untuk akses publik.');
+});
+
+// Proxy ke AI lirik davidai (hindari CORS di browser: server->server call)
+app.post('/api/lirik', async (req, res) => {
+  const message = String((req.body && req.body.message) || '').trim();
+  if (!message) return res.status(400).json({ error: 'message kosong' });
+  try {
+    const upstream = await fetch('https://ai.davidsatria.com/public/chat/lirik', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ message })
+    });
+    const text = await upstream.text();
+    let data;
+    try { data = JSON.parse(text); } catch { data = { reply: text }; }
+    res.json(data);
+  } catch (e) {
+    log('[AI Lirik] Gagal hubungi davidai: ' + e.message);
+    res.status(502).json({ error: 'Gagal koneksi ke AI lirik' });
+  }
 });
 
 app.get('/api/current', (req, res) => {
@@ -993,10 +1016,13 @@ if (require.main === module || process.pkg) {
   log('process.pkg = ' + !!process.pkg);
   log('process.execPath = ' + process.execPath);
   log('__dirname = ' + __dirname);
-  if (process.platform === 'win32' && needsNetworkSetup()) {
-    log('[Setup] Konfigurasi jaringan diperlukan, meminta izin admin...');
-    runElevatedSetup();
-  }
+  // UAC BYPASS (khusus Flow): rule firewall PORT sudah dibuat manual via schtasks
+    // SYSTEM (nama "FLOW-Port-<PORT>"), jadi jangan memicu prompt UAC di startup.
+    // Kalau rule belum ada, server tetap jalan (localhost OK); akses jaringan luar
+    // dia minta layanan firewall sudah di-set di dashboard/task.
+    if (process.platform === 'win32' && needsNetworkSetup()) {
+      log('[Setup] Rule firewall lokal mungkin belum ada — lewati prompt UAC (bypass aktif).');
+    }
   let serverPromise;
   try {
     log('Calling startServer...');
@@ -1021,8 +1047,8 @@ if (require.main === module || process.pkg) {
     log(`Projector : http://${localIp}${portStr}/projector`);
     // Buka halaman home di browser root
     const homeUrl = `http://localhost${portStr}/`;
-    log(`[FLOW] Membuka browser: ${homeUrl}`);
-    try { execSync(`start "" "${homeUrl}"`, { shell: true, windowsHide: true }); } catch(e) { log('[UI] Gagal buka browser: ' + e.message); }
+    log(`[FLOW] Server aktif — akses: ${homeUrl} (auto-open browser dinonaktifkan utk mode background/service).`);
+        // Tidak buka browser otomatis (execSync 'start' memblokir event loop saat tanpa desktop → server hang).
   }).catch((err) => {
     log('[ERROR] Server gagal start: ' + (err.message || err));
     pauseAndExit(1);

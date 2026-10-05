@@ -1,0 +1,55 @@
+{
+  "title": "Waktu-Mu Yang Terbaik",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat ku tak mampu berharap\nKekhawatiran menghimpit jiwaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kekuatanku datang dari-Mu\nMemampukanku kembali berharap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ajarku mengenal hati-Mu\nDan percaya jalan-Mulah yang terbaik",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Di kelemahan, kuasa-Mu sempurna\nKau Allah yang tak akan tinggalkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kupercaya, Engkau bekerja\nBuat kebaikanku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Walau belum ku melihat\nNamun kuasa-Mu sempurna",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kupercaya, pasti Tuhan\nBukakan jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Di waktu-Mu yang terbaik\nS'turut kehendak-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Di waktu-Mu yang terbaik\nS'turut kehendak-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Di waktu-Mu yang terbaik\nS'turut kehendak-Mu",
+      "newGroup": false
+    }
+  ]
+}

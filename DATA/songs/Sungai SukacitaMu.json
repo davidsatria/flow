@@ -1,49 +1,49 @@
 {
-  "title": "Hari ini hari yang telahdijadikan",
+  "title": "Sungai SukacitaMu",
   "lyrics": [
     {
       "type": "v",
-      "text": "Hari ini, hari yang telah\ndijadikan Tuhan",
+      "text": "Sungai SukacitaMu\nmengalir dalamku",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "Mari kita bersuka",
+      "text": "Anggur sukacitaMu\nmelimpah dalamku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "Hari ini, hari yang telah\ndijadikan Tuhan",
+      "text": "Ku menari\ndan bersuka",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "Mari kita bersuka\ndalam Tuhan",
+      "text": "PujiMu\ndi setiap waktu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "Bersuka dalam Tuhan",
+      "text": "Sebab sungai sukacitaMu\nAda dalamku",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "Bersuka bersuka\ndalam Tuhan",
+      "text": "Mengalir bersamaMu\nBersuka di dalamMu",
       "newGroup": true
     },
     {
       "type": "c",
-      "text": "Mari bersuka\nbersukacitalah",
+      "text": "mengikutiMu Tuhan\nDalam kegerakkanMu",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "Bersuka bersuka\ndalam Tuhan",
+      "text": "MelayaniMu Tuhan\nDi dalam SukacitaMu",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "S'karang bersuka\nbersukacitalah",
+      "text": "Sbab hanya Tuhan\nYang membuat sukacitaku penuh",
       "newGroup": false
     }
   ]

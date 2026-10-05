@@ -1,0 +1,35 @@
+{
+  "title": "Hatiku Percaya (Tuhanlah Kekuatan dan Mazmurku)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhanlah kekuatan dan mazmurku\nDia gunung batu dan keselamatanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hanya pada-Mu hatiku percaya\nKaulah menara dan kota perlindungan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku mau selalu bersyukur\nSbab cinta-Mu padaku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Takkan pernah berubah\nHatiku percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walau bumi bergoncang\nGunung-gunung beranjak",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Namun kasih setia-Mu\nTak pergi dariku",
+      "newGroup": false
+    }
+  ]
+}

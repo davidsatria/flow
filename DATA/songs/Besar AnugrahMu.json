@@ -1,0 +1,40 @@
+{
+  "title": "Besar AnugrahMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku ada sebagaimana ku ada\nBerdiri menghadap tahta-Mu Bapa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Semua kar'na anugrahMu\nYang t'lah s'lamatkanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku hidup dalam s'gala kelimpahan\nKu layak untuk melayani Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Semua kar'na anugrahMu\nTercurah bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Besar anugrahMu\nMelimpah kasihMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Semakin hari semakin bertambah\nBesar anugrahMu",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Semakin hari semakin bertambah\nBesar anugrahMu",
+      "newGroup": true
+    }
+  ]
+}

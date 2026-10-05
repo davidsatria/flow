@@ -1,0 +1,25 @@
+{
+  "title": "Segala Perkara (Dapat Kutanggung)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Penolong yang selalu setia\nMemenuhi keperluanku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah Dia mengecewakan\nYesusku tak pernah gagal",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Segala perkara dapat kutanggung\nDi dalam Dia yang memberi kekuatan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tuhan Yesus penolong dan sahabat\nTetap percaya Tuhan setia",
+      "newGroup": false
+    }
+  ]
+}

@@ -13,7 +13,7 @@
     },
     {
       "type": "v",
-      "text": "Ku tak mampu sendiri",
+      "text": "Ku tak\nmampu sendiri",
       "newGroup": false
     },
     {
@@ -27,17 +27,17 @@
       "newGroup": true
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Pertolonganku\nDatang dari-Mu",
-      "newGroup": true
+      "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Peganglah tanganku\nJangan lepaskan",
       "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Kaulah harapan\nDalam hidupku",
       "newGroup": false
     }

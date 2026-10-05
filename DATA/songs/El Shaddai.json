@@ -1,0 +1,40 @@
+{
+  "title": "El Shaddai",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak usah ku takut, Allah menjagaku\nTak usah ku bimbang, Yesus p'liharaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tak usah ku susah, Roh Kudus hiburku\nTak usah ku cemas, Dia memberkatiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "El Shaddai, El Shaddai\nAllah Maha Kuasa",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Dia besar, Dia besar\nEl Shaddai mulia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "El Shaddai, El Shaddai\nAllah Maha Kuasa",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Berkat-Nya melimpah\nEl Shaddai",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Berkat-Nya melimpah\nEl Shaddai",
+      "newGroup": true
+    }
+  ]
+}

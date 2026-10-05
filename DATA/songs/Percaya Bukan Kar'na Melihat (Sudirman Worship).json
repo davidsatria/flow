@@ -1,0 +1,40 @@
+{
+  "title": "Percaya Bukan Kar'na Melihat (Sudirman Worship)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Kekuatan di hidupku\nKudapat di dalam-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau teguhkan hatiku\nTiada yang mustahil bagi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'bab aku percaya\nBukan kar'na melihat",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Namun kar'na firman-Mu\nYang s'lalu digenapi di hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kupercaya bukan kar'na melihat\nNamun kar'na firman-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada pernah berubah",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Namun kar'na firman-Mu\nTiada pernah berubah",
+      "newGroup": true
+    }
+  ]
+}

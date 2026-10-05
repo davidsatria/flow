@@ -1,0 +1,50 @@
+{
+  "title": "Hatiku Rindu, Tuhan Rindu Rindu Melayani",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hati ku rindu tuhan\nRindu rindu melayani",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku berikan hanya\npada-mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Jiwa ku rindu tuhan\nS'lalu dalam hadirat-mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Agar hidup ku tuhan\nLayak Di hadapan-mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku puji ku puji, Ku pujilah\nNama tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku sembah, Ku sembah\nKu sembah dan muliakan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Bunyikan bunyikan\nBunyikanlah gambus-mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Menari menari\nmenari dan menarilah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "T'rimalah pujianku\nJadikanlah kami berkat",
+      "newGroup": false
+    }
+  ]
+}

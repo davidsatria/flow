@@ -17,9 +17,9 @@
       "newGroup": true
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "S'bab NamaMu Kudus\nKudus Tuhan",
-      "newGroup": true
+      "newGroup": false
     }
   ]
 }

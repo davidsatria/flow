@@ -32,12 +32,12 @@
       "newGroup": true
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Lebih Dalam Kumenyembah\nDalam Roh Dan Keb'naran",
-      "newGroup": true
+      "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Selamanya…",
       "newGroup": false
     }

@@ -1,0 +1,45 @@
+{
+  "title": "Tuhan Yang Bela",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Di dalam segala hal\nJanji-Nya tak berubah",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Apa yang sudah difirmankan\nTerjadi saat kita percaya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Meskipun seribu tangan manusia\nMenarikmu jatuh namun Tuhan yang bela",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tangan-Nya sanggup membuatmu naik ke gunung\nPercayalah Tuhan yang bela",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Ada pelangi di setiap badai\nDan ada tawa di setiap air mata",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "Ada berkat di setiap cobaan\nDan jawaban di setiap doa",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Percayalah Tuhan yang bela\nPercayalah Tuhan yang bela",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Percayalah Tuhan yang bela",
+      "newGroup": false
+    }
+  ]
+}

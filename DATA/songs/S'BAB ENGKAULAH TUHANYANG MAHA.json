@@ -27,12 +27,12 @@
       "newGroup": true
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Kau kusembah, kau kusembah\nKau kusembah, oh tuhan",
-      "newGroup": true
+      "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Kau kusembah\nOh tuhan",
       "newGroup": false
     }

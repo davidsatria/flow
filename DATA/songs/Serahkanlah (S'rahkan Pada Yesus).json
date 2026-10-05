@@ -1,0 +1,40 @@
+{
+  "title": "Serahkanlah (S'rahkan Pada Yesus)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Apakah kau payah mencari-cari\nApakah kau payah berkeliling",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Bawalah sekarang segala susahmu\nPada kaki Yesus serahkanlah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tak pernah Dia janji selalu 'kan panas\nDan tak pernah Dia janji hanya ada hujan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tapi Dia berjanji memb'ri kekuatan\nBila topan ganas melandamu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'rahkanlah, s'rahkanlah\nS'rahkan pada Yesus",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Segala beban yang menindih hidupmu\nS'rahkanlah, s'rahkanlah",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "S'rahkan pada Yesus\nDia 'kan ganti segala duka menjadi suka",
+      "newGroup": false
+    }
+  ]
+}

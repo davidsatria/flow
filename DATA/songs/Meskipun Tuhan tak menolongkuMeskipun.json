@@ -27,17 +27,17 @@
       "newGroup": true
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Dalam rasa sakit engkau ada\nYesus setia",
-      "newGroup": true
+      "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Berkali kali kau menolong\nBerkali kali kau kuatkan",
       "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Dalam lembah kelam Engkau ada\nYesus setia",
       "newGroup": false
     }

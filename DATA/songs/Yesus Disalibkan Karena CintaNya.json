@@ -1,0 +1,50 @@
+{
+  "title": "Yesus Disalibkan Karena CintaNya",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Yesus disalibkan kar'na cinta-Nya\nKepadaku, kepadamu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus disalibkan kar'na cinta-Nya\nDosa dihapuskan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Puji Tuhan Haleluya\nPuji Haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Puji Tuhan Haleluya\nPuji Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Yesus telah bangkit kar'na kuasa-Nya\nBagiku, bagimu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yesus telah bangkit kar'na kuasa-Nya\nDosa dihapuskan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Puji Tuhan Haleluya\nPuji Haleluya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Puji Tuhan Haleluya\nPuji Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Puji Tuhan Haleluya\nPuji Tuhan",
+      "newGroup": true
+    }
+  ]
+}

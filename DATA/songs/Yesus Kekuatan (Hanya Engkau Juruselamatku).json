@@ -1,0 +1,50 @@
+{
+  "title": "Yesus Kekuatan (Hanya Engkau Juruselamatku)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hanya Engkau Juruselamatku\nTuhan Kau setia padaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Yang kupegang hanya janji-Mu\nKupercayakan hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Engkau Juruselamatku\nTuhan Kau setia padaku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kuyakini pertolongan-Mu\nTakkan terlambat bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kusembah Kau Allahku\nBapa dan Sahabatku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kau yang pedulikan\ns'luruh hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Walau lewati lembah\nAku tak ditinggalkan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Yesus kekuatan di hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Yesus kekuatan di hidupku\nYesus kekuatan di hidupku",
+      "newGroup": true
+    }
+  ]
+}

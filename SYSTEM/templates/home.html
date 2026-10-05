@@ -100,15 +100,8 @@
 
   .copy-btn { background: none; border: 1px solid var(--border); color: var(--muted); border-radius: 4px; padding: 2px 7px; font-size: 11px; cursor: pointer; flex-shrink: 0; font-family: inherit; transition: background .15s, color .15s; }
   .copy-btn:hover { background: var(--border); color: var(--text); }
-  .copy-btn.copied { border-color: var(--green); color: var(--green); }
-
-  #shutdown-confirm { display: none; background: #1a0a0a; border: 1px solid #7f1d1d; border-radius: 12px; padding: 18px; margin-top: 4px; text-align: center; }
-  #shutdown-confirm p { font-size: 14px; color: #fca5a5; margin-bottom: 14px; line-height: 1.5; }
-  .confirm-btns { display: flex; gap: 10px; }
-  .confirm-btns button { flex: 1; padding: 11px; border: none; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer; font-family: inherit; }
-  .btn-confirm { background: var(--red); color: #fff; }
-  .btn-cancel { background: var(--border); color: var(--text); }
-</style>
+    .copy-btn.copied { border-color: var(--green); color: var(--green); }
+  </style>
 </head>
 <body>
 <div class="card">
@@ -147,19 +140,10 @@
       <div class="ssid-hint">Pastikan kamu terhubung ke SSID "<span id="active-ssid" class="ssid-value">memuat...</span>"</div>
 
       <div class="btns">
-        <button class="btn btn-op" onclick="openUrl('operator')">Buka Operator</button>
-        <button class="btn btn-proj" onclick="openUrl('projector')">Buka Projector</button>
-        <button class="btn btn-stop" onclick="showConfirm()">Matikan Server</button>
-      </div>
-
-      <div id="shutdown-confirm">
-        <p>Server akan dimatikan dan semua perangkat yang terhubung akan terputus.</p>
-        <div class="confirm-btns">
-          <button class="btn-cancel" onclick="hideConfirm()">Batal</button>
-          <button class="btn-confirm" onclick="doShutdown()">Ya, Matikan</button>
-        </div>
-      </div>
-    </div>
+              <button class="btn btn-op" onclick="openUrl('operator')">Buka Operator</button>
+              <button class="btn btn-proj" onclick="openUrl('projector')">Buka Projector</button>
+            </div>
+          </div>
 
     <div class="right">
       <div class="qr-label">Scan QR — Operator</div>
@@ -187,13 +171,10 @@ async function init() {
   try {
     const res = await fetch('/api/status');
     const data = await res.json();
-    const port = data.port;
-    const ip = data.ip;
-    const ssid = (data.ssid || 'Tidak terdeteksi').trim() || 'Tidak terdeteksi';
-    const portStr = (port === 80 || port === 443) ? '' : ':' + port;
-    const base = 'http://' + ip + portStr;
-    urls = { operator: base + '/operator', projector: base + '/projector', obs: base + '/obs' };
-    document.getElementById('active-ssid').textContent = ssid;
+        const ssid = (data.ssid || 'Tidak terdeteksi').trim() || 'Tidak terdeteksi';
+        const base = 'https://flow.davidsatriatunnel.online';
+        urls = { operator: base + '/operator', projector: base + '/projector', obs: base + '/obs' };
+        document.getElementById('active-ssid').textContent = ssid;
   } catch(e) {
     const base = window.location.origin;
     urls = { operator: base + '/operator', projector: base + '/projector', obs: base + '/obs' };
@@ -217,16 +198,9 @@ function copyUrl(key, btn) {
     btn.textContent = '✓'; btn.classList.add('copied');
     setTimeout(() => { btn.textContent = 'Salin'; btn.classList.remove('copied'); }, 2000);
   });
-}
-function showConfirm() { document.getElementById('shutdown-confirm').style.display = 'block'; }
-function hideConfirm() { document.getElementById('shutdown-confirm').style.display = 'none'; }
+  }
 
-async function doShutdown() {
-  try { await fetch('/api/shutdown', { method: 'POST' }); } catch(e) {}
-  document.body.innerHTML = '<div style="color:#B7C4DA;font-family:Segoe UI,sans-serif;text-align:center;padding-top:40vh;font-size:18px;font-weight:600">Server FLOW telah dimatikan.</div>';
-}
-
-async function drawQR(url) {
+  async function drawQR(url) {
   try {
     const res = await fetch('/api/qr?url=' + encodeURIComponent(url));
     const data = await res.json();

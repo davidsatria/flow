@@ -1,0 +1,40 @@
+{
+  "title": "Mahkota Kehidupan (NDC Worship)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tak akan pernah kusesali\nMengiring Yesus sepanjang hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Lewati lembah air mata\nKusaksikan kemuliaan-Mu dinyatakan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berapapun harga yang harus kubayar\nKu 'kan tetap setia",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Melayani mengasihi-Mu\nMengiring-Mu seumur hidupku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Janji-Mu 'kan tetap kupegang teguh\nSampai kudapat mahkota kehidupan",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Sekalipun tubuh dan batinku lenyap\nTetap Kaulah Tuhanku selamanya",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Janji-Mu 'kan tetap kupegang teguh\nSampai kudapat mahkota kehidupan",
+      "newGroup": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "title": "Menyenangkan-Mu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan ku mau menyenangkan-Mu\nTuhan bentuklah hati ini",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Jadi bejana untuk hormat-Mu\nCemerlang bagai emas murni",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Tuhan kuserahkan hatiku\nSemua kuberikan pada-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kuduskan hingga tulus selalu\nAgar aku menyenangkan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Menyenangkan-Mu, senangkan-Mu\nHanya itu kerinduanku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Menyenangkan-Mu, senangkan hati-Mu\nHanya itu kerinduanku",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Hanya itu kerinduanku\nHanya itu kerinduanku",
+      "newGroup": true
+    }
+  ]
+}

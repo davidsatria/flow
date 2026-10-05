@@ -3,12 +3,17 @@
   "lyrics": [
     {
       "type": "v",
-      "text": "Roh Kudus\nKau hadir disini\nRoh Kudus\nkumengasihiMu",
+      "text": "Roh Kudus\nKau hadir disini",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "Kau lembut\nKau manis\nKaulah penghiburku",
+      "text": "Roh Kudus\nkumengasihiMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau lembut Kau manis\nKaulah penghiburku",
       "newGroup": false
     },
     {
@@ -17,13 +22,23 @@
       "newGroup": false
     },
     {
-      "type": "v",
-      "text": "Kubuka hati\nuntuk RohMu Tuhan\nkubuka hati\nmenyembahMu Yesus",
+      "type": "c",
+      "text": "Kubuka hati\nuntuk RohMu Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "kubuka hati\nmenyembahMu Yesus",
       "newGroup": false
     },
     {
-      "type": "v",
-      "text": "Jamahlah kami\npenuhi kami\ndengan kuasa\nAllah Maha Tinggi",
+      "type": "c",
+      "text": "Jamahlah kami\npenuhi kami",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "dengan kuasa\nAllah Maha Tinggi",
       "newGroup": false
     }
   ]

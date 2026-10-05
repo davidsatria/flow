@@ -1,0 +1,35 @@
+{
+  "title": "Cinta Sejati",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Saat kurenungkan hidup bersamaMu\nSeringkali ku melupakanMu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku berjalan sendiri seakan kumampu\nLalui tanpa kekuatanMu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "S'makin berat beban hidupku\nS'makin ku menjauh dariMu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Namun ada cinta yang tak pernah berlalu\nCinta yang kudapat dariMu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "T'lah teruji lalui rentangan sang waktu\nKau mati bagiku, berkorban untuk diriku",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Kau mati bagiku, berkorban untuk diriku",
+      "newGroup": true
+    }
+  ]
+}

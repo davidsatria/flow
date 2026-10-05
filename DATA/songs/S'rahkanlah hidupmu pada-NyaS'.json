@@ -17,22 +17,22 @@
       "newGroup": false
     },
     {
-      "type": "v",
-      "text": "berserah pada Yesus",
-      "newGroup": false
+      "type": "c",
+      "text": "Berseru pada Yesus\nberserah pada Yesus",
+      "newGroup": true
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Percayalah\nDia sanggup menolongmu",
       "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Berseru pada Yesus\nberserah pada Yesus",
       "newGroup": false
     },
     {
-      "type": "v",
+      "type": "c",
       "text": "Dia kan memb'ri\nkedamaian abadi",
       "newGroup": false
     }

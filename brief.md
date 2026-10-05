@@ -23,4 +23,22 @@ Folder lagu & Alkitab: `DATA/`. Halaman: `SYSTEM/templates/`.
 - `PUT  /api/songs`      → update / rename (hapus file lama kalau judul berubah).
 - `DELETE /api/songs?title=` → hapus file per lagu.
 
+## Pengamanan & akses (sejak 0.6.1)
+- Aplikasi bisa jalan di port apa pun via env `PORT` (default 80). Subdomain
+  publik `flow.davidsatriatunnel.online` memakai port **7070**.
+- **`POST /api/shutdown` dinonaktifkan** → selalu **403 Forbidden** (publik tidak
+  boleh mematikan server). Tidak ada tombol matikan di `home.html`.
+- **Halaman Operator dikunci PIN `707`** (`SYSTEM/templates/operator.html`,
+  gerbang `#pin-gate`; status unlock di `sessionStorage`). Halaman projector/OBS
+  TIDAK dikunci.
+
+## URL publik vs lokal (sejak 0.6.2)
+- `GET /api/status` kini mengirim `publicUrl` = env `FLOW_PUBLIC_URL` (kosong
+  kalau tidak diset). Halaman home memakai domain publik
+  (`https://flow.davidsatriatunnel.online/...`) saat `publicUrl` tersedia, dan
+  fallback ke IP lokal saat kosong.
+- `SOURCE/start.bat` menyetel `FLOW_PUBLIC_URL=https://flow.davidsatriatunnel.online`
+  di samping `PORT=7070`. Tanpa variabel ini (mode lokal) home tetap menampilkan
+  IP lokal.
+
 Detail selengkapnya di `log.md` dan `README.md`.

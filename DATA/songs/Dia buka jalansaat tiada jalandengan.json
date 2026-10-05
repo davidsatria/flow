@@ -3,22 +3,42 @@
   "lyrics": [
     {
       "type": "v",
-      "text": "Dia buka jalan\nsaat tiada jalan\ndengan cara yang ajaib\ndibukanya jalanku",
+      "text": "Dia buka jalan\nsaat tiada jalan",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "Dia menuntunku\ndan memeluk diriku\ndengan kasih dan kuasa-Nya\nDia buka jalan (2x)",
+      "text": "dengan cara yang ajaib\ndibukanya jalanku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "Dibelantara Dia\ntetap menuntunku\nsungai digurun\naku temui",
+      "text": "Dia menuntunku\ndan memeluk diriku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "langit bumi\nkan lenyap\ntapi firmanNya tetap\nsaat ini Dia buka jalan",
+      "text": "dengan kasih dan kuasa-Nya\nDia buka jalan (2x)",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dibelantara Dia\ntetap menuntunku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "sungai digurun\naku temui",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "langit bumi\nkan lenyap",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "tapi firmanNya tetap\nsaat ini Dia buka jalan",
       "newGroup": false
     }
   ]

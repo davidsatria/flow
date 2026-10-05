@@ -1,0 +1,40 @@
+{
+  "title": "Sukacita Surga",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "T'rima sukacita surga\nItulah kekuatan bagi jiwa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kudapat rasakan kasih-Nya\nDi tengah badai yang bergelora",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "T'rima sukacita surga\nItulah kekuatan bagi jiwa",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kudapat saksikan kuasa-Nya\nTaklukkan badai yang bergelora",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya Kau ada dalam hatiku\nTak 'kan patah semangatku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Tak 'kan hilang kekuatanku\nHaleluya kumau bersorak bagi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sukacita surga nyata penuhiku",
+      "newGroup": false
+    }
+  ]
+}

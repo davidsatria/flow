@@ -459,6 +459,13 @@
             border: 2px solid rgba(248,113,113,0.8);
             background: rgba(248,113,113,0.1); 
         }
+        .content-row.hidden-line .row-text { opacity: 0.35; }
+        .content-row.row-out-of-range .row-text { opacity: 0.3; }
+        .content-row.row-out-of-range { border-color: var(--border); background: var(--bg-panel); }
+        .content-row.row-out-of-range.live { border-color: rgba(248,113,113,0.8); background: rgba(248,113,113,0.1); }
+        .content-row.row-out-of-range.live .row-text { opacity: 1; }
+        .content-row.in-quote { border-left: 3px solid rgba(248,113,113,0.5); }
+        .content-row.row-out-of-range:hover .row-text { opacity: 0.7; }
         .content-row.in-schedule:not(.live) { border-left: 3px solid var(--success); }
         .content-row.selected { border-color: rgba(16,185,129,0.35); background: rgba(16,185,129,0.04); }
         .row-main-content { flex: 1; padding: 10px 14px; cursor: pointer; display: flex; flex-direction: column; justify-content: center; }
@@ -1194,6 +1201,8 @@
 
         let songsDB = [], bibleStructure = [], scheduleData = [];
         let currentFilter = 'BIBLE', isBlackout = false, isOverlay = false, isCaps = false, isHideText = false, isTextBg = false, searchTimeout;
+        let lastSyncedHideState = null; // Sinkron highlight row-hide antar operator (anti miskom 2 device)
+        let lastSyncedHideLineIdx = null; // Baris aktif terakhir saat hide (biar pindah baris saat hide tetap sync)
         let currentLoadedItem = null, editingOriginalTitle = null;
         let lastSyncedScheduleTitle = null; // Track last synced schedule item
         let lastSyncedContent = null; // Track last synced content/lirik
@@ -1614,6 +1623,7 @@
                 isHideText = false;
                 document.getElementById('btn-hide')?.classList.remove('active', 'hide-txt');
             }
+            syncHideUIFromState(remoteState);
             
             if (remoteState.blackout) { 
                 isBlackout = true; 
@@ -2387,97 +2397,110 @@
         
         function handleSearch(e) {
             clearTimeout(searchTimeout); searchTimeout = setTimeout(async () => {
-                const q = e.target.value; const container = document.getElementById('nav-list'); 
-                
-                // Try parsing specific bible reference first (if in BIBLE mode)
-                if (currentFilter === 'BIBLE' && q.length >= 3) {
-                    const bibleRef = parseBibleReference(q);
-                    if (bibleRef) {
-                        try {
-                            container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Mencari...</div>';
-                            const res = await fetch(`/api/bible/chapter?book=${bibleRef.book.id}&chapter=${bibleRef.chapter}&ver=${currentBibleVersion}`);
-                            const verses = await res.json();
-                            container.innerHTML = '';
+                const q = e.target.value; const container = document.getElementById('nav-list');
 
-                            if (bibleRef.startVerse) {
-                                const start = bibleRef.startVerse;
-                                const end = bibleRef.endVerse;
-                                let previewText = '';
-                                for (let i = start; i <= end; i++) {
-                                    const v = verses.find(v => v.verse == i);
-                                    if (v) previewText += (i === start ? '' : ' ') + v.text;
-                                }
-                                if (!previewText) previewText = 'Ayat tidak ditemukan';
-                                
-                                const div = document.createElement('div'); 
-                                div.className = 'search-result-item';
-                                const rangeText = start === end ? start : `${start}-${end}`;
-                                div.innerHTML = `<div class="search-meta">📖 ${bibleRef.book.name} ${bibleRef.chapter}:${rangeText}</div><div class="search-text" style="font-size:0.9rem;">${previewText}</div>`;
-                                div.onclick = () => {
-                                    fetchAndLoadChapterWithVersesRange(
-                                        bibleRef.book.id,
-                                        bibleRef.book.name,
-                                        bibleRef.chapter,
-                                        start,
-                                        end
-                                    );
-                                };
+                // --- Mode BIBLE: input pendek = filter kitab ---
+                if (currentFilter === 'BIBLE') {
+                    const shortBookQuery = q.length > 0 && q.length <= 4 && !q.includes(':') && !/\d/.test(q);
+                    if (shortBookQuery) {
+                        const qNorm = q.toLowerCase().replace(/\s+/g, '');
+                        const matches = bibleStructure.filter(b => {
+                            const n = b.name.toLowerCase().replace(/\s+/g, '');
+                            return n.startsWith(qNorm) || n.includes(qNorm);
+                        });
+                        container.innerHTML = '';
+                        if (matches.length === 0) {
+                            container.innerHTML = '<div style="padding:15px; text-align:center; color:var(--text-muted);">Kitab "' + q + '" tidak ditemukan.</div>';
+                        } else {
+                            matches.forEach(book => {
+                                let displayName = book.name;
+                                if (currentBibleVersion === 'NKJV') displayName = indoToEnglishBookName(book.name);
+                                const div = document.createElement('div');
+                                div.className = 'list-item';
+                                div.innerHTML = '<span style="font-weight:400;">' + displayName + '</span>';
+                                div.onclick = () => showChapters(book);
                                 container.appendChild(div);
-                            } else {
-                                verses.slice(0, 50).forEach(v => {
+                            });
+                        }
+                        return;
+                    }
+                    // --- referensi alkitab: mat1:2 / kej1.1-3 dst ---
+                    if (q.length >= 3) {
+                        const bibleRef = parseBibleReference(q);
+                        if (bibleRef) {
+                            try {
+                                container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Mencari...</div>';
+                                const res = await fetch('/api/bible/chapter?book=' + bibleRef.book.id + '&chapter=' + bibleRef.chapter + '&ver=' + currentBibleVersion);
+                                const verses = await res.json();
+                                container.innerHTML = '';
+                                if (bibleRef.startVerse) {
+                                    const start = bibleRef.startVerse;
+                                    const end = bibleRef.endVerse;
+                                    let previewText = '';
+                                    for (let i = start; i <= end; i++) {
+                                        const v = verses.find(v => v.verse == i);
+                                        if (v) previewText += (i === start ? '' : ' ') + v.text;
+                                    }
+                                    if (!previewText) previewText = 'Ayat tidak ditemukan';
                                     const div = document.createElement('div');
                                     div.className = 'search-result-item';
-                                    div.innerHTML = `<div class="search-meta">📖 ${bibleRef.book.name} ${bibleRef.chapter}:${v.verse}</div><div class="search-text">${v.text}</div>`;
-                                    div.onclick = () => fetchAndLoadChapter(bibleRef.book.id, bibleRef.book.name, bibleRef.chapter, v.verse);
+                                    const rangeText = start === end ? start : start + '-' + end;
+                                    div.innerHTML = '<div class="search-meta">📖 ' + bibleRef.book.name + ' ' + bibleRef.chapter + ':' + rangeText + '</div><div class="search-text" style="font-size:0.9rem;">' + previewText + '</div>';
+                                    div.onclick = () => {
+                                        fetchAndLoadChapterWithVersesRange(bibleRef.book.id, bibleRef.book.name, bibleRef.chapter, start, end);
+                                    };
                                     container.appendChild(div);
-                                });
-                                if (verses.length === 0) {
-                                    container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Pasal tidak ditemukan.</div>';
+                                } else {
+                                    verses.slice(0, 50).forEach(v => {
+                                        const div = document.createElement('div');
+                                        div.className = 'search-result-item';
+                                        div.innerHTML = '<div class="search-meta">📖 ' + bibleRef.book.name + ' ' + bibleRef.chapter + ':' + v.verse + '</div><div class="search-text">' + v.text + '</div>';
+                                        div.onclick = () => fetchAndLoadChapter(bibleRef.book.id, bibleRef.book.name, bibleRef.chapter, v.verse);
+                                        container.appendChild(div);
+                                    });
+                                    if (verses.length === 0) {
+                                        container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Pasal tidak ditemukan.</div>';
+                                    }
                                 }
-                            }
-                            return;
-                        } catch(e) {}
+                                return;
+                            } catch (e) {}
+                        }
                     }
                 }
-                
-                if(q.length < 3) { if(q.length === 0) renderSidebarList(); return; }
+
+                if (q.length < 3) { if (q.length === 0) renderSidebarList(); return; }
                 container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Mencari...</div>';
                 try {
-                    const res = await fetch(`/api/search?q=${q}`); const results = await res.json();
+                    const res = await fetch('/api/search?q=' + encodeURIComponent(q)); const results = await res.json();
                     currentFilteredList = results.filter(r => (currentFilter === 'SONG' ? r.type === 'SONG' : r.type === 'BIBLE'));
-                    if (currentFilteredList.length === 0) { 
+                    if (currentFilteredList.length === 0) {
                         const qEscaped = q.replace(/'/g, "\\'");
-                        container.innerHTML = `<div style="padding:20px; text-align:center;">Nihil. ${currentFilter==='SONG'?`<br><br><button class="btn-save" style="width:100%" onclick="openEditor('${qEscaped}')">+ Buat Lagu Baru</button><br><br><button class="btn-style" style="width:100%; border-radius:12px; margin-top:10px;" onclick="searchLRCLIB('${qEscaped}')">🔍 Cari Lirik di AI (davidsatria)</button>`:''}</div>`; 
-                    } 
-                    else {
+                        container.innerHTML = '<div style="padding:20px; text-align:center;">Nihil.</div>' + (currentFilter === 'SONG' ? '<br><br><button class="btn-save" style="width:100%" onclick="openEditor(\'' + qEscaped + '\')">+ Buat Lagu Baru</button><br><br><button class="btn-style" style="width:100%; border-radius:12px; margin-top:10px;" onclick="searchLRCLIB(\'' + qEscaped + '\')">🔍 Cari Lirik di AI (davidsatria)</button>' : '');
+                    } else {
                         container.innerHTML = ''; currentFilteredList.slice(0, 200).forEach((item) => {
                             const div = document.createElement('div'); div.className = 'search-result-item';
-                            if (item.type === 'SONG') { 
-                                div.onclick = () => loadContentToDrawer('SONG', item.full_data); 
-                                div.innerHTML = `<div class="search-meta">${item.title}</div><div class="search-text" style="font-size:0.9rem; color:var(--text-muted);">${item.match_text.substring(0,50)}...</div>`; 
-                            } 
-                            else { 
-                                div.onclick = () => fetchAndLoadChapter(item.id, item.book, item.chapter, item.verse); 
-                                div.innerHTML = `<div class="search-meta">📖 ${item.book} ${item.chapter}:${item.verse}</div><div class="search-text">${item.text}</div>`; 
+                            if (item.type === 'SONG') {
+                                div.onclick = () => loadContentToDrawer('SONG', item.full_data);
+                                div.innerHTML = '<div class="search-meta">' + item.title + '</div><div class="search-text" style="font-size:0.9rem; color:var(--text-muted);">' + item.match_text.substring(0, 50) + '...</div>';
+                            } else {
+                                div.onclick = () => fetchAndLoadChapter(item.id, item.book, item.chapter, item.verse);
+                                div.innerHTML = '<div class="search-meta">📖 ' + item.book + ' ' + item.chapter + ':' + item.verse + '</div><div class="search-text">' + item.text + '</div>';
                             }
                             container.appendChild(div);
                         });
-                        
                         if (currentFilter === 'SONG') {
-                            const qEscaped = q.replace(/'/g, "\\'");
                             const lrclibBtn = document.createElement('div');
                             lrclibBtn.className = 'search-result-item';
                             lrclibBtn.style.textAlign = 'center';
                             lrclibBtn.style.padding = '12px';
-                            lrclibBtn.innerHTML = `<div style="color:var(--color-set); font-weight:600; font-size:0.85rem;">🔍 Cari Lirik di AI (davidsatria)</div>`;
+                            lrclibBtn.innerHTML = '<div style="color:var(--color-set); font-weight:600; font-size:0.85rem;">🔍 Cari Lirik di AI (davidsatria)</div>';
                             lrclibBtn.onclick = () => searchLRCLIB(q);
                             container.appendChild(lrclibBtn);
                         }
                     }
-                } catch(e) { container.innerHTML = 'Error.'; }
+                } catch (e) { container.innerHTML = 'Error.'; }
             }, 500);
         }
-
         async function searchLRCLIB(query) {
                     const container = document.getElementById('nav-list');
                                         container.innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Mencari lirik di AI (davidsatria)...</div>';
@@ -2609,7 +2632,10 @@
                 const isPartition = item.type === 'PARTITION';
                 div.className = `schedule-item ${isPartition ? 'partition' : ''}`;
                 div.draggable = true;
-                if (!isPartition && currentLoadedItem && currentLoadedItem.data.title === item.title) div.classList.add('active-sched');
+                const curTitle = currentLoadedItem?.data?.title || currentLoadedItem?.title || '';
+                const rowTitle = item.data?.title || item.title || '';
+                if (!isPartition && currentLoadedItem && curTitle && rowTitle &&
+                    String(curTitle).toLowerCase().trim() === String(rowTitle).toLowerCase().trim()) div.classList.add('active-sched');
                 
                 if (isPartition) {
                     div.innerHTML = `
@@ -2741,7 +2767,14 @@
             
             // Check if title or content changed
             const titleChanged = targetTitle !== lastSyncedScheduleTitle;
-            const contentChanged = remoteState.content !== lastSyncedContent;
+            // Buang state yang stale/out-of-order: bandingkan timestamp bila user sedang klik sendiri (aktif) 
+            // bisa juga device lawas; timestamp server selalu naik per /api/set
+            const contentChanged = remoteState.content !== lastSyncedContent &&
+                                   (remoteState.timestamp === undefined ||
+                                    remoteState.timestamp === null ||
+                                    typeof window.__flowLastSeenTs !== 'number' ||
+                                    remoteState.timestamp >= window.__flowLastSeenTs);
+            window.__flowLastSeenTs = remoteState.timestamp ?? window.__flowLastSeenTs;
             
             // For Bible, we want to detected if Chapter changed, not just any title change (which includes verse)
             let bibleChapterChanged = false;
@@ -2774,9 +2807,11 @@
                 
                 const matchingIdx = scheduleData.findIndex(item => {
                     if (!item || !item.title) return false;
+                    const candidates = [String(item.title), String(item.data?.title || '')];
                     const itemTitle = String(item.title).toLowerCase().trim();
                     const searchTitle = String(targetTitle).toLowerCase().trim();
-                    const isMatch = itemTitle === searchTitle;
+                    const isMatch = candidates.some(c => c.toLowerCase().trim() === searchTitle) ||
+                                    (String(item.data?.title || '').toLowerCase().trim() === String(remoteState.song_title || '').toLowerCase().trim() && remoteState.song_title);
                     
                     // Bible fallback match (by chapter) if exact title doesn't match
                     if (!isMatch && (remoteState.type === 'BIBLE' || remoteState.type === 'BIBLE_CHAPTER')) {
@@ -2852,16 +2887,20 @@
                     console.log(`[Operator Schedule] ✓ Using line index ${remoteLineIndex}`);
                     
                     // Highlight the active line in drawer
-                    document.querySelectorAll('.content-row').forEach(r => r.classList.remove('live'));
+                    document.querySelectorAll('.content-row').forEach(r => { r.classList.remove('live'); r.classList.remove('hidden-line'); });
                     const rows = document.querySelectorAll('.content-row');
                     if (rows[remoteLineIndex]) {
                         if (!isHideText) {
                             rows[remoteLineIndex].classList.add('live');
+                        } else {
+                            rows[remoteLineIndex].classList.add('hidden-line');
                         }
                         rows[remoteLineIndex].scrollIntoView({ behavior: 'smooth', block: 'center' });
                         console.log(`[Operator Schedule] ✓ Line ${remoteLineIndex} highlighted and scrolled to view`);
                     }
                     activeLineIndex = remoteLineIndex; // Update local tracking
+                    // Hide force-sync di sini justru bikin baris "gerak sendiri" (double handling).
+                    // updateUIFromRemoteState SUDAH memanggil syncHideUIFromState() — cukup sekali.
                 } else {
                     console.warn(`[Operator Schedule] ✗ Invalid line index ${remoteLineIndex}, bounds: 0-${currentLoadedItem.data.lines.length - 1}`);
                 }
@@ -2967,7 +3006,7 @@
                 
                 const isSelected = data.type === 'BIBLE' && selectedVerseNums.has(line.num); 
                 // Add "grouped-next" class if it's a continuation of the same section
-                const rowClass = `content-row ${isScheduled ? 'in-schedule' : ''} ${isSelected ? 'selected' : ''} ${isContinued ? 'grouped-next' : ''}`; 
+                const rowClass = `content-row ${isScheduled ? 'in-schedule' : ''} ${isSelected ? 'selected' : ''} ${isContinued ? 'grouped-next' : ''} ${line.outOfRange ? 'row-out-of-range' : 'in-quote'}`; 
                 
                 let actionBtn = ''; 
                 if (data.type === 'BIBLE') {
@@ -2994,7 +3033,8 @@
             let html = `<div style="padding:15px; border-bottom:1px solid var(--border); display:flex; align-items:center; background:var(--bg-panel);"><button class="tools-btn" style="color:var(--text-main); margin-right:10px;" onclick="renderSidebarList()" title="Kembali"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"></polyline></svg></button><span style="font-weight:bold; color:var(--color-db)">${displayName}</span></div><div class="chapter-grid">`;
             for(let i=1; i<=book.chapters; i++) {
                 const isSelected = (lastSelectedBibleBook && lastSelectedBibleBook.id === book.id && lastSelectedBibleChapter === i);
-                html += `<div class="chap-box ${isSelected ? 'selected-chapter' : ''}" onclick="fetchAndLoadChapter('${book.id}', '${book.name}', ${i})">${i}</div>`;
+                // Klik biasa = load pasal (mode biasa). Shift+klik / klik kanan = mode grid ayat manual (semua ayat dim, pilih sendiri).
+                html += `<div class="chap-box ${isSelected ? 'selected-chapter' : ''}" onclick="if(event.shiftKey){fetchAndLoadChapter('${book.id}', '${book.name}', ${i}, null, true);} else {fetchAndLoadChapter('${book.id}', '${book.name}', ${i});}" oncontextmenu="event.preventDefault(); fetchAndLoadChapter('${book.id}', '${book.name}', ${i}, null, true);">${i}</div>`;
             }
             html += '</div>';
             container.innerHTML = html;
@@ -3019,35 +3059,45 @@
             }
         }
         
-        async function fetchAndLoadChapter(bookId, bookName, chapter, targetVerseToFire = null) { 
-            lastSelectedBibleChapter = chapter;
-            // Update highlight in the grid immediately if it's visible
-            document.querySelectorAll('.chap-box').forEach(box => {
-                box.classList.toggle('selected-chapter', parseInt(box.innerText) === chapter);
-            });
+        async function fetchAndLoadChapter(bookId, bookName, chapter, targetVerseToFire = null, showVerseGrid = false) { 
+                    lastSelectedBibleChapter = chapter;
+                    // Update highlight in the grid immediately if it's visible
+                    document.querySelectorAll('.chap-box').forEach(box => {
+                        box.classList.toggle('selected-chapter', parseInt(box.innerText) === chapter);
+                    });
             
-            document.getElementById('drawer-content').innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Memuat Ayat...</div>'; 
-            switchMainTab('presenter'); 
-            try { 
-                const res = await fetch(`/api/bible/chapter?book=${bookId}&chapter=${chapter}&ver=${currentBibleVersion}`); 
-                const verses = await res.json(); 
-                const formattedLines = verses.map(v => ({ num: v.verse, type: 'v', text: v.text, api: { book: bookName, chapter: chapter, verse: v.verse, text: v.text } })); 
-                currentLoadedItem = { type: 'BIBLE_CHAPTER', data: { title: `${bookName} ${chapter}`, lines: formattedLines, type: 'BIBLE' } }; 
-                setBibleGroupButtonsVisible(true);
-                renderDrawer(currentLoadedItem.data); 
+                    document.getElementById('drawer-content').innerHTML = '<div style="padding:20px; text-align:center; color:var(--text-muted);">Memuat Ayat...</div>'; 
+                    switchMainTab('presenter'); 
+                    try { 
+                        const res = await fetch(`/api/bible/chapter?book=${bookId}&chapter=${chapter}&ver=${currentBibleVersion}`); 
+                        const verses = await res.json(); 
+                        const formattedLines = verses.map(v => ({ num: v.verse, type: 'v', text: v.text, api: { book: bookName, chapter: chapter, verse: v.verse, text: v.text } })); 
+                        const targetIdx = targetVerseToFire ? formattedLines.findIndex(v => v.num == targetVerseToFire) : -1;
+                        // Mode grid ayat: seluruh pasal dim (kecuali ayat target bila ada),
+                        // operator tinggal klik ayat → outline merah, klik lagi → hide.
+                        if (showVerseGrid && !targetVerseToFire) {
+                            formattedLines.forEach(l => l.outOfRange = true);
+                        } else if (showVerseGrid && targetIdx !== -1) {
+                            formattedLines.forEach(l => l.outOfRange = (l.num != targetVerseToFire));
+                        }
+                        currentLoadedItem = { type: 'BIBLE_CHAPTER', data: { title: `${bookName} ${chapter}`, lines: formattedLines, type: 'BIBLE' } }; 
+                        setBibleGroupButtonsVisible(true);
+                        renderDrawer(currentLoadedItem.data); 
                 
-                if(targetVerseToFire) {
-                    const targetIdx = formattedLines.findIndex(v => v.num == targetVerseToFire);
-                    if(targetIdx !== -1) {
-                        goLiveByIndex(targetIdx, 'BIBLE');
-                        setTimeout(() => {
-                            const rows = document.querySelectorAll('.content-row');
-                            if(rows[targetIdx]) rows[targetIdx].scrollIntoView({block: 'center', behavior: 'smooth'});
-                        }, 50);
-                    }
+                        if (showVerseGrid && !targetVerseToFire) {
+                            // Tidak auto-live apa pun — operator yang memilih ayat manual
+                            return;
+                        }
+                
+                        if(targetIdx !== -1) {
+                            goLiveByIndex(targetIdx, 'BIBLE');
+                            setTimeout(() => {
+                                const rows = document.querySelectorAll('.content-row');
+                                if(rows[targetIdx]) rows[targetIdx].scrollIntoView({block: 'center', behavior: 'smooth'});
+                            }, 50);
+                        }
+                    } catch(e) {} 
                 }
-            } catch(e) {} 
-        }
         
         async function fetchAndLoadChapterWithVersesRange(bookId, bookName, chapter, startVerse, endVerse, autoLoadFirst = true) {
             lastSelectedBibleChapter = chapter;
@@ -3061,19 +3111,24 @@
             try {
                 const res = await fetch(`/api/bible/chapter?book=${bookId}&chapter=${chapter}&ver=${currentBibleVersion}`);
                 const verses = await res.json();
-                // Filter verses sesuai range
-                const filteredVerses = verses.filter(v => v.verse >= startVerse && v.verse <= endVerse);
-                const formattedLines = filteredVerses.map(v => ({ num: v.verse, type: 'v', text: v.text, api: { book: bookName, chapter: chapter, verse: v.verse, text: v.text } }));
+                // Tampilkan SELURUH pasal; ayat yang dikutip tampil normal,
+                // sisanya mode hide (dim) — seperti mode hide di lagu.
+                const formattedLines = verses.map(v => {
+                    const inRange = v.verse >= startVerse && v.verse <= endVerse;
+                    return { num: v.verse, type: 'v', text: v.text, outOfRange: !inRange, api: { book: bookName, chapter: chapter, verse: v.verse, text: v.text } };
+                });
                 const rangeText = startVerse === endVerse ? startVerse : `${startVerse}-${endVerse}`;
                 currentLoadedItem = { type: 'BIBLE_CHAPTER', data: { title: `${bookName} ${chapter}:${rangeText}`, lines: formattedLines, type: 'BIBLE' } };
                 setBibleGroupButtonsVisible(true);
                 renderDrawer(currentLoadedItem.data);
                 
-                if (autoLoadFirst && formattedLines.length > 0) {
-                    goLiveByIndex(0, 'BIBLE');
+                // Highlight baris pertama in-range sebagai baris aktif awal (outline merah langsung tampil)
+                const firstIdx = formattedLines.findIndex(l => !l.outOfRange);
+                if (autoLoadFirst && firstIdx !== -1) {
+                    goLiveByIndex(firstIdx, 'BIBLE');
                     setTimeout(() => {
                         const rows = document.querySelectorAll('.content-row');
-                        if(rows[0]) rows[0].scrollIntoView({block: 'center', behavior: 'smooth'});
+                        if(rows[firstIdx]) rows[firstIdx].scrollIntoView({block: 'center', behavior: 'smooth'});
                     }, 50);
                 }
             } catch(e) {}
@@ -3863,11 +3918,39 @@
             // Toggle highlight on the active row
             const rows = document.querySelectorAll('.content-row');
             if (activeLineIndex !== null && rows[activeLineIndex]) {
+                rows[activeLineIndex].classList.remove('hidden-line');
                 if (isHideText) rows[activeLineIndex].classList.remove('live');
                 else rows[activeLineIndex].classList.add('live');
             }
 
             await fetch(`/api/set?type=HIDE_TEXT&val=${isHideText}`); 
+        }
+
+        // Sinkron visual "hide" di drawer antar operator via WebSocket.
+        // Sumber kebenaran: currentState.hide_text (server) — sama dengan yang dipakai projector/OBS.
+        function syncHideUIFromState(remoteState) {
+            const newHide = !!remoteState.hide_text;
+            const lineIdx = remoteState.active_line_index ?? activeLineIndex;
+            // Hanya skip kalau hide DAN baris aktif TIDAK berubah (biar pindah baris saat hide tetap sync)
+            if (newHide === lastSyncedHideState && lineIdx === lastSyncedHideLineIdx) return;
+            lastSyncedHideState = newHide;
+            lastSyncedHideLineIdx = lineIdx;
+            isHideText = newHide;
+            document.getElementById('btn-hide')?.classList.toggle('active', newHide);
+            document.getElementById('btn-hide')?.classList.toggle('hide-txt', newHide);
+            
+            // Force-sync tampilan outline di semua baris drawer.
+            // Mode SELECT saat hide: baris aktif tetap ditandai via .hidden-line (border dashed, teks dim).
+            const rows = document.querySelectorAll('.content-row');
+            rows.forEach(r => { r.classList.remove('live'); r.classList.remove('hidden-line'); });
+            if (lineIdx !== null && lineIdx !== undefined && rows[lineIdx]) {
+                if (newHide) {
+                    rows[lineIdx].classList.add('hidden-line');
+                } else {
+                    rows[lineIdx].classList.add('live');
+                }
+            }
+            console.log(`[Operator Sync] hide_text=${newHide}, line=${lineIdx} — drawer display tersinkron`);
         }
 
         function goLiveByIndex(idx, type) { 
@@ -3887,9 +3970,11 @@
             //     toggleHideText();
             // }
 
-            document.querySelectorAll('.content-row').forEach(r => r.classList.remove('live')); 
+            document.querySelectorAll('.content-row').forEach(r => { r.classList.remove('live'); r.classList.remove('hidden-line'); }); 
             if (!isHideText) {
-                document.querySelectorAll('.content-row')[idx].classList.add('live'); 
+                document.querySelectorAll('.content-row')[idx].classList.add('live');
+            } else {
+                document.querySelectorAll('.content-row')[idx].classList.add('hidden-line');
             }
             activeLineIndex = idx; // Track active line index
             isBlackout = false; document.getElementById('btn-blackout')?.classList.remove('active', 'blackout');

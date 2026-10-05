@@ -1,0 +1,30 @@
+{
+  "title": "Eling Lan Waspodo",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Eling lan waspodo\ndunyone wes peteng",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Urip pancen angel\nrego-rego larang",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Eling lan waspodo\nojo kepaten iman",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Gusti wes ngendiko\nkudu eling lan waspodo",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Gusti wes ngendiko\nkudu eling lan dedungo",
+      "newGroup": false
+    }
+  ]
+}
