@@ -522,10 +522,10 @@
         }
 
         // --- SMART BACKGROUND LOADER ---
-        // --- SMOOTH FIT TRANSITION (MOVE/ZOOM style) ---
-        // object-fit tidak animatable. Trik "move": animasikan scale media itu sendiri —
-        // cover->contain = zoom-out dari overscale ke pas-utuh (seperti diminimalkan mulus);
-        // contain->cover = zoom-in. Tidak ada fade hitam.
+        // --- SMOOTH FIT TRANSITION (MORPH/ZOOM style) ---
+        // object-fit tidak animatable. Trik "morph": animasikan scale + position
+        // dengan easing panjang ber-damping (cubic bezier dipi, bukan default/Ease-In-Out yang
+        // cepat-tumpul). David: pindah mode harus seperti "morph" — lembut, tidak kaget.
         let fitAnimFrame = null;
         function smoothFitTransition(target) {
             const layerBg = document.getElementById('layer-bg');
@@ -536,39 +536,50 @@
             const activeBuffer = layerBg.querySelector('.bg-buffer.active .media-item.show');
             if (!activeBuffer) { layerBg.classList.toggle('fit-contain', target === 'contain'); return; }
 
-            // ukuran layar & media utk hitung factor scale antara cover dan contain
             const screenW = window.innerWidth, screenH = window.innerHeight;
             const nw = activeBuffer.naturalWidth || activeBuffer.videoWidth || 0;
             const nh = activeBuffer.naturalHeight || activeBuffer.videoHeight || 0;
-            // tanpa dimensi (belum load) → fallback crossfade ringan
             if (!nw || !nh) { layerBg.classList.toggle('fit-contain', target === 'contain'); return; }
-            const coverScale = Math.max(screenW / nw, screenH / nh);  // skala relatif utk cover
-            const containScale = Math.min(screenW / nw, screenH / nh); // skala relatif utk contain
-            const DUR = Number(getComputedStyle(document.documentElement).getPropertyValue('--anim-speed-bg').replace('s', '')) || 1.5;
-            const t0 = performance.now();
-            const easeInOut = (t) => t < 0.5 ? 2*t*t : 1 - Math.pow(-2*t + 2, 2)/2;
 
-            // aktif. Kita animasikan scale sehingga tampak bergerak zoom antara dua mode.
+            // scale relatif: 1.0 = pas contain utk node ber-obj-fit contain
+            const coverRatio = Math.max(screenW / nw, screenH / nh) / Math.min(screenW / nw, screenH / nh);
+            // 1.0 → pas contain; >1 = lebih besar (u体裁 potong) hingga coverRatio (pas cover)
+            const fromScale = from === 'cover' ? coverRatio : 1.0;
+            const toScale   = target === 'cover' ? coverRatio : 1.0;
+
+                // penic bezier yang lembut: masuk perlahan, keluar perlahan (morf lama!)
+                const BEZ = [0.65, 0, 0.35, 1];
+                const cubicBezier = (t, p1x, p1y, p2x, p2y) => {
+                    // Newton-Raphson: solve u from x(t)=t, lalu ambil y(u)
+                    let u = t;
+                for (let i = 0; i < 8; i++) {
+                    const xu = 3*(1-u)*(1-u)*u*p1x + 3*(1-u)*u*u*p2x + u*u*u;
+                    const dx = 3*(1-u)*(1-u)*(p1x) + 6*(1-u)*u*(p2x - p1x) + 3*(u*u)*(1 - p2x);
+                    if (Math.abs(xu - t) < 1e-5 || dx === 0) break;
+                    u -= (xu - t) / dx;
+                }
+                const y = 3*(1-u)*(1-u)*u*p1y + 3*(1-u)*u*u*p2y + u*u*u;
+                return y;
+            };
+
+            const DUR = Math.max(Number(getComputedStyle(document.documentElement).getPropertyValue('--anim-speed-bg').replace('s', '')) || 1.5, 1.2);
+            const t0 = performance.now();
+
             const animate = () => {
                 const t = Math.min(1, (performance.now() - t0) / (DUR * 1000));
-                const e = easeInOut(t);
-                if (target === 'contain' && from === 'cover') {
-                    // zoom-out: scale secara visual dari coverScale ke containScale
-                    const s = coverScale + (containScale - coverScale) * e;
-                    activeBuffer.style.transform = `scale(${s / containScale})`; // relative=1 di akhir = pas contain
-                    activeBuffer.style.objectFit = 'contain';
-                } else {
-                    // zoom-in dari contain ke cover
-                    const s = containScale + (coverScale - containScale) * e;
-                    activeBuffer.style.objectFit = 'cover';
-                    activeBuffer.style.transform = `scale(${s / coverScale})`;
-                }
+                const e = cubicBezier(t, BEZ[0], BEZ[1], BEZ[2], BEZ[3]);
+                // morph scale langsung antara dua nilai; object-fit biarkan contain dari awal
+                // agar letterbox muncul seiring membesar/mengecil — tidak snap/flicker
+                const s = fromScale + (toScale - fromScale) * e; // 1.0 ↔ coverRatio
+                activeBuffer.style.objectFit = 'contain';
+                activeBuffer.style.transform = `scale(${s})`;
+                activeBuffer.style.transformOrigin = 'center center';
                 if (t < 1) {
                     fitAnimFrame = requestAnimationFrame(animate);
                 } else {
-                    // settle: final state via class; clear inline transforms
                     activeBuffer.style.transform = '';
                     activeBuffer.style.objectFit = '';
+                    activeBuffer.style.transformOrigin = '';
                     layerBg.classList.toggle('fit-contain', target === 'contain');
                     fitAnimFrame = null;
                 }
