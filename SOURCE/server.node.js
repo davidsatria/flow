@@ -68,6 +68,7 @@ let currentBibleFile = BIBLE_FILES.TB;
 const SONGS_DIR = path.join(DATA_DIR, 'songs');
 const SCHEDULE_FILE = path.join(DATA_DIR, 'schedule.json');
 const SAVED_SCHED_FILE = path.join(DATA_DIR, 'saved_schedules.json');
+const SAVED_SCHED_META_FILE = path.join(DATA_DIR, 'saved_schedules_meta.json');
 const LAST_SETTINGS_FILE = path.join(DATA_DIR, 'last_settings.json');
 const BG_DIR = path.join(DATA_DIR, 'backgrounds');
 const TEMPLATE_DIR = path.join(SYSTEM_DIR, 'templates');
@@ -641,7 +642,21 @@ app.get('/api/set', (req, res) => {
 
 app.get('/api/songs', (req, res) => res.json(listSongs()));
 app.get('/api/schedule', (req, res) => res.json(loadJsonFile(SCHEDULE_FILE, [])));
-app.get('/api/saved_schedules', (req, res) => res.json(loadJsonFile(SAVED_SCHED_FILE, {})));
+app.get('/api/saved_schedules', (req, res) => {
+  const saved = loadJsonFile(SAVED_SCHED_FILE, {});
+  // Urutkan: yang TERBARU di atas (butuh metadata waktu simpan)
+  let meta = loadJsonFile(SAVED_SCHED_META_FILE, {});
+  const names = Object.keys(saved);
+  // mundur: nama tanpa meta (arsip lama) taruh di bawah, urut abjad
+  const withTs = names.filter(n => meta[n]?.ts);
+  const withoutTs = names.filter(n => !meta[n]?.ts).sort((a, b) => a.localeCompare(b));
+  withTs.sort((a, b) => (meta[b].ts || 0) - (meta[a].ts || 0));
+  const orderedNames = [...withTs, ...withoutTs];
+  const ordered = {};
+  orderedNames.forEach(n => { ordered[n] = saved[n]; });
+  res.json(ordered);
+});
+
 app.get('/api/bible/books', (req, res) => {
   const ver = (req.query.ver || 'TB').toUpperCase();
   const file = BIBLE_FILES[ver] || BIBLE_FILES.TB;
@@ -782,6 +797,17 @@ app.post('/api/saved_schedules', (req, res) => {
 
   if (data.action === 'save') {
     saved[data.name] = stripSlides(data.content);
+    // metadata waktu utk urutan arsip (terbaru di atas)
+    // PENTING rename: renameNamedSchedule = save(new) + delete(old) — pertahankan ts lama
+    // agar urutan arsip tidak berubah saat ganti nama. Kirim ?keep_ts=<oldName> dari client.
+    const meta = loadJsonFile(SAVED_SCHED_META_FILE, {});
+    const keepFrom = String(req.query.keep_ts || '');
+    if (keepFrom && meta[keepFrom]?.ts) {
+      meta[data.name] = { ts: meta[keepFrom].ts };
+    } else {
+      meta[data.name] = { ts: Date.now() };
+    }
+    saveJsonFile(SAVED_SCHED_META_FILE, meta);
     saveJsonFile(SAVED_SCHED_FILE, saved);
     return res.json({ status: 'ok' });
   }
@@ -794,6 +820,9 @@ app.post('/api/saved_schedules', (req, res) => {
 
   if (data.action === 'delete' && data.name in saved) {
     delete saved[data.name];
+    const meta = loadJsonFile(SAVED_SCHED_META_FILE, {});
+    delete meta[data.name];
+    saveJsonFile(SAVED_SCHED_META_FILE, meta);
     saveJsonFile(SAVED_SCHED_FILE, saved);
     return res.json({ status: 'ok' });
   }

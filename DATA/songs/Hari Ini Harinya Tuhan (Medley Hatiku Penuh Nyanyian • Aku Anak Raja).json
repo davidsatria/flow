@@ -1,0 +1,75 @@
+{
+  "title": "Hari Ini Harinya Tuhan (Medley: Hatiku Penuh Nyanyian • Aku Anak Raja)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Hari ini hari ini\nhariNya Tuha hariNya Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Mari kita mari kita\nbersukaria bersukaria",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hari ini hariNya Tuhan\nmari kita bersukaria",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "hari ini hari ini\nhariNya Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hatiku penuh nyanyian\nHatiku penuh nyanyian",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Hatiku bernyanyi untuk\nRaja sg'ala Raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sembahlah dan pujilah Dia\nSembahlah dan pujilah Dia",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sembahlah dan pujilah Dia\nRaja s'gala raja",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku anak raja engkau anak raja\nKita semua anak raja",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Aku anak raja engkau anak raja\nKita semua anak raja",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya puji Tuhan\nhaleluya puji Tuhan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Haleluya puji Tuhan\nhaleluya",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya puji Tuhan\nhaleluya puji Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Haleluya puji Tuhan\nhaleluya",
+      "newGroup": false
+    }
+  ]
+}

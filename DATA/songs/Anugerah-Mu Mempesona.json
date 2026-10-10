@@ -1,0 +1,35 @@
+{
+  "title": "Anugerah-Mu Mempesona",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Tuhan Kau sungguh besar\nKarya-Mu sungguh ajaib",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tiada hentinya ku mengagumi\nSungguh Kau ajaib",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku mau s'lalu bersyukur kepada-Mu Tuhan\nAnug'rah-Mu mempesonaku",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Selalu dan selalu Kau angkat hatiku\nKau membuatku berharga di mata-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Ku berharga di mata-Mu Tuhan\nAnug'rah-Mu cukup bagiku",
+      "newGroup": true
+    },
+    {
+      "type": "e",
+      "text": "Kau membuatku berharga di mata-Mu",
+      "newGroup": true
+    }
+  ]
+}
