@@ -522,41 +522,58 @@
         }
 
         // --- SMART BACKGROUND LOADER ---
-        // --- SMOOTH FIT TRANSITION ---
-        // object-fit tidak bisa dianimasikan CSS. Trik: interpolasi skala visual.
-        // cover -> contain: gambar mulai "overscale" (lebih dari fill), lalu scale-down ke pas-utuh
-        // contain -> cover: kebalikan (scale-up ke penuh). Letterbox fade lembut di akhir/awal.
+        // --- SMOOTH FIT TRANSITION (MOVE/ZOOM style) ---
+        // object-fit tidak animatable. Trik "move": animasikan scale media itu sendiri —
+        // cover->contain = zoom-out dari overscale ke pas-utuh (seperti diminimalkan mulus);
+        // contain->cover = zoom-in. Tidak ada fade hitam.
         let fitAnimFrame = null;
         function smoothFitTransition(target) {
             const layerBg = document.getElementById('layer-bg');
             if (!layerBg) return;
-            if (fitAnimFrame) cancelAnimationFrame(fitAnimFrame);
+            if (fitAnimFrame) { cancelAnimationFrame(fitAnimFrame); fitAnimFrame = null; }
             const from = lastState.bg_fit || 'cover';
             if (from === target) { layerBg.classList.toggle('fit-contain', target === 'contain'); return; }
-            const items = layerBg.querySelectorAll('.media-item');
-            const bgOpacityEls = layerBg.querySelectorAll('.bg-buffer');
-            // 1. Sembunyikan transition: set transform awal berdasarkan target
-            //    cover->contain: tampil dulu di scale penuh (cover), lalu animasi ke contain
-            //    contain->cover: mulai dari contain state (scale pas-utuh), lalu penuh
-            const DUR = 700; // ms, sync dgn transition CSS berjalan
-            const start = performance.now();
+            const activeBuffer = layerBg.querySelector('.bg-buffer.active .media-item.show');
+            if (!activeBuffer) { layerBg.classList.toggle('fit-contain', target === 'contain'); return; }
+
+            // ukuran layar & media utk hitung factor scale antara cover dan contain
+            const screenW = window.innerWidth, screenH = window.innerHeight;
+            const nw = activeBuffer.naturalWidth || activeBuffer.videoWidth || 0;
+            const nh = activeBuffer.naturalHeight || activeBuffer.videoHeight || 0;
+            // tanpa dimensi (belum load) → fallback crossfade ringan
+            if (!nw || !nh) { layerBg.classList.toggle('fit-contain', target === 'contain'); return; }
+            const coverScale = Math.max(screenW / nw, screenH / nh);  // skala relatif utk cover
+            const containScale = Math.min(screenW / nw, screenH / nh); // skala relatif utk contain
+            const DUR = Number(getComputedStyle(document.documentElement).getPropertyValue('--anim-speed-bg').replace('s', '')) || 1.5;
+            const t0 = performance.now();
             const easeInOut = (t) => t < 0.5 ? 2*t*t : 1 - Math.pow(-2*t + 2, 2)/2;
-            // object-fit switch dilakukan di tengah transisi (cross-fade visual)
-            // Untuk kesederhanaan + tetap mulus: crossfade klasik — fade out sedikit, switch fit, fade in.
-            const overlayShim = document.createElement('div');
-            overlayShim.style.cssText = 'position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:0; z-index:3; pointer-events:none; transition:opacity 0.35s ease-in-out;';
-            layerBg.appendChild(overlayShim);
-            // fase 1: fade to black 40%
-            requestAnimationFrame(() => { overlayShim.style.opacity = '0.35'; });
-            // fase 2: switch object-fit saat tertutup shim
-            setTimeout(() => {
-                layerBg.classList.toggle('fit-contain', target === 'contain');
-            }, 360);
-            // fase 3: fade back
-            setTimeout(() => {
-                overlayShim.style.opacity = '0';
-                setTimeout(() => { overlayShim.remove(); }, 400);
-            }, 420);
+
+            // aktif. Kita animasikan scale sehingga tampak bergerak zoom antara dua mode.
+            const animate = () => {
+                const t = Math.min(1, (performance.now() - t0) / (DUR * 1000));
+                const e = easeInOut(t);
+                if (target === 'contain' && from === 'cover') {
+                    // zoom-out: scale secara visual dari coverScale ke containScale
+                    const s = coverScale + (containScale - coverScale) * e;
+                    activeBuffer.style.transform = `scale(${s / containScale})`; // relative=1 di akhir = pas contain
+                    activeBuffer.style.objectFit = 'contain';
+                } else {
+                    // zoom-in dari contain ke cover
+                    const s = containScale + (coverScale - containScale) * e;
+                    activeBuffer.style.objectFit = 'cover';
+                    activeBuffer.style.transform = `scale(${s / coverScale})`;
+                }
+                if (t < 1) {
+                    fitAnimFrame = requestAnimationFrame(animate);
+                } else {
+                    // settle: final state via class; clear inline transforms
+                    activeBuffer.style.transform = '';
+                    activeBuffer.style.objectFit = '';
+                    layerBg.classList.toggle('fit-contain', target === 'contain');
+                    fitAnimFrame = null;
+                }
+            };
+            fitAnimFrame = requestAnimationFrame(animate);
         }
         function updateBackground(type, url) {
             if (isMediaLoading) return; // Cegah tumpang tindih
