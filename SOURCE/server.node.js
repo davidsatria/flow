@@ -393,6 +393,60 @@ function initData() {
 const app = express();
 app.use(express.json({ limit: '10mb' }));
 
+// --- MEDIA UPLOAD (raw binary body, header X-Filename) ---
+// dipakai tombol "Upload Media" di bg dock operator: POST /api/upload_media
+// Body = file binary murni (bukan multipart/base64). Header:
+//   X-Filename : nama asli (dinormalisasi), X-Media-Type : IMAGE|VIDEO (opsional)
+const UPLOAD_MAX_MB = 200;
+app.post('/api/upload_media', (req, res) => {
+  const rawName = String(req.headers['x-filename'] || 'media').trim();
+  // normalisasi nama: buang path & karakter berbahaya, sisakan [a-zA-Z0-9 ._-]
+  let safe = path.basename(rawName).replace(/[^\w.\- ]+/g, '_').replace(/\s+/g, '_').slice(0, 80) || 'media';
+  const declared = String(req.headers['x-media-type'] || '').toUpperCase();
+  let ext = path.extname(safe).toLowerCase();
+  const VALID = { IMAGE: ['.jpg', '.jpeg', '.png', '.gif', '.webp'], VIDEO: ['.mp4', '.webm'] };
+  const typeFromExt = ['.mp4', '.webm'].includes(ext) ? 'VIDEO' : 'IMAGE';
+  const type = VALID.IMAGE.includes(ext) || VALID.VIDEO.includes(ext)
+    ? (declared === 'VIDEO' || declared === 'IMAGE' ? declared : typeFromExt)
+    : null;
+  if (!type) return res.status(400).json({ error: 'Ekstensi tidak didukung (jpg/png/gif/webp/mp4/webm)' });
+  if (!fs.existsSync(BG_DIR)) fs.mkdirSync(BG_DIR, { recursive: true });
+  // hindari overwrite: jika sudah ada, tambah -1, -2, ...
+  let finalName = safe;
+  let n = 1;
+  while (fs.existsSync(path.join(BG_DIR, finalName))) {
+    const base = path.basename(safe, path.extname(safe));
+    finalName = `${base}-${n}${path.extname(safe)}`;
+    n++;
+  }
+  const chunks = [];
+  let total = 0;
+  let aborted = false;
+  req.on('data', (chunk) => {
+    total += chunk.length;
+    if (total > UPLOAD_MAX_MB * 1024 * 1024) {
+      aborted = true;
+      req.destroy();
+      res.status(413).json({ error: 'File terlalu besar (max ' + UPLOAD_MAX_MB + 'MB)' });
+      return;
+    }
+    chunks.push(chunk);
+  });
+  req.on('end', () => {
+    if (aborted) return;
+    try {
+      fs.writeFileSync(path.join(BG_DIR, finalName), Buffer.concat(chunks));
+      log(`[Upload] ${finalName} (${(total / 1024 / 1024).toFixed(1)} MB, ${type}) oleh operator`);
+      res.json({ status: 'ok', name: finalName, type, url: `/backgrounds/${encodeURIComponent(finalName)}` });
+    } catch (e) {
+      log('[Upload] Gagal simpan: ' + e.message);
+      res.status(500).json({ error: 'Gagal simpan file' });
+    }
+  });
+  req.on('error', () => { if (!aborted) res.status(500).json({ error: 'Koneksi terputus saat upload' }); });
+});
+
+
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   next();

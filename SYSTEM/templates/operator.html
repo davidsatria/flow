@@ -1145,7 +1145,12 @@
             <div id="bg-dock">
                 <div class="dock-empty">Loading...</div>
             </div>
-            <button class="dock-nav-btn dock-nav-right" onclick="jumpDock('end')" title="Go to End"><svg class="icon" style="width:20px; height:20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="4" x2="4" y2="20"></line><polygon points="4 12 20 4 20 20"></polygon></svg></button>
+            <button class="dock-nav-btn dock-nav-right" onclick="jumpDock('end')" title="Go to End"><svg class="icon" style="width:20px; height:20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="4 12 20 4 20 20"></polygon></svg></button>
+            <button id="btn-upload-media" class="dock-nav-btn" style="width:62px; flex:0 0 62px; height:62px; border-radius:16px; background:var(--bg-element); border:2px dashed var(--color-db, #38bdf8); color:var(--color-db, #38bdf8); margin:0 10px; display:flex; flex-direction:column; gap:2px; align-items:center; justify-content:center; cursor:pointer;" onclick="openUploadMedia()" title="Upload Media (gambar/video ke background dock)">
+                <svg class="icon" style="width:18px; height:18px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+                <span style="font-size:0.6rem; font-weight:700;">UPLOAD</span>
+            </button>
+            <input type="file" id="upload-media-input" accept="image/*,video/mp4,video/webm" multiple style="display:none;" onchange="handleUploadMedia(this.files)">
             <button class="dock-nav-btn dock-nav-right" onclick="scrollDock(400)" title="Scroll Right"><svg class="icon" style="width:20px; height:20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
         </div>
     </div>
@@ -2109,6 +2114,34 @@
         function scrollDock(amount) { 
             const dock = document.getElementById('bg-dock');
             dock.scrollLeft += amount;
+        }
+        // --- UPLOAD MEDIA ---
+        function openUploadMedia() { document.getElementById('upload-media-input').click(); }
+        async function handleUploadMedia(fileList) {
+            const files = Array.from(fileList || []);
+            if (files.length === 0) return;
+            for (const f of files) {
+                const ext = (f.name.split('.').pop() || '').toLowerCase();
+                const isVideo = ['mp4', 'webm'].includes(ext);
+                const isImage = ['jpg', 'jpeg', 'png', 'gif', 'webp'].includes(ext);
+                if (!isVideo && !isImage) { showToast('Ditolak: ' + f.name + ' (format tidak didukung)'); continue; }
+                try {
+                    showToast('Mengunggah ' + f.name + '...');
+                    const res = await fetch('/api/upload_media', {
+                        method: 'POST',
+                        headers: { 'X-Filename': f.name, 'X-Media-Type': isVideo ? 'VIDEO' : 'IMAGE', 'Content-Type': 'application/octet-stream' },
+                        body: f
+                    });
+                    const data = await res.json();
+                    if (!res.ok) { showToast('Gagal: ' + (data.error || res.status)); continue; }
+                    showToast('Tersimpan: ' + data.name);
+                } catch (e) {
+                    showToast('Gagal upload ' + f.name);
+                }
+            }
+            document.getElementById('upload-media-input').value = '';
+            await fetchBackgrounds();
+            jumpDock('end');
         }
         function jumpDock(position) {
             const dock = document.getElementById('bg-dock');

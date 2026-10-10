@@ -63,16 +63,16 @@ def render(title, lyrics, path):
     title_lines = wrap(tmp, title, f_title, inner - 160)
     head_h = max(74, len(title_lines)*40 + 30)
 
+    # 1 KARTU PER BAIT — label hanya di AWAL SEKSI (newGroup=True)
     cards = []
-    for typ, grp in groups(lyrics):
-        lines = []
-        for k, sl in enumerate(grp):
-            if k: lines.append("")          # jeda antar bait
-            lines += wrap(tmp, sl.get("text",""), f_lyr, inner)
-        h = CARD_PY*2 + LBL_H + 10 + len(lines)*LH
-        cards.append((typ, lines, h))
+    for sl in lyrics:
+        typ = sl.get("type", "v")
+        show_lbl = bool(sl.get("newGroup"))
+        lines = wrap(tmp, sl.get("text",""), f_lyr, inner)
+        h = CARD_PY*2 + len(lines)*LH + ((LBL_H + 8) if show_lbl else 0)
+        cards.append((typ, lines, h, show_lbl))
 
-    total = PAD + head_h + 18 + sum(h for _,_,h in cards) + GAP_CARD*(len(cards)-1) + PAD
+    total = PAD + head_h + 18 + sum(c[2] for c in cards) + GAP_CARD*(len(cards)-1) + PAD
     img = Image.new("RGB", (W, total), BG)
     d = ImageDraw.Draw(img)
 
@@ -81,15 +81,17 @@ def render(title, lyrics, path):
     y = PAD + 15
     for tl in title_lines:
         d.text((PAD+24, y), tl, font=f_title, fill=TITLE); y += 40
-    meta = f"{len(cards)} bagian"
+    meta = f"{len(cards)} bait"
     d.text((W-PAD-24-d.textlength(meta, font=f_meta), PAD+head_h/2-9), meta, font=f_meta, fill=META)
 
     y = PAD + head_h + 18
-    for idx, (typ, lines, h) in enumerate(cards):
+    for typ, lines, h, show_lbl in cards:
         d.rounded_rectangle([PAD, y, W-PAD, y+h], radius=14, fill=CARD,
-                            outline=(ACTIVE if idx==0 else BORDER), width=(2 if idx==0 else 1))
-        d.text((PAD+CARD_PX, y+CARD_PY), LBL.get(typ,"VERSE"), font=f_lbl, fill=CLR.get(typ,(126,231,135)))
-        ty = y + CARD_PY + LBL_H + 10
+                            outline=BORDER, width=1)
+        ty = y + CARD_PY
+        if show_lbl:
+            d.text((PAD+CARD_PX, ty), LBL.get(typ,"VERSE"), font=f_lbl, fill=CLR.get(typ,(126,231,135)))
+            ty += LBL_H + 8
         for ln in lines:
             if ln:
                 d.text((PAD+CARD_PX, ty), ln, font=f_lyr, fill=TXT)

@@ -1,0 +1,50 @@
+{
+  "title": "Sungguh Indah",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ke manakah aku dapat pergi\nMenjauhi Roh-Mu yang suci",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kau sahabat dan Kau dekat",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Bahkan seluruh pengabdianku\nTak bisa membalas kesetiaan-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Sungguh mulia dan berharga",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh besar pengorbanan-Mu bagiku\nTerlalu dalam untuk dimengerti",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Sungguh besar",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh indah yang Kau pikirkan tentangku\nTak terselami bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Sungguh indah",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Sungguh indah\nSungguh indah",
+      "newGroup": true
+    }
+  ]
+}
