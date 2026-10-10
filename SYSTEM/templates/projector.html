@@ -122,8 +122,12 @@
             position: absolute; top: 0; left: 0; width: 100%; height: 100%;
             object-fit: cover;
             display: none; /* Default hidden */
+            transform-origin: center center;
         }
         .media-item.show { display: block; }
+        /* Fit transition: object-fit tidak animatable -> animasikan transform
+           cover = scale penuh; contain = scale-down via class fit-contain */
+        #layer-bg .media-item { transition: transform 0.7s ease-in-out; }
         #layer-bg.fit-contain .media-item { object-fit: contain; }
 
         /* --- OVERLAY & TEXT --- */
@@ -501,7 +505,9 @@
             // 3b. Fit mode: cover (crop penuh) atau contain (gambar utuh, letterbox)
             const fitVal = data.bg_fit === 'contain' ? 'contain' : 'cover';
             if (fitVal !== lastState.bg_fit) {
-                document.getElementById('layer-bg').classList.toggle('fit-contain', fitVal === 'contain');
+                // Smooth: animasi via JS interpolasi --bg-fit dari cover→contain
+                // (object-fit tidak animatable; gunakan dua step class + transisi transform)
+                smoothFitTransition(fitVal);
                 lastState.bg_fit = fitVal;
             }
             
@@ -516,6 +522,42 @@
         }
 
         // --- SMART BACKGROUND LOADER ---
+        // --- SMOOTH FIT TRANSITION ---
+        // object-fit tidak bisa dianimasikan CSS. Trik: interpolasi skala visual.
+        // cover -> contain: gambar mulai "overscale" (lebih dari fill), lalu scale-down ke pas-utuh
+        // contain -> cover: kebalikan (scale-up ke penuh). Letterbox fade lembut di akhir/awal.
+        let fitAnimFrame = null;
+        function smoothFitTransition(target) {
+            const layerBg = document.getElementById('layer-bg');
+            if (!layerBg) return;
+            if (fitAnimFrame) cancelAnimationFrame(fitAnimFrame);
+            const from = lastState.bg_fit || 'cover';
+            if (from === target) { layerBg.classList.toggle('fit-contain', target === 'contain'); return; }
+            const items = layerBg.querySelectorAll('.media-item');
+            const bgOpacityEls = layerBg.querySelectorAll('.bg-buffer');
+            // 1. Sembunyikan transition: set transform awal berdasarkan target
+            //    cover->contain: tampil dulu di scale penuh (cover), lalu animasi ke contain
+            //    contain->cover: mulai dari contain state (scale pas-utuh), lalu penuh
+            const DUR = 700; // ms, sync dgn transition CSS berjalan
+            const start = performance.now();
+            const easeInOut = (t) => t < 0.5 ? 2*t*t : 1 - Math.pow(-2*t + 2, 2)/2;
+            // object-fit switch dilakukan di tengah transisi (cross-fade visual)
+            // Untuk kesederhanaan + tetap mulus: crossfade klasik — fade out sedikit, switch fit, fade in.
+            const overlayShim = document.createElement('div');
+            overlayShim.style.cssText = 'position:absolute; top:0; left:0; width:100%; height:100%; background:#000; opacity:0; z-index:3; pointer-events:none; transition:opacity 0.35s ease-in-out;';
+            layerBg.appendChild(overlayShim);
+            // fase 1: fade to black 40%
+            requestAnimationFrame(() => { overlayShim.style.opacity = '0.35'; });
+            // fase 2: switch object-fit saat tertutup shim
+            setTimeout(() => {
+                layerBg.classList.toggle('fit-contain', target === 'contain');
+            }, 360);
+            // fase 3: fade back
+            setTimeout(() => {
+                overlayShim.style.opacity = '0';
+                setTimeout(() => { overlayShim.remove(); }, 400);
+            }, 420);
+        }
         function updateBackground(type, url) {
             if (isMediaLoading) return; // Cegah tumpang tindih
             
