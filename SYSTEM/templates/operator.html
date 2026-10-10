@@ -838,6 +838,7 @@
                             <button class="nav-tab active" data-tab="jadwal" onclick="switchMainTab('jadwal')">JADWAL</button>
                             <button class="nav-tab" data-tab="database" onclick="switchMainTab('database')">DATABASE</button>
                             <button class="nav-tab" data-tab="arsip" onclick="switchMainTab('arsip')" title="Arsip Sesi (simpan/muat)">ARSIP</button>
+                            <button class="nav-tab" data-tab="background" onclick="switchMainTab('background')" title="Background/Media (ganti, upload, mode crop/full)">BG</button>
                         </div>
 
             <div class="nav-bottom-actions">
@@ -943,6 +944,23 @@
                                                                         </div>
                                                                         <div style="font-size:0.72rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; font-weight:600; flex-shrink:0;">Sesi tersimpan</div>
                                                                         <div id="saved-sched-list-container" class="sched-archive-list" style="display:flex; flex-direction:column; gap:8px; flex:1;"></div>
+                                                                    </div>
+                                                                </div>
+
+                                                                <!-- VIEW: BACKGROUND/MEDIA -->
+                                                                <div id="view-background" style="display:none; flex-direction:column; height:100%;">
+                                                                    <div class="panel-header">
+                                                                        <span class="panel-title" style="color:var(--color-db);">🖼️ BACKGROUND</span>
+                                                                        <div style="display:flex; gap:6px;">
+                                                                            <button class="btn-action-sm" id="btn-bgfit-side" onclick="toggleBgFit()" style="min-width:64px; font-size:0.7rem; font-weight:700;" title="Mode tampil: CROP (penuhi layar) / FULL (utuh)"><span id="lbl-bgfit-side">CROP</span></button>
+                                                                            <button class="btn-action-sm" onclick="openUploadMedia()" title="Upload media baru" style="color:var(--color-db); border-color:var(--color-db);"><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg></button>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div style="padding:12px 16px; flex:1; overflow-y:auto;">
+                                                                        <div style="font-size:0.72rem; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; font-weight:600; margin-bottom:10px;">Pilih background aktif</div>
+                                                                        <div id="sidebar-bg-grid" style="display:grid; grid-template-columns:repeat(auto-fill, minmax(96px, 1fr)); gap:10px;">
+                                                                            <div style="grid-column:1/-1; text-align:center; color:var(--text-muted); padding:20px 0;">Memuat...</div>
+                                                                        </div>
                                                                     </div>
                                                                 </div>
                                                                 <style>
@@ -1843,7 +1861,7 @@
                 history.pushState({ tab: tab }, '', '#' + tab);
             }
             // Only update active tab if tab is in the main nav
-                        if(tab === 'jadwal' || tab === 'database' || tab === 'arsip') {
+                        if(tab === 'jadwal' || tab === 'database' || tab === 'arsip' || tab === 'background') {
                 document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active')); 
                 const activeTab = document.querySelector(`.nav-tab[data-tab="${tab}"]`);
                 if(activeTab) {
@@ -1906,9 +1924,12 @@
                                 document.getElementById('view-pengaturan').style.display = 'none'; 
                                 const arsipView = document.getElementById('view-arsip');
                                 if (arsipView) { arsipView.style.display = 'none'; }
+                                const bgView = document.getElementById('view-background');
+                                if (bgView) { bgView.style.display = 'none'; }
                                 document.getElementById('view-' + tab).style.display = 'flex'; 
                                 if(tab === 'jadwal') renderScheduleList();
                                 if(tab === 'arsip') loadSavedSchedules();
+                                if(tab === 'background') renderSidebarBgGrid();
                 if(tab === 'database') {
                     document.getElementById('search-input').value = '';
                     renderSidebarList();
@@ -2123,6 +2144,8 @@
             const contain = bgFitMode() === 'contain';
             const ic1 = document.getElementById('ic-bg-fit-cover'), ic2 = document.getElementById('ic-bg-fit-contain'), lbl = document.getElementById('lbl-bg-fit');
             if (ic1 && ic2 && lbl) { ic1.style.display = contain ? 'none' : ''; ic2.style.display = contain ? '' : 'none'; lbl.textContent = contain ? 'FULL' : 'CROP'; }
+            const lblSide = document.getElementById('lbl-bgfit-side');
+            if (lblSide) lblSide.textContent = contain ? 'FULL' : 'CROP';
         }
         async function toggleBgFit() {
             const next = bgFitMode() === 'contain' ? 'cover' : 'contain';
@@ -2163,6 +2186,62 @@
             document.getElementById('upload-media-input').value = '';
             await fetchBackgrounds();
             jumpDock('end');
+        }
+        // --- SIDEBAR BACKGROUND GRID (tab BG) ---
+        async function renderSidebarBgGrid() {
+            const grid = document.getElementById('sidebar-bg-grid');
+            if (!grid) return;
+            grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; color:var(--text-muted); padding:20px 0;">Memuat...</div>';
+            try {
+                const res = await fetch('/api/backgrounds');
+                const files = await res.json();
+                grid.innerHTML = '';
+                const highlight = () => {
+                    Array.from(grid.children).forEach(d => {
+                        const isOn = (d.dataset && d.dataset.url && d.dataset.url === currentActiveBgUrl) ||
+                                     (d.dataset && d.dataset.solid === currentActiveBgUrl) ||
+                                     (currentActiveBgUrl === '' && d.dataset.solid === '');
+                        d.style.borderColor = isOn ? 'rgba(56,189,248,0.9)' : 'var(--border)';
+                        d.style.boxShadow = isOn ? '0 0 10px rgba(56,189,248,0.35)' : 'none';
+                    });
+                };
+                const mkSolid = (label, bg, txt, url) => {
+                    const d = document.createElement('div');
+                    d.dataset.solid = url;
+                    d.style.cssText = `aspect-ratio:16/9; border-radius:10px; background:${bg}; display:flex; align-items:center; justify-content:center; cursor:pointer; border:2px solid var(--border); font-size:0.6rem; font-weight:700; color:${txt}; overflow:hidden;`;
+                    d.textContent = label;
+                    d.onclick = () => { setBg(url ? 'IMAGE' : 'SOLID', url, d); highlight(); };
+                    grid.appendChild(d);
+                };
+                mkSolid('SOLID BLACK', '#000', '#aaa', '');
+                mkSolid('SOLID WHITE', '#fff', '#222', SOLID_WHITE_BG);
+                (files || []).forEach(f => {
+                    const d = document.createElement('div');
+                    d.className = 'bg-item-node';
+                    d.dataset.url = f.url;
+                    d.style.cssText = 'aspect-ratio:16/9; border-radius:10px; border:2px solid var(--border); overflow:hidden; cursor:pointer; position:relative; background:var(--bg2);';
+                    if (f.type === 'VIDEO') {
+                        const v = document.createElement('video');
+                        v.src = f.url; v.preload = 'metadata'; v.muted = true; v.playsInline = true;
+                        v.style.cssText = 'width:100%; height:100%; object-fit:cover; display:block;';
+                        d.appendChild(v);
+                    } else {
+                        const img = document.createElement('img');
+                        img.src = f.url; img.loading = 'lazy';
+                        img.style.cssText = 'width:100%; height:100%; object-fit:cover; display:block;';
+                        d.appendChild(img);
+                    }
+                    const badge = document.createElement('div');
+                    badge.textContent = f.type === 'VIDEO' ? 'VID' : 'IMG';
+                    badge.style.cssText = 'position:absolute; top:4px; right:4px; font-size:0.55rem; font-weight:700; background:rgba(0,0,0,0.55); color:#fff; padding:1px 5px; border-radius:6px;';
+                    d.appendChild(badge);
+                    d.onclick = () => { setBg(f.type, f.url, d); highlight(); };
+                    grid.appendChild(d);
+                });
+                highlight();
+            } catch (e) {
+                grid.innerHTML = '<div style="grid-column:1/-1; text-align:center; color:var(--danger); padding:20px 0;">Gagal memuat media.</div>';
+            }
         }
         function jumpDock(position) {
             const dock = document.getElementById('bg-dock');

@@ -549,8 +549,8 @@
             const fromScale = from === 'cover' ? coverRatio : 1.0;
             const toScale   = target === 'cover' ? coverRatio : 1.0;
 
-                // penic bezier yang lembut: masuk perlahan, keluar perlahan (morf lama!)
-                const BEZ = [0.65, 0, 0.35, 1];
+        // penic bezier yang lembut: masuk perlahan, keluar perlahan (morf)
+        const BEZ = [0.65, 0, 0.35, 1];
                 const cubicBezier = (t, p1x, p1y, p2x, p2y) => {
                     // Newton-Raphson: solve u from x(t)=t, lalu ambil y(u)
                     let u = t;
