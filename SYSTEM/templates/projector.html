@@ -127,7 +127,9 @@
         .media-item.show { display: block; }
         /* Fit transition: object-fit tidak animatable -> animasikan transform
            cover = scale penuh; contain = scale-down via class fit-contain */
-        #layer-bg .media-item { transition: transform 0.7s ease-in-out; }
+        /* Fit transition: object-fit tidak animatable -> morph via rAF di smoothFitTransition.
+           JANGAN pasang CSS transition transform di sini — akan dobel-easing dengan rAF
+           (sumber efek 'kebalik/kaget': CSS menuju target lama sementara rAF sudah maju). */
         #layer-bg.fit-contain .media-item { object-fit: contain; }
 
         /* --- OVERLAY & TEXT --- */
