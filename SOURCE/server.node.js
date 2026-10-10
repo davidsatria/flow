@@ -614,8 +614,15 @@ app.get('/api/set', (req, res) => {
     if (bgCmd === 'CHANGE') {
       currentState.bg_type = req.query.bg_type || 'SOLID';
       currentState.bg_url = req.query.bg_url || '';
+      if (req.query.bg_fit !== undefined) {
+        currentState.bg_fit = req.query.bg_fit === 'contain' ? 'contain' : 'cover';
+      } else if (currentState.bg_fit === undefined) {
+        currentState.bg_fit = 'cover';
+      }
     } else if (bgCmd === 'OVERLAY') {
       currentState.overlay = String(req.query.val || 'false') === 'true';
+    } else if (bgCmd === 'FIT') {
+      currentState.bg_fit = String(req.query.fit || 'cover') === 'contain' ? 'contain' : 'cover';
     }
   } else if (mode === 'STYLE') {
     const fields = ['size','font','align','caps','text_bg','lh','margin','meta_size','meta_font','anim','text_color','highlight_color'];

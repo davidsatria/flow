@@ -124,6 +124,7 @@
             display: none; /* Default hidden */
         }
         .media-item.show { display: block; }
+        #layer-bg.fit-contain .media-item { object-fit: contain; }
 
         /* --- OVERLAY & TEXT --- */
         #layer-overlay { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 5; opacity: 0; transition: opacity var(--anim-speed-layout) ease; pointer-events: none; }
@@ -232,7 +233,7 @@
         const customFontStacks = new Map();
         
         let lastState = { 
-            content: null, meta: null, bg_url: null, bg_type: null, overlay: false, blackout: false, type: null, hide_text: false,
+            content: null, meta: null, bg_url: null, bg_type: null, bg_fit: null, overlay: false, blackout: false, type: null, hide_text: false,
             style: { size: null, font: null, align: null, caps: null, text_bg: null, lh: null, margin: null, meta_size: null, meta_font: null, anim: null }
         };
         
@@ -496,6 +497,13 @@
 
             // Keep text contrast synchronized with selected background.
             applyWhiteBackgroundMode(data.bg_type, data.bg_url);
+            
+            // 3b. Fit mode: cover (crop penuh) atau contain (gambar utuh, letterbox)
+            const fitVal = data.bg_fit === 'contain' ? 'contain' : 'cover';
+            if (fitVal !== lastState.bg_fit) {
+                document.getElementById('layer-bg').classList.toggle('fit-contain', fitVal === 'contain');
+                lastState.bg_fit = fitVal;
+            }
             
             // 4. Update Text
             if (data.content !== lastState.content || data.meta !== lastState.meta || data.type !== lastState.type || data.hide_text !== lastState.hide_text) {

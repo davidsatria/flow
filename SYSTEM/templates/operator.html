@@ -1150,6 +1150,11 @@
                 <svg class="icon" style="width:18px; height:18px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
                 <span style="font-size:0.6rem; font-weight:700;">UPLOAD</span>
             </button>
+            <button id="btn-bg-fit" class="dock-nav-btn" style="width:62px; flex:0 0 62px; height:62px; border-radius:16px; background:var(--bg-element); border:2px solid var(--border); color:var(--text-main); margin:0 4px; display:flex; flex-direction:column; gap:2px; align-items:center; justify-content:center; cursor:pointer;" onclick="toggleBgFit()" title="Mode tampil background: CROP (penuhi layar, potong sisi) / FULL (utuh + border)">
+                <svg class="icon" id="ic-bg-fit-cover" style="width:18px; height:18px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 12H3v4h5M16 12h5v4h-5"/></svg>
+                <svg class="icon" id="ic-bg-fit-contain" style="width:18px; height:18px; display:none;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="10" rx="2"/><path d="M8 3v18M16 3v18" stroke-dasharray="2 3"/></svg>
+                <span id="lbl-bg-fit" style="font-size:0.6rem; font-weight:700;">CROP</span>
+            </button>
             <input type="file" id="upload-media-input" accept="image/*,video/mp4,video/webm" multiple style="display:none;" onchange="handleUploadMedia(this.files)">
             <button class="dock-nav-btn dock-nav-right" onclick="scrollDock(400)" title="Scroll Right"><svg class="icon" style="width:20px; height:20px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg></button>
         </div>
@@ -2001,6 +2006,7 @@
             try {
                 const res = await fetch('/api/current'); const data = await res.json();
                 console.log('[fetchCurrentState] font_idx from server:', data.style_font_idx, '| size:', data.style_size, '| anim:', data.style_anim);
+                if(data.bg_fit) { localStorage.setItem('flow-bg-fit', data.bg_fit); paintBgFitUI(); }
                 if(data.bg_url) { currentActiveBgUrl = data.bg_url; highlightActiveBg(); }
                 if(data.style_caps === 'true') { isCaps = true; document.getElementById('btn-caps')?.classList.add('active'); }
                 if(data.style_text_bg === 'true') { isTextBg = true; document.getElementById('btn-text-bg')?.classList.add('active'); }
@@ -2110,7 +2116,22 @@
             } catch(e) { dock.innerHTML='<div class="dock-empty" style="color:var(--danger)">Gagal Load</div>'; }
         }
         function highlightActiveBg() { document.querySelectorAll('.dock-item').forEach(el=>el.classList.remove('active-bg')); if(currentActiveBgUrl === SOLID_WHITE_BG){const w=document.getElementById('bg-solid-white-btn');if(w)w.classList.add('active-bg');return;} if(!currentActiveBgUrl){const s=document.getElementById('bg-solid-btn');if(s)s.classList.add('active-bg');return;} const f=document.querySelector(`.bg-item-node[data-url="${currentActiveBgUrl}"]`); if(f)f.classList.add('active-bg'); }
-        async function setBg(type, url, element) { currentActiveBgUrl = url; highlightActiveBg(); await fetch(`/api/set?type=UPDATE_BG_ONLY&bg_cmd=CHANGE&bg_type=${type}&bg_url=${encodeURIComponent(url)}`); }
+        async function setBg(type, url, element) { currentActiveBgUrl = url; highlightActiveBg(); const fit = bgFitMode(); await fetch(`/api/set?type=UPDATE_BG_ONLY&bg_cmd=CHANGE&bg_type=${type}&bg_url=${encodeURIComponent(url)}&bg_fit=${fit}`); }
+        // --- BG FIT MODE (CROP = cover / FULL = contain) ---
+        function bgFitMode() { return localStorage.getItem('flow-bg-fit') === 'contain' ? 'contain' : 'cover'; }
+        function paintBgFitUI() {
+            const contain = bgFitMode() === 'contain';
+            const ic1 = document.getElementById('ic-bg-fit-cover'), ic2 = document.getElementById('ic-bg-fit-contain'), lbl = document.getElementById('lbl-bg-fit');
+            if (ic1 && ic2 && lbl) { ic1.style.display = contain ? 'none' : ''; ic2.style.display = contain ? '' : 'none'; lbl.textContent = contain ? 'FULL' : 'CROP'; }
+        }
+        async function toggleBgFit() {
+            const next = bgFitMode() === 'contain' ? 'cover' : 'contain';
+            localStorage.setItem('flow-bg-fit', next);
+            paintBgFitUI();
+            showToast(next === 'contain' ? 'Mode FULL (utuh + letterbox)' : 'Mode CROP (penuhi layar)');
+            // Terapkan langsung ke state aktif tanpa mengganti media
+            await fetch(`/api/set?type=UPDATE_BG_ONLY&bg_cmd=FIT&fit=${next}`);
+        }
         function scrollDock(amount) { 
             const dock = document.getElementById('bg-dock');
             dock.scrollLeft += amount;
