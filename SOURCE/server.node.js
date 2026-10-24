@@ -67,6 +67,7 @@ let currentBibleFile = BIBLE_FILES.TB;
 // (tetapi tidak dihapus otomatis saat runtime — user hapus manual kalau mau).
 const SONGS_DIR = path.join(DATA_DIR, 'songs');
 const SCHEDULE_FILE = path.join(DATA_DIR, 'schedule.json');
+const SESSION_TITLE_FILE = path.join(DATA_DIR, 'session_title.json');
 const SAVED_SCHED_FILE = path.join(DATA_DIR, 'saved_schedules.json');
 const SAVED_SCHED_META_FILE = path.join(DATA_DIR, 'saved_schedules_meta.json');
 const LAST_SETTINGS_FILE = path.join(DATA_DIR, 'last_settings.json');
@@ -853,6 +854,22 @@ app.post('/api/songs', (req, res) => {
   } catch (e) {
     res.status(500).json({ status: 'error', error: e.message });
   }
+});
+
+// --- JUDUL SESI (dipakai bersama semua operator) ---
+app.get('/api/session_title', (req, res) => {
+  const data = loadJsonFile(SESSION_TITLE_FILE, {});
+  res.json({ title: data.title || '', archiveName: data.archiveName || '' });
+});
+
+app.post('/api/session_title', (req, res) => {
+  const body = req.body || {};
+  const title = String(body.title || '').trim();
+  const archiveName = String(body.archiveName || '').trim();
+  const data = { title, archiveName, ts: Date.now() };
+  saveJsonFile(SESSION_TITLE_FILE, data);
+  res.json({ status: 'ok', title, archiveName });
+  broadcastDataChanged('TITLE', data);
 });
 
 app.post('/api/schedule', (req, res) => {
