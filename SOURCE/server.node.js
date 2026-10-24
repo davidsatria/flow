@@ -147,6 +147,18 @@ function broadcastStateChange() {
   console.log(`[Broadcast] Sent to ${sentCount}/${connectedClients.size} clients, state type: ${currentState.type}`);
 }
 
+// Broadcast perubahan DATA (songbank, jadwal, arsip) supaya operator lain
+// tidak memakai cache lama. Payload kecil: { kind, detail }.
+function broadcastDataChanged(kind, detail) {
+  const message = JSON.stringify({ type: 'DATA_CHANGED', kind, detail: detail || null });
+  connectedClients.forEach(client => {
+    if (client.readyState === WebSocket.OPEN) {
+      try { client.send(message); } catch (e) {}
+    }
+  });
+  console.log(`[Broadcast] DATA_CHANGED kind=${kind} detail=${JSON.stringify(detail || null)}`);
+}
+
 let bibleStructure = [];
 let bibleByBook = new Map();
 
@@ -837,6 +849,7 @@ app.post('/api/songs', (req, res) => {
   try {
     fs.writeFileSync(getSongFile(title), JSON.stringify(song, null, 2), 'utf8');
     res.json({ status: 'saved' });
+    broadcastDataChanged('SONGS', { action: 'create', title });
   } catch (e) {
     res.status(500).json({ status: 'error', error: e.message });
   }
@@ -847,6 +860,7 @@ app.post('/api/schedule', (req, res) => {
   const withoutSlides = incoming.filter((item) => String(item?.type || '').toUpperCase() !== 'SLIDE');
   saveJsonFile(SCHEDULE_FILE, withoutSlides);
   res.json({ status: 'saved' });
+  broadcastDataChanged('SCHEDULE', { count: withoutSlides.length });
 });
 
 app.post('/api/saved_schedules', (req, res) => {
@@ -870,13 +884,17 @@ app.post('/api/saved_schedules', (req, res) => {
     }
     saveJsonFile(SAVED_SCHED_META_FILE, meta);
     saveJsonFile(SAVED_SCHED_FILE, saved);
-    return res.json({ status: 'ok' });
+    res.json({ status: 'ok' });
+    broadcastDataChanged('SAVED_SCHEDULES', { action: 'save', name: data.name });
+    return;
   }
 
   if (data.action === 'load' && data.name in saved) {
     const cleaned = stripSlides(saved[data.name]);
     saveJsonFile(SCHEDULE_FILE, cleaned);
-    return res.json({ status: 'loaded', data: cleaned });
+    res.json({ status: 'loaded', data: cleaned });
+    broadcastDataChanged('SCHEDULE', { action: 'archive-load', name: data.name });
+    return;
   }
 
   if (data.action === 'delete' && data.name in saved) {
@@ -885,7 +903,9 @@ app.post('/api/saved_schedules', (req, res) => {
     delete meta[data.name];
     saveJsonFile(SAVED_SCHED_META_FILE, meta);
     saveJsonFile(SAVED_SCHED_FILE, saved);
-    return res.json({ status: 'ok' });
+    res.json({ status: 'ok' });
+    broadcastDataChanged('SAVED_SCHEDULES', { action: 'delete', name: data.name });
+    return;
   }
 
   res.json({ status: 'ok' });
@@ -911,6 +931,7 @@ app.put('/api/songs', (req, res) => {
     }
     fs.writeFileSync(getSongFile(newTitle), JSON.stringify(song, null, 2), 'utf8');
     res.json({ status: 'updated' });
+    broadcastDataChanged('SONGS', { action: 'update', title: newTitle, originalTitle: originalTitle || newTitle });
   } catch (e) {
     res.status(500).json({ status: 'error', error: e.message });
   }
@@ -923,6 +944,7 @@ app.delete('/api/songs', (req, res) => {
     const file = findSongFile(title);
     if (fs.existsSync(file)) fs.unlinkSync(file);
     res.json({ status: 'deleted' });
+    broadcastDataChanged('SONGS', { action: 'delete', title });
   } catch (e) {
     res.status(500).json({ status: 'error', error: e.message });
   }

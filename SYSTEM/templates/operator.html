@@ -1539,6 +1539,8 @@
                         if (messageData.type === 'STATE_UPDATE' && messageData.data) {
                             console.log('[WebSocket Operator] Received state update:', messageData.data.type);
                             updateUIFromRemoteState(messageData.data);
+                        } else if (messageData.type === 'DATA_CHANGED') {
+                            handleRemoteDataChange(messageData);
                         }
                     } catch (e) {
                         console.error('[WebSocket Operator] Parse error:', e);
@@ -2261,6 +2263,59 @@
 
         // --- DATA LOADERS & LISTS ---
         async function loadSongs(force=false) { try { const res = await fetch('/api/songs'); if(!res.ok) throw new Error("Err"); songsDB = JSON.parse(await res.text()); if(currentFilter === 'SONG' || force) renderSidebarList(); } catch(e) { } }
+
+        // --- SINKRONISASI DATA ANTAR OPERATOR ---
+        // Dipicu broadcast DATA_CHANGED dari server saat operator lain mengubah
+        // songbank / jadwal / arsip. Tanpa ini device lain memakai cache lama
+        // sampai di-refresh manual.
+        let _remoteDataTimer = {};
+        function handleRemoteDataChange(msg) {
+            const kind = msg && msg.kind;
+            const detail = (msg && msg.detail) || {};
+            if (!kind) return;
+            // debounce: beberapa perubahan beruntun cukup satu reload
+            clearTimeout(_remoteDataTimer[kind]);
+            _remoteDataTimer[kind] = setTimeout(() => { applyRemoteDataChange(kind, detail); }, 250);
+        }
+        async function applyRemoteDataChange(kind, detail) {
+            try {
+                if (kind === 'SONGS') {
+                    await loadSongs(true);
+                    const curTitle = currentLoadedItem && currentLoadedItem.data && currentLoadedItem.data.title;
+                    if (!curTitle) return;
+                    const targets = [detail.title, detail.originalTitle]
+                        .filter(Boolean).map(t => String(t).toLowerCase().trim());
+                    if (!targets.includes(String(curTitle).toLowerCase().trim())) return;
+
+                    if (detail.action === 'delete') {
+                        currentLoadedItem = null;
+                        document.getElementById('drawer-content').innerHTML = '';
+                        showToast('Lagu yang sedang dibuka dihapus operator lain');
+                        return;
+                    }
+                    const song = songsDB.find(s => String(s.title || '').toLowerCase().trim() === String(detail.title || '').toLowerCase().trim());
+                    if (!song) return;
+                    // Re-render drawer TANPA pindah tab & tanpa reset baris aktif
+                    const lines = buildSongLinesFromLyrics(song);
+                    currentLoadedItem = { type: 'SONG', data: song };
+                    currentLoadedItem.data.lines = lines;
+                    currentLoadedItem.data.type = 'SONG';
+                    if (typeof activeLineIndex !== 'undefined' && activeLineIndex !== null && activeLineIndex >= lines.length) {
+                        activeLineIndex = lines.length ? lines.length - 1 : null;
+                    }
+                    renderDrawer({ title: song.title, type: 'SONG', lines: lines });
+                    updateSidebarHighlight();
+                    showToast('Lirik lagu diperbarui operator lain');
+                } else if (kind === 'SCHEDULE') {
+                    await loadSchedule();
+                    showToast('Jadwal diperbarui operator lain');
+                } else if (kind === 'SAVED_SCHEDULES') {
+                    if (typeof loadSavedSchedules === 'function') loadSavedSchedules();
+                }
+            } catch (e) {
+                console.error('[DataChanged] gagal menerapkan perubahan:', e);
+            }
+        }
         async function loadBible(force=false) {
             try {
                 const res = await fetch(`/api/bible/books?ver=${currentBibleVersion}`);
