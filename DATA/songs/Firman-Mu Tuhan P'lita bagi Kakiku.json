@@ -1,0 +1,50 @@
+{
+  "title": "Firman-Mu Tuhan P'lita bagi Kakiku",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "FirmanMu Tuhan\np'lita bagi kakiku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "JanjiMu terang\nbagi jalan-jalanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "KebenaranMu\nmenuntunku s'tiap hari",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Ku menantikanMu\nberi kekuatan baru",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku kan terbang tinggi di awan\nBersamaMu dalam kemuliaan",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "S'bab FirmanMu teguh menopang\nKu kan aman dalamMu Tuhan",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "JalanMu di atas jalan-jalanku\nRancanganMu melebihi rancanganku",
+      "newGroup": true
+    },
+    {
+      "type": "b",
+      "text": "FirmanMu sungguh\nt'lah membebaskanku",
+      "newGroup": false
+    },
+    {
+      "type": "b",
+      "text": "Berjalan lebih tinggi,\nberjalan bersamaMu",
+      "newGroup": false
+    }
+  ]
+}

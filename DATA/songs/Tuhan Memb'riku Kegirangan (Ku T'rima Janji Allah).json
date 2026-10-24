@@ -1,0 +1,35 @@
+{
+  "title": "Tuhan Memb'riku Kegirangan (Ku T'rima Janji Allah)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ku t'rima janji Allah\nBagi kaum Yehuda",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Umat yang berdoa\nMemuji dan menyembah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Inilah saat yang dinanti\nFirman Allah t'lah digenapi",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Kulihat penuaian terjadi\nYang melanda s'luruh bumi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tuhan memb'riku kegirangan\nDan sukacita melimpah",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Minyak yang baru dicurahkan\nHaleluya ku bersorak",
+      "newGroup": false
+    }
+  ]
+}

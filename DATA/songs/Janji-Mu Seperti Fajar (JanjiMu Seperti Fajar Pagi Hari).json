@@ -1,0 +1,50 @@
+{
+  "title": "Janji-Mu Seperti Fajar (JanjiMu Seperti Fajar Pagi Hari)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Ketika kuhadapi kehidupan ini\nJalan mana yang harus kupilih",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Ku tahu ku tak mampu\nKu tahu ku tak sanggup",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Hanya Kau Tuhan tempat jawabanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Aku pun tahu ku tak pernah sendiri\nS'bab Engkau Allah yang menggendongku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Tangan-Mu membelaiku\nCinta-Mu memuaskanku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau mengangkatku ke tempat yang tinggi",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Janji-Mu seperti fajar pagi hari\nDan tiada pernah terlambat bersinar",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Cinta-Mu seperti sungai yang mengalir\nDan ku tahu betapa dalam kasih-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Dan ku tahu betapa dalam kasih-Mu\nDan ku tahu betapa dalam kasih-Mu",
+      "newGroup": true
+    }
+  ]
+}

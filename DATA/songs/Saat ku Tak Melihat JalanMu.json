@@ -1,0 +1,35 @@
+{
+  "title": "Saat ku Tak Melihat JalanMu",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "saat ku tak\nmelihat jalanmu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "saatku tak\nmengerti rencanamu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "namun tetap\nku pegang janjimu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "pengharapanku\nhanya padamu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "hatiku percaya\nhatiku percaya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "hatiku percaya\nslalu kupercaya",
+      "newGroup": false
+    }
+  ]
+}

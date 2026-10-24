@@ -1,0 +1,45 @@
+{
+  "title": "Allahku Yang Setia",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Sekalipun kuberjalan\ndalam lembah kelam",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Namun tangan-Mu selalu\nmenopang hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Saat ku dalam ketakutan\nKau hadir di sisiku",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Kau berkata jangan takut\nKau b'riku kemenangan",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Kaulah Tuhan yang berjanji\nTak sekalipun Kau ingkari",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Kesetiaan-Mu sungguh terbukti\nDi sepanjang hidupku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "'Tuk selamanya ku 'kan setia\nMelayani, mengasihi-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Tiada Tuhan seperti-Mu\nKau Allahku yang setia",
+      "newGroup": false
+    }
+  ]
+}

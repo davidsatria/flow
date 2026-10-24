@@ -1,0 +1,50 @@
+{
+  "title": "Percayalah Kepada Tuhan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Percayalah kepada Tuhan \ndengan segenap hatimu",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Dan jangan bersandar \nkepada pengertianmu sendiri",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Percayalah kepada Tuhan \ndengan segenap hatimu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Dan jangan bersandar \nkepada pengertianmu sendiri",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Berbahagia orang-orang \nyang memperoleh hikmat-Nya",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Lebih berharga dari emas\nperak, dan permata",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Umur panjang di tangan kanan-Mu, \nkekayaan, hormat di tangan kiri",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Jalan-Nya pun penuh\ndamai sejahtera senantiasa",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Jalan-Nya pun penuh\ndamai sejahtera senantiasa",
+      "newGroup": true
+    }
+  ]
+}

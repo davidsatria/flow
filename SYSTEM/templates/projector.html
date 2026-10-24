@@ -325,6 +325,7 @@
         let wsReconnectDelay = 1000; // Start with 1 second
         let maxReconnectDelay = 30000; // Cap at 30 seconds
         let fallbackPollInterval = null;
+        let lastWsMessageAt = 0; // watchdog: deteksi koneksi WS mati diam-diam (half-open)
 
         function connectWebSocket() {
             try {
@@ -337,14 +338,18 @@
                     console.log('[WebSocket] Connected');
                     wsReconnectAttempts = 0;
                     wsReconnectDelay = 1000;
+                    lastWsMessageAt = Date.now();
                     // Clear fallback polling if it was running
                     if (fallbackPollInterval) {
                         clearInterval(fallbackPollInterval);
                         fallbackPollInterval = null;
                     }
+                    // Resync instan setelah reconnect (jangan tunggu aksi operator berikutnya)
+                    fetch('/api/current').then(r => r.json()).then(d => processData(d)).catch(() => {});
                 };
                 
                 ws.onmessage = (event) => {
+                    lastWsMessageAt = Date.now();
                     try {
                         const messageData = JSON.parse(event.data);
                         if (messageData.type === 'STATE_UPDATE' && messageData.data) {
@@ -455,6 +460,24 @@
         // --- SMART LOOP WITH WEBSOCKET (RECURSIVE) ---
         async function startLoop() {
             connectWebSocket();
+            // Watchdog: bila WS diam >45s, uji liveness via HTTP /api/current.
+            // - Sukses → resync state (WS mungkin idle, bukan mati)
+            // - Gagal   → tutup WS agar reconnect
+            setInterval(async () => {
+                if (!ws || ws.readyState !== WebSocket.OPEN) return;
+                if (lastWsMessageAt && (Date.now() - lastWsMessageAt < 45000)) return;
+                try {
+                    const res = await fetch('/api/current?_=' + Date.now(), { cache: 'no-store' });
+                    if (!res.ok) throw new Error('probe failed');
+                    const state = await res.json();
+                    processData(state);
+                    lastWsMessageAt = Date.now();
+                    console.log('[WebSocket] Watchdog: WS idle, resync via HTTP OK');
+                } catch (e) {
+                    console.log('[WebSocket] Watchdog: koneksi mati — force reconnect');
+                    try { ws.close(); } catch (err) {}
+                }
+            }, 20000);
             // Initial fetch as backup
             try {
                 const res = await fetch('/api/current');
@@ -606,9 +629,19 @@
             nextVid.classList.remove('show');
             
             isMediaLoading = true;
+            // Safety: jangan biarkan flag nyangkut kalau media tak pernah load
+            // (codec rusak / file hilang / jaringan lambat) — bg berikutnya harus tetap bisa masuk.
+            const loadingGuard = setTimeout(() => {
+                if (isMediaLoading) {
+                    console.warn('[BG] Timeout load media — reset isMediaLoading');
+                    isMediaLoading = false;
+                    try { nextImg.classList.remove('show'); nextVid.classList.remove('show'); } catch (e) {}
+                }
+            }, 10000);
             
             // Fungsi yang dijalankan SAAT media siap tayang
             const executeTransition = () => {
+                clearTimeout(loadingGuard);
                 nextEl.classList.add('active');
                 currEl.classList.remove('active'); // Fade out buffer lama
 
@@ -648,7 +681,7 @@
                 };
                 
                 // Fallback jika error/timeout
-                nextVid.onerror = () => { console.error("Video Error"); isMediaLoading = false; };
+                nextVid.onerror = () => { console.error("Video Error"); clearTimeout(loadingGuard); isMediaLoading = false; };
             } 
             else if (type === 'IMAGE') {
                 nextImg.classList.add('show');
@@ -658,7 +691,7 @@
                     nextImg.src = url;
                     executeTransition();
                 };
-                imgLoader.onerror = () => { isMediaLoading = false; };
+                imgLoader.onerror = () => { clearTimeout(loadingGuard); isMediaLoading = false; };
                 imgLoader.src = url;
             } 
             else {
@@ -848,6 +881,8 @@
                 }
             } else {
                 container.classList.add('show');
+                // FIX freeze: opacity bisa tertinggal '0' dari transisi sebelumnya
+                elContent.style.opacity = '1';
                 autoShrinkText();
             }
         }

@@ -1,0 +1,30 @@
+{
+  "title": "Percayalah Kepada Tuhan (Amsal 3)",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Percayalah kepada Tuhan dengan segenap hatimu\nDan jangan bersandar kepada pengertianmu sendiri",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Percayalah kepada Tuhan dengan segenap hatimu\nDan jangan bersandar kepada pengertianmu sendiri",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Berbahagia orang-orang yang memperoleh hikmat-Nya\nLebih berharga dari emas, perak, dan permata",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Umur panjang di tangan kanan-Mu, kekayaan, hormat di tangan kiri\nJalan-Nya pun penuh damai sejahtera senantiasa",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Jalan-Nya pun penuh damai sejahtera senantiasa",
+      "newGroup": true
+    }
+  ]
+}

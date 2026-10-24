@@ -22,9 +22,14 @@
       "newGroup": true
     },
     {
-      "type": "v",
-      "text": "Ku berserah di dalam kekuatan-Mu\nHanya Kau segalanya bagiku (Ku percaya)",
-      "newGroup": true
+      "type": "c",
+      "text": "Ku berserah di dalam kekuatan-Mu\nHanya Kau segalanya bagiku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku berserah di dalam kekuatan-Mu\nKu percaya",
+      "newGroup": false
     },
     {
       "type": "b",
@@ -32,12 +37,12 @@
       "newGroup": true
     },
     {
-      "type": "v",
+      "type": "b",
       "text": "Kaulah Iman-ku\nKaulah Tuhan-ku",
-      "newGroup": true
+      "newGroup": false
     },
     {
-      "type": "v",
+      "type": "b",
       "text": "Tak akan kuragukan\nKebaikan-Mu di hidupku",
       "newGroup": false
     }

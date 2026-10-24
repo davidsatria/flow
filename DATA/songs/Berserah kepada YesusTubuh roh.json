@@ -3,52 +3,62 @@
   "lyrics": [
     {
       "type": "v",
-      "text": "Berserah kepada Yesus\nTubuh roh dan ji-wa-ku",
+      "text": "Berserah kepada Yesus\nTubuh, roh dan jiwaku",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "Aku ingin slalu hidup\nBagi Yesus Tuhanku",
-      "newGroup": false
-    },
-    {
-      "type": "v",
-      "text": "Berserah kepada Yesus\nDi kakiNya ku-su-jud",
-      "newGroup": false
-    },
-    {
-      "type": "v",
-      "text": "Nikmat dunia kutinggalkan\nTuhan trimalah aku",
+      "text": "Kukasihi, kupercaya\nKuikuti Dia t'rus",
       "newGroup": false
     },
     {
       "type": "c",
-      "text": "Aku berserah\naku berserah",
+      "text": "Aku berserah, aku berserah\nKepada-Mu, Jurus'lamat",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Aku berserah",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berserah kepada Yesus\nDi kaki-Nya 'ku sujud",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "Pada Yesus Juruselamat\nAku berserah",
+      "text": "Nikmat dunia kutinggalkan\nTuhan, t'rima anak-Mu",
+      "newGroup": false
+    },
+    {
+      "type": "v",
+      "text": "Berserah kepada Yesus\nAku jadi milik-Mu",
       "newGroup": true
     },
     {
       "type": "v",
-      "text": "Chorus english\nI surrender all\nI surrender all",
+      "text": "B'rilah Roh-Mu meyakinkan\nBahwa Kau pun milikku",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "All to Thee my blessed Savior\nI surrender all",
+      "text": "Berserah kepada Yesus\nKuberikan diriku",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "B'ri kasih-Mu dan kuasa-Mu\nYa, berkati anak-Mu",
       "newGroup": false
     },
     {
       "type": "v",
-      "text": "Chorus english2\nIt is Well with my soul\nIt is well",
-      "newGroup": false
+      "text": "Berserah kepada Yesus\nKurasakan api-Nya",
+      "newGroup": true
     },
     {
       "type": "v",
-      "text": "It is well\nWith my soul",
+      "text": "Kar'na s'lamat yang sempurna\nPuji, puji nama-Nya",
       "newGroup": false
     }
   ]

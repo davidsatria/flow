@@ -996,6 +996,8 @@ function tryListen(port, allowFallback, resolve, reject) {
 
   wss.on('connection', (ws) => {
     connectedClients.add(ws);
+    ws.isAlive = true;
+    ws.on('pong', () => { ws.isAlive = true; });
     console.log(`[WebSocket] Client connected. Total: ${connectedClients.size}`);
     
     // Send current state to newly connected client
@@ -1015,6 +1017,22 @@ function tryListen(port, allowFallback, resolve, reject) {
       console.error(`[WebSocket] Error:`, err.message);
     });
   });
+
+  // HEARTBEAT: cegah koneksi "half-open" (tunnel Cloudflare memutus idle >100s).
+  // Tanpa ping, projector bisa freeze menit-an karena TCP mati diam-diam.
+  const wsHeartbeat = setInterval(() => {
+    connectedClients.forEach((ws) => {
+      if (ws.isAlive === false) {
+        console.log('[WebSocket] Client tidak merespons ping — terminate.');
+        connectedClients.delete(ws);
+        try { ws.terminate(); } catch (e) {}
+        return;
+      }
+      ws.isAlive = false;
+      try { ws.ping(); } catch (e) {}
+    });
+  }, 20000);
+  wss.on('close', () => clearInterval(wsHeartbeat));
 
   server.once('listening', () => {
     app.locals.activePort = port;

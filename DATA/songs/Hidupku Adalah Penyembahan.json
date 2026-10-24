@@ -1,0 +1,30 @@
+{
+  "title": "Hidupku Adalah Penyembahan",
+  "lyrics": [
+    {
+      "type": "v",
+      "text": "Pujian dan syukurku, kubawa pada-Mu\nDengan rendah hati, kupersembahkan",
+      "newGroup": true
+    },
+    {
+      "type": "v",
+      "text": "Sadar bila ku ada, hanya kar'na anug'rah\nBukan kar'na kekuatanku",
+      "newGroup": false
+    },
+    {
+      "type": "c",
+      "text": "Ku tahu hidupku adalah penyembahan\nKau ciptakanku dalam kemuliaan-Mu",
+      "newGroup": true
+    },
+    {
+      "type": "c",
+      "text": "Ku tahu hidupku berharga di mata-Mu\nSegenap hidupku persembahkan",
+      "newGroup": false
+    },
+    {
+      "type": "e",
+      "text": "Segenap hidupku persembahkan",
+      "newGroup": true
+    }
+  ]
+}

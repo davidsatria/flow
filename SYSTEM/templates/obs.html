@@ -169,7 +169,24 @@
             setInterval(fetchData, 300);
         };
 
-        async function fetchData() { try { const res = await fetch('/api/current'); const data = await res.json(); processData(data); } catch (e) {} }
+        let obsFetchInFlight = false;
+        async function fetchData() {
+            if (obsFetchInFlight) return; // cegah tumpukan request saat koneksi lambat/hang
+            obsFetchInFlight = true;
+            const ctrl = new AbortController();
+            const t = setTimeout(() => { try { ctrl.abort(); } catch (e) {} }, 2500);
+            try {
+                const res = await fetch('/api/current?_=' + Date.now(), { signal: ctrl.signal, cache: 'no-store' });
+                const data = await res.json();
+                processData(data);
+            } catch (e) {
+                // timeout / offline — abaikan, interval berikutnya mencoba lagi
+            } finally {
+                clearTimeout(t);
+                obsFetchInFlight = false;
+            }
+        }
+        document.addEventListener('visibilitychange', () => { if (!document.hidden) fetchData(); });
 
         function processData(data) {
             if (data.style_size !== lastState.style.size || data.style_font_idx !== lastState.style.font || data.style_align !== lastState.style.align || data.style_caps !== lastState.style.caps || data.style_text_bg !== lastState.style.text_bg || data.style_lh !== lastState.style.lh || data.style_anim !== lastState.style.anim) {
